@@ -17,3 +17,9 @@ Krótka losowa wskazówka: eksperymentuj z kombinacjami składników, aby odkry�
 ---
 _Plik wygenerowany automatycznie — usuń lub edytuj kiedy będziesz gotowy do wypełnienia._
 
+## Dodatkowe przykłady
+
+- **Nekromancja** — kontrola nad umarłymi i rytuały związane ze śmiercią.
+- **Telepatia** — czytanie myśli i komunikacja bez słów.
+- **Teleportacja** — krótkodystansowe i długodystansowe przemieszczenia.
+

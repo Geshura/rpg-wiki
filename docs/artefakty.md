@@ -22,3 +22,9 @@ Przykładowa tabela:
 
 Uzupełnij ten plik treścią właściwą dla projektu, jeśli chcesz zastąpić tutaj placeholder.
 
+## Dodatkowe przykłady
+
+- **Kielich Cnoty** — stary puchar, którego woda leczy drobne rany, ale kosztuje pewien dług.
+- **Peleryna Księżycowego Światła** — lekka peleryna, która ukrywa sylwetkę w cieniu i dodaje skradania.
+- **Pas Tytana** — szeroki pas zwiększający siłę noszącego o niewielką wartość.
+

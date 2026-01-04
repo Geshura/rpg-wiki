@@ -17,3 +17,9 @@ Porada: opisz wymagania wejścia na ścieżkę i przykładowe korzyści.
 ---
 _Placeholder — zamień na właściwą treść._
 
+## Dodatkowe przykłady
+
+- **Paladyn** — obrońca wartości, łączy umiejętności bojowe z błogosławieństwami.
+- **Skrytobójca** — ekspert w cichych eliminacjach, wykorzystuje precyzję i kamuflaż.
+- **Zaklinacz** — specjalista od wzmacniania przedmiotów i kontrolowania magicznych stworzeń.
+

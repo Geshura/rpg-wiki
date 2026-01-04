@@ -17,3 +17,9 @@ Sugerowane pola wpisu: krótka historia, statystyki startowe, cechy specjalne.
 ---
 _Placeholder — usuń po dodaniu rzeczywistej zawartości._
 
+## Dodatkowe przykłady
+
+- **Ork** — potężne istoty o dużej sile, często wykorzystywane jako żołnierze.
+- **Goblin** — zwinne i przebiegłe, doskonałe jako zwiadowcy lub złodzieje.
+- **Niziołek** — małe, ulubione przez handlarzy i podróżników, z natury szczęśliwe.
+
