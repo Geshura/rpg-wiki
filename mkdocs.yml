@@ -4,12 +4,7 @@ repo_url: https://github.com/Geshura/rpg-wiki
 use_directory_urls: true
 
 theme:
-  name: material
-  language: pl
-  palette:
-    scheme: default
-  features:
-    - navigation.instant
+  name: readthedocs
 
 extra_css:
   - assets/stylesheets/toc-widget.css
@@ -27,6 +22,7 @@ markdown_extensions:
       permalink: true
 
 nav:
+  - Cień Władcy Demonów - Kompendium: cwd/index.md
   - artefakty:
     - Brisingamen: cwd/artefakty/brisingamen.md
     - Brzmiący Róg: cwd/artefakty/brzmiący_róg.md
