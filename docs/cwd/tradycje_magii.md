@@ -294,7 +294,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Zniszczenie](tradycje_magii/zniszczenie.md)
 - [Życie](tradycje_magii/zycie.md)
 
-### [Zaklecia](zaklecia.md)
+### [Zaklęcia](zaklecia/index.md)
 
 - [Adamantytowe Łańcuchy](zaklecia/adamantytowe_łańcuchy.md)
 - [Akceleracja](zaklecia/akceleracja.md)

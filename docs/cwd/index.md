@@ -12,7 +12,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
  - [Ścieżki eksperckie](sciezki_eksperckie.md)
  - [Ścieżki mistrzowskie](sciezki_mistrzowskie.md)
  - [Tradycje magii](tradycje_magii.md)
- - [Zaklęcia](zaklecia.md)
+ - [Zaklęcia](zaklecia/index.md)
 
 Każda sekcja ma własny indeks (np. `artefakty/index.md`, `zaklecia/index.md`) zawierający szczegółowe listy i opisy. Jeśli potrzebujesz, mogę wygenerować pełny, rozbudowany spis wszystkich stron w jednym pliku.
 - [Mentalny Sztych](zaklecia/mentalny_sztych.md)
