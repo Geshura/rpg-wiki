@@ -23,3 +23,9 @@ _Placeholder — usuń po dodaniu rzeczywistej zawartości._
 - **Goblin** — zwinne i przebiegłe, doskonałe jako zwiadowcy lub złodzieje.
 - **Niziołek** — małe, ulubione przez handlarzy i podróżników, z natury szczęśliwe.
 
+## Lista stron w katalogu `pochodzenia`
+
+- [Ork](pochodzenia/ork.md)
+- [Goblin](pochodzenia/goblin.md)
+- [Niziołek](pochodzenia/niziolek.md)
+

@@ -23,3 +23,9 @@ _Automatyczny placeholder — zastąp własną treścią._
 - **Mag Bitewny** — mag wykorzystujący magię w bezpośredniej walce, wzmacniający sojuszników.
 - **Taumaturg** — mistrz rytuałów, potrafi przygotować długotrwałe efekty magiczne.
 
+## Lista stron w katalogu `sciezki_mistrzowskie`
+
+- [Mag Zagłady](sciezki_mistrzowskie/mag_zaglady.md)
+- [Mag Bitewny](sciezki_mistrzowskie/mag_bitewny.md)
+- [Taumaturg](sciezki_mistrzowskie/taumaturg.md)
+

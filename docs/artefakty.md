@@ -22,6 +22,12 @@ Przykładowa tabela:
 
 Uzupełnij ten plik treścią właściwą dla projektu, jeśli chcesz zastąpić tutaj placeholder.
 
+## Lista stron w katalogu `artefakty`
+
+- [Brisingamen](artefakty/brisingamen.md)
+- [Czara Mgieł](artefakty/czara_mgiel.md)
+- [Nothung](artefakty/nothung.md)
+
 ## Dodatkowe przykłady
 
 - **Kielich Cnoty** — stary puchar, którego woda leczy drobne rany, ale kosztuje pewien dług.
