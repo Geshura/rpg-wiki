@@ -23,3 +23,9 @@ _Plik wygenerowany automatycznie — usuń lub edytuj kiedy będziesz gotowy do 
 - **Telepatia** — czytanie myśli i komunikacja bez słów.
 - **Teleportacja** — krótkodystansowe i długodystansowe przemieszczenia.
 
+## Lista stron w katalogu `tradycje_magii`
+
+- [Nekromancja](tradycje_magii/nekromancja.md)
+- [Telepatia](tradycje_magii/telepatia.md)
+- [Teleportacja](tradycje_magii/teleportacja.md)
+

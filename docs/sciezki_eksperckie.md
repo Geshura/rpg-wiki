@@ -23,3 +23,9 @@ _Placeholder — zamień na właściwą treść._
 - **Skrytobójca** — ekspert w cichych eliminacjach, wykorzystuje precyzję i kamuflaż.
 - **Zaklinacz** — specjalista od wzmacniania przedmiotów i kontrolowania magicznych stworzeń.
 
+## Lista stron w katalogu `sciezki_eksperckie`
+
+- [Paladyn](sciezki_eksperckie/paladyn.md)
+- [Skrytobójca](sciezki_eksperckie/skrytobojca.md)
+- [Zaklinacz](sciezki_eksperckie/zaklinacz.md)
+
