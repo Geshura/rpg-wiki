@@ -24,6 +24,10 @@ theme:
     - search.highlight
 plugins:
   - search
+extra_javascript:
+  - assets/javascripts/toc-widget.js
+extra_css:
+  - assets/stylesheets/toc-widget.css
 markdown_extensions:
   - admonition
   - attr_list
