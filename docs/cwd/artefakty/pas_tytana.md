@@ -1,5 +1,0 @@
-# Pas Tytana
-
-**Źródło:** Chwalebna Śmierć • str. 22
-
-> Strona wygenerowana automatycznie z JSON.

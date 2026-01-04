@@ -1,3 +1,0 @@
-# Spiaczka
-
-> Placeholder — content to be added.
