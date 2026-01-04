@@ -1,6 +1,27 @@
-site_name: rpg-wiki
+site_name: Cień Władcy Demonów — Kompendium
+site_url: https://geshura.github.io/rpg-wiki
+repo_url: https://github.com/Geshura/rpg-wiki
+use_directory_urls: true
+
 theme:
   name: material
+  language: pl
+  palette:
+    scheme: default
+  features:
+    - navigation.instant
+
+extra_css:
+  - assets/stylesheets/toc-widget.css
+
+extra_javascript:
+  - assets/javascripts/toc-widget.js
+
 plugins:
   - search
   - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
