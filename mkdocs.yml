@@ -1,6 +1,7 @@
-site_name: Kompendium RPG
-site_url: https://twoj-login.github.io/rpg-wiki/
-repo_url: https://github.com/twoj-login/rpg-wiki/
+site_name: rpg-wiki
+site_description: Wiki poświęcone grom fabularnym i systemom RPG
+site_url: https://geshura.github.io/rpg-wiki/
+repo_url: https://github.com/geshura/rpg-wiki/
 edit_uri: edit/main/docs/
 
 theme:

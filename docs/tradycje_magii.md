@@ -1,0 +1,19 @@
+---
+title: Tradycje magii
+---
+
+# Tradycje magii
+
+To jest losowa, przykładowa zawartość wygenerowana automatycznie dla pliku `tradycje_magii.md`.
+
+Kilka przykładowych tradycji:
+
+- **Alchemia** — szkoła skupiona na przemianie materii i eliksirach.
+- **Iluzja** — techniki tworzenia zmysłowych złudzeń.
+- **Natura** — magia czerpiąca siłę z żywiołów i roślin.
+
+Krótka losowa wskazówka: eksperymentuj z kombinacjami składników, aby odkryć unikalne efekty.
+
+---
+_Plik wygenerowany automatycznie — usuń lub edytuj kiedy będziesz gotowy do wypełnienia._
+
