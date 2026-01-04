@@ -1,4 +1,4 @@
-name: public-wiki-rpg
+name: build_wikirpg
 on:
   push:
     branches:
