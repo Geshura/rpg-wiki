@@ -7,13 +7,6 @@ title: Cień Władcy Demonów - Kompendium
 Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demonów.
 
 ## Spis treści
-
-- [Artefakty](artefakty/)
-- [Pochodzenia](pochodzenia/)
-- [Ścieżki eksperckie](sciezki_eksperckie/)
-- [Ścieżki mistrzowskie](sciezki_mistrzowskie/)
-- [Tradycje magii](tradycje_magii/)
-- [Zaklęcia](zaklecia/)
  - [Artefakty](artefakty.md)
  - [Pochodzenia](pochodzenia.md)
  - [Ścieżki eksperckie](sciezki_eksperckie.md)
