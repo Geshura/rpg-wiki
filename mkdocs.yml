@@ -36,19 +36,18 @@ theme:
   name: material
   language: pl
   palette:
-    # Ciemny motyw
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Przełącz na jasny motyw
-    # Jasny motyw
+    # Dark (slate) scheme and light (default) scheme using Material defaults
     - scheme: slate
-      primary: custom
-      accent: custom
+      primary: deep purple
+      accent: teal
       toggle:
         icon: material/brightness-7
+        name: Przełącz na jasny motyw
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-4
         name: Przełącz na ciemny motyw
   features:
     - navigation.tabs        # Menu na górze jak w nowoczesnych stronach
@@ -66,6 +65,3 @@ markdown_extensions:
   - pymdownx.details         # Zwijane bloki tekstu (np. statystyki bossa)
   - pymdownx.superfences     # Lepsze bloki kodu
   - attr_list                # Pozwala dodawać klasy CSS do elementów
-
-extra_css:
-  - stylesheets/extra.css

@@ -3,29 +3,11 @@ title: Pochodzenia
 ---
 
 # Pochodzenia
+Lista dostępnych pochodzeń postaci z krótkim opisem. Kliknij, aby przejść do szczegółów.
 
-Losowy placeholder zawartości dla pliku `pochodzenia.md`.
+- Ork — mocne i brutalne pochodzenie, skoncentrowane na sile.  [Czytaj dalej](pochodzenia/ork.md)
+- Goblin — zwinne, sprytne pochodzenie, dobre do skradania.  [Czytaj dalej](pochodzenia/goblin.md)
+- Niziołek — niewielkie, szczęśliwe pochodzenie, dobre do handlu i skradania.  [Czytaj dalej](pochodzenia/niziolek.md)
 
-Przykładowe pochodzenia:
-
-- **Elf** — długowieczni mieszkańcy lasów, zwinni i spostrzegawczy.
-- **Krasnolud** — twardzi rzemieślnicy z gór, odporni na trudy.
-- **Wampir** — mroczne pochodzenie z dodatkowymi zdolnościami nocnymi.
-
-Sugerowane pola wpisu: krótka historia, statystyki startowe, cechy specjalne.
-
----
-_Placeholder — usuń po dodaniu rzeczywistej zawartości._
-
-## Dodatkowe przykłady
-
-- **Ork** — potężne istoty o dużej sile, często wykorzystywane jako żołnierze.
-- **Goblin** — zwinne i przebiegłe, doskonałe jako zwiadowcy lub złodzieje.
-- **Niziołek** — małe, ulubione przez handlarzy i podróżników, z natury szczęśliwe.
-
-## Lista stron w katalogu `pochodzenia`
-
-- [Ork](pochodzenia/ork.md)
-- [Goblin](pochodzenia/goblin.md)
-- [Niziołek](pochodzenia/niziolek.md)
+Dodaj dalsze pochodzenia w katalogu `docs/pochodzenia`.
 
