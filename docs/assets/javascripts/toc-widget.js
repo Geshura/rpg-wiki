@@ -145,12 +145,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function loadSiteTree() {
       try {
-        // try overview in compendium first (Przegląd), then fall back to old spis_tresci
+        // try overview in compendium first (Przegląd); if unavailable, fall back to per-page headings TOC
         const tryUrls = [
           '/compendium/shadow_demon_lord/index/',
-          '/compendium/shadow_demon_lord/index.md',
-          '/spis_tresci/',
-          '/spis_tresci.md'
+          '/compendium/shadow_demon_lord/index.md'
         ];
         let resp = null;
         for (let u of tryUrls) {
