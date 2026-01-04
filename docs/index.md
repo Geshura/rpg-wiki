@@ -2,10 +2,6 @@
 title: Cień Władcy Demonów — Kompendium
 ---
 
-<script>
-  // Redirect to the actual site root page under `cwd/`
-  // Uses a relative path so it works both locally and on GitHub Pages
-  location.href = './cwd/index.html';
-</script>
+<meta http-equiv="refresh" content="0; url=./cwd/index.html" />
 
-If your browser does not redirect automatically, click [here](./cwd/index.html).
+If your browser does not redirect automatically, click <a href="./cwd/index.html">here</a>.
