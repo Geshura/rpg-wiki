@@ -1,7 +1,7 @@
 site_name: Cień Władcy Demonów — Kompendium
 site_url: https://geshura.github.io/rpg-wiki
 repo_url: https://github.com/Geshura/rpg-wiki
-use_directory_urls: true
+use_directory_urls: false
 
 theme:
   name: readthedocs
@@ -70,6 +70,7 @@ nav:
     - Sękaty Kostur z Czarnego Drewna: cwd/artefakty/sękaty_kostur_z_czarnego_drewna.md
     - Wykręt: cwd/artefakty/wykręt.md
     - Włócznia Jutrzenki: cwd/artefakty/włócznia_jutrzenki.md
+  - Artefakty: cwd/artefakty.md
   - pochodzenia:
     - AUTOMATON: cwd/pochodzenia/automaton.md
     - Chochlik: cwd/pochodzenia/chochlik.md
@@ -94,6 +95,7 @@ nav:
     - Salamandra: cwd/pochodzenia/salamandra.md
     - Wampir: cwd/pochodzenia/wampir.md
     - Warg: cwd/pochodzenia/warg.md
+  - Pochodzenia: cwd/pochodzenia.md
   - sciezki eksperckie:
     - Apostata: cwd/sciezki_eksperckie/apostata.md
     - Berserker: cwd/sciezki_eksperckie/berserker.md
@@ -131,6 +133,7 @@ nav:
     - Zwiadowca: cwd/sciezki_eksperckie/zwiadowca.md
     - Złodziej: cwd/sciezki_eksperckie/złodziej.md
     - Łowca: cwd/sciezki_eksperckie/łowca.md
+  - Ścieżki eksperckie: cwd/sciezki_eksperckie.md
   - sciezki mistrzowskie:
     - Aeromanta: cwd/sciezki_mistrzowskie/aeromanta.md
     - Akrobata: cwd/sciezki_mistrzowskie/akrobata.md
@@ -216,6 +219,7 @@ nav:
     - Zdobywca: cwd/sciezki_mistrzowskie/zdobywca.md
     - Zelota: cwd/sciezki_mistrzowskie/zelota.md
     - Łupieżca: cwd/sciezki_mistrzowskie/łupieżca.md
+  - Ścieżki mistrzowskie: cwd/sciezki_mistrzowskie.md
   - tradycje magii:
     - Alchemia: cwd/tradycje_magii/alchemia.md
     - Chaos: cwd/tradycje_magii/chaos.md
@@ -256,6 +260,7 @@ nav:
     - Ziemia: cwd/tradycje_magii/ziemia.md
     - Zniszczenie: cwd/tradycje_magii/zniszczenie.md
     - Życie: cwd/tradycje_magii/zycie.md
+  - Tradycje magii: cwd/tradycje_magii.md
   - zaklecia:
     - Adamantytowe Łańcuchy: cwd/zaklecia/adamantytowe_łańcuchy.md
     - Akceleracja: cwd/zaklecia/akceleracja.md
@@ -1330,4 +1335,6 @@ nav:
       - Wskrzeszenie: cwd/zaklecia/zycie/wskrzeszenie.md
       - Wyczucie Zycia: cwd/zaklecia/zycie/wyczucie-zycia.md
       - Zrodlo Zycia: cwd/zaklecia/zycie/zrodlo-zycia.md
+
+  - Zaklęcia: cwd/zaklecia.md
 
