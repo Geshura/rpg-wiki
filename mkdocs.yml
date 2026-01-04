@@ -5,7 +5,7 @@ repo_url: https://github.com/geshura/rpg-wiki/
 edit_uri: edit/main/docs/
 
 nav:
-  - Home: index.md
+  - Strona główna: index.md
   - Artefakty:
     - Artefakty: artefakty.md
     - Brisingamen: artefakty/brisingamen.md
@@ -36,31 +36,31 @@ theme:
   name: material
   language: pl
   palette:
-    # Ciemny motyw (klimatyczny dla RPG)
-    - scheme: slate
-      primary: deep purple
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Przełącz na jasny motyw
-    # Jasny motyw (opcjonalny przełącznik)
-    - scheme: default
-      primary: deep purple
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Przełącz na ciemny motyw
-  features:
-    - navigation.tabs        # Menu na górze jak w nowoczesnych stronach
-    - navigation.sections    # Rozwijane sekcje w menu bocznym
-    - navigation.expand      # Domyślnie rozwinięte menu
-    - search.suggest         # Podpowiedzi w wyszukiwarce
-    - search.highlight       # Podświetlanie szukanych słów
-    - content.code.copy      # Kopiowanie bloków tekstu
-
-plugins:
-  - search
-
+    - Artefakty: artefakty.md
+    - Artefakty — Lista:
+      - Brisingamen: artefakty/brisingamen.md
+      - Czara Mgieł: artefakty/czara_mgiel.md
+      - Nothung: artefakty/nothung.md
+    - Pochodzenia: pochodzenia.md
+    - Pochodzenia — Lista:
+      - Ork: pochodzenia/ork.md
+      - Goblin: pochodzenia/goblin.md
+      - Niziołek: pochodzenia/niziolek.md
+    - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
+    - Ścieżki Mistrzowskie — Lista:
+      - Mag Zagłady: sciezki_mistrzowskie/mag_zaglady.md
+      - Mag Bitewny: sciezki_mistrzowskie/mag_bitewny.md
+      - Taumaturg: sciezki_mistrzowskie/taumaturg.md
+    - Ścieżki Eksperckie: sciezki_eksperckie.md
+    - Ścieżki Eksperckie — Lista:
+      - Paladyn: sciezki_eksperckie/paladyn.md
+      - Skrytobójca: sciezki_eksperckie/skrytobojca.md
+      - Zaklinacz: sciezki_eksperckie/zaklinacz.md
+    - Tradycje Magii: tradycje_magii.md
+    - Tradycje Magii — Lista:
+      - Nekromancja: tradycje_magii/nekromancja.md
+      - Telepatia: tradycje_magii/telepatia.md
+      - Teleportacja: tradycje_magii/teleportacja.md
 markdown_extensions:
   - admonition               # Pozwala na ramki "Ostrzeżenie", "Notatka"
   - pymdownx.details         # Zwijane bloki tekstu (np. statystyki bossa)
