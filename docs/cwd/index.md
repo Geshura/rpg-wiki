@@ -6,85 +6,61 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 
 ### [Pochodzenia](pochodzenia/)
 
-Rasy i pochodzenia postaci dostępne w grze.
+Rasy, pochodzenia i krótkie informacje mechaniczne.
 
 - [Człowiek](pochodzenia/czlowiek.md)
 - [Automaton](pochodzenia/automaton.md)
 - [Goblin](pochodzenia/goblin.md)
-
-*Więcej w trakcie dodawania...*
+- [Elf](pochodzenia/elf.md)
+- [Krasnolud](pochodzenia/krasnolud.md)
 
 ### [Ścieżki Eksperckie](sciezki_eksperckie/)
 
-Pełne opisy ścieżek eksperckich dla poziomów 3, 6 i 9.
+Opisy ścieżek dostępnych we wczesnych etapach rozwoju postaci.
 
 - [Wyrocznia](sciezki_eksperckie/wyrocznia.md)
+- [Wynalazca](sciezki_eksperckie/wynalazca.md)
+- [Zawadiaka](sciezki_eksperckie/zawadiaka.md)
 
 ### [Ścieżki Mistrzowskie](sciezki_mistrzowskie/)
 
-Pełne opisy ścieżek mistrzowskich dla zaawansowanych postaci.
+Zaawansowane ścieżki dla postaci na wyższych poziomach.
 
-*W trakcie dodawania...*
+- [Bard](sciezki_mistrzowskie/bard.md)
+- [Fechtmistrz](sciezki_mistrzowskie/fechtmistrz.md)
 
 ### [Tradycje Magii](tradycje_magii/)
 
-Opisy tradycji magicznych wraz z zaklęciami i mechanikami.
+Przegląd tradycji i odnośniki do ich zaklęć.
 
-#### Tradycje z Podręcznika Głównego
 - [Chaos](tradycje_magii/chaos.md)
-- [Czas](tradycje_magii/czas.md)
 - [Iluzja](tradycje_magii/iluzja.md)
-- [Jasnowidzenie](tradycje_magii/jasnowidzenie.md)
-- [Klątwy](tradycje_magii/klatwy.md)
-- [Magia Bitewna](tradycje_magii/magia_bitewna.md)
-- [Magia Burzy](tradycje_magii/magia_burzy.md)
-- [Magia Cienia](tradycje_magii/magia_cienia.md)
-- [Magia Niebiańska](tradycje_magii/magia_niebianska.md)
-- [Magia Pierwotna](tradycje_magii/magia_pierwotna.md)
-- [Magia Runiczna](tradycje_magii/magia_runiczna.md)
 - [Natura](tradycje_magii/natura.md)
-- [Nekromancja](tradycje_magii/nekromancja.md)
-- [Ochrona](tradycje_magii/ochrona.md)
-- [Ogień](tradycje_magii/ogien.md)
-- [Pieśń](tradycje_magii/piesn.md)
-- [Powietrze](tradycje_magii/powietrze.md)
-- [Przemiany](tradycje_magii/przemiany.md)
-- [Przywołania](tradycje_magii/przywolania.md)
-- [Sztuki Tajemne](tradycje_magii/sztuki_tajemne.md)
-- [Sztuki Zakazane](tradycje_magii/sztuki_zakazane.md)
-- [Spirytyzm](tradycje_magii/spirytyzm.md)
-- [Technomancja](tradycje_magii/technomancja.md)
-- [Teleportacja](tradycje_magii/teleportacja.md)
-- [Teurgia](tradycje_magii/teurgia.md)
-- [Transformacja](tradycje_magii/transformacja.md)
-- [Uroki](tradycje_magii/uroki.md)
-- [Woda](tradycje_magii/woda.md)
-- [Ziemia](tradycje_magii/ziemia.md)
-- [Zniszczenie](tradycje_magii/zniszczenie.md)
-- [Życie](tradycje_magii/zycie.md)
-
-#### Tradycje z Suplementów
-- [Alchemia](tradycje_magii/alchemia.md) *(Suplement Władcy Demonów)*
-- [Śmierć](tradycje_magii/smierc.md) *(Suplement Władcy Demonów)*
-- [Demonologia](tradycje_magii/demonologia.md) *(Suplement Władcy Demonów)*
-- [Telekineza](tradycje_magii/telekineza.md) *(Suplement Władcy Demonów)*
-- [Telepatia](tradycje_magii/telepatia.md) *(Suplement Władcy Demonów)*
-- [Inkantacje](tradycje_magii/inkantacje.md) *(Suplement Władcy Demonów)*
-- [Magia Fey](tradycje_magii/magia_fey.md) *(Straszliwe Piękno)*
-- [Magia Krwi](tradycje_magii/magia_krwi.md) *(Grobowce Pustkowia)*
 
 ### [Zaklęcia](zaklecia/)
 
-Rozszerzone opisy zaklęć z różnych tradycji.
-
-*W trakcie dodawania...*
+Katalog zaklęć pogrupowany według tradycji; część zaklęć jest w trakcie dodawania.
 
 ### [Artefakty](artefakty/)
 
-Magiczne przedmioty, reliktwy i artefakty.
-
-*W trakcie dodawania...*
+Opis artefaktów, legendarnych przedmiotów i zasad ich użycia.
 
 ---
 
-*Kompendium w trakcie rozbudowy. Dodatkowe elementy będą dodawane sukcesywnie.*
+Jak pomagać i wkładać treść
+
+- Chcesz dodać lub poprawić stronę? Otwórz issue lub PR w repozytorium.
+- Używaj formatu Markdown i umieszczaj pliki w `docs/cwd/<kategoria>/`.
+- Jeśli zmieniasz strukturę katalogów, pamiętaj o aktualizacji linków w `docs/cwd/index.md`.
+
+Licencja i uwagi prawne
+
+To repo zawiera materiały użytkowe i fan-made. Nie udzielamy licencji do komercyjnego użycia materiałów chronionych prawem autorskim. Jeśli chcesz usunąć zawartość, skontaktuj się poprzez Issues.
+
+---
+
+Aktualne informacje techniczne
+
+- Strona jest budowana przez MkDocs i wdrażana na GitHub Pages przez workflow CI.
+- Jeśli widzisz 404 dla `.../index.md`, używaj linków kończących się `/` — CI automatycznie konwertuje linki generowane w HTML.
+
