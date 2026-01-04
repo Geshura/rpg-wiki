@@ -38,15 +38,15 @@ theme:
   palette:
     # Ciemny motyw
     - scheme: default
-      primary: "#6b0000"
-      accent: "#9b0000"
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Przełącz na jasny motyw
     # Jasny motyw
     - scheme: slate
-      primary: "#5b0000"
-      accent: "#8b0000"
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Przełącz na ciemny motyw
@@ -66,3 +66,6 @@ markdown_extensions:
   - pymdownx.details         # Zwijane bloki tekstu (np. statystyki bossa)
   - pymdownx.superfences     # Lepsze bloki kodu
   - attr_list                # Pozwala dodawać klasy CSS do elementów
+
+extra_css:
+  - stylesheets/extra.css
