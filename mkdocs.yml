@@ -38,13 +38,13 @@ theme:
   palette:
     # Dark (slate) scheme and light (default) scheme using Material defaults
     - scheme: slate
-      primary: deep purple
+      primary: red
       accent: teal
       toggle:
         icon: material/brightness-7
         name: Przełącz na jasny motyw
     - scheme: default
-      primary: deep purple
+      primary: red
       accent: teal
       toggle:
         icon: material/brightness-4

@@ -4,28 +4,11 @@ title: Ścieżki mistrzowskie
 
 # Ścieżki mistrzowskie
 
-Losowa zawartość placeholdera dla pliku `sciezki_mistrzowskie.md`.
+Lista dostępnych ścieżek mistrzowskich z krótkimi opisami. Kliknij, aby zobaczyć szczegóły.
 
-Przykładowe ścieżki mistrzowskie:
+- Mag Zagłady — potężna ścieżka skupiona na zaklęciach destrukcyjnych.  [Czytaj dalej](sciezki_mistrzowskie/mag_zaglady.md)
+- Mag Bitewny — ścieżka łącząca magię z walką wręcz i wsparciem sojuszników.  [Czytaj dalej](sciezki_mistrzowskie/mag_bitewny.md)
+- Taumaturg — specjalista od rytuałów i długotrwałych efektów magicznych.  [Czytaj dalej](sciezki_mistrzowskie/taumaturg.md)
 
-- **Aeromanta** — władca wiatrów i wzlotów.
-- **Piromanta** — mistrz ognistych sztuczek bojowych.
-- **Mistrz Oręża** — specjalista w technikach broni białej.
-
-Krótka notatka: każda ścieżka może mieć unikalne zdolności, cechy i wymagania.
-
----
-_Automatyczny placeholder — zastąp własną treścią._
-
-## Dodatkowe przykłady
-
-- **Mag Zagłady** — potężny czarodziej specjalizujący się w zaklęciach destrukcyjnych.
-- **Mag Bitewny** — mag wykorzystujący magię w bezpośredniej walce, wzmacniający sojuszników.
-- **Taumaturg** — mistrz rytuałów, potrafi przygotować długotrwałe efekty magiczne.
-
-## Lista stron w katalogu `sciezki_mistrzowskie`
-
-- [Mag Zagłady](sciezki_mistrzowskie/mag_zaglady.md)
-- [Mag Bitewny](sciezki_mistrzowskie/mag_bitewny.md)
-- [Taumaturg](sciezki_mistrzowskie/taumaturg.md)
+Dodaj nowe ścieżki w katalogu `docs/sciezki_mistrzowskie`.
 
