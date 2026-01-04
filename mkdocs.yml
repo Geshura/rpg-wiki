@@ -1,9 +1,10 @@
 site_name: rpg-wiki
-site_url: https://geshura.github.io/rpg-wiki/
+site_url: https://twoja-strona.com
+repo_url: https://github.com/Geshura/rpg-wiki
 theme:
   name: material
   language: pl
-  palette: 
+  palette:
     - scheme: default
       primary: indigo
       accent: deep purple
@@ -22,12 +23,16 @@ theme:
     - navigation.expand
     - search.suggest
     - search.highlight
+
 plugins:
   - search
+
 extra_javascript:
   - assets/javascripts/toc-widget.js
+
 extra_css:
   - assets/stylesheets/toc-widget.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -38,7 +43,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
   - pymdownx.details
 
 nav:
