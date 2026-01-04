@@ -7,30 +7,239 @@ edit_uri: edit/main/docs/
 nav:
   - Strona główna: index.md
   - Artefakty:
-    - Artefakty: artefakty.md
+    - Indeks: artefakty.md
     - Brisingamen: artefakty/brisingamen.md
-    - Czara Mgieł: artefakty/czara_mgiel.md
+    - Brzmiący róg: artefakty/brzmiący_róg.md
+    - Chytry uśmiech: artefakty/chytry_uśmiech.md
+    - Czara Mgieł: artefakty/czara_mgieł.md
+    - Czaszka Vergula: artefakty/czaszka_vergula.md
+    - Czepek z zaświatów: artefakty/czepek_z_zaświatów.md
+    - Diadem oczu: artefakty/diadem_oczu.md
+    - Drewniany chłopiec: artefakty/drewniany_chłopiec.md
+    - Ikona wroga: artefakty/ikona_wroga.md
+    - Kamień końca: artefakty/kamień_końca.md
+    - Kielich cnoty: artefakty/kielich_cnoty.md
+    - Klepsydra dziewicy: artefakty/klepsydra_dziewicy.md
+    - Kocioł śmierci: artefakty/kocioł_śmierci.md
+    - Kościana strzała: artefakty/kościana_strzała.md
+    - Kość hulaki: artefakty/kość_hulaki.md
+    - Krwista kolczuga: artefakty/krwista_kolczuga.md
+    - Księga potępionych: artefakty/księga_potępionych.md
+    - Księga szeptów: artefakty/księga_szeptów.md
+    - Latająca czaszka Ugrash: artefakty/latająca_czaszka_ugrash.md
+    - Latający dywan: artefakty/latający_dywan.md
+    - Maska zdrajcy: artefakty/maska_zdrajcy.md
+    - Medalion krwawego księżyca: artefakty/medalion_krwawego_księżyca.md
+    - Miecz unicestwienia: artefakty/miecz_unicestwienia.md
+    - Miecz Wolparny: artefakty/miecz_wolparny.md
+    - Młot kamiennego króla: artefakty/młot_kamiennego_króla.md
+    - Nasiono życia: artefakty/nasiono_życia.md
     - Nothung: artefakty/nothung.md
+    - Oblicze mrozu: artefakty/oblicze_mrozu.md
+    - Oko wieszcza: artefakty/oko_wieszcza.md
+    - Ostrze ognistej duszy: artefakty/ostrze_ognistej_duszy.md
+    - Ostrze tajemnic: artefakty/ostrze_tajemnic.md
+    - Pas tytana: artefakty/pas_tytana.md
+    - Peleryna księżycowego światła: artefakty/peleryna_księżycowego_światła.md
+    - Pierścień Kirke: artefakty/pierścień_kirke.md
+    - Posążek Nazzana: artefakty/posążek_nazzana.md
+    - Płaszcz siewcy: artefakty/płaszcz_siewcy.md
+    - Płaszcz władcy wilków: artefakty/płaszcz_władcy_wilków.md
+    - Różdżka Kanu: artefakty/różdżka_kanu.md
+    - Różdżka piekielnego ognia: artefakty/różdżka_piekielnego_ognia.md
+    - Serce zabójcy: artefakty/serce_zabójcy.md
+    - Soczewka widzenia: artefakty/soczewka_widzenia.md
+    - Statuetka trupiobladego konia: artefakty/statuetka_trupiobladego_konia.md
+    - Sękaty kostur z czarnego drewna: artefakty/sękaty_kostur_z_czarnego_drewna.md
+    - Wykręt: artefakty/wykręt.md
+    - Włócznia jutrzenki: artefakty/włócznia_jutrzenki.md
   - Pochodzenia:
-    - Pochodzenia: pochodzenia.md
-    - Ork: pochodzenia/ork.md
+    - Indeks: pochodzenia.md
+    - Automaton: pochodzenia/automaton.md
+    - Chochlik: pochodzenia/chochlik.md
+    - Człowiek: pochodzenia/czlowiek.md
+    - Elf: pochodzenia/elf.md
+    - Faun: pochodzenia/faun.md
+    - Fomor: pochodzenia/fomor.md
     - Goblin: pochodzenia/goblin.md
-    - Niziołek: pochodzenia/niziolek.md
+    - Hobgoblin: pochodzenia/hobgoblin.md
+    - Inkarnacja: pochodzenia/inkarnacja.md
+    - Jotun: pochodzenia/jotun.md
+    - Kambion: pochodzenia/kambion.md
+    - Krasnolud: pochodzenia/krasnolud.md
+    - Niedzwiedziadlo: pochodzenia/niedzwiedziadlo.md
+    - Niedźwiedziadło: pochodzenia/niedźwiedziadło.md
+    - Niziolek: pochodzenia/niziolek.md
+    - Niziołek: pochodzenia/niziołek.md
+    - Odmieniec: pochodzenia/odmieniec.md
+    - Ork: pochodzenia/ork.md
+    - Ozywieniec: pochodzenia/ozywieniec.md
+    - Ożywieniec: pochodzenia/ożywieniec.md
+    - Salamandra: pochodzenia/salamandra.md
+    - Wampir: pochodzenia/wampir.md
+    - Warg: pochodzenia/warg.md
   - Ścieżki Mistrzowskie:
-    - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
-    - Mag Zagłady: sciezki_mistrzowskie/mag_zaglady.md
-    - Mag Bitewny: sciezki_mistrzowskie/mag_bitewny.md
+    - Indeks: sciezki_mistrzowskie.md
+    - Aeromanta: sciezki_mistrzowskie/aeromanta.md
+    - Akrobata: sciezki_mistrzowskie/akrobata.md
+    - Astromanta: sciezki_mistrzowskie/astromanta.md
+    - Bard: sciezki_mistrzowskie/bard.md
+    - Chronomanta: sciezki_mistrzowskie/chronomanta.md
+    - Cudotworca: sciezki_mistrzowskie/cudotworca.md
+    - Cudotwórca: sciezki_mistrzowskie/cudotwórca.md
+    - Czempion: sciezki_mistrzowskie/czempion.md
+    - Derwisz: sciezki_mistrzowskie/derwisz.md
+    - Dyplomata: sciezki_mistrzowskie/dyplomata.md
+    - Egzekutor: sciezki_mistrzowskie/egzekutor.md
+    - Egzorcysta: sciezki_mistrzowskie/egzorcysta.md
+    - Fechtmistrz: sciezki_mistrzowskie/fechtmistrz.md
+    - Geomanta: sciezki_mistrzowskie/geomanta.md
+    - Gladiator: sciezki_mistrzowskie/gladiator.md
+    - Goliat: sciezki_mistrzowskie/goliat.md
+    - Hydromanta: sciezki_mistrzowskie/hydromanta.md
+    - Iluzjonista: sciezki_mistrzowskie/iluzjonista.md
+    - Infiltrator: sciezki_mistrzowskie/infiltrator.md
+    - Inkwizytor: sciezki_mistrzowskie/inkwizytor.md
+    - Inzynier: sciezki_mistrzowskie/inzynier.md
+    - Inżynier: sciezki_mistrzowskie/inżynier.md
+    - Jasnowidz: sciezki_mistrzowskie/jasnowidz.md
+    - Kapelan: sciezki_mistrzowskie/kapelan.md
+    - Kawalerzysta: sciezki_mistrzowskie/kawalerzysta.md
+    - Klatwiarz: sciezki_mistrzowskie/klatwiarz.md
+    - Klątwiarz: sciezki_mistrzowskie/klątwiarz.md
+    - Kowal-Run: sciezki_mistrzowskie/kowal-run.md
+    - Kowal_run: sciezki_mistrzowskie/kowal_run.md
+    - Leśny duch: sciezki_mistrzowskie/lesny-duch.md
+    - Leśny Duch: sciezki_mistrzowskie/leśny_duch.md
+    - Łupiezca: sciezki_mistrzowskie/lupiezca.md
+    - Mag-bitewny: sciezki_mistrzowskie/mag-bitewny.md
+    - Mag-zaglady: sciezki_mistrzowskie/mag-zaglady.md
+    - Magus: sciezki_mistrzowskie/magus.md
+    - Mag_bitewny: sciezki_mistrzowskie/mag_bitewny.md
+    - Mag_zagłady: sciezki_mistrzowskie/mag_zagłady.md
+    - Mędrzec: sciezki_mistrzowskie/medrzec.md
+    - Mistrz-oreza: sciezki_mistrzowskie/mistrz-oreza.md
+    - Mistrz-przemian: sciezki_mistrzowskie/mistrz-przemian.md
+    - Mistrz-sztuk-tajemnych: sciezki_mistrzowskie/mistrz-sztuk-tajemnych.md
+    - Mistrz-urokow: sciezki_mistrzowskie/mistrz-urokow.md
+    - Mistrz_oręża: sciezki_mistrzowskie/mistrz_oręża.md
+    - Mistrz_przemian: sciezki_mistrzowskie/mistrz_przemian.md
+    - Mistrz_sztuk_tajemnych: sciezki_mistrzowskie/mistrz_sztuk_tajemnych.md
+    - Mistrz_uroków: sciezki_mistrzowskie/mistrz_uroków.md
+    - Msciciel: sciezki_mistrzowskie/msciciel.md
+    - Myrmidon: sciezki_mistrzowskie/myrmidon.md
+    - Mściciel: sciezki_mistrzowskie/mściciel.md
+    - Negator: sciezki_mistrzowskie/negator.md
+    - Nekromanta: sciezki_mistrzowskie/nekromanta.md
+    - Niszczyciel: sciezki_mistrzowskie/niszczyciel.md
+    - Nozownik: sciezki_mistrzowskie/nozownik.md
+    - Nożownik: sciezki_mistrzowskie/nożownik.md
+    - Obrońca: sciezki_mistrzowskie/obrońca.md
+    - Odkrywca: sciezki_mistrzowskie/odkrywca.md
+    - Pancerniak: sciezki_mistrzowskie/pancerniak.md
+    - Piromanta: sciezki_mistrzowskie/piromanta.md
+    - Podróżnik: sciezki_mistrzowskie/podróżnik.md
+    - Podroznik: sciezki_mistrzowskie/podroznik.md
+    - Przywolywacz: sciezki_mistrzowskie/przywolywacz.md
+    - Przywoływacz: sciezki_mistrzowskie/przywoływacz.md
+    - Rewolwerowiec: sciezki_mistrzowskie/rewolwerowiec.md
+    - Strzelec-wyborowy: sciezki_mistrzowskie/strzelec-wyborowy.md
+    - Strzelec_wyborowy: sciezki_mistrzowskie/strzelec_wyborowy.md
+    - Szelma: sciezki_mistrzowskie/szelma.md
     - Taumaturg: sciezki_mistrzowskie/taumaturg.md
+    - Technomanta: sciezki_mistrzowskie/technomanta.md
+    - Templariusz: sciezki_mistrzowskie/templariusz.md
+    - Tenebrysta: sciezki_mistrzowskie/tenebrysta.md
+    - Teurg: sciezki_mistrzowskie/teurg.md
+    - Truciciel: sciezki_mistrzowskie/truciciel.md
+    - Uzdrowiciel: sciezki_mistrzowskie/uzdrowiciel.md
+    - Wartownik: sciezki_mistrzowskie/wartownik.md
+    - Wladca-bestii: sciezki_mistrzowskie/wladca-bestii.md
+    - Wladca-burz: sciezki_mistrzowskie/wladca-burz.md
+    - Władca_bestii: sciezki_mistrzowskie/władca_bestii.md
+    - Władca_burz: sciezki_mistrzowskie/władca_burz.md
+    - Zabijaka: sciezki_mistrzowskie/zabijaka.md
+    - Zdobywca: sciezki_mistrzowskie/zdobywca.md
+    - Zelota: sciezki_mistrzowskie/zelota.md
+    - Łupieżca: sciezki_mistrzowskie/łupieżca.md
   - Ścieżki Eksperckie:
-    - Ścieżki Eksperckie: sciezki_eksperckie.md
+    - Indeks: sciezki_eksperckie.md
+    - Apostata: sciezki_eksperckie/apostata.md
+    - Berserker: sciezki_eksperckie/berserker.md
+    - Czarnoksieznik: sciezki_eksperckie/czarnoksieznik.md
+    - Czarnoksiężnik: sciezki_eksperckie/czarnoksiężnik.md
+    - Czarodziej: sciezki_eksperckie/czarodziej.md
+    - Czarownik: sciezki_eksperckie/czarownik.md
+    - Druid: sciezki_eksperckie/druid.md
+    - Elementalista: sciezki_eksperckie/elementalista.md
+    - Erudyta: sciezki_eksperckie/erudyta.md
+    - Kaplan: sciezki_eksperckie/kaplan.md
+    - Kapłan: sciezki_eksperckie/kapłan.md
+    - Ksiaze-ciemnosci: sciezki_eksperckie/ksiaze-ciemnosci.md
+    - Książę ciemności: sciezki_eksperckie/książę_ciemności.md
+    - Lowca: sciezki_eksperckie/lowca.md
+    - Mistyk: sciezki_eksperckie/mistyk.md
+    - Moloch: sciezki_eksperckie/moloch.md
+    - Opiekun: sciezki_eksperckie/opiekun.md
     - Paladyn: sciezki_eksperckie/paladyn.md
-    - Skrytobójca: sciezki_eksperckie/skrytobojca.md
+    - Psionik: sciezki_eksperckie/psionik.md
+    - Skrytobojca: sciezki_eksperckie/skrytobojca.md
+    - Skrytobójca: sciezki_eksperckie/skrytobójca.md
+    - Szaman: sciezki_eksperckie/szaman.md
+    - Szarlatan: sciezki_eksperckie/szarlatan.md
+    - Wiedźma: sciezki_eksperckie/wiedźma.md
+    - Wiedźma (alt): sciezki_eksperckie/wiedzma.md
+    - Wynalazca: sciezki_eksperckie/wynalazca.md
+    - Wyrocznia: sciezki_eksperckie/wyrocznia.md
     - Zaklinacz: sciezki_eksperckie/zaklinacz.md
+    - Zaprzysiezony: sciezki_eksperckie/zaprzysiezony.md
+    - Zaprzysiężony: sciezki_eksperckie/zaprzysiężony.md
+    - Zawadiaka: sciezki_eksperckie/zawadiaka.md
+    - Zbrojny: sciezki_eksperckie/zbrojny.md
+    - Złodziej: sciezki_eksperckie/złodziej.md
+    - Zlodziej: sciezki_eksperckie/zlodziej.md
+    - Zwiadowca: sciezki_eksperckie/zwiadowca.md
+    - Łowca: sciezki_eksperckie/łowca.md
   - Tradycje Magii:
-    - Tradycje Magii: tradycje_magii.md
-    - Nekromancja: tradycje_magii/nekromancja.md
+    - Indeks: tradycje_magii.md
+    - Alchemia: tradycje_magii/alchemia.md
+    - Chaos: tradycje_magii/chaos.md
+    - Czas: tradycje_magii/czas.md
+    - Demonologia: tradycje_magii/demonologia.md
+    - Iluzja: tradycje_magii/iluzja.md
+    - Inkantacje: tradycje_magii/inkantacje.md
+    - Jasnowidzenie: tradycje_magii/jasnowidzenie.md
+    - Klątwy: tradycje_magii/klatwy.md
+    - Magia bitewna: tradycje_magii/magia_bitewna.md
+    - Magia burzy: tradycje_magii/magia_burzy.md
+    - Magia cienia: tradycje_magii/magia_cienia.md
+    - Magia Fey: tradycje_magii/magia_fey.md
+    - Magia krwi: tradycje_magii/magia_krwi.md
+    - Magia niebiańska: tradycje_magii/magia_niebianska.md
+    - Magia pierwotna: tradycje_magii/magia_pierwotna.md
+    - Magia runiczna: tradycje_magii/magia_runiczna.md
+    - Natura: tradycje_magii/natura.md
+    - Ochrona: tradycje_magii/ochrona.md
+    - Ogień: tradycje_magii/ogien.md
+    - Pieśń: tradycje_magii/piesn.md
+    - Powietrze: tradycje_magii/powietrze.md
+    - Przemiany: tradycje_magii/przemiany.md
+    - Przywołania: tradycje_magii/przywolania.md
+    - Śmierć: tradycje_magii/smierc.md
+    - Spirytyzm: tradycje_magii/spirytyzm.md
+    - Sztuki tajemne: tradycje_magii/sztuki_tajemne.md
+    - Sztuki zakazane: tradycje_magii/sztuki_zakazane.md
+    - Technomancja: tradycje_magii/technomancja.md
+    - Telekineza: tradycje_magii/telekineza.md
     - Telepatia: tradycje_magii/telepatia.md
     - Teleportacja: tradycje_magii/teleportacja.md
+    - Teurgia: tradycje_magii/teurgia.md
+    - Transformacja: tradycje_magii/transformacja.md
+    - Uroki: tradycje_magii/uroki.md
+    - Woda: tradycje_magii/woda.md
+    - Ziemia: tradycje_magii/ziemia.md
+    - Zniszczenie: tradycje_magii/zniszczenie.md
+    - Życie: tradycje_magii/zycie.md
 
 theme:
   name: material
