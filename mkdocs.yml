@@ -39,6 +39,7 @@ markdown_extensions:
 
 nav:
   - Strona główna: index.md
+  - Spis treści: spis_tresci.md
   - Cień Władcy Demonów:
     - Przegląd: compendium/shadow_demon_lord/index.md
     - Pochodzenia:
