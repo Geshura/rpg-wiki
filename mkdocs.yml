@@ -4,29 +4,753 @@ nav:
   - Cień Władcy Demonów:
     - Przegląd: compendium/shadow_demon_lord/index.md
     - Pochodzenia:
-% for origin in origins:
-  - {{origin.label}}: compendium/shadow_demon_lord/origins/{{origin.file}}
-% endfor
+      - Automaton: compendium/shadow_demon_lord/origins/automaton.md
+      - Chochlik: compendium/shadow_demon_lord/origins/chochlik.md
+      - Czlowiek: compendium/shadow_demon_lord/origins/czlowiek.md
+      - Elf: compendium/shadow_demon_lord/origins/elf.md
+      - Faun: compendium/shadow_demon_lord/origins/faun.md
+      - Fomor: compendium/shadow_demon_lord/origins/fomor.md
+      - Goblin: compendium/shadow_demon_lord/origins/goblin.md
+      - Hobgoblin: compendium/shadow_demon_lord/origins/hobgoblin.md
+      - Inkarnacja: compendium/shadow_demon_lord/origins/inkarnacja.md
+      - Jotun: compendium/shadow_demon_lord/origins/jotun.md
+      - Kambion: compendium/shadow_demon_lord/origins/kambion.md
+      - Krasnolud: compendium/shadow_demon_lord/origins/krasnolud.md
+      - Niedźwiedziadło: compendium/shadow_demon_lord/origins/niedźwiedziadło.md
+      - Niziołek: compendium/shadow_demon_lord/origins/niziołek.md
+      - Odmieniec: compendium/shadow_demon_lord/origins/odmieniec.md
+      - Ork: compendium/shadow_demon_lord/origins/ork.md
+      - Ożywieniec: compendium/shadow_demon_lord/origins/ożywieniec.md
+      - Salamandra: compendium/shadow_demon_lord/origins/salamandra.md
+      - Wampir: compendium/shadow_demon_lord/origins/wampir.md
+      - Warg: compendium/shadow_demon_lord/origins/warg.md
     - Ścieżki Eksperckie:
-% for ep in expert_paths:
-  - {{ep.label}}: compendium/shadow_demon_lord/expert_paths/{{ep.file}}
-% endfor
+      - Apostata: compendium/shadow_demon_lord/expert_paths/apostata.md
+      - Berserker: compendium/shadow_demon_lord/expert_paths/berserker.md
+      - Czarnoksiężnik: compendium/shadow_demon_lord/expert_paths/czarnoksiężnik.md
+      - Czarodziej: compendium/shadow_demon_lord/expert_paths/czarodziej.md
+      - Czarownik: compendium/shadow_demon_lord/expert_paths/czarownik.md
+      - Druid: compendium/shadow_demon_lord/expert_paths/druid.md
+      - Elementalista: compendium/shadow_demon_lord/expert_paths/elementalista.md
+      - Erudyta: compendium/shadow_demon_lord/expert_paths/erudyta.md
+      - Kapłan: compendium/shadow_demon_lord/expert_paths/kapłan.md
+      - Książę Ciemności: compendium/shadow_demon_lord/expert_paths/książę_ciemności.md
+      - Mistyk: compendium/shadow_demon_lord/expert_paths/mistyk.md
+      - Moloch: compendium/shadow_demon_lord/expert_paths/moloch.md
+      - Opiekun: compendium/shadow_demon_lord/expert_paths/opiekun.md
+      - Paladyn: compendium/shadow_demon_lord/expert_paths/paladyn.md
+      - Psionik: compendium/shadow_demon_lord/expert_paths/psionik.md
+      - Skrytobójca: compendium/shadow_demon_lord/expert_paths/skrytobójca.md
+      - Szaman: compendium/shadow_demon_lord/expert_paths/szaman.md
+      - Szarlatan: compendium/shadow_demon_lord/expert_paths/szarlatan.md
+      - Wiedźma: compendium/shadow_demon_lord/expert_paths/wiedźma.md
+      - Wynalazca: compendium/shadow_demon_lord/expert_paths/wynalazca.md
+      - Wyrocznia: compendium/shadow_demon_lord/expert_paths/wyrocznia.md
+      - Zaklinacz: compendium/shadow_demon_lord/expert_paths/zaklinacz.md
+      - Zaprzysiężony: compendium/shadow_demon_lord/expert_paths/zaprzysiężony.md
+      - Zawadiaka: compendium/shadow_demon_lord/expert_paths/zawadiaka.md
+      - Zbrojny: compendium/shadow_demon_lord/expert_paths/zbrojny.md
+      - Zwiadowca: compendium/shadow_demon_lord/expert_paths/zwiadowca.md
+      - Złodziej: compendium/shadow_demon_lord/expert_paths/złodziej.md
+      - Łowca: compendium/shadow_demon_lord/expert_paths/łowca.md
     - Ścieżki Mistrzowskie:
-% for mp in master_paths:
-  - {{mp.label}}: compendium/shadow_demon_lord/master_paths/{{mp.file}}
-% endfor
+      - Aeromanta: compendium/shadow_demon_lord/master_paths/aeromanta.md
+      - Akrobata: compendium/shadow_demon_lord/master_paths/akrobata.md
+      - Astromanta: compendium/shadow_demon_lord/master_paths/astromanta.md
+      - Bard: compendium/shadow_demon_lord/master_paths/bard.md
+      - Chronomanta: compendium/shadow_demon_lord/master_paths/chronomanta.md
+      - Cudotwórca: compendium/shadow_demon_lord/master_paths/cudotwórca.md
+      - Czempion: compendium/shadow_demon_lord/master_paths/czempion.md
+      - Derwisz: compendium/shadow_demon_lord/master_paths/derwisz.md
+      - Dyplomata: compendium/shadow_demon_lord/master_paths/dyplomata.md
+      - Egzekutor: compendium/shadow_demon_lord/master_paths/egzekutor.md
+      - Egzorcysta: compendium/shadow_demon_lord/master_paths/egzorcysta.md
+      - Fechtmistrz: compendium/shadow_demon_lord/master_paths/fechtmistrz.md
+      - Geomanta: compendium/shadow_demon_lord/master_paths/geomanta.md
+      - Gladiator: compendium/shadow_demon_lord/master_paths/gladiator.md
+      - Goliat: compendium/shadow_demon_lord/master_paths/goliat.md
+      - Hydromanta: compendium/shadow_demon_lord/master_paths/hydromanta.md
+      - Iluzjonista: compendium/shadow_demon_lord/master_paths/iluzjonista.md
+      - Infiltrator: compendium/shadow_demon_lord/master_paths/infiltrator.md
+      - Inkwizytor: compendium/shadow_demon_lord/master_paths/inkwizytor.md
+      - Inżynier: compendium/shadow_demon_lord/master_paths/inżynier.md
+      - Jasnowidz: compendium/shadow_demon_lord/master_paths/jasnowidz.md
+      - Kapelan: compendium/shadow_demon_lord/master_paths/kapelan.md
+      - Kawalerzysta: compendium/shadow_demon_lord/master_paths/kawalerzysta.md
+      - Klątwiarz: compendium/shadow_demon_lord/master_paths/klątwiarz.md
+      - Kowal Run: compendium/shadow_demon_lord/master_paths/kowal_run.md
+      - Leśny Duch: compendium/shadow_demon_lord/master_paths/leśny_duch.md
+      - Magus: compendium/shadow_demon_lord/master_paths/magus.md
+      - Mag Bitewny: compendium/shadow_demon_lord/master_paths/mag_bitewny.md
+      - Mag Zagłady: compendium/shadow_demon_lord/master_paths/mag_zagłady.md
+      - Mistrz Oręża: compendium/shadow_demon_lord/master_paths/mistrz_oręża.md
+      - Mistrz Przemian: compendium/shadow_demon_lord/master_paths/mistrz_przemian.md
+      - Mistrz Sztuk Tajemnych: compendium/shadow_demon_lord/master_paths/mistrz_sztuk_tajemnych.md
+      - Mistrz Uroków: compendium/shadow_demon_lord/master_paths/mistrz_uroków.md
+      - Myrmidon: compendium/shadow_demon_lord/master_paths/myrmidon.md
+      - Mędrzec: compendium/shadow_demon_lord/master_paths/mędrzec.md
+      - Mściciel: compendium/shadow_demon_lord/master_paths/mściciel.md
+      - Negator: compendium/shadow_demon_lord/master_paths/negator.md
+      - Nekromanta: compendium/shadow_demon_lord/master_paths/nekromanta.md
+      - Niszczyciel: compendium/shadow_demon_lord/master_paths/niszczyciel.md
+      - Nożownik: compendium/shadow_demon_lord/master_paths/nożownik.md
+      - Obrońca: compendium/shadow_demon_lord/master_paths/obrońca.md
+      - Odkrywca: compendium/shadow_demon_lord/master_paths/odkrywca.md
+      - Pancerniak: compendium/shadow_demon_lord/master_paths/pancerniak.md
+      - Piromanta: compendium/shadow_demon_lord/master_paths/piromanta.md
+      - Podróżnik: compendium/shadow_demon_lord/master_paths/podróżnik.md
+      - Przywoływacz: compendium/shadow_demon_lord/master_paths/przywoływacz.md
+      - Rewolwerowiec: compendium/shadow_demon_lord/master_paths/rewolwerowiec.md
+      - Strzelec Wyborowy: compendium/shadow_demon_lord/master_paths/strzelec_wyborowy.md
+      - Szelma: compendium/shadow_demon_lord/master_paths/szelma.md
+      - Taumaturg: compendium/shadow_demon_lord/master_paths/taumaturg.md
+      - Technomanta: compendium/shadow_demon_lord/master_paths/technomanta.md
+      - Templariusz: compendium/shadow_demon_lord/master_paths/templariusz.md
+      - Tenebrysta: compendium/shadow_demon_lord/master_paths/tenebrysta.md
+      - Teurg: compendium/shadow_demon_lord/master_paths/teurg.md
+      - Truciciel: compendium/shadow_demon_lord/master_paths/truciciel.md
+      - Uzdrowiciel: compendium/shadow_demon_lord/master_paths/uzdrowiciel.md
+      - Wartownik: compendium/shadow_demon_lord/master_paths/wartownik.md
+      - Władca Bestii: compendium/shadow_demon_lord/master_paths/władca_bestii.md
+      - Władca Burz: compendium/shadow_demon_lord/master_paths/władca_burz.md
+      - Zabijaka: compendium/shadow_demon_lord/master_paths/zabijaka.md
+      - Zdobywca: compendium/shadow_demon_lord/master_paths/zdobywca.md
+      - Zelota: compendium/shadow_demon_lord/master_paths/zelota.md
+      - Łupieżca: compendium/shadow_demon_lord/master_paths/łupieżca.md
     - Artefakty:
-% for art in artifacts:
-  - {{art.label}}: compendium/shadow_demon_lord/artifacts/{{art.file}}
-% endfor
+      - Brisingamen: compendium/shadow_demon_lord/artifacts/brisingamen.md
+      - Brzmiący Róg: compendium/shadow_demon_lord/artifacts/brzmiący_róg.md
+      - Chytry Uśmiech: compendium/shadow_demon_lord/artifacts/chytry_uśmiech.md
+      - Czara Mgieł: compendium/shadow_demon_lord/artifacts/czara_mgieł.md
+      - Czaszka Vergula: compendium/shadow_demon_lord/artifacts/czaszka_vergula.md
+      - Czepek z Zaświatów: compendium/shadow_demon_lord/artifacts/czepek_z_zaświatów.md
+      - Diadem Oczu: compendium/shadow_demon_lord/artifacts/diadem_oczu.md
+      - Drewniany Chłopiec: compendium/shadow_demon_lord/artifacts/drewniany_chłopiec.md
+      - Ikona Wroga: compendium/shadow_demon_lord/artifacts/ikona_wroga.md
+      - Kamień Końca: compendium/shadow_demon_lord/artifacts/kamień_końca.md
+      - Kielich Cnoty: compendium/shadow_demon_lord/artifacts/kielich_cnoty.md
+      - Klepsydra Dziewicy: compendium/shadow_demon_lord/artifacts/klepsydra_dziewicy.md
+      - Kocioł Śmierci: compendium/shadow_demon_lord/artifacts/kocioł_śmierci.md
+      - Kościana Strzała: compendium/shadow_demon_lord/artifacts/kościana_strzała.md
+      - Kość Hulaki: compendium/shadow_demon_lord/artifacts/kość_hulaki.md
+      - Krwista Kolczuga: compendium/shadow_demon_lord/artifacts/krwista_kolczuga.md
+      - Księga Potępionych: compendium/shadow_demon_lord/artifacts/księga_potępionych.md
+      - Księga Szeptów: compendium/shadow_demon_lord/artifacts/księga_szeptów.md
+      - Latająca Czaszka Ugrash: compendium/shadow_demon_lord/artifacts/latająca_czaszka_ugrash.md
+      - Latający Dywan: compendium/shadow_demon_lord/artifacts/latający_dywan.md
+      - Maska Zdrajcy: compendium/shadow_demon_lord/artifacts/maska_zdrajcy.md
+      - Medalion Krwawego Księżyca: compendium/shadow_demon_lord/artifacts/medalion_krwawego_księżyca.md
+      - Miecz Unicestwienia: compendium/shadow_demon_lord/artifacts/miecz_unicestwienia.md
+      - Miecz Wolparny: compendium/shadow_demon_lord/artifacts/miecz_wolparny.md
+      - Młot Kamiennego Króla: compendium/shadow_demon_lord/artifacts/młot_kamiennego_króla.md
+      - Nasiono Życia: compendium/shadow_demon_lord/artifacts/nasiono_życia.md
+      - Nothung: compendium/shadow_demon_lord/artifacts/nothung.md
+      - Oblicze Mrozu: compendium/shadow_demon_lord/artifacts/oblicze_mrozu.md
+      - Oko Wieszcza: compendium/shadow_demon_lord/artifacts/oko_wieszcza.md
+      - Ostrze Ognistej Duszy: compendium/shadow_demon_lord/artifacts/ostrze_ognistej_duszy.md
+      - Ostrze Tajemnic: compendium/shadow_demon_lord/artifacts/ostrze_tajemnic.md
+      - Pas Tytana: compendium/shadow_demon_lord/artifacts/pas_tytana.md
+      - Peleryna Księżycowego Światła: compendium/shadow_demon_lord/artifacts/peleryna_księżycowego_światła.md
+      - Pierścień Kirke: compendium/shadow_demon_lord/artifacts/pierścień_kirke.md
+      - Posążek Nazzana: compendium/shadow_demon_lord/artifacts/posążek_nazzana.md
+      - Płaszcz Siewcy: compendium/shadow_demon_lord/artifacts/płaszcz_siewcy.md
+      - Płaszcz Władcy Wilków: compendium/shadow_demon_lord/artifacts/płaszcz_władcy_wilków.md
+      - Różdżka Kanu: compendium/shadow_demon_lord/artifacts/różdżka_kanu.md
+      - Różdżka Piekielnego Ognia: compendium/shadow_demon_lord/artifacts/różdżka_piekielnego_ognia.md
+      - Serce Zabójcy: compendium/shadow_demon_lord/artifacts/serce_zabójcy.md
+      - Soczewka Widzenia: compendium/shadow_demon_lord/artifacts/soczewka_widzenia.md
+      - Statuetka Trupiobladego Konia: compendium/shadow_demon_lord/artifacts/statuetka_trupiobladego_konia.md
+      - Sękaty Kostur z Czarnego Drewna: compendium/shadow_demon_lord/artifacts/sękaty_kostur_z_czarnego_drewna.md
+      - Wykręt: compendium/shadow_demon_lord/artifacts/wykręt.md
+      - Włócznia Jutrzenki: compendium/shadow_demon_lord/artifacts/włócznia_jutrzenki.md
     - Tradycje Magii:
-% for mt in magic_traditions:
-  - {{mt.label}}: compendium/shadow_demon_lord/magic_traditions/{{mt.file}}
-% endfor
+      - Alchemia: compendium/shadow_demon_lord/magic_traditions/alchemia.md
+      - Chaos: compendium/shadow_demon_lord/magic_traditions/chaos.md
+      - Czas: compendium/shadow_demon_lord/magic_traditions/czas.md
+      - Demonologia: compendium/shadow_demon_lord/magic_traditions/demonologia.md
+      - Iluzja: compendium/shadow_demon_lord/magic_traditions/iluzja.md
+      - Inkantacje: compendium/shadow_demon_lord/magic_traditions/inkantacje.md
+      - Jasnowidzenie: compendium/shadow_demon_lord/magic_traditions/jasnowidzenie.md
+      - Klątwy: compendium/shadow_demon_lord/magic_traditions/klatwy.md
+      - Magia Bitewna: compendium/shadow_demon_lord/magic_traditions/magia_bitewna.md
+      - Magia Burzy: compendium/shadow_demon_lord/magic_traditions/magia_burzy.md
+      - Magia Cienia: compendium/shadow_demon_lord/magic_traditions/magia_cienia.md
+      - Magia Fey: compendium/shadow_demon_lord/magic_traditions/magia_fey.md
+      - Magia Krwi: compendium/shadow_demon_lord/magic_traditions/magia_krwi.md
+      - Magia Niebiańska: compendium/shadow_demon_lord/magic_traditions/magia_niebianska.md
+      - Magia Pierwotna: compendium/shadow_demon_lord/magic_traditions/magia_pierwotna.md
+      - Magia Runiczna: compendium/shadow_demon_lord/magic_traditions/magia_runiczna.md
+      - Natura: compendium/shadow_demon_lord/magic_traditions/natura.md
+      - Nekromancja: compendium/shadow_demon_lord/magic_traditions/nekromancja.md
+      - Ochrona: compendium/shadow_demon_lord/magic_traditions/ochrona.md
+      - Ogień: compendium/shadow_demon_lord/magic_traditions/ogien.md
+      - Pieśń: compendium/shadow_demon_lord/magic_traditions/piesn.md
+      - Powietrze: compendium/shadow_demon_lord/magic_traditions/powietrze.md
+      - Przemiany: compendium/shadow_demon_lord/magic_traditions/przemiany.md
+      - Przywołania: compendium/shadow_demon_lord/magic_traditions/przywolania.md
+      - Śmierć: compendium/shadow_demon_lord/magic_traditions/smierc.md
+      - Spirytyzm: compendium/shadow_demon_lord/magic_traditions/spirytyzm.md
+      - Sztuki Tajemne: compendium/shadow_demon_lord/magic_traditions/sztuki_tajemne.md
+      - Sztuki Zakazane: compendium/shadow_demon_lord/magic_traditions/sztuki_zakazane.md
+      - Technomancja: compendium/shadow_demon_lord/magic_traditions/technomancja.md
+      - Telekineza: compendium/shadow_demon_lord/magic_traditions/telekineza.md
+      - Telepatia: compendium/shadow_demon_lord/magic_traditions/telepatia.md
+      - Teleportacja: compendium/shadow_demon_lord/magic_traditions/teleportacja.md
+      - Teurgia: compendium/shadow_demon_lord/magic_traditions/teurgia.md
+      - Transformacja: compendium/shadow_demon_lord/magic_traditions/transformacja.md
+      - Uroki: compendium/shadow_demon_lord/magic_traditions/uroki.md
+      - Woda: compendium/shadow_demon_lord/magic_traditions/woda.md
+      - Ziemia: compendium/shadow_demon_lord/magic_traditions/ziemia.md
+      - Zniszczenie: compendium/shadow_demon_lord/magic_traditions/zniszczenie.md
+      - Życie: compendium/shadow_demon_lord/magic_traditions/zycie.md
     - Zaklęcia:
-% for sp in spells:
-  - {{sp.label}}: compendium/shadow_demon_lord/spells/{{sp.file}}
-% endfor
+      - Adamantytowe Łańcuchy: compendium/shadow_demon_lord/spells/adamantytowe_łańcuchy.md
+      - Akceleracja: compendium/shadow_demon_lord/spells/akceleracja.md
+      - Akumulacja Magii: compendium/shadow_demon_lord/spells/akumulacja_magii.md
+      - Armia Umarłych: compendium/shadow_demon_lord/spells/armia_umarłych.md
+      - Atawizm: compendium/shadow_demon_lord/spells/atawizm.md
+      - Aureola: compendium/shadow_demon_lord/spells/aureola.md
+      - Bańka Mocy: compendium/shadow_demon_lord/spells/bańka_mocy.md
+      - Bitewny Impet: compendium/shadow_demon_lord/spells/bitewny_impet.md
+      - Bliźniacze Portale: compendium/shadow_demon_lord/spells/bliźniacze_portale.md
+      - Bolesna Przyjemność: compendium/shadow_demon_lord/spells/bolesna_przyjemność.md
+      - Boska Pomoc: compendium/shadow_demon_lord/spells/boska_pomoc.md
+      - Brama Do Pustki: compendium/shadow_demon_lord/spells/brama_do_pustki.md
+      - Ból: compendium/shadow_demon_lord/spells/ból.md
+      - Błogostan: compendium/shadow_demon_lord/spells/błogostan.md
+      - Błogosławieństwo: compendium/shadow_demon_lord/spells/błogosławieństwo.md
+      - Błysk: compendium/shadow_demon_lord/spells/błysk.md
+      - Błyskawiczny Szturm: compendium/shadow_demon_lord/spells/błyskawiczny_szturm.md
+      - Błędne Ogniki: compendium/shadow_demon_lord/spells/błędne_ogniki.md
+      - Błędny Pocisk Chaosu: compendium/shadow_demon_lord/spells/błędny_pocisk_chaosu.md
+      - Camera Obscura: compendium/shadow_demon_lord/spells/camera_obscura.md
+      - Całun Płomieni: compendium/shadow_demon_lord/spells/całun_płomieni.md
+      - Chciwość: compendium/shadow_demon_lord/spells/chciwość.md
+      - Chowaniec: compendium/shadow_demon_lord/spells/chowaniec.md
+      - Chłosta: compendium/shadow_demon_lord/spells/chłosta.md
+      - Ciemność: compendium/shadow_demon_lord/spells/ciemność.md
+      - Cienista Magia: compendium/shadow_demon_lord/spells/cienista_magia.md
+      - Cienista Strzałka: compendium/shadow_demon_lord/spells/cienista_strzałka.md
+      - Ciernie: compendium/shadow_demon_lord/spells/ciernie.md
+      - Cień Władcy Demonów: compendium/shadow_demon_lord/spells/cień_władcy_demonów.md
+      - Cień Z Pustki: compendium/shadow_demon_lord/spells/cień_z_pustki.md
+      - Czarnostrzały Z Zaświatów: compendium/shadow_demon_lord/spells/czarnostrzały_z_zaświatów.md
+      - Czarny Język: compendium/shadow_demon_lord/spells/czarny_język.md
+      - Czytanie W Myślach: compendium/shadow_demon_lord/spells/czytanie_w_myślach.md
+      - Dalekowidzenie: compendium/shadow_demon_lord/spells/dalekowidzenie.md
+      - Dar Chaosu: compendium/shadow_demon_lord/spells/dar_chaosu.md
+      - Dar Latania: compendium/shadow_demon_lord/spells/dar_latania.md
+      - Demoniczna Apoteoza: compendium/shadow_demon_lord/spells/demoniczna_apoteoza.md
+      - Demoniczne Błogosławieństwo: compendium/shadow_demon_lord/spells/demoniczne_błogosławieństwo.md
+      - Demoniczny Nadzór: compendium/shadow_demon_lord/spells/demoniczny_nadzór.md
+      - Destrukcja: compendium/shadow_demon_lord/spells/destrukcja.md
+      - Detonacja: compendium/shadow_demon_lord/spells/detonacja.md
+      - Dezintegracja: compendium/shadow_demon_lord/spells/dezintegracja.md
+      - Diagram: compendium/shadow_demon_lord/spells/diagram.md
+      - Donośny Głos: compendium/shadow_demon_lord/spells/donośny_głos.md
+      - Dotyk Trądu: compendium/shadow_demon_lord/spells/dotyk_trądu.md
+      - Droga Przez Cień: compendium/shadow_demon_lord/spells/droga_przez_cień.md
+      - Drugie Podejście: compendium/shadow_demon_lord/spells/drugie_podejście.md
+      - Druzgocący Skok: compendium/shadow_demon_lord/spells/druzgocący_skok.md
+      - Drętwota: compendium/shadow_demon_lord/spells/drętwota.md
+      - Duch Niedźwiedzia: compendium/shadow_demon_lord/spells/duch_niedźwiedzia.md
+      - Duch Orła: compendium/shadow_demon_lord/spells/duch_orła.md
+      - Duch Rogatego Króla: compendium/shadow_demon_lord/spells/duch_rogatego_króla.md
+      - Duch Udręki: compendium/shadow_demon_lord/spells/duch_udręki.md
+      - Duch Walki: compendium/shadow_demon_lord/spells/duch_walki.md
+      - Duch Wilka: compendium/shadow_demon_lord/spells/duch_wilka.md
+      - Duch Zdrowienia: compendium/shadow_demon_lord/spells/duch_zdrowienia.md
+      - Duplikaty: compendium/shadow_demon_lord/spells/duplikaty.md
+      - Dzielenie Myśli: compendium/shadow_demon_lord/spells/dzielenie_myśli.md
+      - Dzika Magia Chaos: compendium/shadow_demon_lord/spells/dzika_magia_chaos.md
+      - Dębowa Skóra: compendium/shadow_demon_lord/spells/dębowa_skóra.md
+      - Ekstaza: compendium/shadow_demon_lord/spells/ekstaza.md
+      - Elastyczność: compendium/shadow_demon_lord/spells/elastyczność.md
+      - Erozja: compendium/shadow_demon_lord/spells/erozja.md
+      - Erupcja: compendium/shadow_demon_lord/spells/erupcja.md
+      - Fala: compendium/shadow_demon_lord/spells/fala.md
+      - Fala Gorąca: compendium/shadow_demon_lord/spells/fala_gorąca.md
+      - Fala Mocy: compendium/shadow_demon_lord/spells/fala_mocy.md
+      - Fala Witalności: compendium/shadow_demon_lord/spells/fala_witalności.md
+      - Fantom: compendium/shadow_demon_lord/spells/fantom.md
+      - Feeria: compendium/shadow_demon_lord/spells/feeria.md
+      - Forma Mgły: compendium/shadow_demon_lord/spells/forma_mgły.md
+      - Formowanie Ziemi i Kamienia: compendium/shadow_demon_lord/spells/formowanie_ziemi_i_kamienia.md
+      - Geas: compendium/shadow_demon_lord/spells/geas.md
+      - Gejzer: compendium/shadow_demon_lord/spells/gejzer.md
+      - Glif Ognia: compendium/shadow_demon_lord/spells/glif_ognia.md
+      - Gnicie: compendium/shadow_demon_lord/spells/gnicie.md
+      - Gniew Boży: compendium/shadow_demon_lord/spells/gniew_boży.md
+      - Gniew Natury: compendium/shadow_demon_lord/spells/gniew_natury.md
+      - Gniew Tanatosa: compendium/shadow_demon_lord/spells/gniew_tanatosa.md
+      - Gradobicie: compendium/shadow_demon_lord/spells/gradobicie.md
+      - Granaty: compendium/shadow_demon_lord/spells/granaty.md
+      - Grobowe Oblicze: compendium/shadow_demon_lord/spells/grobowe_oblicze.md
+      - Grzmot: compendium/shadow_demon_lord/spells/grzmot.md
+      - Gwałtowny Podmuch: compendium/shadow_demon_lord/spells/gwałtowny_podmuch.md
+      - Głód Krwi: compendium/shadow_demon_lord/spells/głód_krwi.md
+      - Halucynacje: compendium/shadow_demon_lord/spells/halucynacje.md
+      - Hałas: compendium/shadow_demon_lord/spells/hałas.md
+      - Identyfikacja Substancji: compendium/shadow_demon_lord/spells/identyfikacja_substancji.md
+      - Iluzoryczny Sobowtór: compendium/shadow_demon_lord/spells/iluzoryczny_sobowtór.md
+      - Inkarnacja: compendium/shadow_demon_lord/spells/inkarnacja.md
+      - Iskrząca Tarcza: compendium/shadow_demon_lord/spells/iskrząca_tarcza.md
+      - Język Bestii: compendium/shadow_demon_lord/spells/język_bestii.md
+      - Kamienna Zbroja: compendium/shadow_demon_lord/spells/kamienna_zbroja.md
+      - Kamienne Ostrza: compendium/shadow_demon_lord/spells/kamienne_ostrza.md
+      - Kamienny Krąg: compendium/shadow_demon_lord/spells/kamienny_krąg.md
+      - Kamień Filozoficzny: compendium/shadow_demon_lord/spells/kamień_filozoficzny.md
+      - Kanibalizacja Magii: compendium/shadow_demon_lord/spells/kanibalizacja_magii.md
+      - Kapryśne Zniszczenie: compendium/shadow_demon_lord/spells/kapryśne_zniszczenie.md
+      - Kiła: compendium/shadow_demon_lord/spells/kiła.md
+      - Klątwa Pustynnych Królów: compendium/shadow_demon_lord/spells/klątwa_pustynnych_królów.md
+      - Kolczatka: compendium/shadow_demon_lord/spells/kolczatka.md
+      - Kolor Magii: compendium/shadow_demon_lord/spells/kolor_magii.md
+      - Koniec Żądzy: compendium/shadow_demon_lord/spells/koniec_żądzy.md
+      - Konsekracja: compendium/shadow_demon_lord/spells/konsekracja.md
+      - Kontrola Płomienia: compendium/shadow_demon_lord/spells/kontrola_płomienia.md
+      - Kostur Druida: compendium/shadow_demon_lord/spells/kostur_druida.md
+      - Kościane Drzazgi: compendium/shadow_demon_lord/spells/kościane_drzazgi.md
+      - Krok Przez Pustkę: compendium/shadow_demon_lord/spells/krok_przez_pustkę.md
+      - Kropla Kwasu: compendium/shadow_demon_lord/spells/kropla_kwasu.md
+      - Krwawe Objawienie: compendium/shadow_demon_lord/spells/krwawe_objawienie.md
+      - Krwawienie: compendium/shadow_demon_lord/spells/krwawienie.md
+      - Krwotok: compendium/shadow_demon_lord/spells/krwotok.md
+      - Krzywda: compendium/shadow_demon_lord/spells/krzywda.md
+      - Księżycowy Most: compendium/shadow_demon_lord/spells/księżycowy_most.md
+      - Kształtowanie Ziemi i Kamienia: compendium/shadow_demon_lord/spells/kształtowanie_ziemi_i_kamienia.md
+      - Kula Ognia: compendium/shadow_demon_lord/spells/kula_ognia.md
+      - Kula Wody: compendium/shadow_demon_lord/spells/kula_wody.md
+      - Kwasowe Strzałki: compendium/shadow_demon_lord/spells/kwasowe_strzałki.md
+      - Kwaśny Deszcz: compendium/shadow_demon_lord/spells/kwaśny_deszcz.md
+      - Lanca Chaosu: compendium/shadow_demon_lord/spells/lanca_chaosu.md
+      - Latające Ostrza: compendium/shadow_demon_lord/spells/latające_ostrza.md
+      - Lawina: compendium/shadow_demon_lord/spells/lawina.md
+      - Leczenie Lekkich Ran: compendium/shadow_demon_lord/spells/leczenie_lekkich_ran.md
+      - Leczenie Pomniejszych Ran: compendium/shadow_demon_lord/spells/leczenie_pomniejszych_ran.md
+      - Leczenie Poważnych Ran: compendium/shadow_demon_lord/spells/leczenie_poważnych_ran.md
+      - Leczenie Średnich Ran: compendium/shadow_demon_lord/spells/leczenie_średnich_ran.md
+      - Lep: compendium/shadow_demon_lord/spells/lep.md
+      - Lewitacja: compendium/shadow_demon_lord/spells/lewitacja.md
+      - Leśny Chód: compendium/shadow_demon_lord/spells/leśny_chód.md
+      - Licz: compendium/shadow_demon_lord/spells/licz.md
+      - Linia Geomantyczna: compendium/shadow_demon_lord/spells/linia_geomantyczna.md
+      - Linienie: compendium/shadow_demon_lord/spells/linienie.md
+      - Lodowa Cela: compendium/shadow_demon_lord/spells/lodowa_cela.md
+      - Lodowe Odłamki: compendium/shadow_demon_lord/spells/lodowe_odłamki.md
+      - Lodowy Pancerz: compendium/shadow_demon_lord/spells/lodowy_pancerz.md
+      - Lodowy Podmuch: compendium/shadow_demon_lord/spells/lodowy_podmuch.md
+      - Lokalizacja: compendium/shadow_demon_lord/spells/lokalizacja.md
+      - Magiczna Strzałka: compendium/shadow_demon_lord/spells/magiczna_strzałka.md
+      - Magiczna Tarcza: compendium/shadow_demon_lord/spells/magiczna_tarcza.md
+      - Magiczna Zbroja: compendium/shadow_demon_lord/spells/magiczna_zbroja.md
+      - Magiczne Żołędzie: compendium/shadow_demon_lord/spells/magiczne_żołędzie.md
+      - Magiczny Klucz: compendium/shadow_demon_lord/spells/magiczny_klucz.md
+      - Magiczny Kontratak: compendium/shadow_demon_lord/spells/magiczny_kontratak.md
+      - Magiczny Przedmiot: compendium/shadow_demon_lord/spells/magiczny_przedmiot.md
+      - Magiczny Zamek: compendium/shadow_demon_lord/spells/magiczny_zamek.md
+      - Martwe Powietrze: compendium/shadow_demon_lord/spells/martwe_powietrze.md
+      - Maska: compendium/shadow_demon_lord/spells/maska.md
+      - Mechaniczna Zbroja: compendium/shadow_demon_lord/spells/mechaniczna_zbroja.md
+      - Mentalne Zakłócenia: compendium/shadow_demon_lord/spells/mentalne_zakłócenia.md
+      - Mentalny Szych: compendium/shadow_demon_lord/spells/mentalny_sztych.md
+      - Metallicus: compendium/shadow_demon_lord/spells/metallicus.md
+      - Meteoroid: compendium/shadow_demon_lord/spells/meteoroid.md
+      - Mgła: compendium/shadow_demon_lord/spells/mgła.md
+      - Miażdżąca Światłość: compendium/shadow_demon_lord/spells/miażdżąca_światłość.md
+      - Migotanie Chaos: compendium/shadow_demon_lord/spells/migotanie_chaos.md
+      - Miotacz Ognia: compendium/shadow_demon_lord/spells/miotacz_ognia.md
+      - Miraż: compendium/shadow_demon_lord/spells/miraż.md
+      - Mistyczny Piorun: compendium/shadow_demon_lord/spells/mistyczny_piorun.md
+      - Mistyczny Wzrok: compendium/shadow_demon_lord/spells/mistyczny_wzrok.md
+      - Mocne Pchnięcie: compendium/shadow_demon_lord/spells/mocne_pchnięcie.md
+      - Moc Entropii: compendium/shadow_demon_lord/spells/moc_entropii.md
+      - Modlitwa Wieszcza: compendium/shadow_demon_lord/spells/modlitwa_wieszcza.md
+      - Morowe Powietrze: compendium/shadow_demon_lord/spells/morowe_powietrze.md
+      - Mroczne Portale: compendium/shadow_demon_lord/spells/mroczne_portale.md
+      - Mroczne Wynaturzenie: compendium/shadow_demon_lord/spells/mroczne_wynaturzenie.md
+      - Młot Boga: compendium/shadow_demon_lord/spells/młot_boga.md
+      - Mściwy Duch: compendium/shadow_demon_lord/spells/mściwy_duch.md
+      - Nawałnica Ciosów: compendium/shadow_demon_lord/spells/nawałnica_ciosów.md
+      - Na Skróty: compendium/shadow_demon_lord/spells/na_skróty.md
+      - Nienawistna Defekacja: compendium/shadow_demon_lord/spells/nienawistna_defekacja.md
+      - Nienawistne Duchy: compendium/shadow_demon_lord/spells/nienawistne_duchy.md
+      - Nieomylne Strzałki: compendium/shadow_demon_lord/spells/nieomylne_strzałki.md
+      - Niepohamowana Żądza: compendium/shadow_demon_lord/spells/niepohamowana_żądza.md
+      - Niepowstrzymany Gniew: compendium/shadow_demon_lord/spells/niepowstrzymany_gniew.md
+      - Niesamowity Cios: compendium/shadow_demon_lord/spells/niesamowity_cios.md
+      - Nieskrępowany Ruch: compendium/shadow_demon_lord/spells/nieskrępowany_ruch.md
+      - Nietykalność: compendium/shadow_demon_lord/spells/nietykalność.md
+      - Niewidzialność: compendium/shadow_demon_lord/spells/niewidzialność.md
+      - Nikczemne Zespolenie: compendium/shadow_demon_lord/spells/nikczemne_zespolenie.md
+      - Nuty Czarnej Pieśni: compendium/shadow_demon_lord/spells/nuty_czarnej_pieśni.md
+      - Objawienie: compendium/shadow_demon_lord/spells/objawienie.md
+      - Ochrona Przed Czarami: compendium/shadow_demon_lord/spells/ochrona_przed_czarami.md
+      - Ochrona Przed Ogniem: compendium/shadow_demon_lord/spells/ochrona_przed_ogniem.md
+      - Ochrona Przed Śmiercią: compendium/shadow_demon_lord/spells/ochrona_przed_śmiercią.md
+      - Oczarowanie: compendium/shadow_demon_lord/spells/oczarowanie.md
+      - Odarcie Ze Skóry: compendium/shadow_demon_lord/spells/odarcie_ze_skóry.md
+      - Odesłanie: compendium/shadow_demon_lord/spells/odesłanie.md
+      - Odwodnienie: compendium/shadow_demon_lord/spells/odwodnienie.md
+      - Odławianie Duszy: compendium/shadow_demon_lord/spells/odławianie_duszy.md
+      - Ofiara z Krwi: compendium/shadow_demon_lord/spells/ofiara_z_krwi.md
+      - Ogień Z Niebios: compendium/shadow_demon_lord/spells/ogień_z_niebios.md
+      - Ognie Świętej Astrid: compendium/shadow_demon_lord/spells/ognie_świętej_astrid.md
+      - Ognista Salwa: compendium/shadow_demon_lord/spells/ognista_salwa.md
+      - Ognisty Pocisk: compendium/shadow_demon_lord/spells/ognisty_pocisk.md
+      - Ognisty Podmuch: compendium/shadow_demon_lord/spells/ognisty_podmuch.md
+      - Okowy: compendium/shadow_demon_lord/spells/okowy.md
+      - Oko Łowcy: compendium/shadow_demon_lord/spells/oko_łowcy.md
+      - Okrutna Bestia: compendium/shadow_demon_lord/spells/okrutna_bestia.md
+      - Okulawienie: compendium/shadow_demon_lord/spells/okulawienie.md
+      - Olśnienie: compendium/shadow_demon_lord/spells/olśnienie.md
+      - Omotanie: compendium/shadow_demon_lord/spells/omotanie.md
+      - Opalizująca Tarcza: compendium/shadow_demon_lord/spells/opalizująca_tarcza.md
+      - Oplatający Bluszcz: compendium/shadow_demon_lord/spells/oplatający_bluszcz.md
+      - Opóźnienie: compendium/shadow_demon_lord/spells/opóźnienie.md
+      - Opętanie: compendium/shadow_demon_lord/spells/opętanie.md
+      - Osobliwość: compendium/shadow_demon_lord/spells/osobliwość.md
+      - Ostrze Zmierzchu: compendium/shadow_demon_lord/spells/ostrze_zmierzchu.md
+      - Otwarcie Przejścia: compendium/shadow_demon_lord/spells/otwarcie_przejścia.md
+      - Otwór Do Zaświatów: compendium/shadow_demon_lord/spells/otwór_do_zaświatów.md
+      - Ożywienie: compendium/shadow_demon_lord/spells/ożywienie.md
+      - Ożywienie Zwłok: compendium/shadow_demon_lord/spells/ożywienie_zwłok.md
+      - Pajęcza Wspinaczka: compendium/shadow_demon_lord/spells/pajęcza_wspinaczka.md
+      - Palący Promień: compendium/shadow_demon_lord/spells/palący_promień.md
+      - Pareidolia: compendium/shadow_demon_lord/spells/pareidolia.md
+      - Pech: compendium/shadow_demon_lord/spells/pech.md
+      - Petryfikacja: compendium/shadow_demon_lord/spells/petryfikacja.md
+      - Pełne Leczenie: compendium/shadow_demon_lord/spells/pełne_leczenie.md
+      - Piekielna Audiencja: compendium/shadow_demon_lord/spells/piekielna_audiencja.md
+      - Pieśń Bohaterów: compendium/shadow_demon_lord/spells/pieśń_bohaterów.md
+      - Pieśń Fascynacji: compendium/shadow_demon_lord/spells/pieśń_fascynacji.md
+      - Pieśń Hulacka: compendium/shadow_demon_lord/spells/pieśń_hulacka.md
+      - Pieśń Inspiracji: compendium/shadow_demon_lord/spells/pieśń_inspiracji.md
+      - Pieśń Leczenia: compendium/shadow_demon_lord/spells/pieśń_leczenia.md
+      - Pieśń Męstwa: compendium/shadow_demon_lord/spells/pieśń_męstwa.md
+      - Pieśń Odwagi: compendium/shadow_demon_lord/spells/pieśń_odwagi.md
+      - Pieśń Przyjaźni: compendium/shadow_demon_lord/spells/pieśń_przyjaźni.md
+      - Pieśń Przywabienia: compendium/shadow_demon_lord/spells/pieśń_przywabienia.md
+      - Pieśń Trwogi: compendium/shadow_demon_lord/spells/pieśń_trwogi.md
+      - Pieśń Uśpienia: compendium/shadow_demon_lord/spells/pieśń_uśpienia.md
+      - Pijaństwo: compendium/shadow_demon_lord/spells/pijaństwo.md
+      - Piętno Zagłady: compendium/shadow_demon_lord/spells/piętno_zagłady.md
+      - Pocisk Piekielnego Ognia: compendium/shadow_demon_lord/spells/pocisk_piekielnego_ognia.md
+      - Pocisk Wiodący: compendium/shadow_demon_lord/spells/pocisk_wiodący.md
+      - Podatność: compendium/shadow_demon_lord/spells/podatność.md
+      - Podpalenie: compendium/shadow_demon_lord/spells/podpalenie.md
+      - Podróż W Czasie: compendium/shadow_demon_lord/spells/podróż_w_czasie.md
+      - Podsłuch: compendium/shadow_demon_lord/spells/podsłuch.md
+      - Podwodna Adaptacja: compendium/shadow_demon_lord/spells/podwodna_adaptacja.md
+      - Pokiereszowanie: compendium/shadow_demon_lord/spells/pokiereszowanie.md
+      - Pokrewna Dusza: compendium/shadow_demon_lord/spells/pokrewna_dusza.md
+      - Pokusa: compendium/shadow_demon_lord/spells/pokusa.md
+      - Pokuta: compendium/shadow_demon_lord/spells/pokuta.md
+      - Polecenie Ruchu: compendium/shadow_demon_lord/spells/polecenie_ruchu.md
+      - Pole Ochronne: compendium/shadow_demon_lord/spells/pole_ochronne.md
+      - Pole Siłowe: compendium/shadow_demon_lord/spells/pole_siłowe.md
+      - Pomniejszy Paradoks: compendium/shadow_demon_lord/spells/pomniejszy_paradoks.md
+      - Porażenie: compendium/shadow_demon_lord/spells/porażenie.md
+      - Poskręcana Korona: compendium/shadow_demon_lord/spells/poskręcana_korona.md
+      - Posłuszeństwo: compendium/shadow_demon_lord/spells/posłuszeństwo.md
+      - Potworny Głód: compendium/shadow_demon_lord/spells/potworny_głód.md
+      - Potępienie: compendium/shadow_demon_lord/spells/potępienie.md
+      - Potężny Atak: compendium/shadow_demon_lord/spells/potężny_atak.md
+      - Powiew: compendium/shadow_demon_lord/spells/powiew.md
+      - Pozbawienie Wzroku: compendium/shadow_demon_lord/spells/pozbawienie_wzroku.md
+      - Pośpiech: compendium/shadow_demon_lord/spells/pośpiech.md
+      - Poświęcona Ziemia: compendium/shadow_demon_lord/spells/poświęcona_ziemia.md
+      - Pragnienie Serca: compendium/shadow_demon_lord/spells/pragnienie_serca.md
+      - Prawdosłyszenie: compendium/shadow_demon_lord/spells/prawdosłyszenie.md
+      - Predykcja: compendium/shadow_demon_lord/spells/predykcja.md
+      - Prezencja: compendium/shadow_demon_lord/spells/prezencja.md
+      - Promienie Słońca: compendium/shadow_demon_lord/spells/promienie_słońca.md
+      - Promieniowanie: compendium/shadow_demon_lord/spells/promieniowanie.md
+      - Proroctwo: compendium/shadow_demon_lord/spells/proroctwo.md
+      - Prowizorka: compendium/shadow_demon_lord/spells/prowizorka.md
+      - Przebiegła Parada: compendium/shadow_demon_lord/spells/przebiegła_parada.md
+      - Przebranie: compendium/shadow_demon_lord/spells/przebranie.md
+      - Przebudzenie Drzewa: compendium/shadow_demon_lord/spells/przebudzenie_drzewa.md
+      - Przebudzenie Potencjału: compendium/shadow_demon_lord/spells/przebudzenie_potencjału.md
+      - Przedświt: compendium/shadow_demon_lord/spells/przedświt.md
+      - Przejście Cyklonu: compendium/shadow_demon_lord/spells/przejście_cyklonu.md
+      - Przekleństwo: compendium/shadow_demon_lord/spells/przekleństwo.md
+      - Przenikający Pocisk: compendium/shadow_demon_lord/spells/przenikający_pocisk.md
+      - Przepowiednia: compendium/shadow_demon_lord/spells/przepowiednia.md
+      - Przerost: compendium/shadow_demon_lord/spells/przerost.md
+      - Przeskok Czasu: compendium/shadow_demon_lord/spells/przeskok_czasu.md
+      - Przestrach: compendium/shadow_demon_lord/spells/przestrach.md
+      - Przezorność: compendium/shadow_demon_lord/spells/przezorność.md
+      - Przyciąganie: compendium/shadow_demon_lord/spells/przyciąganie.md
+      - Przygwożdżenie: compendium/shadow_demon_lord/spells/przygwożdżenie.md
+      - Przynęta: compendium/shadow_demon_lord/spells/przynęta.md
+      - Przypływ Heroizmu: compendium/shadow_demon_lord/spells/przypływ_heroizmu.md
+      - Przyspieszenie: compendium/shadow_demon_lord/spells/przyspieszenie.md
+      - Przyspieszone Leczenie: compendium/shadow_demon_lord/spells/przyspieszone_leczenie.md
+      - Przystosowanie Do Żywiołów: compendium/shadow_demon_lord/spells/przystosowanie_do_żywiołów.md
+      - Przytrzymanie: compendium/shadow_demon_lord/spells/przytrzymanie.md
+      - Przywołanie Broni: compendium/shadow_demon_lord/spells/przywołanie_broni.md
+      - Przywołanie Duszy: compendium/shadow_demon_lord/spells/przywołanie_duszy.md
+      - Przywołanie Dużego Potwora: compendium/shadow_demon_lord/spells/przywołanie_dużego_potwora.md
+      - Przywołanie Einherjarów: compendium/shadow_demon_lord/spells/przywołanie_einherjarów.md
+      - Przywołanie Małego Potwora: compendium/shadow_demon_lord/spells/przywołanie_małego_potwora.md
+      - Przywołanie Muru: compendium/shadow_demon_lord/spells/przywołanie_muru.md
+      - Przywołanie Pioruna: compendium/shadow_demon_lord/spells/przywołanie_pioruna.md
+      - Przywołanie Schronienia: compendium/shadow_demon_lord/spells/przywołanie_schronienia.md
+      - Przywołanie Uczty: compendium/shadow_demon_lord/spells/przywołanie_uczty.md
+      - Przywołanie Użytecznego Przedmiotu: compendium/shadow_demon_lord/spells/przywołanie_użytecznego_przedmiotu.md
+      - Przywołanie Wichru: compendium/shadow_demon_lord/spells/przywołanie_wichru.md
+      - Przywołanie Wielkiego Kruka: compendium/shadow_demon_lord/spells/przywołanie_wielkiego_kruka.md
+      - Przywołanie Wielkiego Potwora: compendium/shadow_demon_lord/spells/przywołanie_wielkiego_potwora.md
+      - Przywołanie Wierzchowców: compendium/shadow_demon_lord/spells/przywołanie_wierzchowców.md
+      - Przywołanie Średniego Potwora: compendium/shadow_demon_lord/spells/przywołanie_średniego_potwora.md
+      - Przyzwanie Demona: compendium/shadow_demon_lord/spells/przyzwanie_demona.md
+      - Przyzwanie Dręczyciela: compendium/shadow_demon_lord/spells/przyzwanie_dręczyciela.md
+      - Przyzwanie Dżinna Ognia: compendium/shadow_demon_lord/spells/przyzwanie_dżinna_ognia.md
+      - Przyzwanie Dżinna Powietrza: compendium/shadow_demon_lord/spells/przyzwanie_dżinna_powietrza.md
+      - Przyzwanie Dżinna Wody: compendium/shadow_demon_lord/spells/przyzwanie_dżinna_wody.md
+      - Przyzwanie Dżinna Ziemi: compendium/shadow_demon_lord/spells/przyzwanie_dżinna_ziemi.md
+      - Przyzwanie Gargulca: compendium/shadow_demon_lord/spells/przyzwanie_gargulca.md
+      - Przyzwanie Pomniejszego Demona: compendium/shadow_demon_lord/spells/przyzwanie_pomniejszego_demona.md
+      - Przyzwanie Pylistego Diabła: compendium/shadow_demon_lord/spells/przyzwanie_pylistego_diabła.md
+      - Przyzwanie Skrzydlatych Wierzchowców: compendium/shadow_demon_lord/spells/przyzwanie_skrzydlatych_wierzchowców.md
+      - Przyzwanie Strażników Kniei: compendium/shadow_demon_lord/spells/przyzwanie_strażników_kniei.md
+      - Przyzwanie Wierzchowców: compendium/shadow_demon_lord/spells/przyzwanie_wierzchowców.md
+      - Próg Zaświatów: compendium/shadow_demon_lord/spells/próg_zaświatów.md
+      - Psychometria: compendium/shadow_demon_lord/spells/psychometria.md
+      - Pytanie: compendium/shadow_demon_lord/spells/pytanie.md
+      - Pęknięcie: compendium/shadow_demon_lord/spells/pęknięcie.md
+      - Płomienna Gorliwość: compendium/shadow_demon_lord/spells/płomienna_gorliwość.md
+      - Płonące Szyszki: compendium/shadow_demon_lord/spells/płonące_szyszki.md
+      - Płynna Postać: compendium/shadow_demon_lord/spells/płynna_postać.md
+      - Rechot Mrocznych Bogów: compendium/shadow_demon_lord/spells/rechot_mrocznych_bogów.md
+      - Regeneracja: compendium/shadow_demon_lord/spells/regeneracja.md
+      - Relokacja: compendium/shadow_demon_lord/spells/relokacja.md
+      - Remont: compendium/shadow_demon_lord/spells/remont.md
+      - Ropucha: compendium/shadow_demon_lord/spells/ropucha.md
+      - Rozbłysk Słoneczny: compendium/shadow_demon_lord/spells/rozbłysk_słoneczny.md
+      - Rozdarcie: compendium/shadow_demon_lord/spells/rozdarcie.md
+      - Rozdwojenie: compendium/shadow_demon_lord/spells/rozdwojenie.md
+      - Rozkaz: compendium/shadow_demon_lord/spells/rozkaz.md
+      - Rozpuszczenie: compendium/shadow_demon_lord/spells/rozpuszczenie.md
+      - Rozpłatanie: compendium/shadow_demon_lord/spells/rozpłatanie.md
+      - Roztrzaskanie: compendium/shadow_demon_lord/spells/roztrzaskanie.md
+      - Rozumienie Pisma: compendium/shadow_demon_lord/spells/rozumienie_pisma.md
+      - Rozwidlony Piorun: compendium/shadow_demon_lord/spells/rozwidlony_piorun.md
+      - Ruchome Piaski: compendium/shadow_demon_lord/spells/ruchome_piaski.md
+      - Ruina: compendium/shadow_demon_lord/spells/ruina.md
+      - Runa Lodu: compendium/shadow_demon_lord/spells/runa_lodu.md
+      - Runa Lokalizacji: compendium/shadow_demon_lord/spells/runa_lokalizacji.md
+      - Runa Mocy: compendium/shadow_demon_lord/spells/runa_mocy.md
+      - Runa Potęgi: compendium/shadow_demon_lord/spells/runa_potęgi.md
+      - Runa Przeszycia: compendium/shadow_demon_lord/spells/runa_przeszycia.md
+      - Runa Uderzenia: compendium/shadow_demon_lord/spells/runa_uderzenia.md
+      - Runa Ukrycia: compendium/shadow_demon_lord/spells/runa_ukrycia.md
+      - Runa Witalności: compendium/shadow_demon_lord/spells/runa_witalności.md
+      - Runa Zniszczenia: compendium/shadow_demon_lord/spells/runa_zniszczenia.md
+      - Runiczna Broń: compendium/shadow_demon_lord/spells/runiczna_broń.md
+      - Runiczna Pułapka: compendium/shadow_demon_lord/spells/runiczna_pułapka.md
+      - Runiczna Tarcza: compendium/shadow_demon_lord/spells/runiczna_tarcza.md
+      - Runiczne Więzienie: compendium/shadow_demon_lord/spells/runiczne_więzienie.md
+      - Runiczny Pancerz: compendium/shadow_demon_lord/spells/runiczny_pancerz.md
+      - Rwący Nurt: compendium/shadow_demon_lord/spells/rwący_nurt.md
+      - Rzadka Krew: compendium/shadow_demon_lord/spells/rzadka_krew.md
+      - Równowaga Humorów: compendium/shadow_demon_lord/spells/równowaga_humorów.md
+      - Ręce Umarłych: compendium/shadow_demon_lord/spells/ręce_umarłych.md
+      - Rękaw Czarodzieja: compendium/shadow_demon_lord/spells/rękaw_czarodzieja.md
+      - Sanktuarium: compendium/shadow_demon_lord/spells/sanktuarium.md
+      - Seans: compendium/shadow_demon_lord/spells/seans.md
+      - Sekretne Drzwi: compendium/shadow_demon_lord/spells/sekretne_drzwi.md
+      - Sekrety Ziemi: compendium/shadow_demon_lord/spells/sekrety_ziemi.md
+      - Serce Bestii: compendium/shadow_demon_lord/spells/serce_bestii.md
+      - Sfera Negacji: compendium/shadow_demon_lord/spells/sfera_negacji.md
+      - Skalny Kolec: compendium/shadow_demon_lord/spells/skalny_kolec.md
+      - Skarcenie: compendium/shadow_demon_lord/spells/skarcenie.md
+      - Skowyt Wendigo: compendium/shadow_demon_lord/spells/skowyt_wendigo.md
+      - Spadająca Gwiazda: compendium/shadow_demon_lord/spells/spadająca_gwiazda.md
+      - Spojenie: compendium/shadow_demon_lord/spells/spojenie.md
+      - Spowolnienie: compendium/shadow_demon_lord/spells/spowolnienie.md
+      - Sprawność Bojowa: compendium/shadow_demon_lord/spells/sprawność_bojowa.md
+      - Sprośna Piosenka: compendium/shadow_demon_lord/spells/sprośna_piosenka.md
+      - Sprężysty Krok: compendium/shadow_demon_lord/spells/sprężysty_krok.md
+      - Spętanie Umysłu: compendium/shadow_demon_lord/spells/spętanie_umysłu.md
+      - Studnia Mrocznej Mocy: compendium/shadow_demon_lord/spells/studnia_mrocznej_mocy.md
+      - Stworzenie Odmieńca: compendium/shadow_demon_lord/spells/stworzenie_odmieńca.md
+      - Stworzenie Wody: compendium/shadow_demon_lord/spells/stworzenie_wody.md
+      - Stworzenie Zakazanego Przedmiotu: compendium/shadow_demon_lord/spells/stworzenie_zakazanego_przedmiotu.md
+      - Stworzenie Zombie: compendium/shadow_demon_lord/spells/stworzenie_zombie.md
+      - Stworzenie Świętego Symbolu: compendium/shadow_demon_lord/spells/stworzenie_świętego_symbolu.md
+      - Stłumienie Magii: compendium/shadow_demon_lord/spells/stłumienie_magii.md
+      - Supernowa: compendium/shadow_demon_lord/spells/supernowa.md
+      - System Krótkich Wiadomości: compendium/shadow_demon_lord/spells/system_krótkich_wiadomości.md
+      - Szadź: compendium/shadow_demon_lord/spells/szadź.md
+      - Szalona Pijatyka: compendium/shadow_demon_lord/spells/szalona_pijatyka.md
+      - Szepty Z Pustki: compendium/shadow_demon_lord/spells/szepty_z_pustki.md
+      - Szpony Mroku: compendium/shadow_demon_lord/spells/szpony_mroku.md
+      - Szybowanie: compendium/shadow_demon_lord/spells/szybowanie.md
+      - Słabość: compendium/shadow_demon_lord/spells/słabość.md
+      - Tańcząca Broń: compendium/shadow_demon_lord/spells/tańcząca_broń.md
+      - Telekinetyczna Tarcza: compendium/shadow_demon_lord/spells/telekinetyczna_tarcza.md
+      - Telekinetyczny Wybuch: compendium/shadow_demon_lord/spells/telekinetyczny_wybuch.md
+      - Transfuzja: compendium/shadow_demon_lord/spells/transfuzja.md
+      - Trująca Mgła: compendium/shadow_demon_lord/spells/trująca_mgła.md
+      - Trujący Dech: compendium/shadow_demon_lord/spells/trujący_dech.md
+      - Trupi Wzrok: compendium/shadow_demon_lord/spells/trupi_wzrok.md
+      - Trwałe Światło: compendium/shadow_demon_lord/spells/trwałe_światło.md
+      - Trwoga: compendium/shadow_demon_lord/spells/trwoga.md
+      - Trzepot: compendium/shadow_demon_lord/spells/trzepot.md
+      - Trzęsienie Ziemi: compendium/shadow_demon_lord/spells/trzęsienie_ziemi.md
+      - Tęczowa Eksplozja: compendium/shadow_demon_lord/spells/tęczowa_eksplozja.md
+      - Uczta Dla Dusz: compendium/shadow_demon_lord/spells/uczta_dla_dusz.md
+      - Uderzenie Umysłu: compendium/shadow_demon_lord/spells/uderzenie_umysłu.md
+      - Uderzenie Wiatru: compendium/shadow_demon_lord/spells/uderzenie_wiatru.md
+      - Ujarzmienie Szaleństwa: compendium/shadow_demon_lord/spells/ujarzmienie_szaleństwa.md
+      - Ukrop: compendium/shadow_demon_lord/spells/ukrop.md
+      - Ukrycie Przed Nieumarłymi: compendium/shadow_demon_lord/spells/ukrycie_przed_nieumarłymi.md
+      - Ukrycie Przed Zwierzętami: compendium/shadow_demon_lord/spells/ukrycie_przed_zwierzętami.md
+      - Ukryta Przestrzeń: compendium/shadow_demon_lord/spells/ukryta_przestrzeń.md
+      - Ulepszona Zwierzęca Postać: compendium/shadow_demon_lord/spells/ulepszona_zwierzęca_postać.md
+      - Umysł Ponad Ciałem: compendium/shadow_demon_lord/spells/umysł_ponad_ciałem.md
+      - Urojenia: compendium/shadow_demon_lord/spells/urojenia.md
+      - Uskok: compendium/shadow_demon_lord/spells/uskok.md
+      - Utopienie: compendium/shadow_demon_lord/spells/utopienie.md
+      - Uzdrawiające Jagody: compendium/shadow_demon_lord/spells/uzdrawiające_jagody.md
+      - Uzdrawiający Kompres: compendium/shadow_demon_lord/spells/uzdrawiający_kompres.md
+      - Uzdrowienie: compendium/shadow_demon_lord/spells/uzdrowienie.md
+      - Warunkowanie: compendium/shadow_demon_lord/spells/warunkowanie.md
+      - Warzenie Alchemicznej Trucizny: compendium/shadow_demon_lord/spells/warzenie_alchemicznej_trucizny.md
+      - Warzenie Ciekłego Dymu: compendium/shadow_demon_lord/spells/warzenie_ciekłego_dymu.md
+      - Warzenie Cudownego Dekoktu: compendium/shadow_demon_lord/spells/warzenie_cudownego_dekoktu.md
+      - Warzenie Eliksiru: compendium/shadow_demon_lord/spells/warzenie_eliksiru.md
+      - Warzenie Nadzwyczajnego Kleju: compendium/shadow_demon_lord/spells/warzenie_nadzwyczajnego_kleju.md
+      - Warzenie Remedium: compendium/shadow_demon_lord/spells/warzenie_remedium.md
+      - Wezwanie Dużego Zwierzęcia: compendium/shadow_demon_lord/spells/wezwanie_dużego_zwierzęcia.md
+      - Wezwanie Małego Zwierzęcia: compendium/shadow_demon_lord/spells/wezwanie_małego_zwierzęcia.md
+      - Wezwanie Wielkiego Zwierzęcia: compendium/shadow_demon_lord/spells/wezwanie_wielkiego_zwierzęcia.md
+      - Wezwanie Średniego Zwierzęcia: compendium/shadow_demon_lord/spells/wezwanie_średniego_zwierzęcia.md
+      - Widmowy Chwyt: compendium/shadow_demon_lord/spells/widmowy_chwyt.md
+      - Widzenie Przyszłości: compendium/shadow_demon_lord/spells/widzenie_przyszłości.md
+      - Widzenie W Ciemności: compendium/shadow_demon_lord/spells/widzenie_w_ciemności.md
+      - Wieprz: compendium/shadow_demon_lord/spells/wieprz.md
+      - Wieszczba: compendium/shadow_demon_lord/spells/wieszczba.md
+      - Wieżyczka: compendium/shadow_demon_lord/spells/wieżyczka.md
+      - Wigor: compendium/shadow_demon_lord/spells/wigor.md
+      - Wir Śmierci: compendium/shadow_demon_lord/spells/wir_śmierci.md
+      - Wizja: compendium/shadow_demon_lord/spells/wizja.md
+      - Wizja Grozy: compendium/shadow_demon_lord/spells/wizja_grozy.md
+      - Wiążący Pentagram: compendium/shadow_demon_lord/spells/wiążący_pentagram.md
+      - Większa Zwierzęca Postać: compendium/shadow_demon_lord/spells/większa_zwierzęca_postać.md
+      - Większe Uzdrowienie: compendium/shadow_demon_lord/spells/większe_uzdrowienie.md
+      - Wrzeszcząca Czaszka: compendium/shadow_demon_lord/spells/wrzeszcząca_czaszka.md
+      - Wrząca Krew: compendium/shadow_demon_lord/spells/wrząca_krew.md
+      - Wróżba: compendium/shadow_demon_lord/spells/wróżba.md
+      - Wskrzeszenie: compendium/shadow_demon_lord/spells/wskrzeszenie.md
+      - Wstrząs: compendium/shadow_demon_lord/spells/wstrząs.md
+      - Wstrząsający Atak: compendium/shadow_demon_lord/spells/wstrząsający_atak.md
+      - Wstręt: compendium/shadow_demon_lord/spells/wstręt.md
+      - Wybuchowe Strzałki: compendium/shadow_demon_lord/spells/wybuchowe_strzałki.md
+      - Wybuch Piekielnego Ognia: compendium/shadow_demon_lord/spells/wybuch_piekielnego_ognia.md
+      - Wyczucie Myśli: compendium/shadow_demon_lord/spells/wyczucie_myśli.md
+      - Wyczucie Życia: compendium/shadow_demon_lord/spells/wyczucie_życia.md
+      - Wydrążenie Umysłu: compendium/shadow_demon_lord/spells/wydrążenie_umysłu.md
+      - Wygnanie: compendium/shadow_demon_lord/spells/wygnanie.md
+      - Wymazanie Obecności: compendium/shadow_demon_lord/spells/wymazanie_obecności.md
+      - Wymazanie Pamięci: compendium/shadow_demon_lord/spells/wymazanie_pamięci.md
+      - Wymysł: compendium/shadow_demon_lord/spells/wymysł.md
+      - Wyostrzenie Zmysłów: compendium/shadow_demon_lord/spells/wyostrzenie_zmysłów.md
+      - Wyparowanie: compendium/shadow_demon_lord/spells/wyparowanie.md
+      - Wyrok: compendium/shadow_demon_lord/spells/wyrok.md
+      - Wyrwanie Języka: compendium/shadow_demon_lord/spells/wyrwanie_języka.md
+      - Wyssanie Życia: compendium/shadow_demon_lord/spells/wyssanie_życia.md
+      - Wytrybowanie: compendium/shadow_demon_lord/spells/wytrybowanie.md
+      - Wyładowanie: compendium/shadow_demon_lord/spells/wyładowanie.md
+      - Wyłom Do Pustki: compendium/shadow_demon_lord/spells/wyłom_do_pustki.md
+      - Wyłuskanie Wrzeszczącej Duszy: compendium/shadow_demon_lord/spells/wyłuskanie_wrzeszczającej_duszy.md
+      - Wzmocnienie Atrybutu: compendium/shadow_demon_lord/spells/wzmocnienie_atrybutu.md
+      - Wzmocnienie Magii: compendium/shadow_demon_lord/spells/wzmocnienie_magii.md
+      - Wzmocnienie Obrony: compendium/shadow_demon_lord/spells/wzmocnienie_obrony.md
+      - Wzniecenie Obłędu: compendium/shadow_demon_lord/spells/wzniecenie_obłędu.md
+      - W Imię Dziadka Mroza: compendium/shadow_demon_lord/spells/w_imię_dziadka_mroza.md
+      - W Imię Hulaki: compendium/shadow_demon_lord/spells/w_imię_hulaki.md
+      - W Imię Jedynego Prawdziwego Boga: compendium/shadow_demon_lord/spells/w_imię_jedynego_prawdziwego_boga.md
+      - W Imię Króla Czaszek: compendium/shadow_demon_lord/spells/w_imię_króla_czaszek.md
+      - W Imię Królowej Lata: compendium/shadow_demon_lord/spells/w_imię_królowej_lata.md
+      - W Imię Księżycowej Dziewicy: compendium/shadow_demon_lord/spells/w_imię_księżycowej_dziewicy.md
+      - W Imię Lśniącego Księcia: compendium/shadow_demon_lord/spells/w_imię_lśniącego_księcia.md
+      - W Imię Macierzy Potworów: compendium/shadow_demon_lord/spells/w_imię_macierzy_potworów.md
+      - W Imię Mrocznych Bogów: compendium/shadow_demon_lord/spells/w_imię_mrocznych_bogów.md
+      - W Imię Nowego Boga: compendium/shadow_demon_lord/spells/w_imię_nowego_boga.md
+      - W Imię Ojczulka Śmierci: compendium/shadow_demon_lord/spells/w_imię_ojczulka_śmierci.md
+      - W Imię Pani Westchnień: compendium/shadow_demon_lord/spells/w_imię_pani_westchnień.md
+      - W Imię Pozbawionego Imienia: compendium/shadow_demon_lord/spells/w_imię_pozbawionego_imienia.md
+      - W Imię Pramatki: compendium/shadow_demon_lord/spells/w_imię_pramatki.md
+      - W Imię Przodków: compendium/shadow_demon_lord/spells/w_imię_przodków.md
+      - W Imię Rogatego Króla: compendium/shadow_demon_lord/spells/w_imię_rogatego_króla.md
+      - W Imię Starej Wiary: compendium/shadow_demon_lord/spells/w_imię_starej_wiary.md
+      - W Imię Wiecznego Cienia: compendium/shadow_demon_lord/spells/w_imię_wiecznego_cienia.md
+      - W Imię Wędrującej Gwiazdy: compendium/shadow_demon_lord/spells/w_imię_wędrującej_gwiazdy.md
+      - Wędrówka: compendium/shadow_demon_lord/spells/wędrówka.md
+      - Wędrówka Po Snach: compendium/shadow_demon_lord/spells/wędrówka_po_snach.md
+      - Władza Nad Duchem: compendium/shadow_demon_lord/spells/władza_nad_duchem.md
+      - Zabezpieczenie Miejsca: compendium/shadow_demon_lord/spells/zabezpieczenie_miejsca.md
+      - Zabójczy Dotyk: compendium/shadow_demon_lord/spells/zabójczy_dotyk.md
+      - Zahamowanie: compendium/shadow_demon_lord/spells/zahamowanie.md
+      - Zakrzywienie Przestrzeni: compendium/shadow_demon_lord/spells/zakrzywienie_przestrzeni.md
+      - Zamiana Dusz: compendium/shadow_demon_lord/spells/zamiana_dusz.md
+      - Zamiana Miejsc: compendium/shadow_demon_lord/spells/zamiana_miejsc.md
+      - Zamiana W Dębowego Strażnika: compendium/shadow_demon_lord/spells/zamiana_w_dębowego_strażnika.md
+      - Zamiana W Fomora: compendium/shadow_demon_lord/spells/zamiana_w_fomora.md
+      - Zamiana W Obiekt: compendium/shadow_demon_lord/spells/zamiana_w_obiekt.md
+      - Zamieć: compendium/shadow_demon_lord/spells/zamieć.md
+      - Zamknięcie Wrót Zaświatów: compendium/shadow_demon_lord/spells/zamknięcie_wrót_zaświatów.md
+      - Zamrożenie: compendium/shadow_demon_lord/spells/zamrożenie.md
+      - Zanikanie: compendium/shadow_demon_lord/spells/zanikanie.md
+      - Zapaść: compendium/shadow_demon_lord/spells/zapaść.md
+      - Zasklepienie Ran: compendium/shadow_demon_lord/spells/zasklepienie_ran.md
+      - Zastraszenie: compendium/shadow_demon_lord/spells/zastraszenie.md
+      - Zatrute Jabłko: compendium/shadow_demon_lord/spells/zatrute_jabłko.md
+      - Zauroczenie: compendium/shadow_demon_lord/spells/zauroczenie.md
+      - Zawał Serca: compendium/shadow_demon_lord/spells/zawał_serca.md
+      - Zawroty Głowy: compendium/shadow_demon_lord/spells/zawroty_głowy.md
+      - Zdjęcie Klątwy: compendium/shadow_demon_lord/spells/zdjęcie_klątwy.md
+      - Zespolony Atak: compendium/shadow_demon_lord/spells/zespolony_atak.md
+      - Zew Dziczy: compendium/shadow_demon_lord/spells/zew_dziczy.md
+      - Zguba Dusz: compendium/shadow_demon_lord/spells/zguba_dusz.md
+      - Zlodowacenie: compendium/shadow_demon_lord/spells/zlodowacenie.md
+      - Zmiana Rozmiaru: compendium/shadow_demon_lord/spells/zmiana_rozmiaru.md
+      - Zmiażdżenie: compendium/shadow_demon_lord/spells/zmiażdżenie.md
+      - Zmniejszenie Obiektu: compendium/shadow_demon_lord/spells/zmniejszenie_obiektu.md
+      - Zmyłka: compendium/shadow_demon_lord/spells/zmyłka.md
+      - Znaj Swą Zgubę: compendium/shadow_demon_lord/spells/znaj_swą_zgubę.md
+      - Zniekształcenie: compendium/shadow_demon_lord/spells/zniekształcenie.md
+      - Zniewolenie: compendium/shadow_demon_lord/spells/zniewolenie.md
+      - Zniewolenie Demona: compendium/shadow_demon_lord/spells/zniewolenie_demona.md
+      - Zniszczenie Magii: compendium/shadow_demon_lord/spells/zniszczenie_magii.md
+      - Zrozumienie: compendium/shadow_demon_lord/spells/zrozumienie.md
+      - Zryw: compendium/shadow_demon_lord/spells/zryw.md
+      - Zwierzęca Postać: compendium/shadow_demon_lord/spells/zwierzęca_postać.md
+      - Zwierzęcy Szpieg: compendium/shadow_demon_lord/spells/zwierzęcy_szpieg.md
+      - Zwierzęcy Towarzysz: compendium/shadow_demon_lord/spells/zwierzęcy_towarzysz.md
+      - Związanie Demona: compendium/shadow_demon_lord/spells/związanie_demona.md
+      - Zwodzenie: compendium/shadow_demon_lord/spells/zwodzenie.md
+      - Złoto Faerie: compendium/shadow_demon_lord/spells/złoto_faerie.md
+      - Ładunek Emocjonalny: compendium/shadow_demon_lord/spells/ładunek_emocjonalny.md
+      - Łaska Władcy Demonów: compendium/shadow_demon_lord/spells/łaska_władcy_demonów.md
+      - Łańcuch Piorunów: compendium/shadow_demon_lord/spells/łańcuch_piorunów.md
+      - Ściana Ciemności: compendium/shadow_demon_lord/spells/ściana_ciemności.md
+      - Ściana Luster: compendium/shadow_demon_lord/spells/ściana_luster.md
+      - Ściana Mieczy: compendium/shadow_demon_lord/spells/ściana_mieczy.md
+      - Ściana Mocy: compendium/shadow_demon_lord/spells/ściana_mocy.md
+      - Ściana Płomieni: compendium/shadow_demon_lord/spells/ściana_płomieni.md
+      - Ściana Światła: compendium/shadow_demon_lord/spells/ściana_światła.md
+      - Śpiączka: compendium/shadow_demon_lord/spells/śpiączka.md
+      - Światło: compendium/shadow_demon_lord/spells/światło.md
+      - Świt: compendium/shadow_demon_lord/spells/świt.md
+      - Źródło Eitru: compendium/shadow_demon_lord/spells/źródło_eitru.md
+      - Źródło Życia: compendium/shadow_demon_lord/spells/źródło_życia.md
+      - Żarłoczne Robactwo: compendium/shadow_demon_lord/spells/żarłoczne_robactwo.md
+      - Żelazna Butelka: compendium/shadow_demon_lord/spells/żelazna_butelka.md
+      - Życiodajna Studnia: compendium/shadow_demon_lord/spells/życiodajna_studnia.md
       - zanikanie: compendium/shadow_demon_lord/spells/zanikanie.md
       - zapaść: compendium/shadow_demon_lord/spells/zapaść.md
       - zasklepienie ran: compendium/shadow_demon_lord/spells/zasklepienie_ran.md
