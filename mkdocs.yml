@@ -1,60 +1,76 @@
 site_name: rpg-wiki
-site_url: https://twoja-strona.com
-repo_url: https://github.com/Geshura/rpg-wiki
-theme:
-  name: material
-  language: pl
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Przełącz na tryb ciemny
-    - scheme: slate
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Przełącz na tryb jasny
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - search.suggest
-    - search.highlight
-
-plugins:
-  - search
-
-extra_javascript:
-  - assets/javascripts/toc-widget.js
-
-extra_css:
-  - assets/stylesheets/toc-widget.css
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - meta
-  - toc:
-      permalink: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.details
-
 nav:
-  - Strona główna: index.md
+  - Strona Główna: index.md
   - Cień Władcy Demonów:
     - Przegląd: compendium/shadow_demon_lord/index.md
     - Pochodzenia:
-      - Automaton: compendium/shadow_demon_lord/origins/automaton.md
-      - Człowiek: compendium/shadow_demon_lord/origins/czlowiek.md
-      - Goblin: compendium/shadow_demon_lord/origins/goblin.md
+% for origin in origins:
+  - {{origin.label}}: compendium/shadow_demon_lord/origins/{{origin.file}}
+% endfor
     - Ścieżki Eksperckie:
-      - Wyrocznia: compendium/shadow_demon_lord/expert_paths/wyrocznia.md
-    - Tradycje Magii: compendium/shadow_demon_lord/magic_traditions/index.md
-    - Zaklęcia: compendium/shadow_demon_lord/spells/index.md
+% for ep in expert_paths:
+  - {{ep.label}}: compendium/shadow_demon_lord/expert_paths/{{ep.file}}
+% endfor
+    - Ścieżki Mistrzowskie:
+% for mp in master_paths:
+  - {{mp.label}}: compendium/shadow_demon_lord/master_paths/{{mp.file}}
+% endfor
+    - Artefakty:
+% for art in artifacts:
+  - {{art.label}}: compendium/shadow_demon_lord/artifacts/{{art.file}}
+% endfor
+    - Tradycje Magii:
+% for mt in magic_traditions:
+  - {{mt.label}}: compendium/shadow_demon_lord/magic_traditions/{{mt.file}}
+% endfor
+    - Zaklęcia:
+% for sp in spells:
+  - {{sp.label}}: compendium/shadow_demon_lord/spells/{{sp.file}}
+% endfor
+      - zanikanie: compendium/shadow_demon_lord/spells/zanikanie.md
+      - zapaść: compendium/shadow_demon_lord/spells/zapaść.md
+      - zasklepienie ran: compendium/shadow_demon_lord/spells/zasklepienie_ran.md
+      - zastraszenie: compendium/shadow_demon_lord/spells/zastraszenie.md
+      - zatrute jabłko: compendium/shadow_demon_lord/spells/zatrute_jabłko.md
+      - zauroczenie: compendium/shadow_demon_lord/spells/zauroczenie.md
+      - zawał serca: compendium/shadow_demon_lord/spells/zawał_serca.md
+      - zawroty głowy: compendium/shadow_demon_lord/spells/zawroty_głowy.md
+      - zdjęcie klątwy: compendium/shadow_demon_lord/spells/zdjęcie_klątwy.md
+      - zespolony atak: compendium/shadow_demon_lord/spells/zespolony_atak.md
+      - zew dziczy: compendium/shadow_demon_lord/spells/zew_dziczy.md
+      - zguba dusz: compendium/shadow_demon_lord/spells/zguba_dusz.md
+      - zlodowacenie: compendium/shadow_demon_lord/spells/zlodowacenie.md
+      - zmiana rozmiaru: compendium/shadow_demon_lord/spells/zmiana_rozmiaru.md
+      - zmiażdżenie: compendium/shadow_demon_lord/spells/zmiażdżenie.md
+      - zmniejszenie obiektu: compendium/shadow_demon_lord/spells/zmniejszenie_obiektu.md
+      - zmyłka: compendium/shadow_demon_lord/spells/zmyłka.md
+      - znaj swą zgubę: compendium/shadow_demon_lord/spells/znaj_swą_zgubę.md
+      - zniekształcenie: compendium/shadow_demon_lord/spells/zniekształcenie.md
+      - zniewolenie: compendium/shadow_demon_lord/spells/zniewolenie.md
+      - zniewolenie demona: compendium/shadow_demon_lord/spells/zniewolenie_demona.md
+      - zniszczenie magii: compendium/shadow_demon_lord/spells/zniszczenie_magii.md
+      - zrozumienie: compendium/shadow_demon_lord/spells/zrozumienie.md
+      - zryw: compendium/shadow_demon_lord/spells/zryw.md
+      - zwierzęca postać: compendium/shadow_demon_lord/spells/zwierzęca_postać.md
+      - zwierzęcy szpieg: compendium/shadow_demon_lord/spells/zwierzęcy_szpieg.md
+      - zwierzęcy towarzysz: compendium/shadow_demon_lord/spells/zwierzęcy_towarzysz.md
+      - związanie demona: compendium/shadow_demon_lord/spells/związanie_demona.md
+      - zwodzenie: compendium/shadow_demon_lord/spells/zwodzenie.md
+      - złoto faerie: compendium/shadow_demon_lord/spells/złoto_faerie.md
+      - ładunek emocjonalny: compendium/shadow_demon_lord/spells/ładunek_emocjonalny.md
+      - łaska władcy demonów: compendium/shadow_demon_lord/spells/łaska_władcy_demonów.md
+      - łańcuch piorunów: compendium/shadow_demon_lord/spells/łańcuch_piorunów.md
+      - ściana ciemności: compendium/shadow_demon_lord/spells/ściana_ciemności.md
+      - ściana luster: compendium/shadow_demon_lord/spells/ściana_luster.md
+      - ściana mieczy: compendium/shadow_demon_lord/spells/ściana_mieczy.md
+      - ściana mocy: compendium/shadow_demon_lord/spells/ściana_mocy.md
+      - ściana płomieni: compendium/shadow_demon_lord/spells/ściana_płomieni.md
+      - ściana światła: compendium/shadow_demon_lord/spells/ściana_światła.md
+      - śpiączka: compendium/shadow_demon_lord/spells/śpiączka.md
+      - światło: compendium/shadow_demon_lord/spells/światło.md
+      - świt: compendium/shadow_demon_lord/spells/świt.md
+      - źródło eitru: compendium/shadow_demon_lord/spells/źródło_eitru.md
+      - źródło życia: compendium/shadow_demon_lord/spells/źródło_życia.md
+      - żarłoczne robactwo: compendium/shadow_demon_lord/spells/żarłoczne_robactwo.md
+      - żelazna butelka: compendium/shadow_demon_lord/spells/żelazna_butelka.md
+      - życiodajna studnia: compendium/shadow_demon_lord/spells/życiodajna_studnia.md
