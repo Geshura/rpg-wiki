@@ -1,7 +1,7 @@
 # Śmierć
 
-**Zrodlo:** Suplement Władcy Demonów, str. 38
+**Źródło:** Suplement Władcy Demonów, str. 38
 
-**Atrybut: Intelekt**
+**Atrybut:** Intelekt
 
-Śmierć to tradycja należąca do czarnej magii, iztniejąca, aby kłaść kres życiu i wywłać dusze w Zaświaty. Niektóre z tych zaklęć chronią przed zgonem lub mają niezagrażające życiu efekty, ale większość z nich to różne osoby na zabijanie; od Śmierci przez podniuchy z trującą mgłą.
+Śmierć to tradycja należąca do czarnej magii, istniejąca po to, by kłaść kres życiu i odsyłać dusze w Zaświaty. Niektóre z jej zaklęć mogą chronić przed zgonem lub wywoływać efekty niezagrażające życiu, ale większość z nich to narzędzia do zabijania – od powolnego wysysania życia po śmiertelną, trującą mgłę.

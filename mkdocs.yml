@@ -36,3 +36,54 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.details
+
+nav:
+  - Strona główna: index.md
+  - Cień Władcy Demonów:
+    - Przegląd: sotdl/index.md
+    - Pochodzenia:
+      - Automaton: sotdl/pochodzenia/automaton.md
+      - Człowiek: sotdl/pochodzenia/czlowiek.md
+      - Goblin: sotdl/pochodzenia/goblin.md
+    - Ścieżki Eksperckie:
+      - Wyrocznia: sotdl/sciezki_eksperckie/wyrocznia.md
+    - Tradycje Magii:
+      - Alchemia: sotdl/tradycje_magii/alchemia.md
+      - Chaos: sotdl/tradycje_magii/chaos.md
+      - Czas: sotdl/tradycje_magii/czas.md
+      - Demonologia: sotdl/tradycje_magii/demonologia.md
+      - Iluzja: sotdl/tradycje_magii/iluzja.md
+      - Inkantacje: sotdl/tradycje_magii/inkantacje.md
+      - Jasnowidzenie: sotdl/tradycje_magii/jasnowidzenie.md
+      - Klątwy: sotdl/tradycje_magii/klatwy.md
+      - Magia Bitewna: sotdl/tradycje_magii/magia_bitewna.md
+      - Magia Burzy: sotdl/tradycje_magii/magia_burzy.md
+      - Magia Cienia: sotdl/tradycje_magii/magia_cienia.md
+      - Magia Fey: sotdl/tradycje_magii/magia_fey.md
+      - Magia Krwi: sotdl/tradycje_magii/magia_krwi.md
+      - Magia Niebiańska: sotdl/tradycje_magii/magia_niebianska.md
+      - Magia Pierwotna: sotdl/tradycje_magii/magia_pierwotna.md
+      - Magia Runiczna: sotdl/tradycje_magii/magia_runiczna.md
+      - Natura: sotdl/tradycje_magii/natura.md
+      - Nekromancja: sotdl/tradycje_magii/nekromancja.md
+      - Ochrona: sotdl/tradycje_magii/ochrona.md
+      - Ogień: sotdl/tradycje_magii/ogien.md
+      - Pieśń: sotdl/tradycje_magii/piesn.md
+      - Powietrze: sotdl/tradycje_magii/powietrze.md
+      - Przemiany: sotdl/tradycje_magii/przemiany.md
+      - Przywołania: sotdl/tradycje_magii/przywolania.md
+      - Śmierć: sotdl/tradycje_magii/smierc.md
+      - Spirytyzm: sotdl/tradycje_magii/spirytyzm.md
+      - Sztuki Tajemne: sotdl/tradycje_magii/sztuki_tajemne.md
+      - Sztuki Zakazane: sotdl/tradycje_magii/sztuki_zakazane.md
+      - Technomancja: sotdl/tradycje_magii/technomancja.md
+      - Telekineza: sotdl/tradycje_magii/telekineza.md
+      - Telepatia: sotdl/tradycje_magii/telepatia.md
+      - Teleportacja: sotdl/tradycje_magii/teleportacja.md
+      - Teurgia: sotdl/tradycje_magii/teurgia.md
+      - Transformacja: sotdl/tradycje_magii/transformacja.md
+      - Uroki: sotdl/tradycje_magii/uroki.md
+      - Woda: sotdl/tradycje_magii/woda.md
+      - Ziemia: sotdl/tradycje_magii/ziemia.md
+      - Zniszczenie: sotdl/tradycje_magii/zniszczenie.md
+      - Życie: sotdl/tradycje_magii/zycie.md
