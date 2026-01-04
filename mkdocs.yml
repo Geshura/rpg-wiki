@@ -37,14 +37,14 @@ theme:
   language: pl
   palette:
     # Ciemny motyw
-    - scheme: slate
+    - scheme: default
       primary: red
       accent: red
       toggle:
         icon: material/brightness-4
         name: Przełącz na jasny motyw
     # Jasny motyw
-    - scheme: default
+    - scheme: slate
       primary: red
       accent: red
       toggle:
