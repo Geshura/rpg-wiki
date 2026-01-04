@@ -40,50 +40,50 @@ markdown_extensions:
 nav:
   - Strona główna: index.md
   - Cień Władcy Demonów:
-    - Przegląd: cwd/index.md
+    - Przegląd: compendium/shadow_demon_lord/index.md
     - Pochodzenia:
-      - Automaton: cwd/pochodzenia/automaton.md
-      - Człowiek: cwd/pochodzenia/czlowiek.md
-      - Goblin: cwd/pochodzenia/goblin.md
+      - Automaton: compendium/shadow_demon_lord/origins/automaton.md
+      - Człowiek: compendium/shadow_demon_lord/origins/czlowiek.md
+      - Goblin: compendium/shadow_demon_lord/origins/goblin.md
     - Ścieżki Eksperckie:
-      - Wyrocznia: cwd/sciezki_eksperckie/wyrocznia.md
+      - Wyrocznia: compendium/shadow_demon_lord/expert_paths/wyrocznia.md
     - Tradycje Magii:
-      - Alchemia: cwd/tradycje_magii/alchemia.md
-      - Chaos: cwd/tradycje_magii/chaos.md
-      - Czas: cwd/tradycje_magii/czas.md
-      - Demonologia: cwd/tradycje_magii/demonologia.md
-      - Iluzja: cwd/tradycje_magii/iluzja.md
-      - Inkantacje: cwd/tradycje_magii/inkantacje.md
-      - Jasnowidzenie: cwd/tradycje_magii/jasnowidzenie.md
-      - Klątwy: cwd/tradycje_magii/klatwy.md
-      - Magia Bitewna: cwd/tradycje_magii/magia_bitewna.md
-      - Magia Burzy: cwd/tradycje_magii/magia_burzy.md
-      - Magia Cienia: cwd/tradycje_magii/magia_cienia.md
-      - Magia Fey: cwd/tradycje_magii/magia_fey.md
-      - Magia Krwi: cwd/tradycje_magii/magia_krwi.md
-      - Magia Niebiańska: cwd/tradycje_magii/magia_niebianska.md
-      - Magia Pierwotna: cwd/tradycje_magii/magia_pierwotna.md
-      - Magia Runiczna: cwd/tradycje_magii/magia_runiczna.md
-      - Natura: cwd/tradycje_magii/natura.md
-      - Nekromancja: cwd/tradycje_magii/nekromancja.md
-      - Ochrona: cwd/tradycje_magii/ochrona.md
-      - Ogień: cwd/tradycje_magii/ogien.md
-      - Pieśń: cwd/tradycje_magii/piesn.md
-      - Powietrze: cwd/tradycje_magii/powietrze.md
-      - Przemiany: cwd/tradycje_magii/przemiany.md
-      - Przywołania: cwd/tradycje_magii/przywolania.md
-      - Śmierć: cwd/tradycje_magii/smierc.md
-      - Spirytyzm: cwd/tradycje_magii/spirytyzm.md
-      - Sztuki Tajemne: cwd/tradycje_magii/sztuki_tajemne.md
-      - Sztuki Zakazane: cwd/tradycje_magii/sztuki_zakazane.md
-      - Technomancja: cwd/tradycje_magii/technomancja.md
-      - Telekineza: cwd/tradycje_magii/telekineza.md
-      - Telepatia: cwd/tradycje_magii/telepatia.md
-      - Teleportacja: cwd/tradycje_magii/teleportacja.md
-      - Teurgia: cwd/tradycje_magii/teurgia.md
-      - Transformacja: cwd/tradycje_magii/transformacja.md
-      - Uroki: cwd/tradycje_magii/uroki.md
-      - Woda: cwd/tradycje_magii/woda.md
-      - Ziemia: cwd/tradycje_magii/ziemia.md
-      - Zniszczenie: cwd/tradycje_magii/zniszczenie.md
-      - Życie: cwd/tradycje_magii/zycie.md
+      - Alchemia: compendium/shadow_demon_lord/magic_traditions/alchemia.md
+      - Chaos: compendium/shadow_demon_lord/magic_traditions/chaos.md
+      - Czas: compendium/shadow_demon_lord/magic_traditions/czas.md
+      - Demonologia: compendium/shadow_demon_lord/magic_traditions/demonologia.md
+      - Iluzja: compendium/shadow_demon_lord/magic_traditions/iluzja.md
+      - Inkantacje: compendium/shadow_demon_lord/magic_traditions/inkantacje.md
+      - Jasnowidzenie: compendium/shadow_demon_lord/magic_traditions/jasnowidzenie.md
+      - Klątwy: compendium/shadow_demon_lord/magic_traditions/klatwy.md
+      - Magia Bitewna: compendium/shadow_demon_lord/magic_traditions/magia_bitewna.md
+      - Magia Burzy: compendium/shadow_demon_lord/magic_traditions/magia_burzy.md
+      - Magia Cienia: compendium/shadow_demon_lord/magic_traditions/magia_cienia.md
+      - Magia Fey: compendium/shadow_demon_lord/magic_traditions/magia_fey.md
+      - Magia Krwi: compendium/shadow_demon_lord/magic_traditions/magia_krwi.md
+      - Magia Niebiańska: compendium/shadow_demon_lord/magic_traditions/magia_niebianska.md
+      - Magia Pierwotna: compendium/shadow_demon_lord/magic_traditions/magia_pierwotna.md
+      - Magia Runiczna: compendium/shadow_demon_lord/magic_traditions/magia_runiczna.md
+      - Natura: compendium/shadow_demon_lord/magic_traditions/natura.md
+      - Nekromancja: compendium/shadow_demon_lord/magic_traditions/nekromancja.md
+      - Ochrona: compendium/shadow_demon_lord/magic_traditions/ochrona.md
+      - Ogień: compendium/shadow_demon_lord/magic_traditions/ogien.md
+      - Pieśń: compendium/shadow_demon_lord/magic_traditions/piesn.md
+      - Powietrze: compendium/shadow_demon_lord/magic_traditions/powietrze.md
+      - Przemiany: compendium/shadow_demon_lord/magic_traditions/przemiany.md
+      - Przywołania: compendium/shadow_demon_lord/magic_traditions/przywolania.md
+      - Śmierć: compendium/shadow_demon_lord/magic_traditions/smierc.md
+      - Spirytyzm: compendium/shadow_demon_lord/magic_traditions/spirytyzm.md
+      - Sztuki Tajemne: compendium/shadow_demon_lord/magic_traditions/sztuki_tajemne.md
+      - Sztuki Zakazane: compendium/shadow_demon_lord/magic_traditions/sztuki_zakazane.md
+      - Technomancja: compendium/shadow_demon_lord/magic_traditions/technomancja.md
+      - Telekineza: compendium/shadow_demon_lord/magic_traditions/telekineza.md
+      - Telepatia: compendium/shadow_demon_lord/magic_traditions/telepatia.md
+      - Teleportacja: compendium/shadow_demon_lord/magic_traditions/teleportacja.md
+      - Teurgia: compendium/shadow_demon_lord/magic_traditions/teurgia.md
+      - Transformacja: compendium/shadow_demon_lord/magic_traditions/transformacja.md
+      - Uroki: compendium/shadow_demon_lord/magic_traditions/uroki.md
+      - Woda: compendium/shadow_demon_lord/magic_traditions/woda.md
+      - Ziemia: compendium/shadow_demon_lord/magic_traditions/ziemia.md
+      - Zniszczenie: compendium/shadow_demon_lord/magic_traditions/zniszczenie.md
+      - Życie: compendium/shadow_demon_lord/magic_traditions/zycie.md
