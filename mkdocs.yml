@@ -1,6 +1,6 @@
 site_name: rpg-wiki
 theme:
-	name: material
+  name: material
 plugins:
-	- search
-	- awesome-pages
+  - search
+  - awesome-pages
