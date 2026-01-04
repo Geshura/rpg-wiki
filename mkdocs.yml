@@ -27,8 +27,9 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Home: cwd/index.md
+  - Cień Władcy Demonów - Kompendium: cwd/index.md
   - Artefakty:
+    - Artefakty: cwd/artefakty/index.md
     - Brisingamen: cwd/artefakty/brisingamen.md
     - Brzmiący Róg: cwd/artefakty/brzmiący_róg.md
     - Chytry Uśmiech: cwd/artefakty/chytry_uśmiech.md
@@ -74,38 +75,48 @@ nav:
     - Sękaty Kostur z Czarnego Drewna: cwd/artefakty/sękaty_kostur_z_czarnego_drewna.md
     - Wykręt: cwd/artefakty/wykręt.md
     - Włócznia Jutrzenki: cwd/artefakty/włócznia_jutrzenki.md
+  - Cień Władcy Demonów - Kompendium: cwd/artefakty.md
   - Pochodzenia:
-    - Automaton: cwd/pochodzenia/automaton.md
+    - Pochodzenia: cwd/pochodzenia/index.md
+    - AUTOMATON: cwd/pochodzenia/automaton.md
     - Chochlik: cwd/pochodzenia/chochlik.md
-    - Człowiek: cwd/pochodzenia/czlowiek.md
+    - CZŁOWIEK: cwd/pochodzenia/czlowiek.md
     - Elf: cwd/pochodzenia/elf.md
     - Faun: cwd/pochodzenia/faun.md
     - Fomor: cwd/pochodzenia/fomor.md
-    - Goblin: cwd/pochodzenia/goblin.md
+    - GOBLIN: cwd/pochodzenia/goblin.md
     - Hobgoblin: cwd/pochodzenia/hobgoblin.md
     - Inkarnacja: cwd/pochodzenia/inkarnacja.md
     - Jotun: cwd/pochodzenia/jotun.md
     - Kambion: cwd/pochodzenia/kambion.md
     - Krasnolud: cwd/pochodzenia/krasnolud.md
     - Niedźwiedziadło: cwd/pochodzenia/niedzwiedziadlo.md
+    - Niedźwiedziadło: cwd/pochodzenia/niedźwiedziadło.md
     - Niziołek: cwd/pochodzenia/niziolek.md
+    - Niziołek: cwd/pochodzenia/niziołek.md
     - Odmieniec: cwd/pochodzenia/odmieniec.md
     - Ork: cwd/pochodzenia/ork.md
     - Ożywieniec: cwd/pochodzenia/ozywieniec.md
+    - Ożywieniec: cwd/pochodzenia/ożywieniec.md
     - Salamandra: cwd/pochodzenia/salamandra.md
     - Wampir: cwd/pochodzenia/wampir.md
     - Warg: cwd/pochodzenia/warg.md
+  - Cień Władcy Demonów - Kompendium: cwd/pochodzenia.md
   - Ścieżki Eksperckie:
+    - Ścieżki Eksperckie: cwd/sciezki_eksperckie/index.md
     - Apostata: cwd/sciezki_eksperckie/apostata.md
     - Berserker: cwd/sciezki_eksperckie/berserker.md
     - Czarnoksiężnik: cwd/sciezki_eksperckie/czarnoksieznik.md
+    - Czarnoksiężnik: cwd/sciezki_eksperckie/czarnoksiężnik.md
     - Czarodziej: cwd/sciezki_eksperckie/czarodziej.md
     - Czarownik: cwd/sciezki_eksperckie/czarownik.md
     - Druid: cwd/sciezki_eksperckie/druid.md
     - Elementalista: cwd/sciezki_eksperckie/elementalista.md
     - Erudyta: cwd/sciezki_eksperckie/erudyta.md
     - Kapłan: cwd/sciezki_eksperckie/kaplan.md
+    - Kapłan: cwd/sciezki_eksperckie/kapłan.md
     - Książę Ciemności: cwd/sciezki_eksperckie/ksiaze-ciemnosci.md
+    - Książę Ciemności: cwd/sciezki_eksperckie/książę_ciemności.md
     - Łowca: cwd/sciezki_eksperckie/lowca.md
     - Mistyk: cwd/sciezki_eksperckie/mistyk.md
     - Moloch: cwd/sciezki_eksperckie/moloch.md
@@ -113,24 +124,32 @@ nav:
     - Paladyn: cwd/sciezki_eksperckie/paladyn.md
     - Psionik: cwd/sciezki_eksperckie/psionik.md
     - Skrytobójca: cwd/sciezki_eksperckie/skrytobojca.md
+    - Skrytobójca: cwd/sciezki_eksperckie/skrytobójca.md
     - Szaman: cwd/sciezki_eksperckie/szaman.md
     - Szarlatan: cwd/sciezki_eksperckie/szarlatan.md
     - Wiedźma: cwd/sciezki_eksperckie/wiedzma.md
+    - Wiedźma: cwd/sciezki_eksperckie/wiedźma.md
     - Wynalazca: cwd/sciezki_eksperckie/wynalazca.md
-    - Wyrocznia: cwd/sciezki_eksperckie/wyrocznia.md
+    - WYROCZNIA: cwd/sciezki_eksperckie/wyrocznia.md
     - Zaklinacz: cwd/sciezki_eksperckie/zaklinacz.md
     - Zaprzysiężony: cwd/sciezki_eksperckie/zaprzysiezony.md
+    - Zaprzysiężony: cwd/sciezki_eksperckie/zaprzysiężony.md
     - Zawadiaka: cwd/sciezki_eksperckie/zawadiaka.md
     - Zbrojny: cwd/sciezki_eksperckie/zbrojny.md
     - Złodziej: cwd/sciezki_eksperckie/zlodziej.md
     - Zwiadowca: cwd/sciezki_eksperckie/zwiadowca.md
+    - Złodziej: cwd/sciezki_eksperckie/złodziej.md
+    - Łowca: cwd/sciezki_eksperckie/łowca.md
+  - Cień Władcy Demonów - Kompendium: cwd/sciezki_eksperckie.md
   - Ścieżki Mistrzowskie:
+    - Ścieżki Mistrzowskie: cwd/sciezki_mistrzowskie/index.md
     - Aeromanta: cwd/sciezki_mistrzowskie/aeromanta.md
     - Akrobata: cwd/sciezki_mistrzowskie/akrobata.md
     - Astromanta: cwd/sciezki_mistrzowskie/astromanta.md
     - Bard: cwd/sciezki_mistrzowskie/bard.md
     - Chronomanta: cwd/sciezki_mistrzowskie/chronomanta.md
     - Cudotwórca: cwd/sciezki_mistrzowskie/cudotworca.md
+    - Cudotwórca: cwd/sciezki_mistrzowskie/cudotwórca.md
     - Czempion: cwd/sciezki_mistrzowskie/czempion.md
     - Derwisz: cwd/sciezki_mistrzowskie/derwisz.md
     - Dyplomata: cwd/sciezki_mistrzowskie/dyplomata.md
@@ -145,35 +164,52 @@ nav:
     - Infiltrator: cwd/sciezki_mistrzowskie/infiltrator.md
     - Inkwizytor: cwd/sciezki_mistrzowskie/inkwizytor.md
     - Inżynier: cwd/sciezki_mistrzowskie/inzynier.md
+    - Inżynier: cwd/sciezki_mistrzowskie/inżynier.md
     - Jasnowidz: cwd/sciezki_mistrzowskie/jasnowidz.md
     - Kapelan: cwd/sciezki_mistrzowskie/kapelan.md
     - Kawalerzysta: cwd/sciezki_mistrzowskie/kawalerzysta.md
     - Klątwiarz: cwd/sciezki_mistrzowskie/klatwiarz.md
+    - Klątwiarz: cwd/sciezki_mistrzowskie/klątwiarz.md
     - Kowal Run: cwd/sciezki_mistrzowskie/kowal-run.md
+    - Kowal Run: cwd/sciezki_mistrzowskie/kowal_run.md
     - Leśny Duch: cwd/sciezki_mistrzowskie/lesny-duch.md
+    - Leśny Duch: cwd/sciezki_mistrzowskie/leśny_duch.md
     - Łupieżca: cwd/sciezki_mistrzowskie/lupiezca.md
     - Mag Bitewny: cwd/sciezki_mistrzowskie/mag-bitewny.md
     - Mag Zagłady: cwd/sciezki_mistrzowskie/mag-zaglady.md
+    - Mag Bitewny: cwd/sciezki_mistrzowskie/mag_bitewny.md
+    - Mag Zagłady: cwd/sciezki_mistrzowskie/mag_zagłady.md
     - Magus: cwd/sciezki_mistrzowskie/magus.md
     - Mędrzec: cwd/sciezki_mistrzowskie/medrzec.md
     - Mistrz Oręża: cwd/sciezki_mistrzowskie/mistrz-oreza.md
     - Mistrz Przemian: cwd/sciezki_mistrzowskie/mistrz-przemian.md
     - Mistrz Sztuk Tajemnych: cwd/sciezki_mistrzowskie/mistrz-sztuk-tajemnych.md
     - Mistrz Uroków: cwd/sciezki_mistrzowskie/mistrz-urokow.md
+    - Mistrz Oręża: cwd/sciezki_mistrzowskie/mistrz_oręża.md
+    - Mistrz Przemian: cwd/sciezki_mistrzowskie/mistrz_przemian.md
+    - Mistrz Sztuk Tajemnych: cwd/sciezki_mistrzowskie/mistrz_sztuk_tajemnych.md
+    - Mistrz Uroków: cwd/sciezki_mistrzowskie/mistrz_uroków.md
     - Mściciel: cwd/sciezki_mistrzowskie/msciciel.md
     - Myrmidon: cwd/sciezki_mistrzowskie/myrmidon.md
+    - Mędrzec: cwd/sciezki_mistrzowskie/mędrzec.md
+    - Mściciel: cwd/sciezki_mistrzowskie/mściciel.md
     - Negator: cwd/sciezki_mistrzowskie/negator.md
     - Nekromanta: cwd/sciezki_mistrzowskie/nekromanta.md
     - Niszczyciel: cwd/sciezki_mistrzowskie/niszczyciel.md
     - Nożownik: cwd/sciezki_mistrzowskie/nozownik.md
+    - Nożownik: cwd/sciezki_mistrzowskie/nożownik.md
     - Obrońca: cwd/sciezki_mistrzowskie/obronca.md
+    - Obrońca: cwd/sciezki_mistrzowskie/obrońca.md
     - Odkrywca: cwd/sciezki_mistrzowskie/odkrywca.md
     - Pancerniak: cwd/sciezki_mistrzowskie/pancerniak.md
     - Piromanta: cwd/sciezki_mistrzowskie/piromanta.md
     - Podróżnik: cwd/sciezki_mistrzowskie/podroznik.md
+    - Podróżnik: cwd/sciezki_mistrzowskie/podróżnik.md
     - Przywoływacz: cwd/sciezki_mistrzowskie/przywolywacz.md
+    - Przywoływacz: cwd/sciezki_mistrzowskie/przywoływacz.md
     - Rewolwerowiec: cwd/sciezki_mistrzowskie/rewolwerowiec.md
     - Strzelec Wyborowy: cwd/sciezki_mistrzowskie/strzelec-wyborowy.md
+    - Strzelec Wyborowy: cwd/sciezki_mistrzowskie/strzelec_wyborowy.md
     - Szelma: cwd/sciezki_mistrzowskie/szelma.md
     - Taumaturg: cwd/sciezki_mistrzowskie/taumaturg.md
     - Technomanta: cwd/sciezki_mistrzowskie/technomanta.md
@@ -185,11 +221,15 @@ nav:
     - Wartownik: cwd/sciezki_mistrzowskie/wartownik.md
     - Wladca Bestii: cwd/sciezki_mistrzowskie/wladca-bestii.md
     - Wladca Burz: cwd/sciezki_mistrzowskie/wladca-burz.md
+    - Władca Bestii: cwd/sciezki_mistrzowskie/władca_bestii.md
+    - Władca Burz: cwd/sciezki_mistrzowskie/władca_burz.md
     - Zabijaka: cwd/sciezki_mistrzowskie/zabijaka.md
     - Zdobywca: cwd/sciezki_mistrzowskie/zdobywca.md
     - Zelota: cwd/sciezki_mistrzowskie/zelota.md
     - Łupieżca: cwd/sciezki_mistrzowskie/łupieżca.md
+  - Cień Władcy Demonów - Kompendium: cwd/sciezki_mistrzowskie.md
   - Tradycje Magii:
+    - Tradycje Magii: cwd/tradycje_magii/index.md
     - Alchemia: cwd/tradycje_magii/alchemia.md
     - Chaos: cwd/tradycje_magii/chaos.md
     - Czas: cwd/tradycje_magii/czas.md
@@ -229,5 +269,1080 @@ nav:
     - Ziemia: cwd/tradycje_magii/ziemia.md
     - Zniszczenie: cwd/tradycje_magii/zniszczenie.md
     - Życie: cwd/tradycje_magii/zycie.md
+  - Cień Władcy Demonów - Kompendium: cwd/tradycje_magii.md
   - Zaklęcia:
-    - (zobacz sekcję Zaklęcia w Home): cwd/index.md
+    - Zaklęcia: cwd/zaklecia/index.md
+    - Adamantytowe Łańcuchy: cwd/zaklecia/adamantytowe_łańcuchy.md
+    - Akceleracja: cwd/zaklecia/akceleracja.md
+    - Akumulacja Magii: cwd/zaklecia/akumulacja_magii.md
+    - Armia Umarłych: cwd/zaklecia/armia_umarłych.md
+    - Atawizm: cwd/zaklecia/atawizm.md
+    - Aureola: cwd/zaklecia/aureola.md
+    - Bańka Mocy: cwd/zaklecia/bańka_mocy.md
+    - Bitewny Impet: cwd/zaklecia/bitewny_impet.md
+    - Bliźniacze Portale: cwd/zaklecia/bliźniacze_portale.md
+    - Bolesna Przyjemność: cwd/zaklecia/bolesna_przyjemność.md
+    - Boska Pomoc: cwd/zaklecia/boska_pomoc.md
+    - Brama Do Pustki: cwd/zaklecia/brama_do_pustki.md
+    - Ból: cwd/zaklecia/ból.md
+    - Błogostan: cwd/zaklecia/błogostan.md
+    - Błogosławieństwo: cwd/zaklecia/błogosławieństwo.md
+    - Błysk: cwd/zaklecia/błysk.md
+    - Błyskawiczny Szturm: cwd/zaklecia/błyskawiczny_szturm.md
+    - Błędne Ogniki: cwd/zaklecia/błędne_ogniki.md
+    - Błędny Pocisk Chaosu: cwd/zaklecia/błędny_pocisk_chaosu.md
+    - Camera Obscura: cwd/zaklecia/camera_obscura.md
+    - Całun Płomieni: cwd/zaklecia/całun_płomieni.md
+    - Chciwość: cwd/zaklecia/chciwość.md
+    - Chowaniec: cwd/zaklecia/chowaniec.md
+    - Chłosta: cwd/zaklecia/chłosta.md
+    - Ciemność: cwd/zaklecia/ciemność.md
+    - Cienista Magia: cwd/zaklecia/cienista_magia.md
+    - Cienista Strzałka: cwd/zaklecia/cienista_strzałka.md
+    - Ciernie: cwd/zaklecia/ciernie.md
+    - Cień Władcy Demonów: cwd/zaklecia/cień_władcy_demonów.md
+    - Cień z Pustki: cwd/zaklecia/cień_z_pustki.md
+    - Czarnostrzały z Zaświatów: cwd/zaklecia/czarnostrzały_z_zaświatów.md
+    - Czarny Język: cwd/zaklecia/czarny_język.md
+    - Czytanie w Myślach: cwd/zaklecia/czytanie_w_myślach.md
+    - Dalekowidzenie: cwd/zaklecia/dalekowidzenie.md
+    - Dar Chaosu: cwd/zaklecia/dar_chaosu.md
+    - Dar Latania: cwd/zaklecia/dar_latania.md
+    - Demoniczna Apoteoza: cwd/zaklecia/demoniczna_apoteoza.md
+    - Demoniczne Błogosławieństwo: cwd/zaklecia/demoniczne_błogosławieństwo.md
+    - Demoniczny Nadzór: cwd/zaklecia/demoniczny_nadzór.md
+    - Destrukcja: cwd/zaklecia/destrukcja.md
+    - Detonacja: cwd/zaklecia/detonacja.md
+    - Dezintegracja: cwd/zaklecia/dezintegracja.md
+    - Diagram: cwd/zaklecia/diagram.md
+    - Donośny Głos: cwd/zaklecia/donośny_głos.md
+    - Dotyk Trądu: cwd/zaklecia/dotyk_trądu.md
+    - Droga Przez Cień: cwd/zaklecia/droga_przez_cień.md
+    - Drugie Podejście: cwd/zaklecia/drugie_podejście.md
+    - Druzgocący Skok: cwd/zaklecia/druzgocący_skok.md
+    - Drętwota: cwd/zaklecia/drętwota.md
+    - Duch Niedźwiedzia: cwd/zaklecia/duch_niedźwiedzia.md
+    - Duch Orła: cwd/zaklecia/duch_orła.md
+    - Duch Rogatego Króla: cwd/zaklecia/duch_rogatego_króla.md
+    - Duch Udręki: cwd/zaklecia/duch_udręki.md
+    - Duch Walki: cwd/zaklecia/duch_walki.md
+    - Duch Wilka: cwd/zaklecia/duch_wilka.md
+    - Duch Zdrowienia: cwd/zaklecia/duch_zdrowienia.md
+    - Duplikaty: cwd/zaklecia/duplikaty.md
+    - Dzielenie Myśli: cwd/zaklecia/dzielenie_myśli.md
+    - Dzika Magia Chaos: cwd/zaklecia/dzika_magia_chaos.md
+    - Dębowa Skóra: cwd/zaklecia/dębowa_skóra.md
+    - Ekstaza: cwd/zaklecia/ekstaza.md
+    - Elastyczność: cwd/zaklecia/elastyczność.md
+    - Erozja: cwd/zaklecia/erozja.md
+    - Erupcja: cwd/zaklecia/erupcja.md
+    - Fala: cwd/zaklecia/fala.md
+    - Fala Gorąca: cwd/zaklecia/fala_gorąca.md
+    - Fala Mocy: cwd/zaklecia/fala_mocy.md
+    - Fala Witalności: cwd/zaklecia/fala_witalności.md
+    - Fantom: cwd/zaklecia/fantom.md
+    - Feeria: cwd/zaklecia/feeria.md
+    - Forma Mgły: cwd/zaklecia/forma_mgły.md
+    - Formowanie Ziemi i Kamienia: cwd/zaklecia/formowanie_ziemi_i_kamienia.md
+    - Geas: cwd/zaklecia/geas.md
+    - Gejzer: cwd/zaklecia/gejzer.md
+    - Glif Ognia: cwd/zaklecia/glif_ognia.md
+    - Gnicie: cwd/zaklecia/gnicie.md
+    - Gniew Boży: cwd/zaklecia/gniew_boży.md
+    - Gniew Natury: cwd/zaklecia/gniew_natury.md
+    - Gniew Tanatosa: cwd/zaklecia/gniew_tanatosa.md
+    - Gradobicie: cwd/zaklecia/gradobicie.md
+    - Granaty: cwd/zaklecia/granaty.md
+    - Grobowe Oblicze: cwd/zaklecia/grobowe_oblicze.md
+    - Grzmot: cwd/zaklecia/grzmot.md
+    - Gwałtowny Podmuch: cwd/zaklecia/gwałtowny_podmuch.md
+    - Głód Krwi: cwd/zaklecia/głód_krwi.md
+    - Halucynacje: cwd/zaklecia/halucynacje.md
+    - Hałas: cwd/zaklecia/hałas.md
+    - Identyfikacja Substancji: cwd/zaklecia/identyfikacja_substancji.md
+    - Iluzoryczny Sobowtór: cwd/zaklecia/iluzoryczny_sobowtór.md
+    - Inkarnacja: cwd/zaklecia/inkarnacja.md
+    - Iskrząca Tarcza: cwd/zaklecia/iskrząca_tarcza.md
+    - Język Bestii: cwd/zaklecia/język_bestii.md
+    - Kamienna Zbroja: cwd/zaklecia/kamienna_zbroja.md
+    - Kamienne Ostrza: cwd/zaklecia/kamienne_ostrza.md
+    - Kamienny Krąg: cwd/zaklecia/kamienny_krąg.md
+    - Kamień Filozoficzny: cwd/zaklecia/kamień_filozoficzny.md
+    - Kanibalizacja Magii: cwd/zaklecia/kanibalizacja_magii.md
+    - Kapryśne Zniszczenie: cwd/zaklecia/kapryśne_zniszczenie.md
+    - Kiła: cwd/zaklecia/kiła.md
+    - Klątwa Pustynnych Królów: cwd/zaklecia/klątwa_pustynnych_królów.md
+    - Kolczatka: cwd/zaklecia/kolczatka.md
+    - Kolor Magii: cwd/zaklecia/kolor_magii.md
+    - Koniec Żądzy: cwd/zaklecia/koniec_żądzy.md
+    - Konsekracja: cwd/zaklecia/konsekracja.md
+    - Kontrola Płomienia: cwd/zaklecia/kontrola_płomienia.md
+    - Kostur Druida: cwd/zaklecia/kostur_druida.md
+    - Kościane Drzazgi: cwd/zaklecia/kościane_drzazgi.md
+    - Krok Przez Pustkę: cwd/zaklecia/krok_przez_pustkę.md
+    - Kropla Kwasu: cwd/zaklecia/kropla_kwasu.md
+    - Krwawe Objawienie: cwd/zaklecia/krwawe_objawienie.md
+    - Krwawienie: cwd/zaklecia/krwawienie.md
+    - Krwotok: cwd/zaklecia/krwotok.md
+    - Krzywda: cwd/zaklecia/krzywda.md
+    - Księżycowy Most: cwd/zaklecia/księżycowy_most.md
+    - Kształtowanie Ziemi i Kamienia: cwd/zaklecia/kształtowanie_ziemi_i_kamienia.md
+    - Kula Ognia: cwd/zaklecia/kula_ognia.md
+    - Kula Wody: cwd/zaklecia/kula_wody.md
+    - Kwasowe Strzałki: cwd/zaklecia/kwasowe_strzałki.md
+    - Kwaśny Deszcz: cwd/zaklecia/kwaśny_deszcz.md
+    - Lanca Chaosu: cwd/zaklecia/lanca_chaosu.md
+    - Latające Ostrza: cwd/zaklecia/latające_ostrza.md
+    - Lawina: cwd/zaklecia/lawina.md
+    - Leczenie Lekkich Ran: cwd/zaklecia/leczenie_lekkich_ran.md
+    - Leczenie Pomniejszych Ran: cwd/zaklecia/leczenie_pomniejszych_ran.md
+    - Leczenie Poważnych Ran: cwd/zaklecia/leczenie_poważnych_ran.md
+    - Leczenie Średnich Ran: cwd/zaklecia/leczenie_średnich_ran.md
+    - Lep: cwd/zaklecia/lep.md
+    - Lewitacja: cwd/zaklecia/lewitacja.md
+    - Leśny Chód: cwd/zaklecia/leśny_chód.md
+    - Licz: cwd/zaklecia/licz.md
+    - Linia Geomantyczna: cwd/zaklecia/linia_geomantyczna.md
+    - Linienie: cwd/zaklecia/linienie.md
+    - Lodowa Cela: cwd/zaklecia/lodowa_cela.md
+    - Lodowe Odłamki: cwd/zaklecia/lodowe_odłamki.md
+    - Lodowy Pancerz: cwd/zaklecia/lodowy_pancerz.md
+    - Lodowy Podmuch: cwd/zaklecia/lodowy_podmuch.md
+    - Lokalizacja: cwd/zaklecia/lokalizacja.md
+    - Magiczna Strzałka: cwd/zaklecia/magiczna_strzałka.md
+    - Magiczna Tarcza: cwd/zaklecia/magiczna_tarcza.md
+    - Magiczna Zbroja: cwd/zaklecia/magiczna_zbroja.md
+    - Magiczne Żołędzie: cwd/zaklecia/magiczne_żołędzie.md
+    - Magiczny Klucz: cwd/zaklecia/magiczny_klucz.md
+    - Magiczny KontrAtak: cwd/zaklecia/magiczny_kontratak.md
+    - Magiczny Przedmiot: cwd/zaklecia/magiczny_przedmiot.md
+    - Magiczny Zamek: cwd/zaklecia/magiczny_zamek.md
+    - Martwe Powietrze: cwd/zaklecia/martwe_powietrze.md
+    - Maska: cwd/zaklecia/maska.md
+    - Mechaniczna Zbroja: cwd/zaklecia/mechaniczna_zbroja.md
+    - Mentalne Zakłócenia: cwd/zaklecia/mentalne_zakłócenia.md
+    - Mentalny Sztych: cwd/zaklecia/mentalny_sztych.md
+    - Metallicus: cwd/zaklecia/metallicus.md
+    - Meteoroid: cwd/zaklecia/meteoroid.md
+    - Mgła: cwd/zaklecia/mgła.md
+    - Miażdżąca Światłość: cwd/zaklecia/miażdżąca_światłość.md
+    - Migotanie Chaos: cwd/zaklecia/migotanie_chaos.md
+    - Miotacz Ognia: cwd/zaklecia/miotacz_ognia.md
+    - Miraż: cwd/zaklecia/miraż.md
+    - Mistyczny Piorun: cwd/zaklecia/mistyczny_piorun.md
+    - Mistyczny Wzrok: cwd/zaklecia/mistyczny_wzrok.md
+    - Moc Entropii: cwd/zaklecia/moc_entropii.md
+    - Mocne Pchnięcie: cwd/zaklecia/mocne_pchnięcie.md
+    - Modlitwa Wieszcza: cwd/zaklecia/modlitwa_wieszcza.md
+    - Morowe Powietrze: cwd/zaklecia/morowe_powietrze.md
+    - Mroczne Portale: cwd/zaklecia/mroczne_portale.md
+    - Mroczne Wynaturzenie: cwd/zaklecia/mroczne_wynaturzenie.md
+    - Młot Boga: cwd/zaklecia/młot_boga.md
+    - Mściwy Duch: cwd/zaklecia/mściwy_duch.md
+    - Na Skróty: cwd/zaklecia/na_skróty.md
+    - Nawałnica Ciosów: cwd/zaklecia/nawałnica_ciosów.md
+    - Nienawistna Defekacja: cwd/zaklecia/nienawistna_defekacja.md
+    - Nienawistne Duchy: cwd/zaklecia/nienawistne_duchy.md
+    - Nieomylne Strzałki: cwd/zaklecia/nieomylne_strzałki.md
+    - Niepohamowana Żądza: cwd/zaklecia/niepohamowana_żądza.md
+    - Niepowstrzymany Gniew: cwd/zaklecia/niepowstrzymany_gniew.md
+    - Niesamowity Cios: cwd/zaklecia/niesamowity_cios.md
+    - Nieskrępowany Ruch: cwd/zaklecia/nieskrępowany_ruch.md
+    - Nietykalność: cwd/zaklecia/nietykalność.md
+    - Niewidzialność: cwd/zaklecia/niewidzialność.md
+    - Nikczemne Zespolenie: cwd/zaklecia/nikczemne_zespolenie.md
+    - Nuty Czarnej Pieśni: cwd/zaklecia/nuty_czarnej_pieśni.md
+    - Objawienie: cwd/zaklecia/objawienie.md
+    - Ochrona Przed Czarami: cwd/zaklecia/ochrona_przed_czarami.md
+    - Ochrona Przed Ogniem: cwd/zaklecia/ochrona_przed_ogniem.md
+    - Ochrona Przed Śmiercią: cwd/zaklecia/ochrona_przed_śmiercią.md
+    - Oczarowanie: cwd/zaklecia/oczarowanie.md
+    - Odarcie Ze Skóry: cwd/zaklecia/odarcie_ze_skóry.md
+    - Odesłanie: cwd/zaklecia/odesłanie.md
+    - Odwodnienie: cwd/zaklecia/odwodnienie.md
+    - Odławianie Duszy: cwd/zaklecia/odławianie_duszy.md
+    - Ofiara z Krwi: cwd/zaklecia/ofiara_z_krwi.md
+    - Ogień z Niebios: cwd/zaklecia/ogień_z_niebios.md
+    - Ognie Świętej Astrid: cwd/zaklecia/ognie_świętej_astrid.md
+    - Ognista Salwa: cwd/zaklecia/ognista_salwa.md
+    - Ognisty Pocisk: cwd/zaklecia/ognisty_pocisk.md
+    - Ognisty Podmuch: cwd/zaklecia/ognisty_podmuch.md
+    - Oko Łowcy: cwd/zaklecia/oko_łowcy.md
+    - Okowy: cwd/zaklecia/okowy.md
+    - Okrutna Bestia: cwd/zaklecia/okrutna_bestia.md
+    - Okulawienie: cwd/zaklecia/okulawienie.md
+    - Olśnienie: cwd/zaklecia/olśnienie.md
+    - Omotanie: cwd/zaklecia/omotanie.md
+    - Opalizująca Tarcza: cwd/zaklecia/opalizująca_tarcza.md
+    - Oplatający Bluszcz: cwd/zaklecia/oplatający_bluszcz.md
+    - Opóźnienie: cwd/zaklecia/opóźnienie.md
+    - Opętanie: cwd/zaklecia/opętanie.md
+    - Osobliwość: cwd/zaklecia/osobliwość.md
+    - Ostrze Zmierzchu: cwd/zaklecia/ostrze_zmierzchu.md
+    - Otwarcie Przejścia: cwd/zaklecia/otwarcie_przejścia.md
+    - Otwór Do Zaświatów: cwd/zaklecia/otwór_do_zaświatów.md
+    - Ożywienie: cwd/zaklecia/ożywienie.md
+    - Ożywienie Zwłok: cwd/zaklecia/ożywienie_zwłok.md
+    - Pajęcza Wspinaczka: cwd/zaklecia/pajęcza_wspinaczka.md
+    - Palący Promień: cwd/zaklecia/palący_promień.md
+    - Pareidolia: cwd/zaklecia/pareidolia.md
+    - Pech: cwd/zaklecia/pech.md
+    - Petryfikacja: cwd/zaklecia/petryfikacja.md
+    - Pełne Leczenie: cwd/zaklecia/pełne_leczenie.md
+    - Piekielna Audiencja: cwd/zaklecia/piekielna_audiencja.md
+    - Pieśń Bohaterów: cwd/zaklecia/pieśń_bohaterów.md
+    - Pieśń Fascynacji: cwd/zaklecia/pieśń_fascynacji.md
+    - Pieśń Hulacka: cwd/zaklecia/pieśń_hulacka.md
+    - Pieśń Inspiracji: cwd/zaklecia/pieśń_inspiracji.md
+    - Pieśń Leczenia: cwd/zaklecia/pieśń_leczenia.md
+    - Pieśń Męstwa: cwd/zaklecia/pieśń_męstwa.md
+    - Pieśń Odwagi: cwd/zaklecia/pieśń_odwagi.md
+    - Pieśń Przyjaźni: cwd/zaklecia/pieśń_przyjaźni.md
+    - Pieśń Przywabienia: cwd/zaklecia/pieśń_przywabienia.md
+    - Pieśń Trwogi: cwd/zaklecia/pieśń_trwogi.md
+    - Pieśń Uśpienia: cwd/zaklecia/pieśń_uśpienia.md
+    - Pijaństwo: cwd/zaklecia/pijaństwo.md
+    - Piętno Zagłady: cwd/zaklecia/piętno_zagłady.md
+    - Pocisk Piekielnego Ognia: cwd/zaklecia/pocisk_piekielnego_ognia.md
+    - Pocisk Wiodący: cwd/zaklecia/pocisk_wiodący.md
+    - Podatność: cwd/zaklecia/podatność.md
+    - Podpalenie: cwd/zaklecia/podpalenie.md
+    - Podróż w Czasie: cwd/zaklecia/podróż_w_czasie.md
+    - Podsłuch: cwd/zaklecia/podsłuch.md
+    - Podwodna Adaptacja: cwd/zaklecia/podwodna_adaptacja.md
+    - Pokiereszowanie: cwd/zaklecia/pokiereszowanie.md
+    - Pokrewna Dusza: cwd/zaklecia/pokrewna_dusza.md
+    - Pokusa: cwd/zaklecia/pokusa.md
+    - Pokuta: cwd/zaklecia/pokuta.md
+    - Pole Ochronne: cwd/zaklecia/pole_ochronne.md
+    - Pole Siłowe: cwd/zaklecia/pole_siłowe.md
+    - Polecenie Ruchu: cwd/zaklecia/polecenie_ruchu.md
+    - Pomniejszy Paradoks: cwd/zaklecia/pomniejszy_paradoks.md
+    - Porażenie: cwd/zaklecia/porażenie.md
+    - Poskręcana Korona: cwd/zaklecia/poskręcana_korona.md
+    - Posłuszeństwo: cwd/zaklecia/posłuszeństwo.md
+    - Potworny Głód: cwd/zaklecia/potworny_głód.md
+    - Potępienie: cwd/zaklecia/potępienie.md
+    - Potężny Atak: cwd/zaklecia/potężny_atak.md
+    - Powiew: cwd/zaklecia/powiew.md
+    - Pozbawienie Wzroku: cwd/zaklecia/pozbawienie_wzroku.md
+    - Pośpiech: cwd/zaklecia/pośpiech.md
+    - Poświęcona Ziemia: cwd/zaklecia/poświęcona_ziemia.md
+    - Pragnienie Serca: cwd/zaklecia/pragnienie_serca.md
+    - Prawdosłyszenie: cwd/zaklecia/prawdosłyszenie.md
+    - Predykcja: cwd/zaklecia/predykcja.md
+    - Prezencja: cwd/zaklecia/prezencja.md
+    - Promienie Słońca: cwd/zaklecia/promienie_słońca.md
+    - Promieniowanie: cwd/zaklecia/promieniowanie.md
+    - Proroctwo: cwd/zaklecia/proroctwo.md
+    - Prowizorka: cwd/zaklecia/prowizorka.md
+    - Przebiegła Parada: cwd/zaklecia/przebiegła_parada.md
+    - Przebranie: cwd/zaklecia/przebranie.md
+    - Przebudzenie Drzewa: cwd/zaklecia/przebudzenie_drzewa.md
+    - Przebudzenie Potencjału: cwd/zaklecia/przebudzenie_potencjału.md
+    - Przedświt: cwd/zaklecia/przedświt.md
+    - Przejście Cyklonu: cwd/zaklecia/przejście_cyklonu.md
+    - Przekleństwo: cwd/zaklecia/przekleństwo.md
+    - Przenikający Pocisk: cwd/zaklecia/przenikający_pocisk.md
+    - Przepowiednia: cwd/zaklecia/przepowiednia.md
+    - Przerost: cwd/zaklecia/przerost.md
+    - Przeskok Czasu: cwd/zaklecia/przeskok_czasu.md
+    - Przestrach: cwd/zaklecia/przestrach.md
+    - Przezorność: cwd/zaklecia/przezorność.md
+    - Przyciąganie: cwd/zaklecia/przyciąganie.md
+    - Przygwożdżenie: cwd/zaklecia/przygwożdżenie.md
+    - Przynęta: cwd/zaklecia/przynęta.md
+    - Przypływ Heroizmu: cwd/zaklecia/przypływ_heroizmu.md
+    - Przyspieszenie: cwd/zaklecia/przyspieszenie.md
+    - Przyspieszone Leczenie: cwd/zaklecia/przyspieszone_leczenie.md
+    - Przystosowanie Do Żywiołów: cwd/zaklecia/przystosowanie_do_żywiołów.md
+    - Przytrzymanie: cwd/zaklecia/przytrzymanie.md
+    - Przywołanie Broni: cwd/zaklecia/przywołanie_broni.md
+    - Przywołanie Duszy: cwd/zaklecia/przywołanie_duszy.md
+    - Przywołanie Dużego Potwora: cwd/zaklecia/przywołanie_dużego_potwora.md
+    - Przywołanie Einherjarów: cwd/zaklecia/przywołanie_einherjarów.md
+    - Przywołanie Małego Potwora: cwd/zaklecia/przywołanie_małego_potwora.md
+    - Przywołanie Muru: cwd/zaklecia/przywołanie_muru.md
+    - Przywołanie Pioruna: cwd/zaklecia/przywołanie_pioruna.md
+    - Przywołanie Schronienia: cwd/zaklecia/przywołanie_schronienia.md
+    - Przywołanie Uczty: cwd/zaklecia/przywołanie_uczty.md
+    - Przywołanie Użytecznego Przedmiotu: cwd/zaklecia/przywołanie_użytecznego_przedmiotu.md
+    - Przywołanie Wichru: cwd/zaklecia/przywołanie_wichru.md
+    - Przywołanie Wielkiego Kruka: cwd/zaklecia/przywołanie_wielkiego_kruka.md
+    - Przywołanie Wielkiego Potwora: cwd/zaklecia/przywołanie_wielkiego_potwora.md
+    - Przywołanie Wierzchowców: cwd/zaklecia/przywołanie_wierzchowców.md
+    - Przywołanie Średniego Potwora: cwd/zaklecia/przywołanie_średniego_potwora.md
+    - Przyzwanie Demona: cwd/zaklecia/przyzwanie_demona.md
+    - Przyzwanie Dręczyciela: cwd/zaklecia/przyzwanie_dręczyciela.md
+    - Przyzwanie Dżinna Ognia: cwd/zaklecia/przyzwanie_dżinna_ognia.md
+    - Przyzwanie Dżinna Powietrza: cwd/zaklecia/przyzwanie_dżinna_powietrza.md
+    - Przyzwanie Dżinna Wody: cwd/zaklecia/przyzwanie_dżinna_wody.md
+    - Przyzwanie Dżinna Ziemi: cwd/zaklecia/przyzwanie_dżinna_ziemi.md
+    - Przyzwanie Gargulca: cwd/zaklecia/przyzwanie_gargulca.md
+    - Przyzwanie Pomniejszego Demona: cwd/zaklecia/przyzwanie_pomniejszego_demona.md
+    - Przyzwanie Pylistego Diabła: cwd/zaklecia/przyzwanie_pylistego_diabła.md
+    - Przyzwanie Skrzydlatych Wierzchowców: cwd/zaklecia/przyzwanie_skrzydlatych_wierzchowców.md
+    - Przyzwanie Strażników Kniei: cwd/zaklecia/przyzwanie_strażników_kniei.md
+    - Przyzwanie Wierzchowców: cwd/zaklecia/przyzwanie_wierzchowców.md
+    - Próg Zaświatów: cwd/zaklecia/próg_zaświatów.md
+    - Psychometria: cwd/zaklecia/psychometria.md
+    - Pytanie: cwd/zaklecia/pytanie.md
+    - Pęknięcie: cwd/zaklecia/pęknięcie.md
+    - Płomienna Gorliwość: cwd/zaklecia/płomienna_gorliwość.md
+    - Płonące Szyszki: cwd/zaklecia/płonące_szyszki.md
+    - Płynna Postać: cwd/zaklecia/płynna_postać.md
+    - Rechot Mrocznych Bogów: cwd/zaklecia/rechot_mrocznych_bogów.md
+    - Regeneracja: cwd/zaklecia/regeneracja.md
+    - Relokacja: cwd/zaklecia/relokacja.md
+    - Remont: cwd/zaklecia/remont.md
+    - Ropucha: cwd/zaklecia/ropucha.md
+    - Rozbłysk Słoneczny: cwd/zaklecia/rozbłysk_słoneczny.md
+    - Rozdarcie: cwd/zaklecia/rozdarcie.md
+    - Rozdwojenie: cwd/zaklecia/rozdwojenie.md
+    - Rozkaz: cwd/zaklecia/rozkaz.md
+    - Rozpuszczenie: cwd/zaklecia/rozpuszczenie.md
+    - Rozpłatanie: cwd/zaklecia/rozpłatanie.md
+    - Roztrzaskanie: cwd/zaklecia/roztrzaskanie.md
+    - Rozumienie Pisma: cwd/zaklecia/rozumienie_pisma.md
+    - Rozwidlony Piorun: cwd/zaklecia/rozwidlony_piorun.md
+    - Ruchome Piaski: cwd/zaklecia/ruchome_piaski.md
+    - Ruina: cwd/zaklecia/ruina.md
+    - Runa Lodu: cwd/zaklecia/runa_lodu.md
+    - Runa Lokalizacji: cwd/zaklecia/runa_lokalizacji.md
+    - Runa Mocy: cwd/zaklecia/runa_mocy.md
+    - Runa Potęgi: cwd/zaklecia/runa_potęgi.md
+    - Runa Przeszycia: cwd/zaklecia/runa_przeszycia.md
+    - Runa Uderzenia: cwd/zaklecia/runa_uderzenia.md
+    - Runa Ukrycia: cwd/zaklecia/runa_ukrycia.md
+    - Runa Witalności: cwd/zaklecia/runa_witalności.md
+    - Runa Zniszczenia: cwd/zaklecia/runa_zniszczenia.md
+    - Runiczna Broń: cwd/zaklecia/runiczna_broń.md
+    - Runiczna Pułapka: cwd/zaklecia/runiczna_pułapka.md
+    - Runiczna Tarcza: cwd/zaklecia/runiczna_tarcza.md
+    - Runiczne Więzienie: cwd/zaklecia/runiczne_więzienie.md
+    - Runiczny Pancerz: cwd/zaklecia/runiczny_pancerz.md
+    - Rwący Nurt: cwd/zaklecia/rwący_nurt.md
+    - Rzadka Krew: cwd/zaklecia/rzadka_krew.md
+    - Równowaga Humorów: cwd/zaklecia/równowaga_humorów.md
+    - Ręce Umarłych: cwd/zaklecia/ręce_umarłych.md
+    - Rękaw Czarodzieja: cwd/zaklecia/rękaw_czarodzieja.md
+    - Sanktuarium: cwd/zaklecia/sanktuarium.md
+    - Seans: cwd/zaklecia/seans.md
+    - Sekretne Drzwi: cwd/zaklecia/sekretne_drzwi.md
+    - Sekrety Ziemi: cwd/zaklecia/sekrety_ziemi.md
+    - Serce Bestii: cwd/zaklecia/serce_bestii.md
+    - Sfera Negacji: cwd/zaklecia/sfera_negacji.md
+    - Skalny Kolec: cwd/zaklecia/skalny_kolec.md
+    - Skarcenie: cwd/zaklecia/skarcenie.md
+    - Skowyt Wendigo: cwd/zaklecia/skowyt_wendigo.md
+    - Spadająca Gwiazda: cwd/zaklecia/spadająca_gwiazda.md
+    - Spojenie: cwd/zaklecia/spojenie.md
+    - Spowolnienie: cwd/zaklecia/spowolnienie.md
+    - Sprawność Bojowa: cwd/zaklecia/sprawność_bojowa.md
+    - Sprośna Piosenka: cwd/zaklecia/sprośna_piosenka.md
+    - Sprężysty Krok: cwd/zaklecia/sprężysty_krok.md
+    - Spętanie Umysłu: cwd/zaklecia/spętanie_umysłu.md
+    - Studnia Mrocznej Mocy: cwd/zaklecia/studnia_mrocznej_mocy.md
+    - Stworzenie Odmieńca: cwd/zaklecia/stworzenie_odmieńca.md
+    - Stworzenie Wody: cwd/zaklecia/stworzenie_wody.md
+    - Stworzenie Zakazanego Przedmiotu: cwd/zaklecia/stworzenie_zakazanego_przedmiotu.md
+    - Stworzenie Zombie: cwd/zaklecia/stworzenie_zombie.md
+    - Stworzenie Świętego Symbolu: cwd/zaklecia/stworzenie_świętego_symbolu.md
+    - Stłumienie Magii: cwd/zaklecia/stłumienie_magii.md
+    - Supernowa: cwd/zaklecia/supernowa.md
+    - System Krótkich Wiadomości: cwd/zaklecia/system_krótkich_wiadomości.md
+    - Szadź: cwd/zaklecia/szadź.md
+    - Szalona Pijatyka: cwd/zaklecia/szalona_pijatyka.md
+    - Szepty z Pustki: cwd/zaklecia/szepty_z_pustki.md
+    - Szpony Mroku: cwd/zaklecia/szpony_mroku.md
+    - Szybowanie: cwd/zaklecia/szybowanie.md
+    - Słabość: cwd/zaklecia/słabość.md
+    - Tańcząca Broń: cwd/zaklecia/tańcząca_broń.md
+    - Telekinetyczna Tarcza: cwd/zaklecia/telekinetyczna_tarcza.md
+    - Telekinetyczny Wybuch: cwd/zaklecia/telekinetyczny_wybuch.md
+    - Transfuzja: cwd/zaklecia/transfuzja.md
+    - Trująca Mgła: cwd/zaklecia/trująca_mgła.md
+    - Trujący Dech: cwd/zaklecia/trujący_dech.md
+    - Trupi Wzrok: cwd/zaklecia/trupi_wzrok.md
+    - Trwałe Światło: cwd/zaklecia/trwałe_światło.md
+    - Trwoga: cwd/zaklecia/trwoga.md
+    - Trzepot: cwd/zaklecia/trzepot.md
+    - Trzęsienie Ziemi: cwd/zaklecia/trzęsienie_ziemi.md
+    - Tęczowa Eksplozja: cwd/zaklecia/tęczowa_eksplozja.md
+    - Uczta Dla Dusz: cwd/zaklecia/uczta_dla_dusz.md
+    - Uderzenie Umysłu: cwd/zaklecia/uderzenie_umysłu.md
+    - Uderzenie Wiatru: cwd/zaklecia/uderzenie_wiatru.md
+    - Ujarzmienie Szaleństwa: cwd/zaklecia/ujarzmienie_szaleństwa.md
+    - Ukrop: cwd/zaklecia/ukrop.md
+    - Ukrycie Przed Nieumarłymi: cwd/zaklecia/ukrycie_przed_nieumarłymi.md
+    - Ukrycie Przed Zwierzętami: cwd/zaklecia/ukrycie_przed_zwierzętami.md
+    - Ukryta Przestrzeń: cwd/zaklecia/ukryta_przestrzeń.md
+    - Ulepszona Zwierzęca Postać: cwd/zaklecia/ulepszona_zwierzęca_postać.md
+    - Umysł Ponad Ciałem: cwd/zaklecia/umysł_ponad_ciałem.md
+    - Urojenia: cwd/zaklecia/urojenia.md
+    - Uskok: cwd/zaklecia/uskok.md
+    - Utopienie: cwd/zaklecia/utopienie.md
+    - Uzdrawiające Jagody: cwd/zaklecia/uzdrawiające_jagody.md
+    - Uzdrawiający Kompres: cwd/zaklecia/uzdrawiający_kompres.md
+    - Uzdrowienie: cwd/zaklecia/uzdrowienie.md
+    - W Imię Dziadka Mroza: cwd/zaklecia/w_imię_dziadka_mroza.md
+    - W Imię Hulaki: cwd/zaklecia/w_imię_hulaki.md
+    - W Imię Jedynego Prawdziwego Boga: cwd/zaklecia/w_imię_jedynego_prawdziwego_boga.md
+    - W Imię Króla Czaszek: cwd/zaklecia/w_imię_króla_czaszek.md
+    - W Imię Królowej Lata: cwd/zaklecia/w_imię_królowej_lata.md
+    - W Imię Księżycowej Dziewicy: cwd/zaklecia/w_imię_księżycowej_dziewicy.md
+    - W Imię Lśniącego Księcia: cwd/zaklecia/w_imię_lśniącego_księcia.md
+    - W Imię Macierzy Potworów: cwd/zaklecia/w_imię_macierzy_potworów.md
+    - W Imię Mrocznych Bogów: cwd/zaklecia/w_imię_mrocznych_bogów.md
+    - W Imię Nowego Boga: cwd/zaklecia/w_imię_nowego_boga.md
+    - W Imię Ojczulka Śmierci: cwd/zaklecia/w_imię_ojczulka_śmierci.md
+    - W Imię Pani Westchnień: cwd/zaklecia/w_imię_pani_westchnień.md
+    - W Imię Pozbawionego Imienia: cwd/zaklecia/w_imię_pozbawionego_imienia.md
+    - W Imię Pramatki: cwd/zaklecia/w_imię_pramatki.md
+    - W Imię Przodków: cwd/zaklecia/w_imię_przodków.md
+    - W Imię Rogatego Króla: cwd/zaklecia/w_imię_rogatego_króla.md
+    - W Imię Starej Wiary: cwd/zaklecia/w_imię_starej_wiary.md
+    - W Imię Wiecznego Cienia: cwd/zaklecia/w_imię_wiecznego_cienia.md
+    - W Imię Wędrującej Gwiazdy: cwd/zaklecia/w_imię_wędrującej_gwiazdy.md
+    - Warunkowanie: cwd/zaklecia/warunkowanie.md
+    - Warzenie Alchemicznej Trucizny: cwd/zaklecia/warzenie_alchemicznej_trucizny.md
+    - Warzenie Ciekłego Dymu: cwd/zaklecia/warzenie_ciekłego_dymu.md
+    - Warzenie Cudownego Dekoktu: cwd/zaklecia/warzenie_cudownego_dekoktu.md
+    - Warzenie Eliksiru: cwd/zaklecia/warzenie_eliksiru.md
+    - Warzenie Nadzwyczajnego Kleju: cwd/zaklecia/warzenie_nadzwyczajnego_kleju.md
+    - Warzenie Remedium: cwd/zaklecia/warzenie_remedium.md
+    - Wezwanie Dużego Zwierzęcia: cwd/zaklecia/wezwanie_dużego_zwierzęcia.md
+    - Wezwanie Małego Zwierzęcia: cwd/zaklecia/wezwanie_małego_zwierzęcia.md
+    - Wezwanie Wielkiego Zwierzęcia: cwd/zaklecia/wezwanie_wielkiego_zwierzęcia.md
+    - Wezwanie Średniego Zwierzęcia: cwd/zaklecia/wezwanie_średniego_zwierzęcia.md
+    - Widmowy Chwyt: cwd/zaklecia/widmowy_chwyt.md
+    - Widzenie Przyszłości: cwd/zaklecia/widzenie_przyszłości.md
+    - Widzenie w Ciemności: cwd/zaklecia/widzenie_w_ciemności.md
+    - Wieprz: cwd/zaklecia/wieprz.md
+    - Wieszczba: cwd/zaklecia/wieszczba.md
+    - Wieżyczka: cwd/zaklecia/wieżyczka.md
+    - Wigor: cwd/zaklecia/wigor.md
+    - Wir Śmierci: cwd/zaklecia/wir_śmierci.md
+    - Wizja: cwd/zaklecia/wizja.md
+    - Wizja Grozy: cwd/zaklecia/wizja_grozy.md
+    - Wiążący Pentagram: cwd/zaklecia/wiążący_pentagram.md
+    - Większa Zwierzęca Postać: cwd/zaklecia/większa_zwierzęca_postać.md
+    - Większe Uzdrowienie: cwd/zaklecia/większe_uzdrowienie.md
+    - Wrzeszcząca Czaszka: cwd/zaklecia/wrzeszcząca_czaszka.md
+    - Wrząca Krew: cwd/zaklecia/wrząca_krew.md
+    - Wróżba: cwd/zaklecia/wróżba.md
+    - Wskrzeszenie: cwd/zaklecia/wskrzeszenie.md
+    - Wstrząs: cwd/zaklecia/wstrząs.md
+    - Wstrząsający Atak: cwd/zaklecia/wstrząsający_atak.md
+    - Wstręt: cwd/zaklecia/wstręt.md
+    - Wybuch Piekielnego Ognia: cwd/zaklecia/wybuch_piekielnego_ognia.md
+    - Wybuchowe Strzałki: cwd/zaklecia/wybuchowe_strzałki.md
+    - Wyczucie Myśli: cwd/zaklecia/wyczucie_myśli.md
+    - Wyczucie Życia: cwd/zaklecia/wyczucie_życia.md
+    - Wydrążenie Umysłu: cwd/zaklecia/wydrążenie_umysłu.md
+    - Wygnanie: cwd/zaklecia/wygnanie.md
+    - Wymazanie Obecności: cwd/zaklecia/wymazanie_obecności.md
+    - Wymazanie Pamięci: cwd/zaklecia/wymazanie_pamięci.md
+    - Wymysł: cwd/zaklecia/wymysł.md
+    - Wyostrzenie Zmysłów: cwd/zaklecia/wyostrzenie_zmysłów.md
+    - Wyparowanie: cwd/zaklecia/wyparowanie.md
+    - Wyrok: cwd/zaklecia/wyrok.md
+    - Wyrwanie Języka: cwd/zaklecia/wyrwanie_języka.md
+    - Wyssanie Życia: cwd/zaklecia/wyssanie_życia.md
+    - Wytrybowanie: cwd/zaklecia/wytrybowanie.md
+    - Wyładowanie: cwd/zaklecia/wyładowanie.md
+    - Wyłom do Pustki: cwd/zaklecia/wyłom_do_pustki.md
+    - Wyłuskanie Wrzeszczącej Duszy: cwd/zaklecia/wyłuskanie_wrzeszczącej_duszy.md
+    - Wzmocnienie Atrybutu: cwd/zaklecia/wzmocnienie_atrybutu.md
+    - Wzmocnienie Magii: cwd/zaklecia/wzmocnienie_magii.md
+    - Wzmocnienie Obrony: cwd/zaklecia/wzmocnienie_obrony.md
+    - Wzniecenie Obłędu: cwd/zaklecia/wzniecenie_obłędu.md
+    - Wędrówka: cwd/zaklecia/wędrówka.md
+    - Wędrówka Po Snach: cwd/zaklecia/wędrówka_po_snach.md
+    - Władza nad Duchem: cwd/zaklecia/władza_nad_duchem.md
+    - Zabezpieczenie Miejsca: cwd/zaklecia/zabezpieczenie_miejsca.md
+    - Zabójczy Dotyk: cwd/zaklecia/zabójczy_dotyk.md
+    - Zahamowanie: cwd/zaklecia/zahamowanie.md
+    - Zakrzywienie Przestrzeni: cwd/zaklecia/zakrzywienie_przestrzeni.md
+    - Zamiana Dusz: cwd/zaklecia/zamiana_dusz.md
+    - Zamiana Miejsc: cwd/zaklecia/zamiana_miejsc.md
+    - Zamiana w Dębowego Strażnika: cwd/zaklecia/zamiana_w_dębowego_strażnika.md
+    - Zamiana w Fomora: cwd/zaklecia/zamiana_w_fomora.md
+    - Zamiana w Obiekt: cwd/zaklecia/zamiana_w_obiekt.md
+    - Zamieć: cwd/zaklecia/zamieć.md
+    - Zamknięcie Wrót Zaświatów: cwd/zaklecia/zamknięcie_wrót_zaświatów.md
+    - Zamrożenie: cwd/zaklecia/zamrożenie.md
+    - Zanikanie: cwd/zaklecia/zanikanie.md
+    - Zapaść: cwd/zaklecia/zapaść.md
+    - Zasklepienie Ran: cwd/zaklecia/zasklepienie_ran.md
+    - Zastraszenie: cwd/zaklecia/zastraszenie.md
+    - Zatrute Jabłko: cwd/zaklecia/zatrute_jabłko.md
+    - Zauroczenie: cwd/zaklecia/zauroczenie.md
+    - Zawał Serca: cwd/zaklecia/zawał_serca.md
+    - Zawroty Głowy: cwd/zaklecia/zawroty_głowy.md
+    - Zdjęcie Klątwy: cwd/zaklecia/zdjęcie_klątwy.md
+    - Zespolony Atak: cwd/zaklecia/zespolony_atak.md
+    - Zew Dziczy: cwd/zaklecia/zew_dziczy.md
+    - Zguba Dusz: cwd/zaklecia/zguba_dusz.md
+    - Zlodowacenie: cwd/zaklecia/zlodowacenie.md
+    - Zmiana Rozmiaru: cwd/zaklecia/zmiana_rozmiaru.md
+    - Zmiażdżenie: cwd/zaklecia/zmiażdżenie.md
+    - Zmniejszenie Obiektu: cwd/zaklecia/zmniejszenie_obiektu.md
+    - Zmyłka: cwd/zaklecia/zmyłka.md
+    - Znaj Swą Zgubę: cwd/zaklecia/znaj_swą_zgubę.md
+    - Zniekształcenie: cwd/zaklecia/zniekształcenie.md
+    - Zniewolenie: cwd/zaklecia/zniewolenie.md
+    - Zniewolenie Demona: cwd/zaklecia/zniewolenie_demona.md
+    - Zniszczenie Magii: cwd/zaklecia/zniszczenie_magii.md
+    - Zrozumienie: cwd/zaklecia/zrozumienie.md
+    - Zryw: cwd/zaklecia/zryw.md
+    - Zwierzęca Postać: cwd/zaklecia/zwierzęca_postać.md
+    - Zwierzęcy Szpieg: cwd/zaklecia/zwierzęcy_szpieg.md
+    - Zwierzęcy Towarzysz: cwd/zaklecia/zwierzęcy_towarzysz.md
+    - Związanie Demona: cwd/zaklecia/związanie_demona.md
+    - Zwodzenie: cwd/zaklecia/zwodzenie.md
+    - Złoto Faerie: cwd/zaklecia/złoto_faerie.md
+    - Ładunek Emocjonalny: cwd/zaklecia/ładunek_emocjonalny.md
+    - Łaska Władcy Demonów: cwd/zaklecia/łaska_władcy_demonów.md
+    - Łańcuch Piorunów: cwd/zaklecia/łańcuch_piorunów.md
+    - Ściana Ciemności: cwd/zaklecia/ściana_ciemności.md
+    - Ściana Luster: cwd/zaklecia/ściana_luster.md
+    - Ściana Mieczy: cwd/zaklecia/ściana_mieczy.md
+    - Ściana Mocy: cwd/zaklecia/ściana_mocy.md
+    - Ściana Płomieni: cwd/zaklecia/ściana_płomieni.md
+    - Ściana Światła: cwd/zaklecia/ściana_światła.md
+    - Śpiączka: cwd/zaklecia/śpiączka.md
+    - Światło: cwd/zaklecia/światło.md
+    - Świt: cwd/zaklecia/świt.md
+    - Źródło Eitru: cwd/zaklecia/źródło_eitru.md
+    - Źródło Życia: cwd/zaklecia/źródło_życia.md
+    - Żarłoczne Robactwo: cwd/zaklecia/żarłoczne_robactwo.md
+    - Żelazna Butelka: cwd/zaklecia/żelazna_butelka.md
+    - Życiodajna Studnia: cwd/zaklecia/życiodajna_studnia.md
+    - chaos:
+      - Bledny Pocisk Chaosu: cwd/zaklecia/chaos/bledny-pocisk-chaosu.md
+      - Dar Chaosu: cwd/zaklecia/chaos/dar-chaosu.md
+      - Dzika Magia Chaos: cwd/zaklecia/chaos/dzika-magia-chaos.md
+      - Kaprysne Zniszczenie: cwd/zaklecia/chaos/kaprysne-zniszczenie.md
+      - Kolor Magii: cwd/zaklecia/chaos/kolor-magii.md
+      - Lanca Chaosu: cwd/zaklecia/chaos/lanca-chaosu.md
+      - Migotanie Chaos: cwd/zaklecia/chaos/migotanie-chaos.md
+      - Opalizujaca Tarcza: cwd/zaklecia/chaos/opalizujaca-tarcza.md
+      - Osobliwosc: cwd/zaklecia/chaos/osobliwosc.md
+      - Sciana Luster: cwd/zaklecia/chaos/sciana-luster.md
+      - Zakrzywienie Przestrzeni: cwd/zaklecia/chaos/zakrzywienie-przestrzeni.md
+    - cien:
+      - Cien Z Pustki: cwd/zaklecia/cien/cien-z-pustki.md
+      - W Imie Wiecznego Cienia: cwd/zaklecia/cien/w-imie-wiecznego-cienia.md
+    - czas:
+      - Akceleracja: cwd/zaklecia/czas/akceleracja.md
+      - Drugie Podejscie: cwd/zaklecia/czas/drugie-podejscie.md
+      - Opoznienie: cwd/zaklecia/czas/opoznienie.md
+      - Podroz W Czasie: cwd/zaklecia/czas/podroz-w-czasie.md
+      - Pomniejszy Paradoks: cwd/zaklecia/czas/pomniejszy-paradoks.md
+      - Pospiech: cwd/zaklecia/czas/pospiech.md
+      - Predykcja: cwd/zaklecia/czas/predykcja.md
+      - Przeskok Czasu: cwd/zaklecia/czas/przeskok-czasu.md
+      - Rozdwojenie: cwd/zaklecia/czas/rozdwojenie.md
+      - Spowolnienie: cwd/zaklecia/czas/spowolnienie.md
+      - Zahamowanie: cwd/zaklecia/czas/zahamowanie.md
+    - iluzja:
+      - Camera Obscura: cwd/zaklecia/iluzja/camera-obscura.md
+      - Duplikaty: cwd/zaklecia/iluzja/duplikaty.md
+      - Fantom: cwd/zaklecia/iluzja/fantom.md
+      - Halas: cwd/zaklecia/iluzja/halas.md
+      - Iluzoryczny Sobowtor: cwd/zaklecia/iluzja/iluzoryczny-sobowtor.md
+      - Miraz: cwd/zaklecia/iluzja/miraz.md
+      - Niewidzialnosc: cwd/zaklecia/iluzja/niewidzialnosc.md
+      - Pragnienie Serca: cwd/zaklecia/iluzja/pragnienie-serca.md
+      - Przebranie: cwd/zaklecia/iluzja/przebranie.md
+      - Urojenia: cwd/zaklecia/iluzja/urojenia.md
+      - Wymysl: cwd/zaklecia/iluzja/wymysl.md
+      - Zawroty Glowy: cwd/zaklecia/iluzja/zawroty-glowy.md
+      - Zmylka: cwd/zaklecia/iluzja/zmylka.md
+    - inkantacje:
+      - Linia Geomantyczna: cwd/zaklecia/inkantacje/linia-geomantyczna.md
+      - Pokuta: cwd/zaklecia/inkantacje/pokuta.md
+      - Proroctwo: cwd/zaklecia/inkantacje/proroctwo.md
+      - Przywolanie Duszy: cwd/zaklecia/inkantacje/przywolanie-duszy.md
+      - Runa Zniszczenia: cwd/zaklecia/inkantacje/runa-zniszczenia.md
+      - Sekrety Ziemi: cwd/zaklecia/inkantacje/sekrety-ziemi.md
+      - Trupi Wzrok: cwd/zaklecia/inkantacje/trupi-wzrok.md
+      - Wiazacy Pentagram: cwd/zaklecia/inkantacje/wiazacy-pentagram.md
+      - Zwierzecy Szpieg: cwd/zaklecia/inkantacje/zwierzecy-szpieg.md
+    - jasnowidzenie:
+      - Dalekowidzenie: cwd/zaklecia/jasnowidzenie/dalekowidzenie.md
+      - Krwawe Objawienie: cwd/zaklecia/jasnowidzenie/krwawe-objawienie.md
+      - Lokalizacja: cwd/zaklecia/jasnowidzenie/lokalizacja.md
+      - Modlitwa Wieszcza: cwd/zaklecia/jasnowidzenie/modlitwa-wieszcza.md
+      - Olsnienie: cwd/zaklecia/jasnowidzenie/olsnienie.md
+      - Podsluch: cwd/zaklecia/jasnowidzenie/podsluch.md
+      - Prawdoslyszenie: cwd/zaklecia/jasnowidzenie/prawdoslyszenie.md
+      - Przedswit: cwd/zaklecia/jasnowidzenie/przedswit.md
+      - Przepowiednia: cwd/zaklecia/jasnowidzenie/przepowiednia.md
+      - Psychometria: cwd/zaklecia/jasnowidzenie/psychometria.md
+      - Widzenie Przyszlosci: cwd/zaklecia/jasnowidzenie/widzenie-przyszlosci.md
+      - Wieszczba: cwd/zaklecia/jasnowidzenie/wieszczba.md
+      - Wizja: cwd/zaklecia/jasnowidzenie/wizja.md
+      - Wrozba: cwd/zaklecia/jasnowidzenie/wrozba.md
+    - klatwy:
+      - Bol: cwd/zaklecia/klatwy/bol.md
+      - Glod Krwi: cwd/zaklecia/klatwy/glod-krwi.md
+      - Kila: cwd/zaklecia/klatwy/kila.md
+      - Klatwa Pustynnych Krolow: cwd/zaklecia/klatwy/klatwa-pustynnych-krolow.md
+      - Okulawienie: cwd/zaklecia/klatwy/okulawienie.md
+      - Petryfikacja: cwd/zaklecia/klatwy/petryfikacja.md
+      - Podatnosc: cwd/zaklecia/klatwy/podatnosc.md
+      - Przeklenstwo: cwd/zaklecia/klatwy/przeklenstwo.md
+      - Przestrach: cwd/zaklecia/klatwy/przestrach.md
+      - Ropucha: cwd/zaklecia/klatwy/ropucha.md
+      - Slabosc: cwd/zaklecia/klatwy/slabosc.md
+      - Trwoga: cwd/zaklecia/klatwy/trwoga.md
+      - Wieprz: cwd/zaklecia/klatwy/wieprz.md
+      - Wizja Grozy: cwd/zaklecia/klatwy/wizja-grozy.md
+      - Zamiana W Fomora: cwd/zaklecia/klatwy/zamiana-w-fomora.md
+      - Zatrute Jablko: cwd/zaklecia/klatwy/zatrute-jablko.md
+      - Znaj Swa Zgube: cwd/zaklecia/klatwy/znaj-swa-zgube.md
+    - magia bitewna:
+      - Bitewny Impet: cwd/zaklecia/magia-bitewna/bitewny-impet.md
+      - Blyskawiczny Szturm: cwd/zaklecia/magia-bitewna/blyskawiczny-szturm.md
+      - Druzgocacy Skok: cwd/zaklecia/magia-bitewna/druzgocacy-skok.md
+      - Nawalnica Ciosow: cwd/zaklecia/magia-bitewna/nawalnica-ciosow.md
+      - Niesamowity Cios: cwd/zaklecia/magia-bitewna/niesamowity-cios.md
+      - Pocisk Wiodacy: cwd/zaklecia/magia-bitewna/pocisk-wiodacy.md
+      - Potezny Atak: cwd/zaklecia/magia-bitewna/potezny-atak.md
+      - Przebiegla Parada: cwd/zaklecia/magia-bitewna/przebiegla-parada.md
+      - Przenikajacy Pocisk: cwd/zaklecia/magia-bitewna/przenikajacy-pocisk.md
+      - Przyplyw Heroizmu: cwd/zaklecia/magia-bitewna/przyplyw-heroizmu.md
+      - Przyspieszenie: cwd/zaklecia/magia-bitewna/przyspieszenie.md
+      - Rechot Mrocznych Bogow: cwd/zaklecia/magia-bitewna/rechot-mrocznych-bogow.md
+      - Sciana Mieczy: cwd/zaklecia/magia-bitewna/sciana-mieczy.md
+      - Sprawnosc Bojowa: cwd/zaklecia/magia-bitewna/sprawnosc-bojowa.md
+      - Ujarzmienie Szalenstwa: cwd/zaklecia/magia-bitewna/ujarzmienie-szalenstwa.md
+      - W Imie Krola Czaszek: cwd/zaklecia/magia-bitewna/w-imie-krola-czaszek.md
+      - W Imie Mrocznych Bogow: cwd/zaklecia/magia-bitewna/w-imie-mrocznych-bogow.md
+      - Wir Smierci: cwd/zaklecia/magia-bitewna/wir-smierci.md
+      - Wstrzasajacy Atak: cwd/zaklecia/magia-bitewna/wstrzasajacy-atak.md
+      - Zasklepienie Ran: cwd/zaklecia/magia-bitewna/zasklepienie-ran.md
+      - Zespolony Atak: cwd/zaklecia/magia-bitewna/zespolony-atak.md
+    - magia burzy:
+      - Gradobicie: cwd/zaklecia/magia-burzy/gradobicie.md
+      - Kwasny Deszcz: cwd/zaklecia/magia-burzy/kwasny-deszcz.md
+      - Łańcuch Piorunów: cwd/zaklecia/magia-burzy/lancuch-piorunow.md
+      - Mgla: cwd/zaklecia/magia-burzy/mgla.md
+      - Ognie Swietej Astrid: cwd/zaklecia/magia-burzy/ognie-swietej-astrid.md
+      - Porazenie: cwd/zaklecia/magia-burzy/porazenie.md
+      - Przywolanie Pioruna: cwd/zaklecia/magia-burzy/przywolanie-pioruna.md
+      - Rozwidlony Piorun: cwd/zaklecia/magia-burzy/rozwidlony-piorun.md
+      - Szadz: cwd/zaklecia/magia-burzy/szadz.md
+      - Trujaca Mgla: cwd/zaklecia/magia-burzy/trujaca-mgla.md
+      - Wyladowanie: cwd/zaklecia/magia-burzy/wyladowanie.md
+    - magia cienia:
+      - Ciemnosc: cwd/zaklecia/magia-cienia/ciemnosc.md
+      - Cien Z Pustki: cwd/zaklecia/magia-cienia/cien-z-pustki.md
+      - Cienista Magia: cwd/zaklecia/magia-cienia/cienista-magia.md
+      - Cienista Strzalka: cwd/zaklecia/magia-cienia/cienista-strzalka.md
+      - Czarnostrzaly Z Zaswiatow: cwd/zaklecia/magia-cienia/czarnostrzaly-z-zaswiatow.md
+      - Droga Przez Cien: cwd/zaklecia/magia-cienia/droga-przez-cien.md
+      - Grobowe Oblicze: cwd/zaklecia/magia-cienia/grobowe-oblicze.md
+      - Mroczne Portale: cwd/zaklecia/magia-cienia/mroczne-portale.md
+      - Mroczne Wynaturzenie: cwd/zaklecia/magia-cienia/mroczne-wynaturzenie.md
+      - Ostrze Zmierzchu: cwd/zaklecia/magia-cienia/ostrze-zmierzchu.md
+      - Prog Zaswiatow: cwd/zaklecia/magia-cienia/prog-zaswiatow.md
+      - Sciana Ciemnosci: cwd/zaklecia/magia-cienia/sciana-ciemnosci.md
+      - W Imie Wiecznego Cienia: cwd/zaklecia/magia-cienia/w-imie-wiecznego-cienia.md
+      - Widzenie W Ciemnosci: cwd/zaklecia/magia-cienia/widzenie-w-ciemnosci.md
+      - ZapaśC: cwd/zaklecia/magia-cienia/zapaśc.md
+    - magia fey:
+      - Bledne Ogniki: cwd/zaklecia/magia-fey/bledne-ogniki.md
+      - Feeria: cwd/zaklecia/magia-fey/feeria.md
+      - Halucynacje: cwd/zaklecia/magia-fey/halucynacje.md
+      - Linienie: cwd/zaklecia/magia-fey/linienie.md
+      - Pijanstwo: cwd/zaklecia/magia-fey/pijanstwo.md
+      - Poskrecana Korona: cwd/zaklecia/magia-fey/poskrecana-korona.md
+      - Spiaczka: cwd/zaklecia/magia-fey/spiaczka.md
+      - Stworzenie Odmienca: cwd/zaklecia/magia-fey/stworzenie-odmienca.md
+      - Szalona Pijatyka: cwd/zaklecia/magia-fey/szalona-pijatyka.md
+      - Wymazanie Pamieci: cwd/zaklecia/magia-fey/wymazanie-pamieci.md
+      - Zanikanie: cwd/zaklecia/magia-fey/zanikanie.md
+      - Zloto Faerie: cwd/zaklecia/magia-fey/zloto-faerie.md
+      - Zmniejszenie Obiektu: cwd/zaklecia/magia-fey/zmniejszenie-obiektu.md
+      - Zwodzenie: cwd/zaklecia/magia-fey/zwodzenie.md
+    - magia krwi:
+      - Krwawienie: cwd/zaklecia/magia-krwi/krwawienie.md
+      - Krwotok: cwd/zaklecia/magia-krwi/krwotok.md
+      - Rownowaga Humorow: cwd/zaklecia/magia-krwi/rownowaga-humorow.md
+      - Rzadka Krew: cwd/zaklecia/magia-krwi/rzadka-krew.md
+      - Transfuzja: cwd/zaklecia/magia-krwi/transfuzja.md
+      - Wrzaca Krew: cwd/zaklecia/magia-krwi/wrzaca-krew.md
+    - magia niebianska:
+      - Aureola: cwd/zaklecia/magia-niebianska/aureola.md
+      - Blysk: cwd/zaklecia/magia-niebianska/blysk.md
+      - Ksiezycowy Most: cwd/zaklecia/magia-niebianska/ksiezycowy-most.md
+      - Miazdzaca Swiatlosc: cwd/zaklecia/magia-niebianska/miazdzaca-swiatlosc.md
+      - Miażdżąca Światłość: cwd/zaklecia/magia-niebianska/miażdżąca-swiatlosc.md
+      - Palacy Promien: cwd/zaklecia/magia-niebianska/palacy-promien.md
+      - Promienie Slonca: cwd/zaklecia/magia-niebianska/promienie-slonca.md
+      - Promieniowanie: cwd/zaklecia/magia-niebianska/promieniowanie.md
+      - Rozblysk Sloneczny: cwd/zaklecia/magia-niebianska/rozblysk-sloneczny.md
+      - Sciana Swiatla: cwd/zaklecia/magia-niebianska/sciana-swiatla.md
+      - Spadajaca Gwiazda: cwd/zaklecia/magia-niebianska/spadajaca-gwiazda.md
+      - Supernowa: cwd/zaklecia/magia-niebianska/supernowa.md
+      - Swiatlo: cwd/zaklecia/magia-niebianska/swiatlo.md
+      - Swit: cwd/zaklecia/magia-niebianska/swit.md
+      - Teczowa Eksplozja: cwd/zaklecia/magia-niebianska/teczowa-eksplozja.md
+      - Trwale Swiatlo: cwd/zaklecia/magia-niebianska/trwale-swiatlo.md
+      - W Imie Ksiezycowej Dziewicy: cwd/zaklecia/magia-niebianska/w-imie-ksiezycowej-dziewicy.md
+      - W Imie Wedrujacej Gwiazdy: cwd/zaklecia/magia-niebianska/w-imie-wedrujacej-gwiazdy.md
+    - magia pierwotna:
+      - Jezyk Bestii: cwd/zaklecia/magia-pierwotna/jezyk-bestii.md
+      - Oko Lowcy: cwd/zaklecia/magia-pierwotna/oko-lowcy.md
+      - Okrutna Bestia: cwd/zaklecia/magia-pierwotna/okrutna-bestia.md
+      - Przyzwanie Skrzydlatych Wierzchowcow: cwd/zaklecia/magia-pierwotna/przyzwanie-skrzydlatych-wierzchowcow.md
+      - Przyzwanie Wierzchowcow: cwd/zaklecia/magia-pierwotna/przyzwanie-wierzchowcow.md
+      - Serce Bestii: cwd/zaklecia/magia-pierwotna/serce-bestii.md
+      - Ukrycie Przed Zwierzetami: cwd/zaklecia/magia-pierwotna/ukrycie-przed-zwierzetami.md
+      - W Imie Rogatego Krola: cwd/zaklecia/magia-pierwotna/w-imie-rogatego-krola.md
+      - Wezwanie Duzego Zwierzecia: cwd/zaklecia/magia-pierwotna/wezwanie-duzego-zwierzecia.md
+      - Wezwanie Malego Zwierzecia: cwd/zaklecia/magia-pierwotna/wezwanie-malego-zwierzecia.md
+      - Wezwanie Sredniego Zwierzecia: cwd/zaklecia/magia-pierwotna/wezwanie-sredniego-zwierzecia.md
+      - Wezwanie Wielkiego Zwierzecia: cwd/zaklecia/magia-pierwotna/wezwanie-wielkiego-zwierzecia.md
+      - Zew Dziczy: cwd/zaklecia/magia-pierwotna/zew-dziczy.md
+      - Zryw: cwd/zaklecia/magia-pierwotna/zryw.md
+      - Zwierzecy Towarzysz: cwd/zaklecia/magia-pierwotna/zwierzecy-towarzysz.md
+    - magia runiczna:
+      - Glif Ognia: cwd/zaklecia/magia-runiczna/glif-ognia.md
+      - Pietno Zaglady: cwd/zaklecia/magia-runiczna/pietno-zaglady.md
+      - Rozumienie Pisma: cwd/zaklecia/magia-runiczna/rozumienie-pisma.md
+      - Runa Lodu: cwd/zaklecia/magia-runiczna/runa-lodu.md
+      - Runa Lokalizacji: cwd/zaklecia/magia-runiczna/runa-lokalizacji.md
+      - Runa Mocy: cwd/zaklecia/magia-runiczna/runa-mocy.md
+      - Runa Potegi: cwd/zaklecia/magia-runiczna/runa-potegi.md
+      - Runa Przeszycia: cwd/zaklecia/magia-runiczna/runa-przeszycia.md
+      - Runa Uderzenia: cwd/zaklecia/magia-runiczna/runa-uderzenia.md
+      - Runa Ukrycia: cwd/zaklecia/magia-runiczna/runa-ukrycia.md
+      - Runa Witalnosci: cwd/zaklecia/magia-runiczna/runa-witalnosci.md
+      - Runiczna Bron: cwd/zaklecia/magia-runiczna/runiczna-bron.md
+      - Runiczna Pulapka: cwd/zaklecia/magia-runiczna/runiczna-pulapka.md
+      - Runiczna Tarcza: cwd/zaklecia/magia-runiczna/runiczna-tarcza.md
+      - Runiczne Wiezienie: cwd/zaklecia/magia-runiczna/runiczne-wiezienie.md
+      - Runiczny Pancerz: cwd/zaklecia/magia-runiczna/runiczny-pancerz.md
+    - natura:
+      - Ciernie: cwd/zaklecia/natura/ciernie.md
+      - Debowa Skora: cwd/zaklecia/natura/debowa-skora.md
+      - Gniew Natury: cwd/zaklecia/natura/gniew-natury.md
+      - Kostur Druida: cwd/zaklecia/natura/kostur-druida.md
+      - Lesny Chod: cwd/zaklecia/natura/lesny-chod.md
+      - Magiczne Zoledzie: cwd/zaklecia/natura/magiczne-zoledzie.md
+      - Oplatajacy Bluszcz: cwd/zaklecia/natura/oplatajacy-bluszcz.md
+      - Pareidolia: cwd/zaklecia/natura/pareidolia.md
+      - Plonace Szyszki: cwd/zaklecia/natura/plonace-szyszki.md
+      - Przebudzenie Drzewa: cwd/zaklecia/natura/przebudzenie-drzewa.md
+      - Przerost: cwd/zaklecia/natura/przerost.md
+      - Przyzwanie Straznikow Kniei: cwd/zaklecia/natura/przyzwanie-straznikow-kniei.md
+      - Uzdrawiajace Jagody: cwd/zaklecia/natura/uzdrawiajace-jagody.md
+      - Uzdrawiajacy Kompres: cwd/zaklecia/natura/uzdrawiajacy-kompres.md
+      - W Imie Starej Wiary: cwd/zaklecia/natura/w-imie-starej-wiary.md
+      - Zamiana W Debowego Straznika: cwd/zaklecia/natura/zamiana-w-debowego-straznika.md
+    - nekromancja:
+      - Armia Umarlych: cwd/zaklecia/nekromancja/armia-umarlych.md
+      - Kanibalizacja Magii: cwd/zaklecia/nekromancja/kanibalizacja-magii.md
+      - Kosciane Drzazgi: cwd/zaklecia/nekromancja/kosciane-drzazgi.md
+      - Licz: cwd/zaklecia/nekromancja/licz.md
+      - Odlawianie Duszy: cwd/zaklecia/nekromancja/odlawianie-duszy.md
+      - Ozywienie Zwlok: cwd/zaklecia/nekromancja/ozywienie-zwlok.md
+      - Rece Umarlych: cwd/zaklecia/nekromancja/rece-umarlych.md
+      - Studnia Mrocznej Mocy: cwd/zaklecia/nekromancja/studnia-mrocznej-mocy.md
+      - Stworzenie Zombie: cwd/zaklecia/nekromancja/stworzenie-zombie.md
+      - Ukrycie Przed Nieumarlymi: cwd/zaklecia/nekromancja/ukrycie-przed-nieumarlymi.md
+      - Widmowy Chwyt: cwd/zaklecia/nekromancja/widmowy-chwyt.md
+      - Wrzeszczaca Czaszka: cwd/zaklecia/nekromancja/wrzeszczaca-czaszka.md
+      - Zamkniecie Wrot Zaswiatow: cwd/zaklecia/nekromancja/zamkniecie-wrot-zaswiatow.md
+    - ochrona:
+      - Adamantytowe Lancuchy: cwd/zaklecia/ochrona/adamantytowe-lancuchy.md
+      - Magiczny Zamek: cwd/zaklecia/ochrona/magiczny-zamek.md
+      - Nietykalnosc: cwd/zaklecia/ochrona/nietykalnosc.md
+      - Ochrona Przed Czarami: cwd/zaklecia/ochrona/ochrona-przed-czarami.md
+      - Okowy: cwd/zaklecia/ochrona/okowy.md
+      - Pole Ochronne: cwd/zaklecia/ochrona/pole-ochronne.md
+      - Pole Silowe: cwd/zaklecia/ochrona/pole-silowe.md
+      - Przezorne: cwd/zaklecia/ochrona/przezorne.md
+      - Przystosowanie Do Zywiolow: cwd/zaklecia/ochrona/przystosowanie-do-zywiolow.md
+      - Sanktuarium: cwd/zaklecia/ochrona/sanktuarium.md
+      - Sfera Negacji: cwd/zaklecia/ochrona/sfera-negacji.md
+      - Uskok: cwd/zaklecia/ochrona/uskok.md
+      - Wigor: cwd/zaklecia/ochrona/wigor.md
+      - Zabezpieczenie Miejsca: cwd/zaklecia/ochrona/zabezpieczenie-miejsca.md
+      - Zdjecie Klatwy: cwd/zaklecia/ochrona/zdjecie-klatwy.md
+    - ogien:
+      - Całun Płomieni: cwd/zaklecia/ogien/calun-plomieni.md
+      - Kontrola Plomienia: cwd/zaklecia/ogien/kontrola-plomienia.md
+      - Kula Ognia: cwd/zaklecia/ogien/kula-ognia.md
+      - Meteoroid: cwd/zaklecia/ogien/meteoroid.md
+      - Ochrona Przed Ogniem: cwd/zaklecia/ogien/ochrona-przed-ogniem.md
+      - Ognista Salwa: cwd/zaklecia/ogien/ognista-salwa.md
+      - Ognisty Pocisk: cwd/zaklecia/ogien/ognisty-pocisk.md
+      - Ognisty Podmuch: cwd/zaklecia/ogien/ognisty-podmuch.md
+      - Plomienna Gorliwosc: cwd/zaklecia/ogien/plomienna-gorliwosc.md
+      - Pocisk Piekielnego Ognia: cwd/zaklecia/ogien/pocisk-piekielnego-ognia.md
+      - Podpalenie: cwd/zaklecia/ogien/podpalenie.md
+      - Przyzwanie Dzinna Ognia: cwd/zaklecia/ogien/przyzwanie-dzinna-ognia.md
+      - Sciana Plomieni: cwd/zaklecia/ogien/sciana-plomieni.md
+      - W Imie Jedynego Prawdziwego Boga: cwd/zaklecia/ogien/w-imie-jedynego-prawdziwego-boga.md
+      - Wybuch Piekielnego Ognia: cwd/zaklecia/ogien/wybuch-piekielnego-ognia.md
+    - piesn:
+      - Donosny Glos: cwd/zaklecia/piesn/donosny-glos.md
+      - Nuty Czarnej Piesni: cwd/zaklecia/piesn/nuty-czarnej-piesni.md
+      - Piesn Bohaterow: cwd/zaklecia/piesn/piesn-bohaterow.md
+      - Piesn Fascynacji: cwd/zaklecia/piesn/piesn-fascynacji.md
+      - Piesn Hulacka: cwd/zaklecia/piesn/piesn-hulacka.md
+      - Piesn Inspiracji: cwd/zaklecia/piesn/piesn-inspiracji.md
+      - Piesn Leczenia: cwd/zaklecia/piesn/piesn-leczenia.md
+      - Piesn Mestwa: cwd/zaklecia/piesn/piesn-mestwa.md
+      - Piesn Odwagi: cwd/zaklecia/piesn/piesn-odwagi.md
+      - Piesn Przyjazni: cwd/zaklecia/piesn/piesn-przyjazni.md
+      - Piesn Przywabienia: cwd/zaklecia/piesn/piesn-przywabienia.md
+      - Piesn Trwogi: cwd/zaklecia/piesn/piesn-trwogi.md
+      - Piesn Uspienia: cwd/zaklecia/piesn/piesn-uspienia.md
+      - Sprosna Piosenka: cwd/zaklecia/piesn/sprosna-piosenka.md
+    - powietrze:
+      - Dar Latania: cwd/zaklecia/powietrze/dar-latania.md
+      - Fala Goraca: cwd/zaklecia/powietrze/fala-goraca.md
+      - Grzmot: cwd/zaklecia/powietrze/grzmot.md
+      - Gwaltowny Podmuch: cwd/zaklecia/powietrze/gwaltowny-podmuch.md
+      - Martwe Powietrze: cwd/zaklecia/powietrze/martwe-powietrze.md
+      - Odarcie Ze Skory: cwd/zaklecia/powietrze/odarcie-ze-skory.md
+      - Powiew: cwd/zaklecia/powietrze/powiew.md
+      - Przejscie Cyklonu: cwd/zaklecia/powietrze/przejscie-cyklonu.md
+      - Przywolanie Wichru: cwd/zaklecia/powietrze/przywolanie-wichru.md
+      - Przyzwanie Dziwna Powietrza: cwd/zaklecia/powietrze/przyzwanie-dzinna-powietrza.md
+      - Przyzwanie Pylistego Diabla: cwd/zaklecia/powietrze/przyzwanie-pylistego-diabla.md
+      - Szybowanie: cwd/zaklecia/powietrze/szybowanie.md
+      - Uderzenie Wiatru: cwd/zaklecia/powietrze/uderzenie-wiatru.md
+      - Ukrop: cwd/zaklecia/powietrze/ukrop.md
+    - przemiany:
+      - Atawizm: cwd/zaklecia/przemiany/atawizm.md
+      - Demoniczna Apoteoza: cwd/zaklecia/przemiany/demoniczna-apoteoza.md
+      - Elastycznosc: cwd/zaklecia/przemiany/elastycznosc.md
+      - Pajecza Wspinaczka: cwd/zaklecia/przemiany/pajecza-wspinaczka.md
+      - Podwodna Adaptacja: cwd/zaklecia/przemiany/podwodna-adaptacja.md
+      - Przebudzenie Potencjalu: cwd/zaklecia/przemiany/przebudzenie-potencjalu.md
+      - Regeneracja: cwd/zaklecia/przemiany/regeneracja.md
+      - Wyostrzenie Zmyslow: cwd/zaklecia/przemiany/wyostrzenie-zmyslow.md
+      - Wzmocnienie Atrybutu: cwd/zaklecia/przemiany/wzmocnienie-atrybutu.md
+      - Wzmocnienie Obrony: cwd/zaklecia/przemiany/wzmocnienie-obrony.md
+      - Zmiana Rozmiaru: cwd/zaklecia/przemiany/zmiana-rozmiaru.md
+      - Znieksztalcenie: cwd/zaklecia/przemiany/znieksztalcenie.md
+      - Zrozumienie: cwd/zaklecia/przemiany/zrozumienie.md
+    - przywolania:
+      - Polecenie Ruchu: cwd/zaklecia/przywolania/polecenie-ruchu.md
+      - Przywolanie Broni: cwd/zaklecia/przywolania/przywolanie-broni.md
+      - Przywolanie Duzego Potwora: cwd/zaklecia/przywolania/przywolanie-duzego-potwora.md
+      - Przywolanie Malego Potwora: cwd/zaklecia/przywolania/przywolanie-malego-potwora.md
+      - Przywolanie Muru: cwd/zaklecia/przywolania/przywolanie-muru.md
+      - Przywolanie Schronienia: cwd/zaklecia/przywolania/przywolanie-schronienia.md
+      - Przywolanie Sredniego Potwora: cwd/zaklecia/przywolania/przywolanie-sredniego-potwora.md
+      - Przywolanie Uczty: cwd/zaklecia/przywolania/przywolanie-uczty.md
+      - Przywolanie Uzytecznego Przedmiotu: cwd/zaklecia/przywolania/przywolanie-uzytecznego-przedmiotu.md
+      - Przywolanie Wielkiego Potwora: cwd/zaklecia/przywolania/przywolanie-wielkiego-potwora.md
+      - Przywolanie Wierzchowcow: cwd/zaklecia/przywolania/przywolanie-wierzchowcow.md
+      - Sekretne Drzwi: cwd/zaklecia/przywolania/sekretne-drzwi.md
+    - sztuki tajemne:
+      - Akumulacja Magii: cwd/zaklecia/sztuki-tajemne/akumulacja-magii.md
+      - Magiczna Strzalka: cwd/zaklecia/sztuki-tajemne/magiczna-strzalka.md
+      - Magiczna Tarcza: cwd/zaklecia/sztuki-tajemne/magiczna-tarcza.md
+      - Magiczna Zbroja: cwd/zaklecia/sztuki-tajemne/magiczna-zbroja.md
+      - Magiczny Kontratak: cwd/zaklecia/sztuki-tajemne/magiczny-kontratak.md
+      - Mistyczny Piorun: cwd/zaklecia/sztuki-tajemne/mistyczny-piorun.md
+      - Mistyczny Wzrok: cwd/zaklecia/sztuki-tajemne/mistyczny-wzrok.md
+      - Nieomylne Strzalki: cwd/zaklecia/sztuki-tajemne/nieomylne-strzalki.md
+      - Stlumienie Magii: cwd/zaklecia/sztuki-tajemne/stlumienie-magii.md
+      - Wybuchowe Strzalki: cwd/zaklecia/sztuki-tajemne/wybuchowe-strzalki.md
+      - Wzmocnienie Magii: cwd/zaklecia/sztuki-tajemne/wzmocnienie-magii.md
+      - Zniszczenie Magii: cwd/zaklecia/sztuki-tajemne/zniszczenie-magii.md
+    - sztuki zakazane:
+      - Chciwosc: cwd/zaklecia/sztuki-zakazane/chciwosc.md
+      - Chowaniec: cwd/zaklecia/sztuki-zakazane/chowaniec.md
+      - Czarny Jezyk: cwd/zaklecia/sztuki-zakazane/czarny-jezyk.md
+      - Koniec Zadzy: cwd/zaklecia/sztuki-zakazane/koniec-zadzy.md
+      - Krzywda: cwd/zaklecia/sztuki-zakazane/krzywda.md
+      - Nienawistna Defekacja: cwd/zaklecia/sztuki-zakazane/nienawistna-defekacja.md
+      - Niepohamowana Zadza: cwd/zaklecia/sztuki-zakazane/niepohamowana-zadza.md
+      - Niepowstrzymany Gniew: cwd/zaklecia/sztuki-zakazane/niepowstrzymany-gniew.md
+      - Nikczemne Zespolenie: cwd/zaklecia/sztuki-zakazane/nikczemne-zespolenie.md
+      - Piekielna Audiencja: cwd/zaklecia/sztuki-zakazane/piekielna-audiencja.md
+      - Posluszenstwo: cwd/zaklecia/sztuki-zakazane/posluszenstwo.md
+      - Potworny Glod: cwd/zaklecia/sztuki-zakazane/potworny-glod.md
+      - Pozbawienie Wzroku: cwd/zaklecia/sztuki-zakazane/pozbawienie-wzroku.md
+      - Przyzwanie Dreczyciela: cwd/zaklecia/sztuki-zakazane/przyzwanie-dreczyciela.md
+      - Przyzwanie Gargulca: cwd/zaklecia/sztuki-zakazane/przyzwanie-gargulca.md
+      - W Imie Lsniacego Ksiecia: cwd/zaklecia/sztuki-zakazane/w-imie-lsniacego-ksiecia.md
+      - W Imie Macierzy Potworow: cwd/zaklecia/sztuki-zakazane/w-imie-macierzy-potworow.md
+      - W Imie Pozbawionego Imienia: cwd/zaklecia/sztuki-zakazane/w-imie-pozbawionego-imienia.md
+      - Wyrwanie Jezyka: cwd/zaklecia/sztuki-zakazane/wyrwanie-jezyka.md
+      - Wytrybowanie: cwd/zaklecia/sztuki-zakazane/wytrybowanie.md
+      - Zamiana Dusz: cwd/zaklecia/sztuki-zakazane/zamiana-dusz.md
+      - Zarłoczne Robactwo: cwd/zaklecia/sztuki-zakazane/zarłoczne-robactwo.md
+    - technomancja:
+      - Granaty: cwd/zaklecia/technomancja/granaty.md
+      - Iskrzaca Tarcza: cwd/zaklecia/technomancja/iskrzaca-tarcza.md
+      - Kolczatka: cwd/zaklecia/technomancja/kolczatka.md
+      - Latajace Ostrza: cwd/zaklecia/technomancja/latajace-ostrza.md
+      - Magiczny Klucz: cwd/zaklecia/technomancja/magiczny-klucz.md
+      - Magiczny Przedmiot: cwd/zaklecia/technomancja/magiczny-przedmiot.md
+      - Mechaniczna Zbroja: cwd/zaklecia/technomancja/mechaniczna-zbroja.md
+      - Miotacz Ognia: cwd/zaklecia/technomancja/miotacz-ognia.md
+      - Prowizorka: cwd/zaklecia/technomancja/prowizorka.md
+      - Remont: cwd/zaklecia/technomancja/remont.md
+      - Wiezyczka: cwd/zaklecia/technomancja/wiezyczka.md
+    - telekineza:
+      - Banka Mocy: cwd/zaklecia/telekineza/banka-mocy.md
+      - Fala Mocy: cwd/zaklecia/telekineza/fala-mocy.md
+      - Lewitacja: cwd/zaklecia/telekineza/lewitacja.md
+      - Mocne Pchniecie: cwd/zaklecia/telekineza/mocne-pchniecie.md
+      - Przytrzymanie: cwd/zaklecia/telekineza/przytrzymanie.md
+      - Sciana Mocy: cwd/zaklecia/telekineza/sciana-mocy.md
+      - Tanczaca Bron: cwd/zaklecia/telekineza/tanczaca-bron.md
+      - Telekinetyczna Tarcza: cwd/zaklecia/telekineza/telekinetyczna-tarcza.md
+      - Telekinetyczny Wybuch: cwd/zaklecia/telekineza/telekinetyczny-wybuch.md
+      - Umysl Ponad Cialem: cwd/zaklecia/telekineza/umysl-ponad-cialem.md
+      - Zmiazdzenie: cwd/zaklecia/telekineza/zmiazdzenie.md
+      - Zmiażdżenie: cwd/zaklecia/telekineza/zmiażdżenie.md
+    - telepatia:
+      - Czytanie W Myslach: cwd/zaklecia/telepatia/czytanie-w-myslach.md
+      - Dzielenie Mysli: cwd/zaklecia/telepatia/dzielenie-mysli.md
+      - Ladunek Emocjonalny: cwd/zaklecia/telepatia/ladunek-emocjonalny.md
+      - Mentalne Zaklocenia: cwd/zaklecia/telepatia/mentalne-zaklocenia.md
+      - Mentalny Sztych: cwd/zaklecia/telepatia/mentalny-sztych.md
+      - System Krotkich Wiadomosci: cwd/zaklecia/telepatia/system-krotkich-wiadomosci.md
+      - Uderzenie Umyslu: cwd/zaklecia/telepatia/uderzenie-umyslu.md
+      - W Imie Pani Westchnien: cwd/zaklecia/telepatia/w-imie-pani-westchnien.md
+      - Wedrowka Po Snach: cwd/zaklecia/telepatia/wedrowka-po-snach.md
+      - Wstret: cwd/zaklecia/telepatia/wstret.md
+      - Wyczucie Mysli: cwd/zaklecia/telepatia/wyczucie-mysli.md
+      - Wydrazenie Umyslu: cwd/zaklecia/telepatia/wydrazenie-umyslu.md
+      - Wymazanie Obecnosci: cwd/zaklecia/telepatia/wymazanie-obecnosci.md
+    - teleportacja:
+      - Blizniacze Portale: cwd/zaklecia/teleportacja/blizniacze-portale.md
+      - Brama Do Pustki: cwd/zaklecia/teleportacja/brama-do-pustki.md
+      - Krok Przez Pustke: cwd/zaklecia/teleportacja/krok-przez-pustke.md
+      - Na Skroty: cwd/zaklecia/teleportacja/na-skroty.md
+      - Nieskrepowany Ruch: cwd/zaklecia/teleportacja/nieskrepowany-ruch.md
+      - Odeslanie: cwd/zaklecia/teleportacja/odeslanie.md
+      - Przyciaganie: cwd/zaklecia/teleportacja/przyciaganie.md
+      - Rekaw Czarodzieja: cwd/zaklecia/teleportacja/rekaw-czarodzieja.md
+      - Relokacja: cwd/zaklecia/teleportacja/relokacja.md
+      - Rozplatanie: cwd/zaklecia/teleportacja/rozplatanie.md
+      - Spojenie: cwd/zaklecia/teleportacja/spojenie.md
+      - Ukryta Przestrzen: cwd/zaklecia/teleportacja/ukryta-przestrzen.md
+      - Wedrowka: cwd/zaklecia/teleportacja/wedrowka.md
+      - Wygnanie: cwd/zaklecia/teleportacja/wygnanie.md
+      - Zamiana Miejsc: cwd/zaklecia/teleportacja/zamiana-miejsc.md
+    - teurgia:
+      - Blogoslawienstwo: cwd/zaklecia/teurgia/blogoslawienstwo.md
+      - Boska Pomoc: cwd/zaklecia/teurgia/boska-pomoc.md
+      - Chlosta: cwd/zaklecia/teurgia/chlosta.md
+      - Gniew Bozy: cwd/zaklecia/teurgia/gniew-bozy.md
+      - Inkarnacja: cwd/zaklecia/teurgia/inkarnacja.md
+      - Mlot Boga: cwd/zaklecia/teurgia/mlot-boga.md
+      - Objawienie: cwd/zaklecia/teurgia/objawienie.md
+      - Ogien Z Niebios: cwd/zaklecia/teurgia/ogien-z-niebios.md
+      - Pokuta: cwd/zaklecia/teurgia/pokuta.md
+      - Poswiecona Ziemia: cwd/zaklecia/teurgia/poswiecona-ziemia.md
+      - Potepienie: cwd/zaklecia/teurgia/potepienie.md
+      - Skarcenie: cwd/zaklecia/teurgia/skarcenie.md
+      - Stworzenie Swietego Symbolu: cwd/zaklecia/teurgia/stworzenie-swietego-symbolu.md
+      - W Imie Nowego Boga: cwd/zaklecia/teurgia/w-imie-nowego-boga.md
+      - Wyrok: cwd/zaklecia/teurgia/wyrok.md
+    - transformacja:
+      - Demoniczna Apoteoza: cwd/zaklecia/transformacja/demoniczna-apoteoza.md
+      - Forma Mgly: cwd/zaklecia/transformacja/forma-mgly.md
+      - Maska: cwd/zaklecia/transformacja/maska.md
+      - Metallicus: cwd/zaklecia/transformacja/metallicus.md
+      - Plynna Postac: cwd/zaklecia/transformacja/plynna-postac.md
+      - Przyspieszone Leczenie: cwd/zaklecia/transformacja/przyspieszone-leczenie.md
+      - Sprezysty Krok: cwd/zaklecia/transformacja/sprezysty-krok.md
+      - Trzepot: cwd/zaklecia/transformacja/trzepot.md
+      - Ulepszona Zwierzecy Postac: cwd/zaklecia/transformacja/ulepszona-zwierzecy-postac.md
+      - Wieksza Zwierzecy Postac: cwd/zaklecia/transformacja/wieksza-zwierzecy-postac.md
+      - Zamiana W Obiekt: cwd/zaklecia/transformacja/zamiana-w-obiekt.md
+      - Zwierzecy Postac: cwd/zaklecia/transformacja/zwierzecy-postac.md
+    - uroki:
+      - Blogostan: cwd/zaklecia/uroki/blogostan.md
+      - Bolesna Przyjemnosc: cwd/zaklecia/uroki/bolesna-przyjemnosc.md
+      - Ekstaza: cwd/zaklecia/uroki/ekstaza.md
+      - Lep: cwd/zaklecia/uroki/lep.md
+      - Niepohamowana Zadza: cwd/zaklecia/uroki/niepohamowana-zadza.md
+      - Oczarowanie: cwd/zaklecia/uroki/oczarowanie.md
+      - Omotanie: cwd/zaklecia/uroki/omotanie.md
+      - Pokusa: cwd/zaklecia/uroki/pokusa.md
+      - Prezencja: cwd/zaklecia/uroki/prezencja.md
+      - Przyneta: cwd/zaklecia/uroki/przyneta.md
+      - Pytanie: cwd/zaklecia/uroki/pytanie.md
+      - Rozkaz: cwd/zaklecia/uroki/rozkaz.md
+      - Spetanie Umyslu: cwd/zaklecia/uroki/spetanie-umyslu.md
+      - W Imie Hulaki: cwd/zaklecia/uroki/w-imie-hulaki.md
+      - W Imie Krolowej Lata: cwd/zaklecia/uroki/w-imie-krolowej-lata.md
+      - Warunkowanie: cwd/zaklecia/uroki/warunkowanie.md
+      - Wzniecenie Obledu: cwd/zaklecia/uroki/wzniecenie-obledu.md
+      - Zastraszenie: cwd/zaklecia/uroki/zastraszenie.md
+      - Zauroczenie: cwd/zaklecia/uroki/zauroczenie.md
+      - Zniewolenie: cwd/zaklecia/uroki/zniewolenie.md
+    - woda:
+      - Fala: cwd/zaklecia/woda/fala.md
+      - Gejzer: cwd/zaklecia/woda/gejzer.md
+      - Kula Wody: cwd/zaklecia/woda/kula-wody.md
+      - Lodowy Pancerz: cwd/zaklecia/woda/lodowy-pancerz.md
+      - Lodowy Podmuch: cwd/zaklecia/woda/lodowy-podmuch.md
+      - Odwodnienie: cwd/zaklecia/woda/odwodnienie.md
+      - Przyzwanie Dzinna Wody: cwd/zaklecia/woda/przyzwanie-dzinna-wody.md
+      - Rwacy Nurt: cwd/zaklecia/woda/rwacy-nurt.md
+      - Stworzenie Wody: cwd/zaklecia/woda/stworzenie-wody.md
+      - Utopienie: cwd/zaklecia/woda/utopienie.md
+      - W Imie Dziadka Mroza: cwd/zaklecia/woda/w-imie-dziadka-mroza.md
+      - Zamiec: cwd/zaklecia/woda/zamiec.md
+      - Zamrozenie: cwd/zaklecia/woda/zamrozenie.md
+      - Zlodowacenie: cwd/zaklecia/woda/zlodowacenie.md
+      - Zyciodajna Studnia: cwd/zaklecia/woda/zyciodajna-studnia.md
+    - ziemia:
+      - Erupcja: cwd/zaklecia/ziemia/erupcja.md
+      - Formowanie Ziemi I Kamienia: cwd/zaklecia/ziemia/formowanie-ziemi-i-kamienia.md
+      - Kamienna Zbroja: cwd/zaklecia/ziemia/kamienna-zbroja.md
+      - Kamienne Ostrza: cwd/zaklecia/ziemia/kamienne-ostrza.md
+      - Ksztaltowanie Ziemi I Kamienia: cwd/zaklecia/ziemia/ksztaltowanie-ziemi-i-kamienia.md
+      - Lawina: cwd/zaklecia/ziemia/lawina.md
+      - Otwarcie Przejscia: cwd/zaklecia/ziemia/otwarcie-przejscia.md
+      - Przygwozdzenie: cwd/zaklecia/ziemia/przygwozdzenie.md
+      - Przyzwanie Dzinna Ziemi: cwd/zaklecia/ziemia/przyzwanie-dzinna-ziemi.md
+      - Ruchome Piaski: cwd/zaklecia/ziemia/ruchome-piaski.md
+      - Skalny Kolec: cwd/zaklecia/ziemia/skalny-kolec.md
+      - Trzesienie Ziemi: cwd/zaklecia/ziemia/trzesienie-ziemi.md
+      - Wstrzas: cwd/zaklecia/ziemia/wstrzas.md
+    - zniszczenie:
+      - Destrukcja: cwd/zaklecia/zniszczenie/destrukcja.md
+      - Detonacja: cwd/zaklecia/zniszczenie/detonacja.md
+      - Dezintegracja: cwd/zaklecia/zniszczenie/dezintegracja.md
+      - Erozja: cwd/zaklecia/zniszczenie/erozja.md
+      - Moc Entropii: cwd/zaklecia/zniszczenie/moc-entropii.md
+      - Pekniecie: cwd/zaklecia/zniszczenie/pekniecie.md
+      - Rozdarcie: cwd/zaklecia/zniszczenie/rozdarcie.md
+      - Rozpuszczenie: cwd/zaklecia/zniszczenie/rozpuszczenie.md
+      - Roztrzaskanie: cwd/zaklecia/zniszczenie/roztrzaskanie.md
+      - Ruina: cwd/zaklecia/zniszczenie/ruina.md
+      - W Imie Pozbawionego Imienia: cwd/zaklecia/zniszczenie/w-imie-pozbawionego-imienia.md
+      - Wyparowanie: cwd/zaklecia/zniszczenie/wyparowanie.md
+    - zycie:
+      - Fala Witalnosci: cwd/zaklecia/zycie/fala-witalnosci.md
+      - Leczenie Lekkich Ran: cwd/zaklecia/zycie/leczenie-lekkich-ran.md
+      - Leczenie Pomniejszych Ran: cwd/zaklecia/zycie/leczenie-pomniejszych-ran.md
+      - Leczenie Powaznych Ran: cwd/zaklecia/zycie/leczenie-powaznych-ran.md
+      - Leczenie Srednich Ran: cwd/zaklecia/zycie/leczenie-srednich-ran.md
+      - Ozywienie: cwd/zaklecia/zycie/ozywienie.md
+      - Pelne Leczenie: cwd/zaklecia/zycie/pelne-leczenie.md
+      - Uzdrowienie: cwd/zaklecia/zycie/uzdrowienie.md
+      - W Imie Pramatki: cwd/zaklecia/zycie/w-imie-pramatki.md
+      - Wieksze Uzdrowienie: cwd/zaklecia/zycie/wieksze-uzdrowienie.md
+      - Wskrzeszenie: cwd/zaklecia/zycie/wskrzeszenie.md
+      - Wyczucie Zycia: cwd/zaklecia/zycie/wyczucie-zycia.md
+      - Zrodlo Zycia: cwd/zaklecia/zycie/zrodlo-zycia.md
+  - Cień Władcy Demonów - Kompendium: cwd/zaklecia.md
