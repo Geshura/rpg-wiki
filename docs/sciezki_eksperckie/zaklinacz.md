@@ -1,12 +1,5 @@
----
-title: Zaklinacz
----
-
 # Zaklinacz
 
-Opis: Specjalista od wzmacniania przedmiotów i kontrolowania magicznych stworzeń.
+*Opis wkrótce...*
 
-Przykładowe korzyści:
-
-- Możliwość tymczasowego wzmocnienia broni i pancerzy.
-- Umiejętność przyzwania lub ujarzmienia niewielkich magicznych istot.
+**Źródło:** Podręcznik Główny, str. 76

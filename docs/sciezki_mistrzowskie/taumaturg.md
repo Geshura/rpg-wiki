@@ -1,12 +1,5 @@
----
-title: Taumaturg
----
-
 # Taumaturg
 
-Opis: Mistrz rytuałów, potrafi przygotować długotrwałe efekty magiczne.
+*Opis wkrótce...*
 
-Przykładowe korzyści:
-
-- Dostęp do złożonych rytuałów tworzonych poza polem bitwy.
-- Zwiększona kontrola nad czasem trwania efektów magicznych.
+**Źródło:** Podręcznik Główny, str. 97

@@ -1,12 +1,5 @@
----
-title: Paladyn
----
-
 # Paladyn
 
-Opis: Obrońca wartości, łączy umiejętności bojowe z błogosławieństwami.
+*Opis wkrótce...*
 
-Przykładowe korzyści:
-
-- Możliwość udzielania ochronnych błogosławieństw sojusznikom.
-- Zwiększona odporność na wpływy magiczne.
+**Źródło:** Podręcznik Główny, str. 71

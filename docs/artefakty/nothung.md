@@ -1,14 +1,5 @@
----
-title: Nothung
----
-
 # Nothung
 
-Opis: Stary miecz o nierównej stalowej klingi, która mieni się czerwienią.
+**Źródło:** Chwalebna Śmierć • str. 22
 
-Właściwości (przykładowe):
-
-- Rzadkość: Unikat
-- Efekt: +1 do ataku; dodatkowe 1k obrażeń przeciwko istotom nieumarłym.
-
-Legenda: Ostrze pochodzi z zapomnianej kuźni, wykute przez mistrza kowalstwa.
+> Strona wygenerowana automatycznie z JSON.

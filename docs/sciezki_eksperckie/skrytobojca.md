@@ -1,12 +1,5 @@
----
-title: Skrytobójca
----
-
 # Skrytobójca
 
-Opis: Ekspert w cichych eliminacjach, wykorzystuje precyzję i kamuflaż.
+*Opis wkrótce...*
 
-Przykładowe korzyści:
-
-- Zwiększone obrażenia przy ataku z zaskoczenia.
-- Umiejętność szybkiego wycofania po udanym cichym ataku.
+**Źródło:** Podręcznik Główny, str. 72

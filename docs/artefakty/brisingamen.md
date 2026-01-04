@@ -1,14 +1,5 @@
----
-title: Brisingamen
----
-
 # Brisingamen
 
-Opis: Błyszczący amulet, który lekko rozgrzewa się przy obecności magii.
+**Źródło:** Chwalebna Śmierć • str. 21
 
-Właściwości (przykładowe):
-
-- Rzadkość: Rzadki
-- Efekt: Przywraca 1 punkt many co 10 minut podczas odpoczynku.
-
-Historia: Legenda mówi, że amulet należał do wędrownej kapłanki, która chroniła podróżnych.
+> Strona wygenerowana automatycznie z JSON.

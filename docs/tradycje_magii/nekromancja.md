@@ -1,12 +1,7 @@
----
-title: Nekromancja
----
-
 # Nekromancja
 
-Opis: Kontrola nad umarłymi i rytuały związane ze śmiercią.
+**Zrodlo:** Podręcznik Główny, str. 133
 
-Przykładowe zastosowania:
+**Atrybut: Intelekt**
 
-- Przyzwanie prostych istot nieumarłych na krótką chwilę.
-- Wykrywanie pozostałości energii życiowej w otoczeniu.
+Nekromancja narusza cykl życia i śmierci poprzez tworzenie istot, które trwają w zawieszeniu pomiędzy tymi dwoma stanami. Jej tajniki skryte są w bluźnierczych księgach bądź wyryte na ścianach prastarych grobowców, więc ci, którzy chcą je poznać, muszą stawić czoła hordom nieumarłych i poddać się Splugawieniu.

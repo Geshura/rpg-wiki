@@ -1,14 +1,5 @@
----
-title: Ork
----
-
 # Ork
 
-Opis: Pochodzenie: Ork — potężne istoty o dużej sile, często wykorzystywane jako żołnierze.
+*Opis wkrótce...*
 
-Statystyki startowe (przykładowe):
-
-- Siła: +2
-- Zręczność: -1
-
-Atuty: Odporność na ból, naturalna agresja bojowa.
+**Źródło:** Podręcznik Główny, str. 22
