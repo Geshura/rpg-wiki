@@ -5,7 +5,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 ## Struktura
 
 
-### [Artefakty](artefakty/index.md)
+### [Artefakty](artefakty/)
 
 - [Brisingamen](artefakty/brisingamen.md)
 - [Brzmiący Róg](artefakty/brzmiący_róg.md)
@@ -53,7 +53,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Wykręt](artefakty/wykręt.md)
 - [Włócznia Jutrzenki](artefakty/włócznia_jutrzenki.md)
 
-### [Pochodzenia](pochodzenia/index.md)
+### [Pochodzenia](pochodzenia/)
 
 - [AUTOMATON](pochodzenia/automaton.md)
 - [Chochlik](pochodzenia/chochlik.md)
@@ -79,7 +79,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Wampir](pochodzenia/wampir.md)
 - [Warg](pochodzenia/warg.md)
 
-### [Sciezki Eksperckie](sciezki_eksperckie/index.md)
+### [Sciezki Eksperckie](sciezki_eksperckie/)
 
 - [Apostata](sciezki_eksperckie/apostata.md)
 - [Berserker](sciezki_eksperckie/berserker.md)
@@ -118,7 +118,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Złodziej](sciezki_eksperckie/złodziej.md)
 - [Łowca](sciezki_eksperckie/łowca.md)
 
-### [Sciezki Mistrzowskie](sciezki_mistrzowskie/index.md)
+### [Sciezki Mistrzowskie](sciezki_mistrzowskie/)
 
 - [Aeromanta](sciezki_mistrzowskie/aeromanta.md)
 - [Akrobata](sciezki_mistrzowskie/akrobata.md)
@@ -205,7 +205,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Zelota](sciezki_mistrzowskie/zelota.md)
 - [Łupieżca](sciezki_mistrzowskie/łupieżca.md)
 
-### [Tradycje Magii](tradycje_magii/index.md)
+### [Tradycje Magii](tradycje_magii/)
 
 - [Alchemia](tradycje_magii/alchemia.md)
 - [Chaos](tradycje_magii/chaos.md)
@@ -247,7 +247,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Zniszczenie](tradycje_magii/zniszczenie.md)
 - [Życie](tradycje_magii/zycie.md)
 
-### [Zaklecia](zaklecia/index.md)
+### [Zaklecia](zaklecia/)
 
 - [Adamantytowe Łańcuchy](zaklecia/adamantytowe_łańcuchy.md)
 - [Akceleracja](zaklecia/akceleracja.md)

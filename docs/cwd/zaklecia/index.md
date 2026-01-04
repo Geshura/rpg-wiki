@@ -1,5 +1,9 @@
 # Zaklęcia
 
+---
+title: Zaklęcia
+---
+
 Ta sekcja zawiera rozbudowane opisy zaklęć z różnych tradycji magii.
 
 ## Lista Zaklęć
