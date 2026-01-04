@@ -40,50 +40,50 @@ markdown_extensions:
 nav:
   - Strona główna: index.md
   - Cień Władcy Demonów:
-    - Przegląd: sotdl/index.md
+    - Przegląd: cwd/index.md
     - Pochodzenia:
-      - Automaton: sotdl/pochodzenia/automaton.md
-      - Człowiek: sotdl/pochodzenia/czlowiek.md
-      - Goblin: sotdl/pochodzenia/goblin.md
+      - Automaton: cwd/pochodzenia/automaton.md
+      - Człowiek: cwd/pochodzenia/czlowiek.md
+      - Goblin: cwd/pochodzenia/goblin.md
     - Ścieżki Eksperckie:
-      - Wyrocznia: sotdl/sciezki_eksperckie/wyrocznia.md
+      - Wyrocznia: cwd/sciezki_eksperckie/wyrocznia.md
     - Tradycje Magii:
-      - Alchemia: sotdl/tradycje_magii/alchemia.md
-      - Chaos: sotdl/tradycje_magii/chaos.md
-      - Czas: sotdl/tradycje_magii/czas.md
-      - Demonologia: sotdl/tradycje_magii/demonologia.md
-      - Iluzja: sotdl/tradycje_magii/iluzja.md
-      - Inkantacje: sotdl/tradycje_magii/inkantacje.md
-      - Jasnowidzenie: sotdl/tradycje_magii/jasnowidzenie.md
-      - Klątwy: sotdl/tradycje_magii/klatwy.md
-      - Magia Bitewna: sotdl/tradycje_magii/magia_bitewna.md
-      - Magia Burzy: sotdl/tradycje_magii/magia_burzy.md
-      - Magia Cienia: sotdl/tradycje_magii/magia_cienia.md
-      - Magia Fey: sotdl/tradycje_magii/magia_fey.md
-      - Magia Krwi: sotdl/tradycje_magii/magia_krwi.md
-      - Magia Niebiańska: sotdl/tradycje_magii/magia_niebianska.md
-      - Magia Pierwotna: sotdl/tradycje_magii/magia_pierwotna.md
-      - Magia Runiczna: sotdl/tradycje_magii/magia_runiczna.md
-      - Natura: sotdl/tradycje_magii/natura.md
-      - Nekromancja: sotdl/tradycje_magii/nekromancja.md
-      - Ochrona: sotdl/tradycje_magii/ochrona.md
-      - Ogień: sotdl/tradycje_magii/ogien.md
-      - Pieśń: sotdl/tradycje_magii/piesn.md
-      - Powietrze: sotdl/tradycje_magii/powietrze.md
-      - Przemiany: sotdl/tradycje_magii/przemiany.md
-      - Przywołania: sotdl/tradycje_magii/przywolania.md
-      - Śmierć: sotdl/tradycje_magii/smierc.md
-      - Spirytyzm: sotdl/tradycje_magii/spirytyzm.md
-      - Sztuki Tajemne: sotdl/tradycje_magii/sztuki_tajemne.md
-      - Sztuki Zakazane: sotdl/tradycje_magii/sztuki_zakazane.md
-      - Technomancja: sotdl/tradycje_magii/technomancja.md
-      - Telekineza: sotdl/tradycje_magii/telekineza.md
-      - Telepatia: sotdl/tradycje_magii/telepatia.md
-      - Teleportacja: sotdl/tradycje_magii/teleportacja.md
-      - Teurgia: sotdl/tradycje_magii/teurgia.md
-      - Transformacja: sotdl/tradycje_magii/transformacja.md
-      - Uroki: sotdl/tradycje_magii/uroki.md
-      - Woda: sotdl/tradycje_magii/woda.md
-      - Ziemia: sotdl/tradycje_magii/ziemia.md
-      - Zniszczenie: sotdl/tradycje_magii/zniszczenie.md
-      - Życie: sotdl/tradycje_magii/zycie.md
+      - Alchemia: cwd/tradycje_magii/alchemia.md
+      - Chaos: cwd/tradycje_magii/chaos.md
+      - Czas: cwd/tradycje_magii/czas.md
+      - Demonologia: cwd/tradycje_magii/demonologia.md
+      - Iluzja: cwd/tradycje_magii/iluzja.md
+      - Inkantacje: cwd/tradycje_magii/inkantacje.md
+      - Jasnowidzenie: cwd/tradycje_magii/jasnowidzenie.md
+      - Klątwy: cwd/tradycje_magii/klatwy.md
+      - Magia Bitewna: cwd/tradycje_magii/magia_bitewna.md
+      - Magia Burzy: cwd/tradycje_magii/magia_burzy.md
+      - Magia Cienia: cwd/tradycje_magii/magia_cienia.md
+      - Magia Fey: cwd/tradycje_magii/magia_fey.md
+      - Magia Krwi: cwd/tradycje_magii/magia_krwi.md
+      - Magia Niebiańska: cwd/tradycje_magii/magia_niebianska.md
+      - Magia Pierwotna: cwd/tradycje_magii/magia_pierwotna.md
+      - Magia Runiczna: cwd/tradycje_magii/magia_runiczna.md
+      - Natura: cwd/tradycje_magii/natura.md
+      - Nekromancja: cwd/tradycje_magii/nekromancja.md
+      - Ochrona: cwd/tradycje_magii/ochrona.md
+      - Ogień: cwd/tradycje_magii/ogien.md
+      - Pieśń: cwd/tradycje_magii/piesn.md
+      - Powietrze: cwd/tradycje_magii/powietrze.md
+      - Przemiany: cwd/tradycje_magii/przemiany.md
+      - Przywołania: cwd/tradycje_magii/przywolania.md
+      - Śmierć: cwd/tradycje_magii/smierc.md
+      - Spirytyzm: cwd/tradycje_magii/spirytyzm.md
+      - Sztuki Tajemne: cwd/tradycje_magii/sztuki_tajemne.md
+      - Sztuki Zakazane: cwd/tradycje_magii/sztuki_zakazane.md
+      - Technomancja: cwd/tradycje_magii/technomancja.md
+      - Telekineza: cwd/tradycje_magii/telekineza.md
+      - Telepatia: cwd/tradycje_magii/telepatia.md
+      - Teleportacja: cwd/tradycje_magii/teleportacja.md
+      - Teurgia: cwd/tradycje_magii/teurgia.md
+      - Transformacja: cwd/tradycje_magii/transformacja.md
+      - Uroki: cwd/tradycje_magii/uroki.md
+      - Woda: cwd/tradycje_magii/woda.md
+      - Ziemia: cwd/tradycje_magii/ziemia.md
+      - Zniszczenie: cwd/tradycje_magii/zniszczenie.md
+      - Życie: cwd/tradycje_magii/zycie.md
