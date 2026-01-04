@@ -145,8 +145,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function loadSiteTree() {
       try {
-        let resp = await fetch('/spis_tresci/');
-        if (!resp.ok) resp = await fetch('/spis_tresci.md');
+        // try overview in compendium first (Przegląd), then fall back to old spis_tresci
+        const tryUrls = [
+          '/compendium/shadow_demon_lord/index/',
+          '/compendium/shadow_demon_lord/index.md',
+          '/spis_tresci/',
+          '/spis_tresci.md'
+        ];
+        let resp = null;
+        for (let u of tryUrls) {
+          try {
+            const r = await fetch(u);
+            if (r && r.ok) { resp = r; break; }
+          } catch (e) {
+            // ignore and try next
+          }
+        }
+        if (!resp) throw new Error('no toc source');
         const text = await resp.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(text, 'text/html');
