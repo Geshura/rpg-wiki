@@ -5,3 +5,9 @@
 #toc-widget li.toc-open>ul{display:block}
 #toc-widget ul{list-style:none;padding-left:0;margin:0}
 #toc-widget li>ul{display:none;padding-left:12px;margin:6px 0}
+
+#inline-toc{background:#f8f9fb;border:1px solid #e2e2e2;padding:10px;margin:12px 0;border-radius:6px}
+#inline-toc .inline-toc-title{font-weight:700;margin-bottom:8px}
+#inline-toc .inline-toc-list ul{list-style:disc;padding-left:18px;margin:0}
+#inline-toc a.toc-active{font-weight:700;color:#0d47a1}
+
