@@ -1,0 +1,21 @@
+name: Publikuj Wiki RPG
+on:
+  push:
+    branches:
+      - main
+      - master
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Konfiguracja Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Instalacja MkDocs
+        run: pip install mkdocs-material
+      - name: Budowanie i Publikacja
+        run: mkdocs gh-deploy --force
