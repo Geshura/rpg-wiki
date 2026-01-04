@@ -5,7 +5,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 ## Struktura
 
 
-### [Artefakty](artefakty/)
+### [Artefakty](artefakty.md)
 
 - [Brisingamen](artefakty/brisingamen.md)
 - [Brzmiący Róg](artefakty/brzmiący_róg.md)
@@ -53,7 +53,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Wykręt](artefakty/wykręt.md)
 - [Włócznia Jutrzenki](artefakty/włócznia_jutrzenki.md)
 
-### [Pochodzenia](pochodzenia/)
+### [Pochodzenia](pochodzenia.md)
 
 - [AUTOMATON](pochodzenia/automaton.md)
 - [Chochlik](pochodzenia/chochlik.md)
@@ -79,7 +79,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Wampir](pochodzenia/wampir.md)
 - [Warg](pochodzenia/warg.md)
 
-### [Sciezki Eksperckie](sciezki_eksperckie/)
+### [Sciezki Eksperckie](sciezki_eksperckie.md)
 
 - [Apostata](sciezki_eksperckie/apostata.md)
 - [Berserker](sciezki_eksperckie/berserker.md)
@@ -118,7 +118,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Złodziej](sciezki_eksperckie/złodziej.md)
 - [Łowca](sciezki_eksperckie/łowca.md)
 
-### [Sciezki Mistrzowskie](sciezki_mistrzowskie/)
+### [Sciezki Mistrzowskie](sciezki_mistrzowskie.md)
 
 - [Aeromanta](sciezki_mistrzowskie/aeromanta.md)
 - [Akrobata](sciezki_mistrzowskie/akrobata.md)
@@ -205,7 +205,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Zelota](sciezki_mistrzowskie/zelota.md)
 - [Łupieżca](sciezki_mistrzowskie/łupieżca.md)
 
-### [Tradycje Magii](tradycje_magii/)
+### [Tradycje Magii](tradycje_magii.md)
 
 - [Alchemia](tradycje_magii/alchemia.md)
 - [Chaos](tradycje_magii/chaos.md)
@@ -247,7 +247,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 - [Zniszczenie](tradycje_magii/zniszczenie.md)
 - [Życie](tradycje_magii/zycie.md)
 
-### [Zaklecia](zaklecia/)
+### [Zaklecia](zaklecia.md)
 
 - [Adamantytowe Łańcuchy](zaklecia/adamantytowe_łańcuchy.md)
 - [Akceleracja](zaklecia/akceleracja.md)

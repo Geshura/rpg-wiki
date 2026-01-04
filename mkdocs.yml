@@ -27,9 +27,7 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Cień Władcy Demonów - Kompendium: cwd/index.md
-  - Artefakty:
-    - Artefakty: cwd/artefakty/index.md
+  - artefakty:
     - Brisingamen: cwd/artefakty/brisingamen.md
     - Brzmiący Róg: cwd/artefakty/brzmiący_róg.md
     - Chytry Uśmiech: cwd/artefakty/chytry_uśmiech.md
@@ -76,8 +74,7 @@ nav:
     - Wykręt: cwd/artefakty/wykręt.md
     - Włócznia Jutrzenki: cwd/artefakty/włócznia_jutrzenki.md
   - Cień Władcy Demonów - Kompendium: cwd/artefakty.md
-  - Pochodzenia:
-    - Pochodzenia: cwd/pochodzenia/index.md
+  - pochodzenia:
     - AUTOMATON: cwd/pochodzenia/automaton.md
     - Chochlik: cwd/pochodzenia/chochlik.md
     - CZŁOWIEK: cwd/pochodzenia/czlowiek.md
@@ -102,8 +99,7 @@ nav:
     - Wampir: cwd/pochodzenia/wampir.md
     - Warg: cwd/pochodzenia/warg.md
   - Cień Władcy Demonów - Kompendium: cwd/pochodzenia.md
-  - Ścieżki Eksperckie:
-    - Ścieżki Eksperckie: cwd/sciezki_eksperckie/index.md
+  - sciezki eksperckie:
     - Apostata: cwd/sciezki_eksperckie/apostata.md
     - Berserker: cwd/sciezki_eksperckie/berserker.md
     - Czarnoksiężnik: cwd/sciezki_eksperckie/czarnoksieznik.md
@@ -141,8 +137,7 @@ nav:
     - Złodziej: cwd/sciezki_eksperckie/złodziej.md
     - Łowca: cwd/sciezki_eksperckie/łowca.md
   - Cień Władcy Demonów - Kompendium: cwd/sciezki_eksperckie.md
-  - Ścieżki Mistrzowskie:
-    - Ścieżki Mistrzowskie: cwd/sciezki_mistrzowskie/index.md
+  - sciezki mistrzowskie:
     - Aeromanta: cwd/sciezki_mistrzowskie/aeromanta.md
     - Akrobata: cwd/sciezki_mistrzowskie/akrobata.md
     - Astromanta: cwd/sciezki_mistrzowskie/astromanta.md
@@ -228,8 +223,7 @@ nav:
     - Zelota: cwd/sciezki_mistrzowskie/zelota.md
     - Łupieżca: cwd/sciezki_mistrzowskie/łupieżca.md
   - Cień Władcy Demonów - Kompendium: cwd/sciezki_mistrzowskie.md
-  - Tradycje Magii:
-    - Tradycje Magii: cwd/tradycje_magii/index.md
+  - tradycje magii:
     - Alchemia: cwd/tradycje_magii/alchemia.md
     - Chaos: cwd/tradycje_magii/chaos.md
     - Czas: cwd/tradycje_magii/czas.md
@@ -270,8 +264,7 @@ nav:
     - Zniszczenie: cwd/tradycje_magii/zniszczenie.md
     - Życie: cwd/tradycje_magii/zycie.md
   - Cień Władcy Demonów - Kompendium: cwd/tradycje_magii.md
-  - Zaklęcia:
-    - Zaklęcia: cwd/zaklecia/index.md
+  - zaklecia:
     - Adamantytowe Łańcuchy: cwd/zaklecia/adamantytowe_łańcuchy.md
     - Akceleracja: cwd/zaklecia/akceleracja.md
     - Akumulacja Magii: cwd/zaklecia/akumulacja_magii.md
