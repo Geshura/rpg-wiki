@@ -4,6 +4,34 @@ site_url: https://geshura.github.io/rpg-wiki/
 repo_url: https://github.com/geshura/rpg-wiki/
 edit_uri: edit/main/docs/
 
+nav:
+  - Home: index.md
+  - Artefakty:
+    - Brisingamen: artefakty/brisingamen.md
+    - Czara Mgieł: artefakty/czara_mgiel.md
+    - Nothung: artefakty/nothung.md
+    - Lista artefaktów: artefakty.md
+  - Pochodzenia:
+    - Ork: pochodzenia/ork.md
+    - Goblin: pochodzenia/goblin.md
+    - Niziołek: pochodzenia/niziolek.md
+    - Lista pochodzeń: pochodzenia.md
+  - Ścieżki Mistrzowskie:
+    - Mag Zagłady: sciezki_mistrzowskie/mag_zaglady.md
+    - Mag Bitewny: sciezki_mistrzowskie/mag_bitewny.md
+    - Taumaturg: sciezki_mistrzowskie/taumaturg.md
+    - Lista ścieżek mistrzowskich: sciezki_mistrzowskie.md
+  - Ścieżki Eksperckie:
+    - Paladyn: sciezki_eksperckie/paladyn.md
+    - Skrytobójca: sciezki_eksperckie/skrytobojca.md
+    - Zaklinacz: sciezki_eksperckie/zaklinacz.md
+    - Lista ścieżek eksperckich: sciezki_eksperckie.md
+  - Tradycje Magii:
+    - Nekromancja: tradycje_magii/nekromancja.md
+    - Telepatia: tradycje_magii/telepatia.md
+    - Teleportacja: tradycje_magii/teleportacja.md
+    - Lista tradycji magii: tradycje_magii.md
+
 theme:
   name: material
   language: pl
