@@ -1,4 +1,4 @@
-name: Publikuj Wiki RPG
+name: public-wiki-rpg
 on:
   push:
     branches:
