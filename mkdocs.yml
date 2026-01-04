@@ -240,6 +240,9 @@ nav:
     - Ziemia: tradycje_magii/ziemia.md
     - Zniszczenie: tradycje_magii/zniszczenie.md
     - Życie: tradycje_magii/zycie.md
+  - Zaklęcia:
+    - Indeks: zaklecia/index.md
+
 
 theme:
   name: material
@@ -248,13 +251,13 @@ theme:
     # Dark (slate) scheme and light (default) scheme using Material defaults
     - scheme: slate
       primary: red
-      accent: teal
+      accent: red
       toggle:
         icon: material/brightness-7
         name: Przełącz na jasny motyw
     - scheme: default
       primary: red
-      accent: teal
+      accent: red
       toggle:
         icon: material/brightness-4
         name: Przełącz na ciemny motyw
