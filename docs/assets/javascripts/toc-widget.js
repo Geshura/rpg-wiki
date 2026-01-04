@@ -1,120 +1,104 @@
+// Wikipedia-like in-page TOC: build from headings on the current page and add scrollspy
 document.addEventListener('DOMContentLoaded', function () {
-  const container = document.createElement('div');
-  container.id = 'toc-widget';
-  container.innerHTML = `
-    <button id="toc-toggle" aria-expanded="false">Spis</button>
-    <div id="toc-content" hidden></div>
-  `;
-  document.body.appendChild(container);
+  const container = document.createElement('aside');
+  container.id = 'inline-toc';
+  container.setAttribute('aria-label', 'Spis treści');
 
-  const contentDiv = document.getElementById('toc-content');
-  const toggle = document.getElementById('toc-toggle');
+  const article = document.querySelector('main, .md-content, .md-main__inner, #main');
+  if (!article) return; // no content area found
 
-  async function loadTOC() {
-    try {
-      let resp = await fetch('/spis_tresci/');
-      if (!resp.ok) resp = await fetch('/spis_tresci.md');
-      const text = await resp.text();
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(text, 'text/html');
-      const generated = doc.querySelector('#generated-toc') || doc.querySelector('body');
-      contentDiv.innerHTML = generated ? generated.innerHTML : text;
-      highlightCurrent(contentDiv);
-      injectInlineSectionTOC(generated || doc.body);
-    } catch (e) {
-      contentDiv.innerHTML = '<p>Nie można załadować spisu treści.</p>';
-    }
+  // collect headings (exclude h1)
+  const headings = Array.from(article.querySelectorAll('h2, h3, h4'));
+  if (headings.length === 0) return; // nothing to show
+
+  function slugify(text) {
+    return text.toLowerCase().trim().replace(/[^a-z0-9ąćęłńóśżź]+/g, '-').replace(/^-+|-+$/g, '');
   }
 
-  function normalizePath(p) {
-    if (!p) return '';
-    try { p = decodeURIComponent(p); } catch (e) {}
-    p = p.split('#')[0].split('?')[0];
-    p = p.replace(/^\//, '').replace(/\.html$/, '').replace(/\/$/, '');
-    return p;
-  }
+  // ensure ids
+  headings.forEach(h => {
+    if (!h.id) h.id = slugify(h.textContent || 'section');
+  });
 
-  function highlightCurrent(root) {
-    const links = root.querySelectorAll('a');
-    const current = normalizePath(location.pathname);
-    links.forEach(a => {
-      let href = a.getAttribute('href') || '';
-      if (href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) return;
-      let h = href.replace(/^\.\//, '').replace(/^\//, '').split('#')[0].split('?')[0];
-      h = h.replace(/\.html$/, '').replace(/\/$/, '');
-      if (h === current || (h === 'index' && (current === '' || current === 'index'))) {
-        a.classList.add('toc-active');
-        let li = a.closest('li');
-        while (li) {
-          li.classList.add('toc-open');
-          li = li.parentElement ? li.parentElement.closest('li') : null;
-        }
+  // build nested list
+  const rootUl = document.createElement('ul');
+  rootUl.className = 'inline-toc-root';
+  let stack = [{level: 2, ul: rootUl}];
+
+  headings.forEach(h => {
+    const level = parseInt(h.tagName.substring(1), 10);
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    a.className = 'inline-toc-link';
+    li.appendChild(a);
+
+    let last = stack[stack.length - 1];
+    if (level > last.level) {
+      // create nested ul
+      const newUl = document.createElement('ul');
+      last.ul.lastElementChild && last.ul.lastElementChild.appendChild(newUl);
+      stack.push({level: level, ul: newUl});
+      newUl.appendChild(li);
+    } else {
+      while (stack.length && level < stack[stack.length - 1].level) stack.pop();
+      if (level !== stack[stack.length - 1].level) {
+        stack.push({level: level, ul: stack[stack.length - 1].ul});
       }
+      stack[stack.length - 1].ul.appendChild(li);
+    }
+  });
+
+  // title and insert
+  const title = document.createElement('div');
+  title.className = 'inline-toc-title';
+  title.textContent = 'Spis treści';
+  container.appendChild(title);
+  container.appendChild(rootUl);
+
+  // insert after first h1 or at top of article
+  const firstH1 = article.querySelector('h1');
+  if (firstH1 && firstH1.parentElement) firstH1.parentElement.insertBefore(container, firstH1.nextSibling);
+  else article.insertBefore(container, article.firstChild);
+
+  // scrollspy: highlight link for current section
+  const links = Array.from(container.querySelectorAll('a.inline-toc-link'));
+  const headingTops = headings.map(h => ({id: h.id, top: h.getBoundingClientRect().top + window.scrollY}));
+
+  function onScroll() {
+    const scrollPos = window.scrollY + 10; // small offset
+    let currentId = headingTops[0].id;
+    for (let i = 0; i < headingTops.length; i++) {
+      if (scrollPos >= headingTops[i].top) currentId = headingTops[i].id;
+      else break;
+    }
+    links.forEach(a => a.classList.toggle('toc-active', a.hash === '#' + currentId));
+  }
+
+  window.addEventListener('scroll', onScroll, {passive: true});
+  window.addEventListener('resize', () => {
+    headingTops.forEach(ht => {
+      const el = document.getElementById(ht.id);
+      ht.top = el.getBoundingClientRect().top + window.scrollY;
     });
-    const active = root.querySelector('.toc-active');
-    if (active) active.scrollIntoView({ block: 'center' });
-  }
+    onScroll();
+  });
 
-  // Inline section TOC: inject a compact TOC for the current top-level section
-  function injectInlineSectionTOC(root) {
-    try {
-      const tocRoot = root.querySelector('ul') || root;
-      const current = normalizePath(location.pathname);
+  // initial highlight
+  onScroll();
 
-      // find best matching top-level li that contains current page
-      const topLis = Array.from((tocRoot.querySelectorAll(':scope > ul > li')) || []);
-      let selectedLi = null;
-      for (const li of topLis) {
-        const anchors = li.querySelectorAll('a');
-        for (const a of anchors) {
-          const href = a.getAttribute('href') || '';
-          const norm = normalizePath(href.replace(/^\.\//, ''));
-          if (!norm) continue;
-          if (current === norm || current.startsWith(norm + '/')) {
-            selectedLi = li; break;
-          }
-        }
-        if (selectedLi) break;
-      }
-
-      // fallback: pick first top-level
-      if (!selectedLi && topLis.length) selectedLi = topLis[0];
-      if (!selectedLi) return;
-
-      // clone selected subtree and render into page
-      const clone = selectedLi.cloneNode(true);
-      // create container
-      const inline = document.createElement('aside');
-      inline.id = 'inline-toc';
-      inline.setAttribute('aria-label', 'Spis treści sekcji');
-      const title = clone.querySelector('a') ? clone.querySelector('a').textContent : 'Spis';
-      inline.innerHTML = `<div class="inline-toc-title">${title}</div>`;
-      const list = document.createElement('div');
-      list.className = 'inline-toc-list';
-      // remove top-level link from clone (we'll keep children)
-      const topLink = clone.querySelector('a');
-      if (topLink) topLink.remove();
-      list.appendChild(clone.querySelector('ul') || clone);
-      inline.appendChild(list);
-
-      // highlight current within inline
-      highlightCurrent(inline);
-
-      // insert after page title if possible
-      const article = document.querySelector('main, .md-content, .md-main__inner, #main');
-      if (article) {
-        const firstH = article.querySelector('h1, h2');
-        if (firstH && firstH.parentElement) {
-          firstH.parentElement.insertBefore(inline, firstH.nextSibling);
-        } else {
-          article.insertBefore(inline, article.firstChild);
-        }
-      }
-    } catch (e) {
-      // fail silently
-      console.warn('inline TOC error', e);
+  // smooth behavior for anchor clicks
+  container.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      e.preventDefault();
+      const id = e.target.getAttribute('href').substring(1);
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
+      history.replaceState(null, '', '#' + id);
     }
-  }
+  });
+});
 
   toggle.addEventListener('click', function () {
     const hidden = contentDiv.hasAttribute('hidden');
