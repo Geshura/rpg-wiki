@@ -23,6 +23,9 @@ jobs:
       - name: Buduj dokumentację
         run: mkdocs build --clean
 
+      - name: Postprocess site HTML
+        run: python scripts/postprocess_site.py
+
       - name: Publikuj na GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
