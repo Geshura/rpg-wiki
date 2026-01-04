@@ -38,15 +38,15 @@ theme:
   palette:
     # Ciemny motyw
     - scheme: default
-      primary: red
-      accent: red
+      primary: "#6b0000"
+      accent: "#9b0000"
       toggle:
         icon: material/brightness-4
         name: Przełącz na jasny motyw
     # Jasny motyw
     - scheme: slate
-      primary: red
-      accent: red
+      primary: "#5b0000"
+      accent: "#8b0000"
       toggle:
         icon: material/brightness-7
         name: Przełącz na ciemny motyw
