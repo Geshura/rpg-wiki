@@ -7,30 +7,30 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Artefakty:
+    - Artefakty: artefakty.md
     - Brisingamen: artefakty/brisingamen.md
     - Czara Mgieł: artefakty/czara_mgiel.md
     - Nothung: artefakty/nothung.md
-    - Lista artefaktów: artefakty.md
   - Pochodzenia:
+    - Pochodzenia: pochodzenia.md
     - Ork: pochodzenia/ork.md
     - Goblin: pochodzenia/goblin.md
     - Niziołek: pochodzenia/niziolek.md
-    - Lista pochodzeń: pochodzenia.md
   - Ścieżki Mistrzowskie:
+    - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
     - Mag Zagłady: sciezki_mistrzowskie/mag_zaglady.md
     - Mag Bitewny: sciezki_mistrzowskie/mag_bitewny.md
     - Taumaturg: sciezki_mistrzowskie/taumaturg.md
-    - Lista ścieżek mistrzowskich: sciezki_mistrzowskie.md
   - Ścieżki Eksperckie:
+    - Ścieżki Eksperckie: sciezki_eksperckie.md
     - Paladyn: sciezki_eksperckie/paladyn.md
     - Skrytobójca: sciezki_eksperckie/skrytobojca.md
     - Zaklinacz: sciezki_eksperckie/zaklinacz.md
-    - Lista ścieżek eksperckich: sciezki_eksperckie.md
   - Tradycje Magii:
+    - Tradycje Magii: tradycje_magii.md
     - Nekromancja: tradycje_magii/nekromancja.md
     - Telepatia: tradycje_magii/telepatia.md
     - Teleportacja: tradycje_magii/teleportacja.md
-    - Lista tradycji magii: tradycje_magii.md
 
 theme:
   name: material
