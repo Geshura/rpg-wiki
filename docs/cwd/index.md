@@ -4,7 +4,7 @@ Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demo
 
 ## Struktura
 
-### [Pochodzenia](pochodzenia/)
+### [Pochodzenia](pochodzenia/index.md)
 
 Rasy i pochodzenia postaci dostępne w grze.
 
@@ -14,19 +14,19 @@ Rasy i pochodzenia postaci dostępne w grze.
 
 *Więcej w trakcie dodawania...*
 
-### [Ścieżki Eksperckie](sciezki_eksperckie/)
+### [Ścieżki Eksperckie](sciezki_eksperckie/index.md)
 
 Pełne opisy ścieżek eksperckich dla poziomów 3, 6 i 9.
 
 - [Wyrocznia](sciezki_eksperckie/wyrocznia.md)
 
-### [Ścieżki Mistrzowskie](sciezki_mistrzowskie/)
+### [Ścieżki Mistrzowskie](sciezki_mistrzowskie/index.md)
 
 Pełne opisy ścieżek mistrzowskich dla zaawansowanych postaci.
 
 *W trakcie dodawania...*
 
-### [Tradycje Magii](tradycje_magii/)
+### [Tradycje Magii](tradycje_magii/index.md)
 
 Opisy tradycji magicznych wraz z zaklęciami i mechanikami.
 
@@ -73,13 +73,13 @@ Opisy tradycji magicznych wraz z zaklęciami i mechanikami.
 - [Magia Fey](tradycje_magii/magia_fey.md) *(Straszliwe Piękno)*
 - [Magia Krwi](tradycje_magii/magia_krwi.md) *(Grobowce Pustkowia)*
 
-### [Zaklęcia](zaklecia/)
+### [Zaklęcia](zaklecia/index.md)
 
 Rozszerzone opisy zaklęć z różnych tradycji.
 
 *W trakcie dodawania...*
 
-### [Artefakty](artefakty/)
+### [Artefakty](artefakty/index.md)
 
 Magiczne przedmioty, reliktwy i artefakty.
 
