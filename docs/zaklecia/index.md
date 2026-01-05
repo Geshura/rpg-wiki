@@ -1,23 +1,14 @@
- # Cień Władcy Demonów - Kompendium
+---
+title: Zaklęcia — Indeks (przeniesione)
+---
 
- Rozszerzone kompendium dla systemu Shadow of the Demon Lord / Cień Władcy Demonów.
+# Zaklęcia — Indeks
 
- ## Struktura
+Indeks zaklęć został przeniesiony. Proszę użyć głównego indeksu:
 
+- [Zaklęcia — Indeks główny](../zaklecia.md)
 
- ### [Artefakty](../artefakty.md)
-
- - [Brisingamen](../artefakty/brisingamen.md)
- - [Brzmiący Róg](../artefakty/brzmiący_róg.md)
- - [Chytry Uśmiech](../artefakty/chytry_uśmiech.md)
- - [Czara Mgieł](../artefakty/czara_mgieł.md)
- - [Czaszka Vergula](../artefakty/czaszka_vergula.md)
- - [Czepek z Zaświatów](../artefakty/czepek_z_zaświatów.md)
- - [Diadem Oczu](../artefakty/diadem_oczu.md)
- - [Drewniany Chłopiec](../artefakty/drewniany_chłopiec.md)
- - [Ikona Wroga](../artefakty/ikona_wroga.md)
- - [Kamień Końca](../artefakty/kamień_końca.md)
- - [Kielich Cnoty](../artefakty/kielich_cnoty.md)
+Ten plik został zminimalizowany, aby uniknąć przestarzałych, nieistniejących odnośników.
  - [Klepsydra Dziewicy](../artefakty/klepsydra_dziewicy.md)
  - [Kocioł Śmierci](../artefakty/kocioł_śmierci.md)
  - [Kościana Strzała](../artefakty/kościana_strzała.md)

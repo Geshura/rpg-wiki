@@ -241,8 +241,7 @@ nav:
     - Zniszczenie: tradycje_magii/zniszczenie.md
     - Życie: tradycje_magii/zycie.md
   - Zaklęcia:
-    - Indeks: zaklecia/index.md
-    - Zaklęcia: zaklecia/zaklecia.md
+    - Indeks: zaklecia.md
     - Adamantytowe łańcuchy: zaklecia/adamantytowe_łańcuchy.md
     - Akceleracja: zaklecia/akceleracja.md
     - Akumulacja magii: zaklecia/akumulacja_magii.md
