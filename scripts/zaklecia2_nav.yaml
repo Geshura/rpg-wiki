@@ -1,0 +1,528 @@
+  - Zaklęcia 2:
+    - Indeks: zaklecia2.md
+    - Chaos:
+      - Bledny pocisk chaosu: zaklecia2/chaos/bledny-pocisk-chaosu.md
+      - Dar chaosu: zaklecia2/chaos/dar-chaosu.md
+      - Dzika magia chaos: zaklecia2/chaos/dzika-magia-chaos.md
+      - Kaprysne zniszczenie: zaklecia2/chaos/kaprysne-zniszczenie.md
+      - Kolor magii: zaklecia2/chaos/kolor-magii.md
+      - Lanca chaosu: zaklecia2/chaos/lanca-chaosu.md
+      - Migotanie chaos: zaklecia2/chaos/migotanie-chaos.md
+      - Opalizujaca tarcza: zaklecia2/chaos/opalizujaca-tarcza.md
+      - Osobliwosc: zaklecia2/chaos/osobliwosc.md
+      - Sciana luster: zaklecia2/chaos/sciana-luster.md
+      - Zakrzywienie przestrzeni: zaklecia2/chaos/zakrzywienie-przestrzeni.md
+    - Cien:
+      - Cien z pustki: zaklecia2/cien/cien-z-pustki.md
+      - W imie wiecznego cienia: zaklecia2/cien/w-imie-wiecznego-cienia.md
+    - Czas:
+      - Akceleracja: zaklecia2/czas/akceleracja.md
+      - Drugie podejscie: zaklecia2/czas/drugie-podejscie.md
+      - Opoznienie: zaklecia2/czas/opoznienie.md
+      - Podroz w czasie: zaklecia2/czas/podroz-w-czasie.md
+      - Pomniejszy paradoks: zaklecia2/czas/pomniejszy-paradoks.md
+      - Pospiech: zaklecia2/czas/pospiech.md
+      - Predykcja: zaklecia2/czas/predykcja.md
+      - Przeskok czasu: zaklecia2/czas/przeskok-czasu.md
+      - Rozdwojenie: zaklecia2/czas/rozdwojenie.md
+      - Spowolnienie: zaklecia2/czas/spowolnienie.md
+      - Zahamowanie: zaklecia2/czas/zahamowanie.md
+    - Iluzja:
+      - Camera obscura: zaklecia2/iluzja/camera-obscura.md
+      - Duplikaty: zaklecia2/iluzja/duplikaty.md
+      - Fantom: zaklecia2/iluzja/fantom.md
+      - Halas: zaklecia2/iluzja/halas.md
+      - Iluzoryczny sobowtor: zaklecia2/iluzja/iluzoryczny-sobowtor.md
+      - Miraz: zaklecia2/iluzja/miraz.md
+      - Niewidzialnosc: zaklecia2/iluzja/niewidzialnosc.md
+      - Pragnienie serca: zaklecia2/iluzja/pragnienie-serca.md
+      - Przebranie: zaklecia2/iluzja/przebranie.md
+      - Urojenia: zaklecia2/iluzja/urojenia.md
+      - Wymysl: zaklecia2/iluzja/wymysl.md
+      - Zawroty glowy: zaklecia2/iluzja/zawroty-glowy.md
+      - Zmylka: zaklecia2/iluzja/zmylka.md
+    - Inkantacje:
+      - Linia geomantyczna: zaklecia2/inkantacje/linia-geomantyczna.md
+      - Pokuta: zaklecia2/inkantacje/pokuta.md
+      - Proroctwo: zaklecia2/inkantacje/proroctwo.md
+      - Przywolanie duszy: zaklecia2/inkantacje/przywolanie-duszy.md
+      - Runa zniszczenia: zaklecia2/inkantacje/runa-zniszczenia.md
+      - Sekrety ziemi: zaklecia2/inkantacje/sekrety-ziemi.md
+      - Trupi wzrok: zaklecia2/inkantacje/trupi-wzrok.md
+      - Wiazacy pentagram: zaklecia2/inkantacje/wiazacy-pentagram.md
+      - Zwierzecy szpieg: zaklecia2/inkantacje/zwierzecy-szpieg.md
+    - Jasnowidzenie:
+      - Dalekowidzenie: zaklecia2/jasnowidzenie/dalekowidzenie.md
+      - Krwawe objawienie: zaklecia2/jasnowidzenie/krwawe-objawienie.md
+      - Lokalizacja: zaklecia2/jasnowidzenie/lokalizacja.md
+      - Modlitwa wieszcza: zaklecia2/jasnowidzenie/modlitwa-wieszcza.md
+      - Olsnienie: zaklecia2/jasnowidzenie/olsnienie.md
+      - Podsluch: zaklecia2/jasnowidzenie/podsluch.md
+      - Prawdoslyszenie: zaklecia2/jasnowidzenie/prawdoslyszenie.md
+      - Przedswit: zaklecia2/jasnowidzenie/przedswit.md
+      - Przepowiednia: zaklecia2/jasnowidzenie/przepowiednia.md
+      - Psychometria: zaklecia2/jasnowidzenie/psychometria.md
+      - Widzenie przyszlosci: zaklecia2/jasnowidzenie/widzenie-przyszlosci.md
+      - Wieszczba: zaklecia2/jasnowidzenie/wieszczba.md
+      - Wizja: zaklecia2/jasnowidzenie/wizja.md
+      - Wrozba: zaklecia2/jasnowidzenie/wrozba.md
+    - Klatwy:
+      - Bol: zaklecia2/klatwy/bol.md
+      - Glod krwi: zaklecia2/klatwy/glod-krwi.md
+      - Kila: zaklecia2/klatwy/kila.md
+      - Klatwa pustynnych krolow: zaklecia2/klatwy/klatwa-pustynnych-krolow.md
+      - Okulawienie: zaklecia2/klatwy/okulawienie.md
+      - Petryfikacja: zaklecia2/klatwy/petryfikacja.md
+      - Podatnosc: zaklecia2/klatwy/podatnosc.md
+      - Przeklenstwo: zaklecia2/klatwy/przeklenstwo.md
+      - Przestrach: zaklecia2/klatwy/przestrach.md
+      - Ropucha: zaklecia2/klatwy/ropucha.md
+      - Slabosc: zaklecia2/klatwy/slabosc.md
+      - Trwoga: zaklecia2/klatwy/trwoga.md
+      - Wieprz: zaklecia2/klatwy/wieprz.md
+      - Wizja grozy: zaklecia2/klatwy/wizja-grozy.md
+      - Zamiana w fomora: zaklecia2/klatwy/zamiana-w-fomora.md
+      - Zatrute jablko: zaklecia2/klatwy/zatrute-jablko.md
+      - Znaj swa zgube: zaklecia2/klatwy/znaj-swa-zgube.md
+    - Magia bitewna:
+      - Bitewny impet: zaklecia2/magia-bitewna/bitewny-impet.md
+      - Blyskawiczny szturm: zaklecia2/magia-bitewna/blyskawiczny-szturm.md
+      - Druzgocacy skok: zaklecia2/magia-bitewna/druzgocacy-skok.md
+      - Nawalnica ciosow: zaklecia2/magia-bitewna/nawalnica-ciosow.md
+      - Niesamowity cios: zaklecia2/magia-bitewna/niesamowity-cios.md
+      - Pocisk wiodacy: zaklecia2/magia-bitewna/pocisk-wiodacy.md
+      - Potezny atak: zaklecia2/magia-bitewna/potezny-atak.md
+      - Przebiegla parada: zaklecia2/magia-bitewna/przebiegla-parada.md
+      - Przenikajacy pocisk: zaklecia2/magia-bitewna/przenikajacy-pocisk.md
+      - Przyplyw heroizmu: zaklecia2/magia-bitewna/przyplyw-heroizmu.md
+      - Przyspieszenie: zaklecia2/magia-bitewna/przyspieszenie.md
+      - Rechot mrocznych bogow: zaklecia2/magia-bitewna/rechot-mrocznych-bogow.md
+      - Sciana mieczy: zaklecia2/magia-bitewna/sciana-mieczy.md
+      - Sprawnosc bojowa: zaklecia2/magia-bitewna/sprawnosc-bojowa.md
+      - Ujarzmienie szalenstwa: zaklecia2/magia-bitewna/ujarzmienie-szalenstwa.md
+      - W imie krola czaszek: zaklecia2/magia-bitewna/w-imie-krola-czaszek.md
+      - W imie mrocznych bogow: zaklecia2/magia-bitewna/w-imie-mrocznych-bogow.md
+      - Wir smierci: zaklecia2/magia-bitewna/wir-smierci.md
+      - Wstrzasajacy atak: zaklecia2/magia-bitewna/wstrzasajacy-atak.md
+      - Zasklepienie ran: zaklecia2/magia-bitewna/zasklepienie-ran.md
+      - Zespolony atak: zaklecia2/magia-bitewna/zespolony-atak.md
+    - Magia burzy:
+      - Gradobicie: zaklecia2/magia-burzy/gradobicie.md
+      - Kwasny deszcz: zaklecia2/magia-burzy/kwasny-deszcz.md
+      - Lancuch piorunow: zaklecia2/magia-burzy/lancuch-piorunow.md
+      - Mgla: zaklecia2/magia-burzy/mgla.md
+      - Ognie swietej astrid: zaklecia2/magia-burzy/ognie-swietej-astrid.md
+      - Porazenie: zaklecia2/magia-burzy/porazenie.md
+      - Przywolanie pioruna: zaklecia2/magia-burzy/przywolanie-pioruna.md
+      - Rozwidlony piorun: zaklecia2/magia-burzy/rozwidlony-piorun.md
+      - Szadz: zaklecia2/magia-burzy/szadz.md
+      - Trujaca mgla: zaklecia2/magia-burzy/trujaca-mgla.md
+      - Wyladowanie: zaklecia2/magia-burzy/wyladowanie.md
+    - Magia cienia:
+      - Ciemnosc: zaklecia2/magia-cienia/ciemnosc.md
+      - Cien z pustki: zaklecia2/magia-cienia/cien-z-pustki.md
+      - Cienista magia: zaklecia2/magia-cienia/cienista-magia.md
+      - Cienista strzalka: zaklecia2/magia-cienia/cienista-strzalka.md
+      - Czarnostrzaly z zaswiatow: zaklecia2/magia-cienia/czarnostrzaly-z-zaswiatow.md
+      - Droga przez cien: zaklecia2/magia-cienia/droga-przez-cien.md
+      - Grobowe oblicze: zaklecia2/magia-cienia/grobowe-oblicze.md
+      - Mroczne portale: zaklecia2/magia-cienia/mroczne-portale.md
+      - Mroczne wynaturzenie: zaklecia2/magia-cienia/mroczne-wynaturzenie.md
+      - Ostrze zmierzchu: zaklecia2/magia-cienia/ostrze-zmierzchu.md
+      - Prog zaswiatow: zaklecia2/magia-cienia/prog-zaswiatow.md
+      - Sciana ciemnosci: zaklecia2/magia-cienia/sciana-ciemnosci.md
+      - W imie wiecznego cienia: zaklecia2/magia-cienia/w-imie-wiecznego-cienia.md
+      - Widzenie w ciemnosci: zaklecia2/magia-cienia/widzenie-w-ciemnosci.md
+      - Zapaśc: zaklecia2/magia-cienia/zapaśc.md
+    - Magia fey:
+      - Bledne ogniki: zaklecia2/magia-fey/bledne-ogniki.md
+      - Feeria: zaklecia2/magia-fey/feeria.md
+      - Halucynacje: zaklecia2/magia-fey/halucynacje.md
+      - Linienie: zaklecia2/magia-fey/linienie.md
+      - Pijanstwo: zaklecia2/magia-fey/pijanstwo.md
+      - Poskrecana korona: zaklecia2/magia-fey/poskrecana-korona.md
+      - Spiaczka: zaklecia2/magia-fey/spiaczka.md
+      - Stworzenie odmienca: zaklecia2/magia-fey/stworzenie-odmienca.md
+      - Szalona pijatyka: zaklecia2/magia-fey/szalona-pijatyka.md
+      - Wymazanie pamieci: zaklecia2/magia-fey/wymazanie-pamieci.md
+      - Zanikanie: zaklecia2/magia-fey/zanikanie.md
+      - Zloto faerie: zaklecia2/magia-fey/zloto-faerie.md
+      - Zmniejszenie obiektu: zaklecia2/magia-fey/zmniejszenie-obiektu.md
+      - Zwodzenie: zaklecia2/magia-fey/zwodzenie.md
+    - Magia krwi:
+      - Krwawienie: zaklecia2/magia-krwi/krwawienie.md
+      - Krwotok: zaklecia2/magia-krwi/krwotok.md
+      - Rownowaga humorow: zaklecia2/magia-krwi/rownowaga-humorow.md
+      - Rzadka krew: zaklecia2/magia-krwi/rzadka-krew.md
+      - Transfuzja: zaklecia2/magia-krwi/transfuzja.md
+      - Wrzaca krew: zaklecia2/magia-krwi/wrzaca-krew.md
+    - Magia niebianska:
+      - Aureola: zaklecia2/magia-niebianska/aureola.md
+      - Blysk: zaklecia2/magia-niebianska/blysk.md
+      - Ksiezycowy most: zaklecia2/magia-niebianska/ksiezycowy-most.md
+      - Miazdzaca swiatlosc: zaklecia2/magia-niebianska/miazdzaca-swiatlosc.md
+      - Miażdżąca swiatlosc: zaklecia2/magia-niebianska/miażdżąca-swiatlosc.md
+      - Palacy promien: zaklecia2/magia-niebianska/palacy-promien.md
+      - Promienie slonca: zaklecia2/magia-niebianska/promienie-slonca.md
+      - Promieniowanie: zaklecia2/magia-niebianska/promieniowanie.md
+      - Rozblysk sloneczny: zaklecia2/magia-niebianska/rozblysk-sloneczny.md
+      - Sciana swiatla: zaklecia2/magia-niebianska/sciana-swiatla.md
+      - Spadajaca gwiazda: zaklecia2/magia-niebianska/spadajaca-gwiazda.md
+      - Supernowa: zaklecia2/magia-niebianska/supernowa.md
+      - Swiatlo: zaklecia2/magia-niebianska/swiatlo.md
+      - Swit: zaklecia2/magia-niebianska/swit.md
+      - Teczowa eksplozja: zaklecia2/magia-niebianska/teczowa-eksplozja.md
+      - Trwale swiatlo: zaklecia2/magia-niebianska/trwale-swiatlo.md
+      - W imie ksiezycowej dziewicy: zaklecia2/magia-niebianska/w-imie-ksiezycowej-dziewicy.md
+      - W imie wedrujacej gwiazdy: zaklecia2/magia-niebianska/w-imie-wedrujacej-gwiazdy.md
+    - Magia pierwotna:
+      - Jezyk bestii: zaklecia2/magia-pierwotna/jezyk-bestii.md
+      - Oko lowcy: zaklecia2/magia-pierwotna/oko-lowcy.md
+      - Okrutna bestia: zaklecia2/magia-pierwotna/okrutna-bestia.md
+      - Przyzwanie skrzydlatych wierzchowcow: zaklecia2/magia-pierwotna/przyzwanie-skrzydlatych-wierzchowcow.md
+      - Przyzwanie wierzchowcow: zaklecia2/magia-pierwotna/przyzwanie-wierzchowcow.md
+      - Serce bestii: zaklecia2/magia-pierwotna/serce-bestii.md
+      - Ukrycie przed zwierzetami: zaklecia2/magia-pierwotna/ukrycie-przed-zwierzetami.md
+      - W imie rogatego krola: zaklecia2/magia-pierwotna/w-imie-rogatego-krola.md
+      - Wezwanie duzego zwierzecia: zaklecia2/magia-pierwotna/wezwanie-duzego-zwierzecia.md
+      - Wezwanie malego zwierzecia: zaklecia2/magia-pierwotna/wezwanie-malego-zwierzecia.md
+      - Wezwanie sredniego zwierzecia: zaklecia2/magia-pierwotna/wezwanie-sredniego-zwierzecia.md
+      - Wezwanie wielkiego zwierzecia: zaklecia2/magia-pierwotna/wezwanie-wielkiego-zwierzecia.md
+      - Zew dziczy: zaklecia2/magia-pierwotna/zew-dziczy.md
+      - Zryw: zaklecia2/magia-pierwotna/zryw.md
+      - Zwierzecy towarzysz: zaklecia2/magia-pierwotna/zwierzecy-towarzysz.md
+    - Magia runiczna:
+      - Glif ognia: zaklecia2/magia-runiczna/glif-ognia.md
+      - Pietno zaglady: zaklecia2/magia-runiczna/pietno-zaglady.md
+      - Rozumienie pisma: zaklecia2/magia-runiczna/rozumienie-pisma.md
+      - Runa lodu: zaklecia2/magia-runiczna/runa-lodu.md
+      - Runa lokalizacji: zaklecia2/magia-runiczna/runa-lokalizacji.md
+      - Runa mocy: zaklecia2/magia-runiczna/runa-mocy.md
+      - Runa potegi: zaklecia2/magia-runiczna/runa-potegi.md
+      - Runa przeszycia: zaklecia2/magia-runiczna/runa-przeszycia.md
+      - Runa uderzenia: zaklecia2/magia-runiczna/runa-uderzenia.md
+      - Runa ukrycia: zaklecia2/magia-runiczna/runa-ukrycia.md
+      - Runa witalnosci: zaklecia2/magia-runiczna/runa-witalnosci.md
+      - Runiczna bron: zaklecia2/magia-runiczna/runiczna-bron.md
+      - Runiczna pulapka: zaklecia2/magia-runiczna/runiczna-pulapka.md
+      - Runiczna tarcza: zaklecia2/magia-runiczna/runiczna-tarcza.md
+      - Runiczne wiezienie: zaklecia2/magia-runiczna/runiczne-wiezienie.md
+      - Runiczny pancerz: zaklecia2/magia-runiczna/runiczny-pancerz.md
+    - Natura:
+      - Ciernie: zaklecia2/natura/ciernie.md
+      - Debowa skora: zaklecia2/natura/debowa-skora.md
+      - Gniew natury: zaklecia2/natura/gniew-natury.md
+      - Kostur druida: zaklecia2/natura/kostur-druida.md
+      - Lesny chod: zaklecia2/natura/lesny-chod.md
+      - Magiczne zoledzie: zaklecia2/natura/magiczne-zoledzie.md
+      - Oplatajacy bluszcz: zaklecia2/natura/oplatajacy-bluszcz.md
+      - Pareidolia: zaklecia2/natura/pareidolia.md
+      - Plonace szyszki: zaklecia2/natura/plonace-szyszki.md
+      - Przebudzenie drzewa: zaklecia2/natura/przebudzenie-drzewa.md
+      - Przerost: zaklecia2/natura/przerost.md
+      - Przyzwanie straznikow kniei: zaklecia2/natura/przyzwanie-straznikow-kniei.md
+      - Uzdrawiajace jagody: zaklecia2/natura/uzdrawiajace-jagody.md
+      - Uzdrawiajacy kompres: zaklecia2/natura/uzdrawiajacy-kompres.md
+      - W imie starej wiary: zaklecia2/natura/w-imie-starej-wiary.md
+      - Zamiana w debowego straznika: zaklecia2/natura/zamiana-w-debowego-straznika.md
+    - Nekromancja:
+      - Armia umarlych: zaklecia2/nekromancja/armia-umarlych.md
+      - Kanibalizacja magii: zaklecia2/nekromancja/kanibalizacja-magii.md
+      - Kosciane drzazgi: zaklecia2/nekromancja/kosciane-drzazgi.md
+      - Licz: zaklecia2/nekromancja/licz.md
+      - Odlawianie duszy: zaklecia2/nekromancja/odlawianie-duszy.md
+      - Ozywienie zwlok: zaklecia2/nekromancja/ozywienie-zwlok.md
+      - Rece umarlych: zaklecia2/nekromancja/rece-umarlych.md
+      - Studnia mrocznej mocy: zaklecia2/nekromancja/studnia-mrocznej-mocy.md
+      - Stworzenie zombie: zaklecia2/nekromancja/stworzenie-zombie.md
+      - Ukrycie przed nieumarlymi: zaklecia2/nekromancja/ukrycie-przed-nieumarlymi.md
+      - Widmowy chwyt: zaklecia2/nekromancja/widmowy-chwyt.md
+      - Wrzeszczaca czaszka: zaklecia2/nekromancja/wrzeszczaca-czaszka.md
+      - Zamkniecie wrot zaswiatow: zaklecia2/nekromancja/zamkniecie-wrot-zaswiatow.md
+    - Ochrona:
+      - Adamantytowe lancuchy: zaklecia2/ochrona/adamantytowe-lancuchy.md
+      - Magiczny zamek: zaklecia2/ochrona/magiczny-zamek.md
+      - Nietykalnosc: zaklecia2/ochrona/nietykalnosc.md
+      - Ochrona przed czarami: zaklecia2/ochrona/ochrona-przed-czarami.md
+      - Okowy: zaklecia2/ochrona/okowy.md
+      - Pole ochronne: zaklecia2/ochrona/pole-ochronne.md
+      - Pole silowe: zaklecia2/ochrona/pole-silowe.md
+      - Przezorne: zaklecia2/ochrona/przezorne.md
+      - Przystosowanie do zywiolow: zaklecia2/ochrona/przystosowanie-do-zywiolow.md
+      - Sanktuarium: zaklecia2/ochrona/sanktuarium.md
+      - Sfera negacji: zaklecia2/ochrona/sfera-negacji.md
+      - Uskok: zaklecia2/ochrona/uskok.md
+      - Wigor: zaklecia2/ochrona/wigor.md
+      - Zabezpieczenie miejsca: zaklecia2/ochrona/zabezpieczenie-miejsca.md
+      - Zdjecie klatwy: zaklecia2/ochrona/zdjecie-klatwy.md
+    - Ogien:
+      - Calun plomieni: zaklecia2/ogien/calun-plomieni.md
+      - Kontrola plomienia: zaklecia2/ogien/kontrola-plomienia.md
+      - Kula ognia: zaklecia2/ogien/kula-ognia.md
+      - Meteoroid: zaklecia2/ogien/meteoroid.md
+      - Ochrona przed ogniem: zaklecia2/ogien/ochrona-przed-ogniem.md
+      - Ognista salwa: zaklecia2/ogien/ognista-salwa.md
+      - Ognisty pocisk: zaklecia2/ogien/ognisty-pocisk.md
+      - Ognisty podmuch: zaklecia2/ogien/ognisty-podmuch.md
+      - Plomienna gorliwosc: zaklecia2/ogien/plomienna-gorliwosc.md
+      - Pocisk piekielnego ognia: zaklecia2/ogien/pocisk-piekielnego-ognia.md
+      - Podpalenie: zaklecia2/ogien/podpalenie.md
+      - Przyzwanie dzinna ognia: zaklecia2/ogien/przyzwanie-dzinna-ognia.md
+      - Sciana plomieni: zaklecia2/ogien/sciana-plomieni.md
+      - W imie jedynego prawdziwego boga: zaklecia2/ogien/w-imie-jedynego-prawdziwego-boga.md
+      - Wybuch piekielnego ognia: zaklecia2/ogien/wybuch-piekielnego-ognia.md
+    - Piesn:
+      - Donosny glos: zaklecia2/piesn/donosny-glos.md
+      - Nuty czarnej piesni: zaklecia2/piesn/nuty-czarnej-piesni.md
+      - Piesn bohaterow: zaklecia2/piesn/piesn-bohaterow.md
+      - Piesn fascynacji: zaklecia2/piesn/piesn-fascynacji.md
+      - Piesn hulacka: zaklecia2/piesn/piesn-hulacka.md
+      - Piesn inspiracji: zaklecia2/piesn/piesn-inspiracji.md
+      - Piesn leczenia: zaklecia2/piesn/piesn-leczenia.md
+      - Piesn mestwa: zaklecia2/piesn/piesn-mestwa.md
+      - Piesn odwagi: zaklecia2/piesn/piesn-odwagi.md
+      - Piesn przyjazni: zaklecia2/piesn/piesn-przyjazni.md
+      - Piesn przywabienia: zaklecia2/piesn/piesn-przywabienia.md
+      - Piesn trwogi: zaklecia2/piesn/piesn-trwogi.md
+      - Piesn uspienia: zaklecia2/piesn/piesn-uspienia.md
+      - Sprosna piosenka: zaklecia2/piesn/sprosna-piosenka.md
+    - Powietrze:
+      - Dar latania: zaklecia2/powietrze/dar-latania.md
+      - Fala goraca: zaklecia2/powietrze/fala-goraca.md
+      - Grzmot: zaklecia2/powietrze/grzmot.md
+      - Gwaltowny podmuch: zaklecia2/powietrze/gwaltowny-podmuch.md
+      - Martwe powietrze: zaklecia2/powietrze/martwe-powietrze.md
+      - Odarcie ze skory: zaklecia2/powietrze/odarcie-ze-skory.md
+      - Powiew: zaklecia2/powietrze/powiew.md
+      - Przejscie cyklonu: zaklecia2/powietrze/przejscie-cyklonu.md
+      - Przywolanie wichru: zaklecia2/powietrze/przywolanie-wichru.md
+      - Przyzwanie dzinna powietrza: zaklecia2/powietrze/przyzwanie-dzinna-powietrza.md
+      - Przyzwanie pylistego diabla: zaklecia2/powietrze/przyzwanie-pylistego-diabla.md
+      - Szybowanie: zaklecia2/powietrze/szybowanie.md
+      - Uderzenie wiatru: zaklecia2/powietrze/uderzenie-wiatru.md
+      - Ukrop: zaklecia2/powietrze/ukrop.md
+    - Przemiany:
+      - Atawizm: zaklecia2/przemiany/atawizm.md
+      - Demoniczna apoteoza: zaklecia2/przemiany/demoniczna-apoteoza.md
+      - Elastycznosc: zaklecia2/przemiany/elastycznosc.md
+      - Pajecza wspinaczka: zaklecia2/przemiany/pajecza-wspinaczka.md
+      - Podwodna adaptacja: zaklecia2/przemiany/podwodna-adaptacja.md
+      - Przebudzenie potencjalu: zaklecia2/przemiany/przebudzenie-potencjalu.md
+      - Regeneracja: zaklecia2/przemiany/regeneracja.md
+      - Wyostrzenie zmyslow: zaklecia2/przemiany/wyostrzenie-zmyslow.md
+      - Wzmocnienie atrybutu: zaklecia2/przemiany/wzmocnienie-atrybutu.md
+      - Wzmocnienie obrony: zaklecia2/przemiany/wzmocnienie-obrony.md
+      - Zmiana rozmiaru: zaklecia2/przemiany/zmiana-rozmiaru.md
+      - Znieksztalcenie: zaklecia2/przemiany/znieksztalcenie.md
+      - Zrozumienie: zaklecia2/przemiany/zrozumienie.md
+    - Przywolania:
+      - Polecenie ruchu: zaklecia2/przywolania/polecenie-ruchu.md
+      - Przywolanie broni: zaklecia2/przywolania/przywolanie-broni.md
+      - Przywolanie duzego potwora: zaklecia2/przywolania/przywolanie-duzego-potwora.md
+      - Przywolanie malego potwora: zaklecia2/przywolania/przywolanie-malego-potwora.md
+      - Przywolanie muru: zaklecia2/przywolania/przywolanie-muru.md
+      - Przywolanie schronienia: zaklecia2/przywolania/przywolanie-schronienia.md
+      - Przywolanie sredniego potwora: zaklecia2/przywolania/przywolanie-sredniego-potwora.md
+      - Przywolanie uczty: zaklecia2/przywolania/przywolanie-uczty.md
+      - Przywolanie uzytecznego przedmiotu: zaklecia2/przywolania/przywolanie-uzytecznego-przedmiotu.md
+      - Przywolanie wielkiego potwora: zaklecia2/przywolania/przywolanie-wielkiego-potwora.md
+      - Przywolanie wierzchowcow: zaklecia2/przywolania/przywolanie-wierzchowcow.md
+      - Sekretne drzwi: zaklecia2/przywolania/sekretne-drzwi.md
+    - Sztuki tajemne:
+      - Akumulacja magii: zaklecia2/sztuki-tajemne/akumulacja-magii.md
+      - Magiczna strzalka: zaklecia2/sztuki-tajemne/magiczna-strzalka.md
+      - Magiczna tarcza: zaklecia2/sztuki-tajemne/magiczna-tarcza.md
+      - Magiczna zbroja: zaklecia2/sztuki-tajemne/magiczna-zbroja.md
+      - Magiczny kontratak: zaklecia2/sztuki-tajemne/magiczny-kontratak.md
+      - Mistyczny piorun: zaklecia2/sztuki-tajemne/mistyczny-piorun.md
+      - Mistyczny wzrok: zaklecia2/sztuki-tajemne/mistyczny-wzrok.md
+      - Nieomylne strzalki: zaklecia2/sztuki-tajemne/nieomylne-strzalki.md
+      - Stlumienie magii: zaklecia2/sztuki-tajemne/stlumienie-magii.md
+      - Wybuchowe strzalki: zaklecia2/sztuki-tajemne/wybuchowe-strzalki.md
+      - Wzmocnienie magii: zaklecia2/sztuki-tajemne/wzmocnienie-magii.md
+      - Zniszczenie magii: zaklecia2/sztuki-tajemne/zniszczenie-magii.md
+    - Sztuki zakazane:
+      - Chciwosc: zaklecia2/sztuki-zakazane/chciwosc.md
+      - Chowaniec: zaklecia2/sztuki-zakazane/chowaniec.md
+      - Czarny jezyk: zaklecia2/sztuki-zakazane/czarny-jezyk.md
+      - Koniec zadzy: zaklecia2/sztuki-zakazane/koniec-zadzy.md
+      - Krzywda: zaklecia2/sztuki-zakazane/krzywda.md
+      - Nienawistna defekacja: zaklecia2/sztuki-zakazane/nienawistna-defekacja.md
+      - Niepohamowana zadza: zaklecia2/sztuki-zakazane/niepohamowana-zadza.md
+      - Niepowstrzymany gniew: zaklecia2/sztuki-zakazane/niepowstrzymany-gniew.md
+      - Nikczemne zespolenie: zaklecia2/sztuki-zakazane/nikczemne-zespolenie.md
+      - Piekielna audiencja: zaklecia2/sztuki-zakazane/piekielna-audiencja.md
+      - Posluszenstwo: zaklecia2/sztuki-zakazane/posluszenstwo.md
+      - Potworny glod: zaklecia2/sztuki-zakazane/potworny-glod.md
+      - Pozbawienie wzroku: zaklecia2/sztuki-zakazane/pozbawienie-wzroku.md
+      - Przyzwanie dreczyciela: zaklecia2/sztuki-zakazane/przyzwanie-dreczyciela.md
+      - Przyzwanie gargulca: zaklecia2/sztuki-zakazane/przyzwanie-gargulca.md
+      - W imie lsniacego ksiecia: zaklecia2/sztuki-zakazane/w-imie-lsniacego-ksiecia.md
+      - W imie macierzy potworow: zaklecia2/sztuki-zakazane/w-imie-macierzy-potworow.md
+      - W imie pozbawionego imienia: zaklecia2/sztuki-zakazane/w-imie-pozbawionego-imienia.md
+      - Wyrwanie jezyka: zaklecia2/sztuki-zakazane/wyrwanie-jezyka.md
+      - Wytrybowanie: zaklecia2/sztuki-zakazane/wytrybowanie.md
+      - Zamiana dusz: zaklecia2/sztuki-zakazane/zamiana-dusz.md
+      - Zarłoczne robactwo: zaklecia2/sztuki-zakazane/zarłoczne-robactwo.md
+    - Technomancja:
+      - Granaty: zaklecia2/technomancja/granaty.md
+      - Iskrzaca tarcza: zaklecia2/technomancja/iskrzaca-tarcza.md
+      - Kolczatka: zaklecia2/technomancja/kolczatka.md
+      - Latajace ostrza: zaklecia2/technomancja/latajace-ostrza.md
+      - Magiczny klucz: zaklecia2/technomancja/magiczny-klucz.md
+      - Magiczny przedmiot: zaklecia2/technomancja/magiczny-przedmiot.md
+      - Mechaniczna zbroja: zaklecia2/technomancja/mechaniczna-zbroja.md
+      - Miotacz ognia: zaklecia2/technomancja/miotacz-ognia.md
+      - Prowizorka: zaklecia2/technomancja/prowizorka.md
+      - Remont: zaklecia2/technomancja/remont.md
+      - Wiezyczka: zaklecia2/technomancja/wiezyczka.md
+    - Telekineza:
+      - Banka mocy: zaklecia2/telekineza/banka-mocy.md
+      - Fala mocy: zaklecia2/telekineza/fala-mocy.md
+      - Lewitacja: zaklecia2/telekineza/lewitacja.md
+      - Mocne pchniecie: zaklecia2/telekineza/mocne-pchniecie.md
+      - Przytrzymanie: zaklecia2/telekineza/przytrzymanie.md
+      - Sciana mocy: zaklecia2/telekineza/sciana-mocy.md
+      - Tanczaca bron: zaklecia2/telekineza/tanczaca-bron.md
+      - Telekinetyczna tarcza: zaklecia2/telekineza/telekinetyczna-tarcza.md
+      - Telekinetyczny wybuch: zaklecia2/telekineza/telekinetyczny-wybuch.md
+      - Umysl ponad cialem: zaklecia2/telekineza/umysl-ponad-cialem.md
+      - Zmiazdzenie: zaklecia2/telekineza/zmiazdzenie.md
+      - Zmiażdżenie: zaklecia2/telekineza/zmiażdżenie.md
+    - Telepatia:
+      - Czytanie w myslach: zaklecia2/telepatia/czytanie-w-myslach.md
+      - Dzielenie mysli: zaklecia2/telepatia/dzielenie-mysli.md
+      - Ladunek emocjonalny: zaklecia2/telepatia/ladunek-emocjonalny.md
+      - Mentalne zaklocenia: zaklecia2/telepatia/mentalne-zaklocenia.md
+      - Mentalny sztych: zaklecia2/telepatia/mentalny-sztych.md
+      - System krotkich wiadomosci: zaklecia2/telepatia/system-krotkich-wiadomosci.md
+      - Uderzenie umyslu: zaklecia2/telepatia/uderzenie-umyslu.md
+      - W imie pani westchnien: zaklecia2/telepatia/w-imie-pani-westchnien.md
+      - Wedrowka po snach: zaklecia2/telepatia/wedrowka-po-snach.md
+      - Wstret: zaklecia2/telepatia/wstret.md
+      - Wyczucie mysli: zaklecia2/telepatia/wyczucie-mysli.md
+      - Wydrazenie umyslu: zaklecia2/telepatia/wydrazenie-umyslu.md
+      - Wymazanie obecnosci: zaklecia2/telepatia/wymazanie-obecnosci.md
+    - Teleportacja:
+      - Blizniacze portale: zaklecia2/teleportacja/blizniacze-portale.md
+      - Brama do pustki: zaklecia2/teleportacja/brama-do-pustki.md
+      - Krok przez pustke: zaklecia2/teleportacja/krok-przez-pustke.md
+      - Na skroty: zaklecia2/teleportacja/na-skroty.md
+      - Nieskrepowany ruch: zaklecia2/teleportacja/nieskrepowany-ruch.md
+      - Odeslanie: zaklecia2/teleportacja/odeslanie.md
+      - Przyciaganie: zaklecia2/teleportacja/przyciaganie.md
+      - Rekaw czarodzieja: zaklecia2/teleportacja/rekaw-czarodzieja.md
+      - Relokacja: zaklecia2/teleportacja/relokacja.md
+      - Rozplatanie: zaklecia2/teleportacja/rozplatanie.md
+      - Spojenie: zaklecia2/teleportacja/spojenie.md
+      - Ukryta przestrzen: zaklecia2/teleportacja/ukryta-przestrzen.md
+      - Wedrowka: zaklecia2/teleportacja/wedrowka.md
+      - Wygnanie: zaklecia2/teleportacja/wygnanie.md
+      - Zamiana miejsc: zaklecia2/teleportacja/zamiana-miejsc.md
+    - Teurgia:
+      - Blogoslawienstwo: zaklecia2/teurgia/blogoslawienstwo.md
+      - Boska pomoc: zaklecia2/teurgia/boska-pomoc.md
+      - Chlosta: zaklecia2/teurgia/chlosta.md
+      - Gniew bozy: zaklecia2/teurgia/gniew-bozy.md
+      - Inkarnacja: zaklecia2/teurgia/inkarnacja.md
+      - Mlot boga: zaklecia2/teurgia/mlot-boga.md
+      - Objawienie: zaklecia2/teurgia/objawienie.md
+      - Ogien z niebios: zaklecia2/teurgia/ogien-z-niebios.md
+      - Pokuta: zaklecia2/teurgia/pokuta.md
+      - Poswiecona ziemia: zaklecia2/teurgia/poswiecona-ziemia.md
+      - Potepienie: zaklecia2/teurgia/potepienie.md
+      - Skarcenie: zaklecia2/teurgia/skarcenie.md
+      - Stworzenie swietego symbolu: zaklecia2/teurgia/stworzenie-swietego-symbolu.md
+      - W imie nowego boga: zaklecia2/teurgia/w-imie-nowego-boga.md
+      - Wyrok: zaklecia2/teurgia/wyrok.md
+    - Transformacja:
+      - Demoniczna apoteoza: zaklecia2/transformacja/demoniczna-apoteoza.md
+      - Forma mgly: zaklecia2/transformacja/forma-mgly.md
+      - Maska: zaklecia2/transformacja/maska.md
+      - Metallicus: zaklecia2/transformacja/metallicus.md
+      - Plynna postac: zaklecia2/transformacja/plynna-postac.md
+      - Przyspieszone leczenie: zaklecia2/transformacja/przyspieszone-leczenie.md
+      - Sprezysty krok: zaklecia2/transformacja/sprezysty-krok.md
+      - Trzepot: zaklecia2/transformacja/trzepot.md
+      - Ulepszona zwierzecy postac: zaklecia2/transformacja/ulepszona-zwierzecy-postac.md
+      - Wieksza zwierzecy postac: zaklecia2/transformacja/wieksza-zwierzecy-postac.md
+      - Zamiana w obiekt: zaklecia2/transformacja/zamiana-w-obiekt.md
+      - Zwierzecy postac: zaklecia2/transformacja/zwierzecy-postac.md
+    - Uroki:
+      - Blogostan: zaklecia2/uroki/blogostan.md
+      - Bolesna przyjemnosc: zaklecia2/uroki/bolesna-przyjemnosc.md
+      - Ekstaza: zaklecia2/uroki/ekstaza.md
+      - Lep: zaklecia2/uroki/lep.md
+      - Niepohamowana zadza: zaklecia2/uroki/niepohamowana-zadza.md
+      - Oczarowanie: zaklecia2/uroki/oczarowanie.md
+      - Omotanie: zaklecia2/uroki/omotanie.md
+      - Pokusa: zaklecia2/uroki/pokusa.md
+      - Prezencja: zaklecia2/uroki/prezencja.md
+      - Przyneta: zaklecia2/uroki/przyneta.md
+      - Pytanie: zaklecia2/uroki/pytanie.md
+      - Rozkaz: zaklecia2/uroki/rozkaz.md
+      - Spetanie umyslu: zaklecia2/uroki/spetanie-umyslu.md
+      - W imie hulaki: zaklecia2/uroki/w-imie-hulaki.md
+      - W imie krolowej lata: zaklecia2/uroki/w-imie-krolowej-lata.md
+      - Warunkowanie: zaklecia2/uroki/warunkowanie.md
+      - Wzniecenie obledu: zaklecia2/uroki/wzniecenie-obledu.md
+      - Zastraszenie: zaklecia2/uroki/zastraszenie.md
+      - Zauroczenie: zaklecia2/uroki/zauroczenie.md
+      - Zniewolenie: zaklecia2/uroki/zniewolenie.md
+    - Woda:
+      - Fala: zaklecia2/woda/fala.md
+      - Gejzer: zaklecia2/woda/gejzer.md
+      - Kula wody: zaklecia2/woda/kula-wody.md
+      - Lodowy pancerz: zaklecia2/woda/lodowy-pancerz.md
+      - Lodowy podmuch: zaklecia2/woda/lodowy-podmuch.md
+      - Odwodnienie: zaklecia2/woda/odwodnienie.md
+      - Przyzwanie dzinna wody: zaklecia2/woda/przyzwanie-dzinna-wody.md
+      - Rwacy nurt: zaklecia2/woda/rwacy-nurt.md
+      - Stworzenie wody: zaklecia2/woda/stworzenie-wody.md
+      - Utopienie: zaklecia2/woda/utopienie.md
+      - W imie dziadka mroza: zaklecia2/woda/w-imie-dziadka-mroza.md
+      - Zamiec: zaklecia2/woda/zamiec.md
+      - Zamrozenie: zaklecia2/woda/zamrozenie.md
+      - Zlodowacenie: zaklecia2/woda/zlodowacenie.md
+      - Zyciodajna studnia: zaklecia2/woda/zyciodajna-studnia.md
+    - Ziemia:
+      - Erupcja: zaklecia2/ziemia/erupcja.md
+      - Formowanie ziemi i kamienia: zaklecia2/ziemia/formowanie-ziemi-i-kamienia.md
+      - Kamienna zbroja: zaklecia2/ziemia/kamienna-zbroja.md
+      - Kamienne ostrza: zaklecia2/ziemia/kamienne-ostrza.md
+      - Ksztaltowanie ziemi i kamienia: zaklecia2/ziemia/ksztaltowanie-ziemi-i-kamienia.md
+      - Lawina: zaklecia2/ziemia/lawina.md
+      - Otwarcie przejscia: zaklecia2/ziemia/otwarcie-przejscia.md
+      - Przygwozdzenie: zaklecia2/ziemia/przygwozdzenie.md
+      - Przyzwanie dzinna ziemi: zaklecia2/ziemia/przyzwanie-dzinna-ziemi.md
+      - Ruchome piaski: zaklecia2/ziemia/ruchome-piaski.md
+      - Skalny kolec: zaklecia2/ziemia/skalny-kolec.md
+      - Trzesienie ziemi: zaklecia2/ziemia/trzesienie-ziemi.md
+      - Wstrzas: zaklecia2/ziemia/wstrzas.md
+    - Zniszczenie:
+      - Destrukcja: zaklecia2/zniszczenie/destrukcja.md
+      - Detonacja: zaklecia2/zniszczenie/detonacja.md
+      - Dezintegracja: zaklecia2/zniszczenie/dezintegracja.md
+      - Erozja: zaklecia2/zniszczenie/erozja.md
+      - Moc entropii: zaklecia2/zniszczenie/moc-entropii.md
+      - Pekniecie: zaklecia2/zniszczenie/pekniecie.md
+      - Rozdarcie: zaklecia2/zniszczenie/rozdarcie.md
+      - Rozpuszczenie: zaklecia2/zniszczenie/rozpuszczenie.md
+      - Roztrzaskanie: zaklecia2/zniszczenie/roztrzaskanie.md
+      - Ruina: zaklecia2/zniszczenie/ruina.md
+      - W imie pozbawionego imienia: zaklecia2/zniszczenie/w-imie-pozbawionego-imienia.md
+      - Wyparowanie: zaklecia2/zniszczenie/wyparowanie.md
+    - Zycie:
+      - Fala witalnosci: zaklecia2/zycie/fala-witalnosci.md
+      - Leczenie lekkich ran: zaklecia2/zycie/leczenie-lekkich-ran.md
+      - Leczenie pomniejszych ran: zaklecia2/zycie/leczenie-pomniejszych-ran.md
+      - Leczenie powaznych ran: zaklecia2/zycie/leczenie-powaznych-ran.md
+      - Leczenie srednich ran: zaklecia2/zycie/leczenie-srednich-ran.md
+      - Ozywienie: zaklecia2/zycie/ozywienie.md
+      - Pelne leczenie: zaklecia2/zycie/pelne-leczenie.md
+      - Uzdrowienie: zaklecia2/zycie/uzdrowienie.md
+      - W imie pramatki: zaklecia2/zycie/w-imie-pramatki.md
+      - Wieksze uzdrowienie: zaklecia2/zycie/wieksze-uzdrowienie.md
+      - Wskrzeszenie: zaklecia2/zycie/wskrzeszenie.md
+      - Wyczucie zycia: zaklecia2/zycie/wyczucie-zycia.md
+      - Zrodlo zycia: zaklecia2/zycie/zrodlo-zycia.md
