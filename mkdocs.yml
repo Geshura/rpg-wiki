@@ -795,7 +795,6 @@ theme:
   name: material
   language: pl
   palette:
-    # Dark (slate) scheme and light (default) scheme using Material defaults
     - scheme: slate
       primary: red
       accent: red
