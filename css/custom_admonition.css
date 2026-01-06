@@ -1,6 +1,6 @@
 /* ==========================================================================
-   RPG ADMONITIONS - ONE FILE TO RULE THEM ALL
-   Kompletny zestaw stylów (Quest, Loot, Boss, itd.) z nowymi ikonami MDI.
+   RPG ADMONITIONS - FULL LOCAL ASSETS VERSION
+   Wszystkie style korzystają z plików SVG w folderze assets/
    ========================================================================== */
 
 /* 1. KONFIGURACJA KOLORÓW */
@@ -18,7 +18,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   2. GLOBALNY RESET I UKŁAD (Dla wszystkich naszych klas)
+   2. GLOBALNY RESET I UKŁAD
    -------------------------------------------------------------------------- */
 
 /* Selektor zbiorczy dla wszystkich ikon */
@@ -44,8 +44,10 @@
     left: 0.4rem;
     top: 50%;
     transform: translateY(-50%);
-    width: 1rem;
-    height: 1rem;
+    
+    /* Rozmiar ikony - 1.3rem dla lepszej czytelności ikon konturowych */
+    width: 1.3rem;
+    height: 1.3rem;
     display: inline-block;
     
     /* Konfiguracja maskowania (ikona przyjmuje kolor tła) */
@@ -69,15 +71,16 @@
 .md-typeset .admonition.weapon > .admonition-title,
 .md-typeset .admonition.note > .admonition-title,
 .md-typeset .admonition.grave > .admonition-title {
-  padding-left: 1.8rem !important;
+    padding-left: 2.0rem !important;
     position: relative;
 }
 
 /* --------------------------------------------------------------------------
-   3. DEFINICJE IKON (SVG MDI) I KOLORY
+   3. DEFINICJE IKON (PLIKI LOKALNE)
+   Ścieżki dopasowane do folderu assets/
    -------------------------------------------------------------------------- */
 
-/* QUEST (Zmieniono na: Script Text) */
+/* QUEST -> script-text-outline.svg */
 .md-typeset .admonition.quest { border-color: var(--rpg-quest) !important; }
 .md-typeset .admonition.quest > .admonition-title {
     background-color: rgba(213, 0, 249, 0.15) !important;
@@ -85,12 +88,12 @@
     color: var(--rpg-quest) !important;
 }
 .md-typeset .admonition.quest > .admonition-title::before {
-  background-color: var(--rpg-quest) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M4 2C2.9 2 2 2.9 2 4V14H4V4H14V2H4M8 6C6.9 6 6 6.9 6 8V18H8V8H18V6H8M12 11H20V13H12V11M12 15H17V17H12V15M12 19H20V21H12V19M10 10C8.9 10 8 10.9 8 12V22H10V12H20V10H10Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M4 2C2.9 2 2 2.9 2 4V14H4V4H14V2H4M8 6C6.9 6 6 6.9 6 8V18H8V8H18V6H8M12 11H20V13H12V11M12 15H17V17H12V15M12 19H20V21H12V19M10 10C8.9 10 8 10.9 8 12V22H10V12H20V10H10Z'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-quest) !important;
+    -webkit-mask-image: url("assets/script-text-outline.svg") !important;
+    mask-image: url("assets/script-text-outline.svg") !important;
 }
 
-/* LOOT (Zmieniono na: Sack) */
+/* LOOT -> sack.svg */
 .md-typeset .admonition.loot { border-color: var(--rpg-loot) !important; }
 .md-typeset .admonition.loot > .admonition-title {
     background-color: rgba(255, 171, 0, 0.15) !important;
@@ -98,28 +101,12 @@
     color: var(--rpg-loot) !important;
 }
 .md-typeset .admonition.loot > .admonition-title::before {
-  background-color: var(--rpg-loot) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M17,10C19.24,10.88 21,12.63 21,15V20C21,21.5 19,22 19,22H5C5,22 3,21.5 3,20V15C3,12.63 4.76,10.88 7,10C6.6,9.59 6.26,9.1 6,8.58L7.42,8.03C7.62,8.44 7.9,8.81 8.24,9.12C8.75,8.83 9.35,8.66 10,8.66C10.74,8.66 11.41,8.88 11.96,9.25C12.5,8.88 13.19,8.66 13.93,8.66C14.65,8.66 15.32,8.85 15.89,9.18C16.24,8.85 16.53,8.46 16.74,8.03L18.16,8.58C17.9,9.1 17.56,9.59 17.17,10H17M12,2A2,2 0 0,1 14,4C14,5.11 13.11,6 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M17,10C19.24,10.88 21,12.63 21,15V20C21,21.5 19,22 19,22H5C5,22 3,21.5 3,20V15C3,12.63 4.76,10.88 7,10C6.6,9.59 6.26,9.1 6,8.58L7.42,8.03C7.62,8.44 7.9,8.81 8.24,9.12C8.75,8.83 9.35,8.66 10,8.66C10.74,8.66 11.41,8.88 11.96,9.25C12.5,8.88 13.19,8.66 13.93,8.66C14.65,8.66 15.32,8.85 15.89,9.18C16.24,8.85 16.53,8.46 16.74,8.03L18.16,8.58C17.9,9.1 17.56,9.59 17.17,10H17M12,2A2,2 0 0,1 14,4C14,5.11 13.11,6 12,6A2,2 0 0,1 10,4A2,2 0 0,1 12,2Z'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-loot) !important;
+    -webkit-mask-image: url("assets/sack.svg") !important;
+    mask-image: url("assets/sack.svg") !important;
 }
 
-/* SPELL (Ikona: Sparkles) */
-.md-typeset .admonition.spell { 
-    border-color: var(--rpg-spell) !important;
-    box-shadow: 0 0 10px rgba(41, 98, 255, 0.3); 
-}
-.md-typeset .admonition.spell > .admonition-title {
-    background-color: rgba(41, 98, 255, 0.1) !important;
-    border-bottom: 1px solid var(--rpg-spell) !important;
-    color: var(--rpg-spell) !important;
-}
-.md-typeset .admonition.spell > .admonition-title::before {
-  background-color: var(--rpg-spell) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10,2L8.6,4.5L10,7L7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2M19,8L18.6,9.5L19,11L17.5,10.6L16,11L16.4,9.5L16,8L17.5,8.4L19,8M15,12L14.6,13.5L15,15L13.5,14.6L12,15L12.4,13.5L12,12L13.5,12.4L15,12M22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4L22,14Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10,2L8.6,4.5L10,7L7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2M19,8L18.6,9.5L19,11L17.5,10.6L16,11L16.4,9.5L16,8L17.5,8.4L19,8M15,12L14.6,13.5L15,15L13.5,14.6L12,15L12.4,13.5L12,12L13.5,12.4L15,12M22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4L22,14Z'/%3E%3C/svg%3E") !important;
-}
-
-/* NPC (Ikona: Account) */
+/* NPC -> account.svg */
 .md-typeset .admonition.npc { border-color: var(--rpg-npc) !important; }
 .md-typeset .admonition.npc > .admonition-title {
     background-color: rgba(76, 175, 80, 0.15) !important;
@@ -127,12 +114,12 @@
     color: var(--rpg-npc) !important;
 }
 .md-typeset .admonition.npc > .admonition-title::before {
-  background-color: var(--rpg-npc) !important;
-  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhBNCw0IDAgMCwxIDEyLDEyQTQsNCAwIDAsMSA4LDhBNCw0IDAgMCwxIDEyLDRNMTIsMTRDMTYuNDIsMTQgMjAsMTUuNzkgMjAsMThWMjBINFYxOEM0LDE1Ljc5IDcuNTgsMTQgMTIsMTRaIi8+PC9zdmc+') !important;
-  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhBNCw0IDAgMCwxIDEyLDEyQTQsNCAwIDAsMSA4LDhBNCw0IDAgMCwxIDEyLDRNMTIsMTRDMTYuNDIsMTQgMjAsMTUuNzkgMjAsMThWMjBINFYxOEM0LDE1Ljc5IDcuNTgsMTQgMTIsMTRaIi8+PC9zdmc+') !important;
+    background-color: var(--rpg-npc) !important;
+    -webkit-mask-image: url("assets/account.svg") !important;
+    mask-image: url("assets/account.svg") !important;
 }
 
-/* BOSS (Zmieniono na: Skull Outline) */
+/* BOSS -> skull-outline.svg */
 .md-typeset .admonition.boss { border-color: var(--rpg-boss) !important; }
 .md-typeset .admonition.boss > .admonition-title {
     background-color: rgba(244, 67, 54, 0.15) !important;
@@ -140,12 +127,12 @@
     color: var(--rpg-boss) !important;
 }
 .md-typeset .admonition.boss > .admonition-title::before {
-  background-color: var(--rpg-boss) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M12,2C16.42,2 20,5.58 20,10C20,12.42 18.9,14.6 17.13,16H18V18H16V20H13V22H11V20H8V18H6V16H6.87C5.1,14.6 4,12.42 4,10C4,5.58 7.58,2 12,2M12,4C8.69,4 6,6.69 6,10C6,12.16 7.15,14.07 8.95,15.17L9.5,15.5V18H11V20H13V18H14.5V15.5L15.05,15.17C16.85,14.07 18,12.16 18,10C18,6.69 15.31,4 12,4M10,9A2,2 0 0,1 12,11A2,2 0 0,1 10,13A2,2 0 0,1 8,11A2,2 0 0,1 10,9M14,9A2,2 0 0,1 16,11A2,2 0 0,1 14,13A2,2 0 0,1 12,11A2,2 0 0,1 14,9Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M12,2C16.42,2 20,5.58 20,10C20,12.42 18.9,14.6 17.13,16H18V18H16V20H13V22H11V20H8V18H6V16H6.87C5.1,14.6 4,12.42 4,10C4,5.58 7.58,2 12,2M12,4C8.69,4 6,6.69 6,10C6,12.16 7.15,14.07 8.95,15.17L9.5,15.5V18H11V20H13V18H14.5V15.5L15.05,15.17C16.85,14.07 18,12.16 18,10C18,6.69 15.31,4 12,4M10,9A2,2 0 0,1 12,11A2,2 0 0,1 10,13A2,2 0 0,1 8,11A2,2 0 0,1 10,9M14,9A2,2 0 0,1 16,11A2,2 0 0,1 14,13A2,2 0 0,1 12,11A2,2 0 0,1 14,9Z'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-boss) !important;
+    -webkit-mask-image: url("assets/skull-outline.svg") !important;
+    mask-image: url("assets/skull-outline.svg") !important;
 }
 
-/* POTION (Zmieniono na: Flask Round Bottom) */
+/* POTION -> flask-round-bottom.svg */
 .md-typeset .admonition.potion { border-color: var(--rpg-potion) !important; }
 .md-typeset .admonition.potion > .admonition-title {
     background-color: rgba(0, 230, 118, 0.15) !important;
@@ -153,12 +140,12 @@
     color: var(--rpg-potion) !important;
 }
 .md-typeset .admonition.potion > .admonition-title::before {
-  background-color: var(--rpg-potion) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M10.5,2H13.5V6H19V8H13.5V11.16C16.35,11.83 18.5,14.39 18.5,17.5A5.5,5.5 0 0,1 13,23A5.5,5.5 0 0,1 7.5,17.5C7.5,14.39 9.65,11.83 12.5,11.16V8H5V6H10.5V2Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M10.5,2H13.5V6H19V8H13.5V11.16C16.35,11.83 18.5,14.39 18.5,17.5A5.5,5.5 0 0,1 13,23A5.5,5.5 0 0,1 7.5,17.5C7.5,14.39 9.65,11.83 12.5,11.16V8H5V6H10.5V2Z'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-potion) !important;
+    -webkit-mask-image: url("assets/flask-round-bottom.svg") !important;
+    mask-image: url("assets/flask-round-bottom.svg") !important;
 }
 
-/* WEAPON (Ikona: Axe Battle) */
+/* WEAPON -> axe-battle.svg */
 .md-typeset .admonition.weapon { border-color: var(--rpg-weapon) !important; }
 .md-typeset .admonition.weapon > .admonition-title {
     background-color: rgba(96, 125, 139, 0.15) !important;
@@ -166,12 +153,12 @@
     color: var(--rpg-weapon) !important;
 }
 .md-typeset .admonition.weapon > .admonition-title::before {
-  background-color: var(--rpg-weapon) !important;
-  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYuNjIgMTAuNzlDOC4wNiAxMC4zIDguMzUgMTEuMiA5LjA0IDExLjc1TDEzLjI5IDcuNUMxMi43NSA2LjgxIDExLjg1IDYuNSAxMi4zNSA1LjA3QzEyLjg3IDMuNTggMTQuOTIgMi4xOSAxNy4xNSAyLjE5QzE3LjMgMi4xOSAxNy40NyAyLjIgMTcuNjUgMi4yMkwxNyA1LjExTDE4Ljg5IDdMMjEuNzggNi4zNUMyMS44IDYuNTMgMjEuODEgNi43IDIxLjgxIDYuODVDMjEuODEgOS4wOCAyMC40MiAxMS4xMyAxOC45MyAxMS42NUMxNy41IDEyLjE1IDE3LjE5IDExLjI1IDE2LjUgMTAuNzFMMTIuMjUgMTQuOTZDMTIuNzkgMTUuNjUgMTMuNjkgMTUuOTYgMTMuMTcgMTcuNDNDMTIuOTUgMTguMDYgMTIuNTYgMTguNjYgMTIuMDYgMTkuMTZMMTIuMDUgMTkuMThMMTAuMzggMTcuNUw5LjYzIDE4LjI1TDExLjI5IDE5LjkyQzEwLjc1IDIwLjQ3IDEwLjE1IDIwLjg5IDkuNSAyMS4xNEw5LjUgMjEuMTVDOC42MSAyMS40NiA3LjY5IDIxLjQ1IDYuODUgMjEuMTZLOC41MyAxNy4yMkw2Ljc4IDE1LjQ3TDIuODQgMTcuMTVDMi41NSAxNi4zMSAyLjU0IDE1LjM5IDIuODUgMTQuNUwyLjg2IDE0LjVDMy4xMSAxMy44NSAzLjUzIDEzLjI1IDQuMDggMTIuNzFMNS43NSAxNC4zOEw2LjUgMTMuNjNMNC44MiAxMS45Nkw0Ljg0IDExLjk0QzUuMzQgMTEuNDQgNS45NCAxMSA2LjYyIDEwLjc5WiIvPjwvc3ZnPg==') !important;
-  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYuNjIgMTAuNzlDOC4wNiAxMC4zIDguMzUgMTEuMiA5LjA0IDExLjc1TDEzLjI5IDcuNUMxMi43NSA2LjgxIDExLjg1IDYuNSAxMi4zNSA1LjA3QzEyLjg3IDMuNTggMTQuOTIgMi4xOSAxNy4xNSAyLjE5QzE3LjMgMi4xOSAxNy40NyAyLjIgMTcuNjUgMi4yMkwxNyA1LjExTDE4Ljg5IDdMMjEuNzggNi4zNUMyMS44IDYuNTMgMjEuODEgNi43IDIxLjgxIDYuODVDMjEuODEgOS4wOCAyMC40MiAxMS4xMyAxOC45MyAxMS42NUMxNy41IDEyLjE1IDE3LjE5IDExLjI1IDE2LjUgMTAuNzFMMTIuMjUgMTQuOTZDMTIuNzkgMTUuNjUgMTMuNjkgMTUuOTYgMTMuMTcgMTcuNDNDMTIuOTUgMTguMDYgMTIuNTYgMTguNjYgMTIuMDYgMTkuMTZMMTIuMDUgMTkuMThMMTAuMzggMTcuNUw5LjYzIDE4LjI1TDExLjI5IDE5LjkyQzEwLjc1IDIwLjQ3IDEwLjE1IDIwLjg5IDkuNSAyMS4xNEw5LjUgMjEuMTVDOC42MSAyMS40NiA3LjY5IDIxLjQ1IDYuODUgMjEuMTZLOC41MyAxNy4yMkw2Ljc4IDE1LjQ3TDIuODQgMTcuMTVDMi41NSAxNi4zMSAyLjU0IDE1LjM5IDIuODUgMTQuNUwyLjg2IDE0LjVDMy4xMSAxMy44NSAzLjUzIDEzLjI1IDQuMDggMTIuNzFMNS43NSAxNC4zOEw2LjUgMTMuNjNMNC44MiAxMS45Nkw0Ljg0IDExLjk0QzUuMzQgMTEuNDQgNS45NCAxMSA2LjYyIDEwLjc5WiIvPjwvc3ZnPg==') !important;
+    background-color: var(--rpg-weapon) !important;
+    -webkit-mask-image: url("assets/axe-battle.svg") !important;
+    mask-image: url("assets/axe-battle.svg") !important;
 }
 
-/* NOTE (Zmieniono na: Lead Pencil) */
+/* NOTE -> lead-pencil.svg */
 .md-typeset .admonition.note { border-color: var(--rpg-note) !important; }
 .md-typeset .admonition.note > .admonition-title {
     background-color: rgba(96, 125, 139, 0.15) !important;
@@ -179,12 +166,12 @@
     color: var(--rpg-note) !important;
 }
 .md-typeset .admonition.note > .admonition-title::before {
-  background-color: var(--rpg-note) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.75L6.65,17.57L6.47,15.29'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M16.84,2.73C16.45,2.73 16.07,2.88 15.77,3.17L13.65,5.29L18.95,10.6L21.07,8.5C21.67,7.89 21.67,6.94 21.07,6.36L17.9,3.17C17.6,2.88 17.22,2.73 16.84,2.73M12.94,6L4.84,14.11L7.4,14.39L7.58,16.68L9.86,16.85L10.15,19.41L18.25,11.3M4.25,15.04L2.5,21.73L9.2,19.94L8.96,17.75L6.65,17.57L6.47,15.29'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-note) !important;
+    -webkit-mask-image: url("assets/lead-pencil.svg") !important;
+    mask-image: url("assets/lead-pencil.svg") !important;
 }
 
-/* GRAVE (Zmieniono na: Grave Stone) */
+/* GRAVE -> grave-stone.svg */
 .md-typeset .admonition.grave { border-color: var(--rpg-grave) !important; }
 .md-typeset .admonition.grave > .admonition-title {
     background-color: rgba(120, 144, 156, 0.15) !important;
@@ -192,12 +179,12 @@
     color: var(--rpg-grave) !important;
 }
 .md-typeset .admonition.grave > .admonition-title::before {
-  background-color: var(--rpg-grave) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M10,2H14C17.3,2 20,4.7 20,8V10H21V12H20V22H4V12H3V10H4V8C4,4.7 6.7,2 10,2M10,12V14H14V12H10M11,4A1,1 0 0,0 10,5A1,1 0 0,0 11,6A1,1 0 0,0 12,5A1,1 0 0,0 11,4Z'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M10,2H14C17.3,2 20,4.7 20,8V10H21V12H20V22H4V12H3V10H4V8C4,4.7 6.7,2 10,2M10,12V14H14V12H10M11,4A1,1 0 0,0 10,5A1,1 0 0,0 11,6A1,1 0 0,0 12,5A1,1 0 0,0 11,4Z'/%3E%3C/svg%3E") !important;
+    background-color: var(--rpg-grave) !important;
+    -webkit-mask-image: url("assets/grave-stone.svg") !important;
+    mask-image: url("assets/grave-stone.svg") !important;
 }
 
-/* LOCATION / LOC (Ikona: Map Marker) */
+/* LOCATION -> map-marker.svg */
 .md-typeset .admonition.location,
 .md-typeset .admonition.loc { border-color: var(--rpg-location) !important; }
 .md-typeset .admonition.location > .admonition-title,
@@ -208,7 +195,24 @@
 }
 .md-typeset .admonition.location > .admonition-title::before,
 .md-typeset .admonition.loc > .admonition-title::before {
-  background-color: var(--rpg-location) !important;
-  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDExLjVBMi41LDIuNSAwIDAsMSA5LjUsOUEyLjUsMi41IDAgMCwxIDEyLDYuNUEyLjUsMi41IDAgMCwxIDE0LjUsOUEyLjUsMi41IDAgMCwxIDEyLDExLjVNMTIsMkE3LDcgMCAwLDAgNSw5QzUsMTQuMjUgMTIsMjIgMTIsMjJDMTIsMjIgMTksMTQuMjUgMTksOUE3LDcgMCAwLDAgMTIsMloiLz48L3N2Zz4=') !important;
-  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDExLjVBMi41LDIuNSAwIDAsMSA5LjUsOUEyLjUsMi41IDAgMCwxIDEyLDYuNUEyLjUsMi41IDAgMCwxIDE0LjUsOUEyLjUsMi41IDAgMCwxIDEyLDExLjVNMTIsMkE3LDcgMCAwLDAgNSw5QzUsMTQuMjUgMTIsMjIgMTIsMjJDMTIsMjIgMTksMTQuMjUgMTksOUE3LDcgMCAwLDAgMTIsMloiLz48L3N2Zz4=') !important;
+    background-color: var(--rpg-location) !important;
+    -webkit-mask-image: url("assets/map-marker.svg") !important;
+    mask-image: url("assets/map-marker.svg") !important;
+}
+
+/* SPELL -> fire-circle.svg */
+.md-typeset .admonition.spell { 
+    border-color: var(--rpg-spell) !important;
+    /* Dodatkowy efekt poświaty dla czaru */
+    box-shadow: 0 0 10px rgba(41, 98, 255, 0.3); 
+}
+.md-typeset .admonition.spell > .admonition-title {
+    background-color: rgba(41, 98, 255, 0.1) !important;
+    border-bottom: 1px solid var(--rpg-spell) !important;
+    color: var(--rpg-spell) !important;
+}
+.md-typeset .admonition.spell > .admonition-title::before {
+    background-color: var(--rpg-spell) !important;
+    -webkit-mask-image: url("assets/fire-circle.svg") !important;
+    mask-image: url("assets/fire-circle.svg") !important;
 }
