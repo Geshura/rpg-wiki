@@ -1,0 +1,220 @@
+/* ==========================================================================
+   RPG ADMONITIONS - ONE FILE TO RULE THEM ALL
+   Kompletny zestaw stylów (Quest, Loot, Boss, itd.) z ikonami Base64.
+   ========================================================================== */
+
+/* 1. KONFIGURACJA KOLORÓW */
+:root {
+  --rpg-quest:    #d500f9; /* Fiolet */
+  --rpg-loot:     #ffab00; /* Złoto */
+  --rpg-spell:    #00bcd4; /* Cyjan */
+  --rpg-npc:      #4caf50; /* Zieleń */
+  --rpg-boss:     #f44336; /* Czerwień */
+  --rpg-location: #e91e63; /* Róż/Magenta */
+  --rpg-potion:   #00e676; /* Jaskrawa zieleń */
+  --rpg-weapon:   #607d8b; /* Stalowy */
+  --rpg-note:     #455a64; /* Ciemny szary */
+  --rpg-grave:    #78909c; /* Szary kamienny */
+}
+
+/* --------------------------------------------------------------------------
+   2. GLOBALNY RESET I UKŁAD (Dla wszystkich naszych klas)
+   -------------------------------------------------------------------------- */
+
+/* Selektor zbiorczy dla wszystkich ikon */
+.md-typeset .admonition.quest > .admonition-title::before,
+.md-typeset .admonition.loot > .admonition-title::before,
+.md-typeset .admonition.spell > .admonition-title::before,
+.md-typeset .admonition.npc > .admonition-title::before,
+.md-typeset .admonition.boss > .admonition-title::before,
+.md-typeset .admonition.location > .admonition-title::before,
+.md-typeset .admonition.loc > .admonition-title::before,
+.md-typeset .admonition.potion > .admonition-title::before,
+.md-typeset .admonition.weapon > .admonition-title::before,
+.md-typeset .admonition.note > .admonition-title::before,
+.md-typeset .admonition.grave > .admonition-title::before {
+    /* Reset stylów motywu MkDocs Material */
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    background-image: none !important;
+    
+    /* Ustawienia kontenera ikony */
+    content: "" !important;
+    position: absolute;
+    left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    
+    /* Konfiguracja maskowania (ikona przyjmuje kolor tła) */
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+/* Odsunięcie tekstu tytułu od ikony */
+.md-typeset .admonition.quest > .admonition-title,
+.md-typeset .admonition.loot > .admonition-title,
+.md-typeset .admonition.spell > .admonition-title,
+.md-typeset .admonition.npc > .admonition-title,
+.md-typeset .admonition.boss > .admonition-title,
+.md-typeset .admonition.location > .admonition-title,
+.md-typeset .admonition.loc > .admonition-title,
+.md-typeset .admonition.potion > .admonition-title,
+.md-typeset .admonition.weapon > .admonition-title,
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset .admonition.grave > .admonition-title {
+    padding-left: 2.5rem !important;
+    position: relative;
+}
+
+/* --------------------------------------------------------------------------
+   3. DEFINICJE IKON (BASE64) I KOLORY
+   -------------------------------------------------------------------------- */
+
+/* QUEST (File Certificate) */
+.md-typeset .admonition.quest { border-color: var(--rpg-quest) !important; }
+.md-typeset .admonition.quest > .admonition-title {
+    background-color: rgba(213, 0, 249, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-quest) !important;
+    color: var(--rpg-quest) !important;
+}
+.md-typeset .admonition.quest > .admonition-title::before {
+  background-color: var(--rpg-quest) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTEsMTVWMTNIMTNWMTVIMTFNMTQsMTNWMTVIMThWMTNIMTRNMTEsMTdWMTlIMTNWMTdIMTFNMTQsMTdWMTlIMThWMTdIMTRHNywxM0gxMFYxNC4zM0w4LjUsMTUuMjJMNywxNC4zM1YxM003LDE1LjY3VjE5SDEwVjE1LjY3TDguNSwxNi41Nkw3LDE1LjY3WiIvPjwvc3ZnPg==') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTEsMTVWMTNIMTNWMTVIMTFNMTQsMTNWMTVIMThWMTNIMTRNMTEsMTdWMTlIMTNWMTdIMTFNMTQsMTdWMTlIMThWMTdIMTRHNywxM0gxMFYxNC4zM0w4LjUsMTUuMjJMNywxNC4zM1YxM003LDE1LjY3VjE5SDEwVjE1LjY3TDguNSwxNi41Nkw3LDE1LjY3WiIvPjwvc3ZnPg==') !important;
+}
+
+/* LOOT (Diamond Stone) */
+.md-typeset .admonition.loot { border-color: var(--rpg-loot) !important; }
+.md-typeset .admonition.loot > .admonition-title {
+    background-color: rgba(255, 171, 0, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-loot) !important;
+    color: var(--rpg-loot) !important;
+}
+.md-typeset .admonition.loot > .admonition-title::before {
+  background-color: var(--rpg-loot) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE2LDlIMTlMMTQsMTZNMTAsOUgxNEwxMiwxN001LDlIOEwxMCwxNk0xNSw0SDE3TDE5LDdIMTZNMTEsNEgxM0wxNCw3SDEwTTcsNEg5TDgsN0g1TTYsMkwyLDhMMTIsMjJMMjIsOEwxOCwySDZaIi8+PC9zdmc+') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE2LDlIMTlMMTQsMTZNMTAsOUgxNEwxMiwxN001LDlIOEwxMCwxNk0xNSw0SDE3TDE5LDdIMTZNMTEsNEgxM0wxNCw3SDEwTTcsNEg5TDgsN0g1TTYsMkwyLDhMMTIsMjJMMjIsOEwxOCwySDZaIi8+PC9zdmc+') !important;
+}
+
+/* --- SPELL (Naprawiona ikona + Nowy styl) --- */
+.md-typeset .admonition.spell { 
+    border-color: var(--rpg-spell) !important;
+    /* Magiczna poświata */
+    box-shadow: 0 0 10px rgba(41, 98, 255, 0.3); 
+}
+
+.md-typeset .admonition.spell > .admonition-title {
+    background-color: rgba(41, 98, 255, 0.1) !important;
+    border-bottom: 1px solid var(--rpg-spell) !important;
+    color: var(--rpg-spell) !important;
+}
+
+.md-typeset .admonition.spell > .admonition-title::before {
+  /* Ważne: to nadaje kolor ikonie */
+  background-color: var(--rpg-spell) !important;
+  
+  /* Pewny kod SVG (Sparkles) */
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10,2L8.6,4.5L10,7L7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2M19,8L18.6,9.5L19,11L17.5,10.6L16,11L16.4,9.5L16,8L17.5,8.4L19,8M15,12L14.6,13.5L15,15L13.5,14.6L12,15L12.4,13.5L12,12L13.5,12.4L15,12M22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4L22,14Z'/%3E%3C/svg%3E") !important;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10,2L8.6,4.5L10,7L7.5,5.6L5,7L6.4,4.5L5,2L7.5,3.4L10,2M19,8L18.6,9.5L19,11L17.5,10.6L16,11L16.4,9.5L16,8L17.5,8.4L19,8M15,12L14.6,13.5L15,15L13.5,14.6L12,15L12.4,13.5L12,12L13.5,12.4L15,12M22,14L20.6,16.5L22,19L19.5,17.6L17,19L18.4,16.5L17,14L19.5,15.4L22,14Z'/%3E%3C/svg%3E") !important;
+}
+
+/* NPC (Account) */
+.md-typeset .admonition.npc { border-color: var(--rpg-npc) !important; }
+.md-typeset .admonition.npc > .admonition-title {
+    background-color: rgba(76, 175, 80, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-npc) !important;
+    color: var(--rpg-npc) !important;
+}
+.md-typeset .admonition.npc > .admonition-title::before {
+  background-color: var(--rpg-npc) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhBNCw0IDAgMCwxIDEyLDEyQTQsNCAwIDAsMSA4LDhBNCw0IDAgMCwxIDEyLDRNMTIsMTRDMTYuNDIsMTQgMjAsMTUuNzkgMjAsMThWMjBINFYxOEM0LDE1Ljc5IDcuNTgsMTQgMTIsMTRaIi8+PC9zdmc+') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhBNCw0IDAgMCwxIDEyLDEyQTQsNCAwIDAsMSA4LDhBNCw0IDAgMCwxIDEyLDRNMTIsMTRDMTYuNDIsMTQgMjAsMTUuNzkgMjAsMThWMjBINFYxOEM0LDE1Ljc5IDcuNTgsMTQgMTIsMTRaIi8+PC9zdmc+') !important;
+}
+
+/* BOSS (Skull) */
+.md-typeset .admonition.boss { border-color: var(--rpg-boss) !important; }
+.md-typeset .admonition.boss > .admonition-title {
+    background-color: rgba(244, 67, 54, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-boss) !important;
+    color: var(--rpg-boss) !important;
+}
+.md-typeset .admonition.boss > .admonition-title::before {
+  background-color: var(--rpg-boss) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDJBOSw5IDAgMCwwIDMsMTFDMywxNC4wMyA0LjUzLDE2LjgyIDcsMTguNDdWMjJIOVYxOUgxMVYyMkgxM1YxOUgxNVYyMkgxN1YxOC40N0MxOS40NywxNi44MiAyMSwxNC4wMyAyMSwxMUE5LDkgMCAwLDAgMTIsMk0xMiw0QTYsNiAwIDAsMSAxOCwxMEMxOCwxMC42NiAxNy45LDExLjMgMTcuNzEsMTEuOTEgMTYuOCwxMS4zNCAxNS42MywxMSAxNC41LDExQzEzLjUsMTEgMTIuMzMsMTEuMjMgMTEuMiwxMS42NkMxMC43NCwxMC4xMyA5LjM1LDkgNy43NSw5SDcuNUM3Ljk0LDcuODUgOC42LDYuODUgOS41LDYuMTZDMTAuMjUsNi4wNiAxMS4xLDYgMTIsNk03LjI0LDExSDcuMjVDOC4wOCwxMSA4Ljg0LDExLjQyIDkuMjksMTIuMTFDMTAuNjEsMTIuNzkgMTIuMDQsMTMuMTYgMTMuNSwxMy4xNkMxNS4zOSwxMy4xNiAxNy4xNiwxMi41NSAxOC41NywxMS41QzE4Ljg0LDEyLjI5IDE5LDEzLjEzIDE5LDE0QTcsNyAwIDAsMSAxMiwyMUE3LDcgMCAwLDEgNSwxNEM1LDEyLjkyIDUuMjMsMTEuOTEgNS42NCwxMUg3LjI0WiIvPjwvc3ZnPg==') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDJBOSw5IDAgMCwwIDMsMTFDMywxNC4wMyA0LjUzLDE2LjgyIDcsMTguNDdWMjJIOVYxOUgxMVYyMkgxM1YxOUgxNVYyMkgxN1YxOC40N0MxOS40NywxNi44MiAyMSwxNC4wMyAyMSwxMUE5LDkgMCAwLDAgMTIsMk0xMiw0QTYsNiAwIDAsMSAxOCwxMEMxOCwxMC42NiAxNy45LDExLjMgMTcuNzEsMTEuOTEgMTYuOCwxMS4zNCAxNS42MywxMSAxNC41LDExQzEzLjUsMTEgMTIuMzMsMTEuMjMgMTEuMiwxMS42NkMxMC43NCwxMC4xMyA5LjM1LDkgNy43NSw5SDcuNUM3Ljk0LDcuODUgOC42LDYuODUgOS41LDYuMTZDMTAuMjUsNi4wNiAxMS4xLDYgMTIsNk03LjI0LDExSDcuMjVDOC4wOCwxMSA4Ljg0LDExLjQyIDkuMjksMTIuMTFDMTAuNjEsMTIuNzkgMTIuMDQsMTMuMTYgMTMuNSwxMy4xNkMxNS4zOSwxMy4xNiAxNy4xNiwxMi41NSAxOC41NywxMS41QzE4Ljg0LDEyLjI5IDE5LDEzLjEzIDE5LDE0QTcsNyAwIDAsMSAxMiwyMUE3LDcgMCAwLDEgNSwxNEM1LDEyLjkyIDUuMjMsMTEuOTEgNS42NCwxMUg3LjI0WiIvPjwvc3ZnPg==') !important;
+}
+
+/* POTION (Flask Round Bottom) */
+.md-typeset .admonition.potion { border-color: var(--rpg-potion) !important; }
+.md-typeset .admonition.potion > .admonition-title {
+    background-color: rgba(0, 230, 118, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-potion) !important;
+    color: var(--rpg-potion) !important;
+}
+.md-typeset .admonition.potion > .admonition-title::before {
+  background-color: var(--rpg-potion) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5LjUsMTUuNEMxOS41LDE1LjQgMTcsMTkgMTcsMTlMMTguNCwxNi41TDE3LDE0TDE5LjUsMTUuNE0xNyw3TDE4LjQsNC41TDE3LDJMMTkuNSwzLjRMMjIsMkwyMC42LDQuNUwyMiw3TDE5LjUsNS42TDE3LDdNMTguOCwxMS4zQzE4LjEsMTAuNiAxNy4xLDEwLjMgMTYuMywxMC4xQzE2LjYsOS4xIDE2LjIsNy45IDE1LjMsNy4zTDE2LDVIMTVWMkg5VjVIMTBMMTAuNyw3LjNDOS44LDcuOSA5LjQsOS4xIDkuNywxMC4xQzguOSwxMC4zIDcuOSwxMC42IDcuMiwxMS4zQzUuNSwxMyA1LjUsMTUuOCA1LjUsMTUuOEM1LjUsMTkuMiA4LjQsMjIgMTIsMjJIMTRDMTcuNiwyMiAyMC41LDE5LjIgMjAuNSwxNS44QzIwLjUsMTUuOCAyMC41LDEzIDE4LjgsMTEuM00xMywxOUMxMS4zLDE5IDEwLDE3LjcgMTAsMTZIOEM4LDE4LjggMTAuMiwyMSAxMywyMVYxOVoiLz48L3N2Zz4=') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5LjUsMTUuNEMxOS41LDE1LjQgMTcsMTkgMTcsMTlMMTguNCwxNi41TDE3LDE0TDE5LjUsMTUuNE0xNyw3TDE4LjQsNC41TDE3LDJMMTkuNSwzLjRMMjIsMkwyMC42LDQuNUwyMiw3TDE5LjUsNS42TDE3LDdNMTguOCwxMS4zQzE4LjEsMTAuNiAxNy4xLDEwLjMgMTYuMywxMC4xQzE2LjYsOS4xIDE2LjIsNy45IDE1LjMsNy4zTDE2LDVIMTVWMkg5VjVIMTBMMTAuNyw3LjNDOS44LDcuOSA5LjQsOS4xIDkuNywxMC4xQzguOSwxMC4zIDcuOSwxMC42IDcuMiwxMS4zQzUuNSwxMyA1LjUsMTUuOCA1LjUsMTUuOEM1LjUsMTkuMiA4LjQsMjIgMTIsMjJIMTRDMTcuNiwyMiAyMC41LDE5LjIgMjAuNSwxNS44QzIwLjUsMTUuOCAyMC41LDEzIDE4LjgsMTEuM00xMywxOUMxMS4zLDE5IDEwLDE3LjcgMTAsMTZIOEM4LDE4LjggMTAuMiwyMSAxMywyMVYxOVoiLz48L3N2Zz4=') !important;
+}
+
+/* WEAPON (Axe Battle) */
+.md-typeset .admonition.weapon { border-color: var(--rpg-weapon) !important; }
+.md-typeset .admonition.weapon > .admonition-title {
+    background-color: rgba(96, 125, 139, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-weapon) !important;
+    color: var(--rpg-weapon) !important;
+}
+.md-typeset .admonition.weapon > .admonition-title::before {
+  background-color: var(--rpg-weapon) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYuNjIgMTAuNzlDOC4wNiAxMC4zIDguMzUgMTEuMiA5LjA0IDExLjc1TDEzLjI5IDcuNUMxMi43NSA2LjgxIDExLjg1IDYuNSAxMi4zNSA1LjA3QzEyLjg3IDMuNTggMTQuOTIgMi4xOSAxNy4xNSAyLjE5QzE3LjMgMi4xOSAxNy40NyAyLjIgMTcuNjUgMi4yMkwxNyA1LjExTDE4Ljg5IDdMMjEuNzggNi4zNUMyMS44IDYuNTMgMjEuODEgNi43IDIxLjgxIDYuODVDMjEuODEgOS4wOCAyMC40MiAxMS4xMyAxOC45MyAxMS42NUMxNy41IDEyLjE1IDE3LjE5IDExLjI1IDE2LjUgMTAuNzFMMTIuMjUgMTQuOTZDMTIuNzkgMTUuNjUgMTMuNjkgMTUuOTYgMTMuMTcgMTcuNDNDMTIuOTUgMTguMDYgMTIuNTYgMTguNjYgMTIuMDYgMTkuMTZMMTIuMDUgMTkuMThMMTAuMzggMTcuNUw5LjYzIDE4LjI1TDExLjI5IDE5LjkyQzEwLjc1IDIwLjQ3IDEwLjE1IDIwLjg5IDkuNSAyMS4xNEw5LjUgMjEuMTVDOC42MSAyMS40NiA3LjY5IDIxLjQ1IDYuODUgMjEuMTZLOC41MyAxNy4yMkw2Ljc4IDE1LjQ3TDIuODQgMTcuMTVDMi41NSAxNi4zMSAyLjU0IDE1LjM5IDIuODUgMTQuNUwyLjg2IDE0LjVDMy4xMSAxMy44NSAzLjUzIDEzLjI1IDQuMDggMTIuNzFMNS43NSAxNC4zOEw2LjUgMTMuNjNMNC44MiAxMS45Nkw0Ljg0IDExLjk0QzUuMzQgMTEuNDQgNS45NCAxMSA2LjYyIDEwLjc5WiIvPjwvc3ZnPg==') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTYuNjIgMTAuNzlDOC4wNiAxMC4zIDguMzUgMTEuMiA5LjA0IDExLjc1TDEzLjI5IDcuNUMxMi43NSA2LjgxIDExLjg1IDYuNSAxMi4zNSA1LjA3QzEyLjg3IDMuNTggMTQuOTIgMi4xOSAxNy4xNSAyLjE5QzE3LjMgMi4xOSAxNy40NyAyLjIgMTcuNjUgMi4yMkwxNyA1LjExTDE4Ljg5IDdMMjEuNzggNi4zNUMyMS44IDYuNTMgMjEuODEgNi43IDIxLjgxIDYuODVDMjEuODEgOS4wOCAyMC40MiAxMS4xMyAxOC45MyAxMS42NUMxNy41IDEyLjE1IDE3LjE5IDExLjI1IDE2LjUgMTAuNzFMMTIuMjUgMTQuOTZDMTIuNzkgMTUuNjUgMTMuNjkgMTUuOTYgMTMuMTcgMTcuNDNDMTIuOTUgMTguMDYgMTIuNTYgMTguNjYgMTIuMDYgMTkuMTZMMTIuMDUgMTkuMThMMTAuMzggMTcuNUw5LjYzIDE4LjI1TDExLjI5IDE5LjkyQzEwLjc1IDIwLjQ3IDEwLjE1IDIwLjg5IDkuNSAyMS4xNEw5LjUgMjEuMTVDOC42MSAyMS40NiA3LjY5IDIxLjQ1IDYuODUgMjEuMTZLOC41MyAxNy4yMkw2Ljc4IDE1LjQ3TDIuODQgMTcuMTVDMi41NSAxNi4zMSAyLjU0IDE1LjM5IDIuODUgMTQuNUwyLjg2IDE0LjVDMy4xMSAxMy44NSAzLjUzIDEzLjI1IDQuMDggMTIuNzFMNS43NSAxNC4zOEw2LjUgMTMuNjNMNC44MiAxMS45Nkw0Ljg0IDExLjk0QzUuMzQgMTEuNDQgNS45NCAxMSA2LjYyIDEwLjc5WiIvPjwvc3ZnPg==') !important;
+}
+
+/* NOTE (Feather) */
+.md-typeset .admonition.note { border-color: var(--rpg-note) !important; }
+.md-typeset .admonition.note > .admonition-title {
+    background-color: rgba(96, 125, 139, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-note) !important;
+    color: var(--rpg-note) !important;
+}
+.md-typeset .admonition.note > .admonition-title::before {
+  background-color: var(--rpg-note) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIwLjU2IDMuOTFDMjEuMTUgNC41IDIxLjE1IDUuNDUgMjAuNTYgNi4wM0wxNi42NyA5LjkyTDE4Ljc5IDEyLjA0TDE2LjMyIDE0LjVMMTQuMiAxMi4zOEwxMC4zMSAxNi4yN0M5LjcyIDE2Ljg1IDguNzggMTYuODUgOC4xOSAxNi4yN0w2LjQyIDE0LjVMMTAuNjYgMTAuMjVMODU0IDguMTNMNC4zIDEyLjM3TDIuNTMgMTAuNjFDMS45NCAxMC4wMyAxLjk0IDkuMDggMi41MyA4LjQ5TDE0LjE5IDAuMzlDMTQuMjEgMC4zOSAyMC41NiAzLjkxIDIwLjU2IDMuOTFNNC42NSAyMi4zOEw2LjQyIDIwLjYxTDMuOTUgMTguMTRLMy4yNCAyMC45N0w0LjY1IDIyLjM4WiIvPjwvc3ZnPg==') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIwLjU2IDMuOTFDMjEuMTUgNC41IDIxLjE1IDUuNDUgMjAuNTYgNi4wM0wxNi42NyA5LjkyTDE4Ljc5IDEyLjA0TDE2LjMyIDE0LjVMMTQuMiAxMi4zOEwxMC4zMSAxNi4yN0M5LjcyIDE2Ljg1IDguNzggMTYuODUgOC4xOSAxNi4yN0w2LjQyIDE0LjVMMTAuNjYgMTAuMjVMODU0IDguMTNMNC4zIDEyLjM3TDIuNTMgMTAuNjFDMS45NCAxMC4wMyAxLjk0IDkuMDggMi41MyA4LjQ5TDE0LjE5IDAuMzlDMTQuMjEgMC4zOSAyMC41NiAzLjkxIDIwLjU2IDMuOTFNNC42NSAyMi4zOEw2LjQyIDIwLjYxTDMuOTUgMTguMTRLMy4yNCAyMC45N0w0LjY1IDIyLjM4WiIvPjwvc3ZnPg==') !important;
+}
+
+/* GRAVE (Grave Stone) */
+.md-typeset .admonition.grave { border-color: var(--rpg-grave) !important; }
+.md-typeset .admonition.grave > .admonition-title {
+    background-color: rgba(120, 144, 156, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-grave) !important;
+    color: var(--rpg-grave) !important;
+}
+.md-typeset .admonition.grave > .admonition-title::before {
+  background-color: var(--rpg-grave) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEwLDE3SDE0VjE5SDEwVjE3TTEyLDEwLjVDMTAuNjIsMTAuNSA5LjUsMTMgOS41LDEzQzkuNSwxNC4zOCAxMC42MiwxNS41IDEyLDE1LjVDMTMuMzgsMTUuNSAxNC41LDE0LjM4IDE0LjUsMTNDMTQuNSwxMyAxMy4zOCwxMC41IDEyLDEwLjVNMTIsNEMxMC4zNCw0IDksNS4zNCA5LDdIMTFDMTEsNi40NSAxMS40NSw2IDEyLDZDMTIuNTUsNiAxMyw2LjQ1IDEzLDdIMTVDMTUsNS4zNCAxMy42Niw0IDEyLDRNMTIsMkMxNi40MiwyIDIwLDUuNTggMjAsMTBWMjJIMTZWMjFIMTRWMjJIMTBWMjFIOFYyMkg0VjEwQzQsNS41OCA3LjU4LDIgMTIsMloiLz48L3N2Zz4=') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEwLDE3SDE0VjE5SDEwVjE3TTEyLDEwLjVDMTAuNjIsMTAuNSA5LjUsMTMgOS41LDEzQzkuNSwxNC4zOCAxMC42MiwxNS41IDEyLDE1LjVDMTMuMzgsMTUuNSAxNC41LDE0LjM4IDE0LjUsMTNDMTQuNSwxMyAxMy4zOCwxMC41IDEyLDEwLjVNMTIsNEMxMC4zNCw0IDksNS4zNCA5LDdIMTFDMTEsNi40NSAxMS40NSw2IDEyLDZDMTIuNTUsNiAxMyw2LjQ1IDEzLDdIMTVDMTUsNS4zNCAxMy42Niw0IDEyLDRNMTIsMkMxNi40MiwyIDIwLDUuNTggMjAsMTBWMjJIMTZWMjFIMTRWMjJIMTBWMjFIOFYyMkg0VjEwQzQsNS41OCA3LjU4LDIgMTIsMloiLz48L3N2Zz4=') !important;
+}
+
+/* LOCATION / LOC (Map Marker) */
+.md-typeset .admonition.location,
+.md-typeset .admonition.loc { border-color: var(--rpg-location) !important; }
+.md-typeset .admonition.location > .admonition-title,
+.md-typeset .admonition.loc > .admonition-title {
+    background-color: rgba(233, 30, 99, 0.1) !important;
+    border-bottom: 1px solid var(--rpg-location) !important;
+    color: var(--rpg-location) !important;
+}
+.md-typeset .admonition.location > .admonition-title::before,
+.md-typeset .admonition.loc > .admonition-title::before {
+  background-color: var(--rpg-location) !important;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDExLjVBMi41LDIuNSAwIDAsMSA5LjUsOUEyLjUsMi41IDAgMCwxIDEyLDYuNUEyLjUsMi41IDAgMCwxIDE0LjUsOUEyLjUsMi41IDAgMCwxIDEyLDExLjVNMTIsMkE3LDcgMCAwLDAgNSw5QzUsMTQuMjUgMTIsMjIgMTIsMjJDMTIsMjIgMTksMTQuMjUgMTksOUE3LDcgMCAwLDAgMTIsMloiLz48L3N2Zz4=') !important;
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDExLjVBMi41LDIuNSAwIDAsMSA5LjUsOUEyLjUsMi41IDAgMCwxIDEyLDYuNUEyLjUsMi41IDAgMCwxIDE0LjUsOUEyLjUsMi41IDAgMCwxIDEyLDExLjVNMTIsMkE3LDcgMCAwLDAgNSw5QzUsMTQuMjUgMTIsMjIgMTIsMjJDMTIsMjIgMTksMTQuMjUgMTksOUE3LDcgMCAwLDAgMTIsMloiLz48L3N2Zz4=') !important;
+}
