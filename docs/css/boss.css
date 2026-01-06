@@ -1,0 +1,47 @@
+/* ==========================================
+   PLIK: docs/stylesheets/quest.css
+   ========================================== */
+
+/* 1. Zmienna koloru (tylko dla Quest) */
+:root {
+  --rpg-boss: #f44336; /* Fiolet */
+}
+
+/* 2. Ustawienia układu (Reset domyślnego ołówka + Pozycja) */
+.md-typeset .admonition.quest > .admonition-title {
+    padding-left: 2.5rem !important;
+    position: relative;
+}
+
+.md-typeset .admonition.quest > .admonition-title::before {
+    /* Reset i baza */
+    content: "" !important;
+    position: absolute;
+    left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-image: none !important;
+    
+    /* Maska ikony */
+    background-color: var(--rpg-boss) !important;
+    -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+    -webkit-mask-size: contain; mask-size: contain;
+    -webkit-mask-position: center; mask-position: center;
+
+    /* --- IKONA BASE64 (File Certificate) --- */
+    -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTEsMTVWMTNIMTNWMTVIMTFNMTQsMTNWMTVIMThWMTNIMTRNMTEsMTdWMTlIMTNWMTdIMTFNMTQsMTdWMTlIMThWMTdIMTRHNywxM0gxMFYxNC4zM0w4LjUsMTUuMjJMNywxNC4zM1YxM003LDE1LjY3VjE5SDEwVjE1LjY3TDguNSwxNi41Nkw3LDE1LjY3WiIvPjwvc3ZnPg==') !important;
+    mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTEsMTVWMTNIMTNWMTVIMTFNMTQsMTNWMTVIMThWMTNIMTRNMTEsMTdWMTlIMTNWMTdIMTFNMTQsMTdWMTlIMThWMTdIMTRHNywxM0gxMFYxNC4zM0w4LjUsMTUuMjJMNywxNC4zM1YxM003LDE1LjY3VjE5SDEwVjE1LjY3TDguNSwxNi41Nkw3LDE1LjY3WiIvPjwvc3ZnPg==') !important;
+}
+
+/* 3. Kolorowanie ramki i tła */
+.md-typeset .admonition.quest {
+    border-color: var(--rpg-boss) !important;
+}
+.md-typeset .admonition.quest > .admonition-title {
+    background-color: rgba(213, 0, 249, 0.15) !important;
+    border-bottom: 1px solid var(--rpg-boss) !important;
+    color: var(--rpg-boss) !important;
+}

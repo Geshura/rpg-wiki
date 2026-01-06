@@ -1,3 +1,0 @@
-# Magiczne Zoledzie
-
-> Placeholder — content to be added.

@@ -1,3 +1,0 @@
-# Supernowa
-
-> Placeholder — content to be added.

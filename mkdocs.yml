@@ -5,7 +5,12 @@ repo_url: https://github.com/geshura/rpg-wiki/
 edit_uri: edit/main/docs/
 
 nav:
-  - Strona główna: index.md
+  - Strona główna: 
+    - Indeks: index.md
+    - admonitions: testy/admonitions.md
+    - content tabs: testy/content_tabs.md
+    - kostka: testy/kostka.md
+    - przyciski: testy/przyciski.md
   - Artefakty:
     - Indeks: artefakty.md
     - Brisingamen: artefakty/brisingamen.md
@@ -789,165 +794,9 @@ nav:
     - Żarłoczne robactwo: zaklecia/żarłoczne_robactwo.md
     - Żelazna butelka: zaklecia/żelazna_butelka.md
     - Życiodajna studnia: zaklecia/życiodajna_studnia.md
-
-  - Zaklęcia 2:
-    - Indeks: zaklecia2.md
-    - Chaos:
-      - Bledny pocisk chaosu: zaklecia2/chaos/bledny-pocisk-chaosu.md
-      - Dar chaosu: zaklecia2/chaos/dar-chaosu.md
-      - Dzika magia chaos: zaklecia2/chaos/dzika-magia-chaos.md
-      - Kaprysne zniszczenie: zaklecia2/chaos/kaprysne-zniszczenie.md
-      - Kolor magii: zaklecia2/chaos/kolor-magii.md
-      - Lanca chaosu: zaklecia2/chaos/lanca-chaosu.md
-      - Migotanie chaos: zaklecia2/chaos/migotanie-chaos.md
-      - Opalizujaca tarcza: zaklecia2/chaos/opalizujaca-tarcza.md
-      - Osobliwosc: zaklecia2/chaos/osobliwosc.md
-      - Sciana luster: zaklecia2/chaos/sciana-luster.md
-      - Zakrzywienie przestrzeni: zaklecia2/chaos/zakrzywienie-przestrzeni.md
-    - Cien:
-      - Cien z pustki: zaklecia2/cien/cien-z-pustki.md
-      - W imie wiecznego cienia: zaklecia2/cien/w-imie-wiecznego-cienia.md
-    - Czas:
-      - Akceleracja: zaklecia2/czas/akceleracja.md
-      - Drugie podejscie: zaklecia2/czas/drugie-podejscie.md
-      - Opoznienie: zaklecia2/czas/opoznienie.md
-      - Podroz w czasie: zaklecia2/czas/podroz-w-czasie.md
-      - Pomniejszy paradoks: zaklecia2/czas/pomniejszy-paradoks.md
-      - Pospiech: zaklecia2/czas/pospiech.md
-      - Predykcja: zaklecia2/czas/predykcja.md
-      - Przeskok czasu: zaklecia2/czas/przeskok-czasu.md
-      - Rozdwojenie: zaklecia2/czas/rozdwojenie.md
-      - Spowolnienie: zaklecia2/czas/spowolnienie.md
-      - Zahamowanie: zaklecia2/czas/zahamowanie.md
-    - Iluzja:
-      - Camera obscura: zaklecia2/iluzja/camera-obscura.md
-      - Duplikaty: zaklecia2/iluzja/duplikaty.md
-      - Fantom: zaklecia2/iluzja/fantom.md
-      - Halas: zaklecia2/iluzja/halas.md
-      - Iluzoryczny sobowtor: zaklecia2/iluzja/iluzoryczny-sobowtor.md
-      - Miraz: zaklecia2/iluzja/miraz.md
-      - Niewidzialnosc: zaklecia2/iluzja/niewidzialnosc.md
-      - Pragnienie serca: zaklecia2/iluzja/pragnienie-serca.md
-      - Przebranie: zaklecia2/iluzja/przebranie.md
-      - Urojenia: zaklecia2/iluzja/urojenia.md
-      - Wymysl: zaklecia2/iluzja/wymysl.md
-      - Zawroty glowy: zaklecia2/iluzja/zawroty-glowy.md
-      - Zmylka: zaklecia2/iluzja/zmylka.md
-    - Inkantacje:
-      - Linia geomantyczna: zaklecia2/inkantacje/linia-geomantyczna.md
-      - Pokuta: zaklecia2/inkantacje/pokuta.md
-      - Proroctwo: zaklecia2/inkantacje/proroctwo.md
-      - Przywolanie duszy: zaklecia2/inkantacje/przywolanie-duszy.md
-      - Runa zniszczenia: zaklecia2/inkantacje/runa-zniszczenia.md
-      - Sekrety ziemi: zaklecia2/inkantacje/sekrety-ziemi.md
-      - Trupi wzrok: zaklecia2/inkantacje/trupi-wzrok.md
-      - Wiazacy pentagram: zaklecia2/inkantacje/wiazacy-pentagram.md
-      - Zwierzecy szpieg: zaklecia2/inkantacje/zwierzecy-szpieg.md
-    - Jasnowidzenie:
-      - Dalekowidzenie: zaklecia2/jasnowidzenie/dalekowidzenie.md
-      - Krwawe objawienie: zaklecia2/jasnowidzenie/krwawe-objawienie.md
-      - Lokalizacja: zaklecia2/jasnowidzenie/lokalizacja.md
-      - Modlitwa wieszcza: zaklecia2/jasnowidzenie/modlitwa-wieszcza.md
-      - Olsnienie: zaklecia2/jasnowidzenie/olsnienie.md
-      - Podsluch: zaklecia2/jasnowidzenie/podsluch.md
-      - Prawdoslyszenie: zaklecia2/jasnowidzenie/prawdoslyszenie.md
-      - Przedswit: zaklecia2/jasnowidzenie/przedswit.md
-      - Przepowiednia: zaklecia2/jasnowidzenie/przepowiednia.md
-      - Psychometria: zaklecia2/jasnowidzenie/psychometria.md
-      - Widzenie przyszlosci: zaklecia2/jasnowidzenie/widzenie-przyszlosci.md
-      - Wieszczba: zaklecia2/jasnowidzenie/wieszczba.md
-      - Wizja: zaklecia2/jasnowidzenie/wizja.md
-      - Wrozba: zaklecia2/jasnowidzenie/wrozba.md
-    - Klatwy:
-      - Bol: zaklecia2/klatwy/bol.md
-      - Glod krwi: zaklecia2/klatwy/glod-krwi.md
-      - Kila: zaklecia2/klatwy/kila.md
-      - Klatwa pustynnych krolow: zaklecia2/klatwy/klatwa-pustynnych-krolow.md
-      - Okulawienie: zaklecia2/klatwy/okulawienie.md
-      - Petryfikacja: zaklecia2/klatwy/petryfikacja.md
-      - Podatnosc: zaklecia2/klatwy/podatnosc.md
-      - Przeklenstwo: zaklecia2/klatwy/przeklenstwo.md
-      - Przestrach: zaklecia2/klatwy/przestrach.md
-      - Ropucha: zaklecia2/klatwy/ropucha.md
-      - Slabosc: zaklecia2/klatwy/slabosc.md
-      - Trwoga: zaklecia2/klatwy/trwoga.md
-      - Wieprz: zaklecia2/klatwy/wieprz.md
-      - Wizja grozy: zaklecia2/klatwy/wizja-grozy.md
-      - Zamiana w fomora: zaklecia2/klatwy/zamiana-w-fomora.md
-      - Zatrute jablko: zaklecia2/klatwy/zatrute-jablko.md
-      - Znaj swa zgube: zaklecia2/klatwy/znaj-swa-zgube.md
-    - Magia bitewna:
-      - Bitewny impet: zaklecia2/magia-bitewna/bitewny-impet.md
-      - Blyskawiczny szturm: zaklecia2/magia-bitewna/blyskawiczny-szturm.md
-      - Druzgocacy skok: zaklecia2/magia-bitewna/druzgocacy-skok.md
-      - Nawalnica ciosow: zaklecia2/magia-bitewna/nawalnica-ciosow.md
-      - Niesamowity cios: zaklecia2/magia-bitewna/niesamowity-cios.md
-      - Pocisk wiodacy: zaklecia2/magia-bitewna/pocisk-wiodacy.md
-      - Potezny atak: zaklecia2/magia-bitewna/potezny-atak.md
-      - Przebiegla parada: zaklecia2/magia-bitewna/przebiegla-parada.md
-      - Przenikajacy pocisk: zaklecia2/magia-bitewna/przenikajacy-pocisk.md
-      - Przyplyw heroizmu: zaklecia2/magia-bitewna/przyplyw-heroizmu.md
-      - Przyspieszenie: zaklecia2/magia-bitewna/przyspieszenie.md
-      - Rechot mrocznych bogow: zaklecia2/magia-bitewna/rechot-mrocznych-bogow.md
-      - Sciana mieczy: zaklecia2/magia-bitewna/sciana-mieczy.md
-      - Sprawnosc bojowa: zaklecia2/magia-bitewna/sprawnosc-bojowa.md
-      - Ujarzmienie szalenstwa: zaklecia2/magia-bitewna/ujarzmienie-szalenstwa.md
-      - W imie krola czaszek: zaklecia2/magia-bitewna/w-imie-krola-czaszek.md
-      - W imie mrocznych bogow: zaklecia2/magia-bitewna/w-imie-mrocznych-bogow.md
-      - Wir smierci: zaklecia2/magia-bitewna/wir-smierci.md
-      - Wstrzasajacy atak: zaklecia2/magia-bitewna/wstrzasajacy-atak.md
-      - Zasklepienie ran: zaklecia2/magia-bitewna/zasklepienie-ran.md
-      - Zespolony atak: zaklecia2/magia-bitewna/zespolony-atak.md
-    - Magia burzy:
-      - Gradobicie: zaklecia2/magia-burzy/gradobicie.md
-      - Kwasny deszcz: zaklecia2/magia-burzy/kwasny-deszcz.md
-      - Lancuch piorunow: zaklecia2/magia-burzy/lancuch-piorunow.md
-      - Mgla: zaklecia2/magia-burzy/mgla.md
-      - Ognie swietej astrid: zaklecia2/magia-burzy/ognie-swietej-astrid.md
-      - Porazenie: zaklecia2/magia-burzy/porazenie.md
-      - Przywolanie pioruna: zaklecia2/magia-burzy/przywolanie-pioruna.md
-      - Rozwidlony piorun: zaklecia2/magia-burzy/rozwidlony-piorun.md
-      - Szadz: zaklecia2/magia-burzy/szadz.md
-      - Trujaca mgla: zaklecia2/magia-burzy/trujaca-mgla.md
-      - Wyladowanie: zaklecia2/magia-burzy/wyladowanie.md
-    - Magia cienia:
-      - Ciemnosc: zaklecia2/magia-cienia/ciemnosc.md
-      - Cien z pustki: zaklecia2/magia-cienia/cien-z-pustki.md
-      - Cienista magia: zaklecia2/magia-cienia/cienista-magia.md
-      - Cienista strzalka: zaklecia2/magia-cienia/cienista-strzalka.md
-      - Czarnostrzaly z zaswiatow: zaklecia2/magia-cienia/czarnostrzaly-z-zaswiatow.md
-      - Droga przez cien: zaklecia2/magia-cienia/droga-przez-cien.md
-      - Grobowe oblicze: zaklecia2/magia-cienia/grobowe-oblicze.md
-      - Mroczne portale: zaklecia2/magia-cienia/mroczne-portale.md
-      - Mroczne wynaturzenie: zaklecia2/magia-cienia/mroczne-wynaturzenie.md
-      - Ostrze zmierzchu: zaklecia2/magia-cienia/ostrze-zmierzchu.md
-      - Prog zaswiatow: zaklecia2/magia-cienia/prog-zaswiatow.md
-      - Sciana ciemnosci: zaklecia2/magia-cienia/sciana-ciemnosci.md
-      - W imie wiecznego cienia: zaklecia2/magia-cienia/w-imie-wiecznego-cienia.md
-      - Widzenie w ciemnosci: zaklecia2/magia-cienia/widzenie-w-ciemnosci.md
-      - Zapaśc: zaklecia2/magia-cienia/zapaśc.md
-    - Magia fey:
-      - Bledne ogniki: zaklecia2/magia-fey/bledne-ogniki.md
-      - Feeria: zaklecia2/magia-fey/feeria.md
-      - Halucynacje: zaklecia2/magia-fey/halucynacje.md
-      - Linienie: zaklecia2/magia-fey/linienie.md
-      - Pijanstwo: zaklecia2/magia-fey/pijanstwo.md
-      - Poskrecana korona: zaklecia2/magia-fey/poskrecana-korona.md
-      - Spiaczka: zaklecia2/magia-fey/spiaczka.md
-      - Stworzenie odmienca: zaklecia2/magia-fey/stworzenie-odmienca.md
-      - Szalona pijatyka: zaklecia2/magia-fey/szalona-pijatyka.md
-      - Wymazanie pamieci: zaklecia2/magia-fey/wymazanie-pamieci.md
-      - Zanikanie: zaklecia2/magia-fey/zanikanie.md
-      - Zloto faerie: zaklecia2/magia-fey/zloto-faerie.md
-      - Zmniejszenie obiektu: zaklecia2/magia-fey/zmniejszenie-obiektu.md
-      - Zwodzenie: zaklecia2/magia-fey/zwodzenie.md
-    - Magia krwi:
-      - Krwawienie: zaklecia2/magia-krwi/krwawienie.md
-      - Krwotok: zaklecia2/magia-krwi/krwotok.md
-      - Rownowaga humorow: zaklecia2/magia-krwi/rownowaga-humorow.md
-      - Rzadka krew: zaklecia2/magia-krwi/rzadka-krew.md
-      - Transfuzja: zaklecia2/magia-krwi/transfuzja.md
-      - Wrzaca krew: zaklecia2/magia-krwi/wrzaca-krew.md
+  - kampania:
+    - bg: kampania/bg.md
+    - npc: kampania/npc.md
 
 theme:
   name: material
@@ -981,3 +830,6 @@ markdown_extensions:
   - pymdownx.details         # Zwijane bloki tekstu (np. statystyki bossa)
   - pymdownx.superfences     # Lepsze bloki kodu
   - attr_list                # Pozwala dodawać klasy CSS do elementów
+  
+extra_css:
+  - css/custom_admonition.css
