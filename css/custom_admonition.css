@@ -106,6 +106,7 @@
     mask-image: url("assets/sack.svg") !important;
 }
 
+/* Typographic color rules moved to docs/css/theme_colors.css */
 /* NPC -> account.svg (Zieleń) */
 .md-typeset .admonition.npc { border-color: var(--rpg-npc) !important; }
 .md-typeset .admonition.npc > .admonition-title {

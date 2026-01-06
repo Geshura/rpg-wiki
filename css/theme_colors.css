@@ -1,0 +1,70 @@
+/* Theme color overrides separated for clarity
+   - central place for primary/accent mapping and typographic color rules
+   - professional palette: primary color set to #2596be as requested
+*/
+
+:root {
+    /* Primary / accent color requested by user */
+    --rpg-bordowy: #2596be;
+
+    /* Map common Material/MkDocs variables to our chosen primary color */
+    --md-accent-fg: var(--rpg-bordowy);
+    --md-primary-fg: var(--rpg-bordowy);
+    --md-color-primary: var(--rpg-bordowy);
+    --md-color-accent: var(--rpg-bordowy);
+    --md-accent-fill: color-mix(in srgb, var(--rpg-bordowy) 12%, white 88%);
+}
+
+/* Utility: strong/accent styling kept here so this file can be swapped easily */
+.accent-strong,
+strong.accent-strong {
+    font-weight: 700;
+    color: var(--rpg-bordowy);
+}
+
+/* Default bold text inside rendered markdown */
+.md-typeset strong,
+.md-typeset b {
+    color: var(--rpg-bordowy);
+    font-weight: 700;
+}
+
+/* Headings use the same primary color for a coherent theme */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: var(--rpg-bordowy);
+}
+
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    color: color-mix(in srgb, var(--rpg-bordowy) 65%, currentColor 35%);
+}
+
+/* Optional: link accents could be added here later */
+
+/* Link styles and interactive elements mapped to primary color */
+a,
+.md-typeset a,
+.md-typeset a:visited {
+    color: var(--rpg-bordowy);
+}
+
+a:hover,
+.md-typeset a:hover,
+.md-nav__link--active,
+.md-nav__link--active .md-nav__title,
+.md-nav__link[aria-current="page"] {
+    color: color-mix(in srgb, var(--rpg-bordowy) 85%, black 15%);
+}
+
+/* Buttons and primary controls (conservative: only when present) */
+.md-button,
+.md-btn,
+.md-icon-button {
+    --md-state-layer: transparent;
+    color: white;
+    background-color: var(--rpg-bordowy);
+    border-color: var(--rpg-bordowy);
+}
