@@ -6,34 +6,48 @@ status: new
 ---
 
 <style>
+    /* Theme-aware dice widget styles: use MkDocs Material variables when available
+       and sensible fallbacks otherwise. Styles are scoped to the widget container. */
     .dice-widget-container {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #1e1e1e;
-        color: #ffffff;
+        /* map to theme typography and provide fallback */
+        --dice-font: var(--md-typeset-font, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+        --dice-mono: var(--md-code-font, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace);
+
+        --dice-bg: var(--md-surface, #1e1e1e);
+        --dice-fg: var(--md-text, #ffffff);
+        --dice-accent: var(--md-accent-fg, #ffca28);
+        --dice-primary: var(--md-primary-fg, #6a1b9a);
+        --dice-muted: var(--md-secondary-text, #aaa);
+        --dice-border: rgba(0,0,0,0.2);
+        --dice-radius: 0.6rem;
+
+        font-family: var(--dice-font);
+        background-color: var(--dice-bg);
+        color: var(--dice-fg);
         padding: 2rem;
-        border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        border-radius: calc(var(--dice-radius));
+        box-shadow: 0 10px 30px rgba(0,0,0,0.35);
         text-align: center;
         width: 100%;
-        max-width: 500px; /* Szerszy kontener dla formuły */
-        border: 1px solid #333;
+        max-width: 500px;
+        border: 1px solid var(--dice-border);
         margin: 0 auto;
         box-sizing: border-box;
     }
 
     .dice-widget-container h2 {
         margin-top: 0;
-        color: #ffca28;
+        color: var(--dice-accent);
         font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: 20px;
     }
 
-    /* Wyświetlacz wyniku */
+    /* Result display */
     .dice-result-box {
-        background-color: #2c2c2c;
-        border: 2px solid #6a1b9a;
+        background-color: color-mix(in srgb, var(--dice-bg) 80%, black);
+        border: 2px solid var(--dice-primary);
         border-radius: 10px;
         padding: 15px;
         margin-bottom: 20px;
@@ -46,22 +60,22 @@ status: new
 
     .dice-result-number {
         font-size: 3.5rem;
-        font-weight: bold;
-        color: #fff;
+        font-weight: 700;
+        color: var(--dice-fg);
         margin: 0;
         line-height: 1;
     }
 
     .dice-result-details {
         font-size: 0.9rem;
-        color: #aaa;
+        color: var(--dice-muted);
         margin-top: 10px;
         word-wrap: break-word;
         max-width: 100%;
-        font-family: monospace; /* Czcionka stała dla czytelności */
+        font-family: var(--dice-mono);
     }
 
-    /* Pole formuły */
+    /* Input */
     .dice-input-container {
         display: flex;
         margin-bottom: 15px;
@@ -72,17 +86,17 @@ status: new
         width: 100%;
         padding: 15px;
         border-radius: 8px;
-        border: 1px solid #555;
-        background-color: #121212;
-        color: #ffca28;
-        font-size: 1.2rem;
-        font-weight: bold;
+        border: 1px solid color-mix(in srgb, var(--dice-border) 60%, transparent);
+        background-color: color-mix(in srgb, var(--dice-bg) 92%, white 8%);
+        color: var(--dice-accent);
+        font-size: 1.1rem;
+        font-weight: 700;
         text-align: center;
         box-sizing: border-box;
-        font-family: monospace;
+        font-family: var(--dice-mono);
     }
 
-    /* Przyciski sterujące */
+    /* Controls */
     .dice-controls {
         display: flex;
         gap: 10px;
@@ -90,19 +104,21 @@ status: new
     }
 
     .btn-clear {
-        background-color: #d32f2f;
+        background-color: color-mix(in srgb, var(--md-negative, #d32f2f) 90%, transparent);
+        color: white;
         flex: 1;
     }
-    .btn-clear:hover { background-color: #b71c1c; }
+    .btn-clear:hover { filter: brightness(.9); }
 
     .btn-roll {
-        background-color: #00796b;
-        flex: 3; /* Większy przycisk */
-        font-size: 1.2rem;
+        background-color: var(--md-positive, #00796b);
+        color: white;
+        flex: 3;
+        font-size: 1.1rem;
     }
-    .btn-roll:hover { background-color: #004d40; }
+    .btn-roll:hover { filter: brightness(.9); }
 
-    /* Siatka kości */
+    /* Dice grid */
     .dice-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -110,29 +126,27 @@ status: new
     }
 
     .dice-btn {
-        background-color: #6a1b9a;
-        color: white;
+        background-color: var(--dice-primary);
+        color: var(--md-on-accent, white);
         border: none;
-        padding: 15px 5px;
+        padding: 12px 6px;
         border-radius: 8px;
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: 700;
         cursor: pointer;
-        transition: background 0.2s, transform 0.1s;
+        transition: transform 0.08s ease, filter 0.12s ease;
         width: 100%;
     }
 
-    .dice-btn:hover { background-color: #4a148c; }
-    .dice-btn:active { transform: scale(0.95); }
+    .dice-btn:hover { filter: brightness(.9); }
+    .dice-btn:active { transform: scale(0.97); }
 
-    /* Modyfikatory */
     .dice-mod-btn {
-        background-color: #424242;
-        color: #ddd;
+        background-color: color-mix(in srgb, var(--dice-bg) 60%, var(--dice-primary) 40%);
+        color: var(--dice-muted);
     }
-    .dice-mod-btn:hover { background-color: #616161; }
+    .dice-mod-btn:hover { filter: brightness(.95); }
 
-    /* Animacja */
     .dice-shake {
         animation: diceShake 0.5s cubic-bezier(.36,.07,.19,.97) both;
     }
