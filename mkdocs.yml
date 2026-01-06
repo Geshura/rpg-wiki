@@ -795,8 +795,25 @@ nav:
     - Żelazna butelka: zaklecia/żelazna_butelka.md
     - Życiodajna studnia: zaklecia/życiodajna_studnia.md
   - kampania:
-    - bg: kampania/bg.md
-    - npc: kampania/npc.md
+    - Indeks: kampania.md
+    - BG:
+      - Adam: kampania/BG/adam.md
+      - Kacper: kampania/BG/kacper.md
+      - Macieja: kampania/BG/macieja.md
+      - Michal: kampania/BG/michal.md
+      - Oskar: kampania/BG/oskar.md
+    - BN:
+      - Barnaba: kampania/BN/Barnaba.md
+      - Francessca: kampania/BN/Francessca.md
+      - Matylda: kampania/BN/Matylda.md
+      - Ostatni Liść: kampania/BN/Ostatni_Liść.md
+      - Ruella: kampania/BN/Ruella.md
+      - Vernus: kampania/BN/Vernus.md
+    - Wątek:
+      - Pielgrzymka: kampania/Wątek/Pielgrzymka.md
+      - Sześciogród: kampania/Wątek/Sześciogród.md
+    - Wydarzenia:
+      - Atak anioła: kampania/Wydarzenia/Atak_anioła.md
 
 theme:
   name: material
