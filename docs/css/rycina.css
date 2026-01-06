@@ -13,12 +13,69 @@ img[alt*="#rycina"] {
     border-radius: 10px 18px 6px 8px / 12px 6px 10px 4px;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.18), 6px 8px 20px rgba(0,0,0,0.22);
     border: 1px solid #dcd0b0;
-    transform: rotate(-0.8deg);
-    filter: sepia(0.35) contrast(1.05) brightness(0.98);
-    outline: 2px solid rgba(44,36,27,0.9);
+    /* entrance + float animations tuned for smoothness */
+    animation: rycEntrance 0.7s cubic-bezier(.22,.9,.32,1) both, rycFloat 6.5s ease-in-out 0.7s infinite;
+    will-change: transform, box-shadow, filter;
+    filter: sepia(0.22) contrast(1.06) brightness(1.00);
+    outline: 2px solid rgba(44,36,27,0.95);
     outline-offset: -10px;
+    transition: transform 260ms cubic-bezier(.22,.9,.32,1), box-shadow 260ms ease, filter 260ms ease;
 }
 
 /* Opcjonalnie styl dla podpisu jeśli użyjesz <figcaption> */
 figure.spell-card-image { text-align: center; margin: 1.1rem 0; }
 figure.spell-card-image > figcaption { font-size: 0.9rem; color: #3b2f24; margin-top: .6rem; }
+
+/* --- Animations --- */
+
+@keyframes rycEntrance {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,12px,0) rotate(-1.6deg) scale(.995);
+        filter: blur(3px) brightness(.96);
+    }
+    60% {
+        opacity: 1;
+        transform: translate3d(0,-4px,0) rotate(-0.8deg) scale(1.02);
+        filter: blur(0px) brightness(1.02);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0,0,0) rotate(-0.9deg) scale(1);
+        filter: blur(0px) brightness(1);
+    }
+}
+
+@keyframes rycFloat {
+    0% {
+        transform: translate3d(0,0,0) rotate(-0.9deg) scale(1);
+        box-shadow: 1px 3px 10px rgba(0,0,0,0.16), 6px 10px 22px rgba(0,0,0,0.20);
+    }
+    50% {
+        transform: translate3d(0,-12px,0) rotate(-0.4deg) scale(1.04);
+        box-shadow: 3px 16px 36px rgba(0,0,0,0.28), 0 6px 18px rgba(0,0,0,0.18);
+    }
+    100% {
+        transform: translate3d(0,0,0) rotate(-0.9deg) scale(1);
+        box-shadow: 1px 3px 10px rgba(0,0,0,0.16), 6px 10px 22px rgba(0,0,0,0.20);
+    }
+}
+
+/* Pause float on hover and apply a gentle lift + scale */
+img[alt*="#rycina"]:hover,
+img[alt*="#rycina"]:focus {
+    animation-play-state: paused;
+    transform: translateY(-6px) rotate(-0.6deg) scale(1.02);
+    box-shadow: 2px 6px 26px rgba(0,0,0,0.28), 0 1px 3px rgba(0,0,0,0.2);
+    filter: sepia(0.2) contrast(1.08) brightness(1.02);
+    cursor: pointer;
+}
+
+/* Subtle caption fade-in */
+figure.spell-card-image > figcaption {
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 280ms ease, transform 280ms ease;
+}
+figure.spell-card-image:hover > figcaption,
+figure.spell-card-image:focus-within > figcaption { opacity: 1; transform: translateY(0); }
