@@ -1,152 +1,131 @@
-# Ściąga z Bloków RPG (Showcase)
+# Kompletny Przewodnik Systemowy i Fabularny
 
-Poniżej znajduje się prezentacja wszystkich niestandardowych stylów (Admonitions) zdefiniowanych w pliku `custom_admonition.css`.
+Ten dokument prezentuje wszystkie dostępne style bloków (Admonitions) używane w naszej dokumentacji.
 
 ---
 
-## 1. Fabuła i Świat (Storytelling)
+## Komunikaty standardowe
+Te bloki służą do przekazywania informacji technicznych, zasad gry oraz ostrzeżeń dla Mistrza Gry.
 
-Służą do opisywania świata, zadań i postaci niezależnych.
+### abstract
+!!! abstract "Podsumowanie Rozdziału"
+    W tej sekcji omówimy mechaniki rzutów obronnych oraz system ekwipunku. Zapoznanie się z tymi zasadami jest kluczowe przed rozpoczęciem kampanii.
+	
+### info
+!!! info "Wersja Systemu"
+    Zasady opierają się na silniku **Core Rules v2.5**. Niektóre mechaniki mogą różnić się od poprzedniej edycji.
+	
+### tip
+!!! tip "Wskazówka dla MG"
+    Zawsze pozwalaj graczom na kreatywne rozwiązanie problemu, nawet jeśli nie przewidziałeś tego w scenariuszu. *Zasada "Tak, i..."*.
+	
+### success
+!!! success "Awans na Poziom"
+    Jeśli gracze ukończą ten rozdział, powinni otrzymać wystarczającą ilość punktów doświadczenia, aby awansować na **Poziom 3**.
+	
+### question
+!!! question "Jak obliczyć Klasę Pancerza?"
+    KP to suma: `Bazowe 10` + `Modyfikator Zręczności` + `Bonus z Pancerza`.
+	
+### example
+!!! example "Przykład Rzutu Ataku"
+    Gracz rzuca k20 i otrzymuje wynik **14**. Dodaje swój modyfikator Siły (+3) oraz Biegłość (+2).
+    **Całkowity wynik to 19.**
+	
+### warning
+!!! warning "Zmiana Zasad"
+    Pamiętaj, że w tej strefie magia działa inaczej. Wszystkie zaklęcia leczące mają o połowę mniejszą skuteczność.
+	
+### failure
+!!! failure "Test Nieudany"
+    Jeśli gracz wyrzuci **1** na kości (Krytyczna Porażka), jego broń zostaje upuszczona lub uszkodzona.
+	
+### danger
+!!! danger "Strefa Śmierci"
+    Wkraczasz na terytorium **Czerwonego Smoka**. Postacie poniżej 5 poziomu zginą tu natychmiastowo bez odpowiedniej ochrony przed ogniem.
+	
+### bug
+!!! bug "Znany Błąd Mechaniki"
+    Kombinacja atutu *Szybkie Dobycie* z *Dwuręcznością* powoduje błąd w turach. Zostanie to naprawione w erracie 1.2.
 
+### quote
+!!! quote "Zasada Złota"
+    > "Mistrz Gry ma zawsze rację. Nawet jeśli jej nie ma."
+    > — *Podręcznik Gracza, str. 4*
+
+---
+
+## Komunikaty customowe
+Te bloki służą do budowania klimatu, opisywania zadań, przedmiotów i bestiariusza.
+
+### quest
 !!! quest "Zadanie Główne: Cienie Przeszłości"
-    Musisz odnaleźć zaginiony certyfikat w ruinach starej biblioteki.
+    Musisz odnaleźć zaginiony artefakt w ruinach starej katedry.
     
-    * **Cel:** Odzyskaj *Królewski Dekret*.
-    * **Nagroda:** 500 XP oraz tytuł Szlachecki.
+    * **Zleceniodawca:** Arcybiskup
+    * **Cel:** Odzyskaj *Kielich Światła*
+    * **Nagroda:** 1000 sztuk złota i tytuł Paladyna.
 
-!!! npc "Karczmarz Barnaba"
-    Niski, krępy mężczyzna z sumiastym wąsem. Wyciera kufel brudną szmatą.
-    > *"Nie widziałem tu nikogo takiego od zeszłej zimy..."*
+### loc
+!!! loc "Lokacja: Zrujnowana Katedra"
+    Mroczna, gotycka budowla majaczy na tle burzowego nieba.
+    **Wskazówka:** Wejście do katakumb znajduje się za ołtarzem.
 
-!!! location "Zapomniane Ruiny"
-    Stara twierdza majaczy na horyzoncie. Mury są porośnięte bluszczem.
-    **Dystans:** 2 dni drogi na północ.
+### npc
+!!! npc "Strażnik Krypty (Yorick)"
+    Garbata postać w kapturze, podpierająca się łopatą.
+    > *"Nikt stąd nie wychodzi, panie... przynajmniej nie w jednym kawałku."*
 
-!!! loc "Szybki Znacznik"
-    To samo co powyżej, ale używając skrótu `!!! loc`.
+### grave
+!!! grave "Zapomniany Grobowiec"
+    Tu spoczywa Święty Alistair.
+    *Inskrypcja głosi: "Tylko w ciemności ujrzysz światło".*
 
-!!! grave "Cmentarz Bohaterów"
-    Tu spoczywa Sir Alistair.
-    *Na nagrobku wyryto symbol pękniętej tarczy.*
-
-!!! note "Notatka od MG"
-    Pamiętaj, że w tej lokacji nie działa magia teleportacji.
-    Gracze muszą znaleźć fizyczne wejście.
-
----
-
-## 2. Ekwipunek i Skarby (Items)
-
-Bloki przeznaczone do nagród i opisów przedmiotów.
-
-!!! loot "Skrzynia Bossa"
-    W środku znajdujesz:
-    * 💎 **Szafir** (Wartość: 300 gp)
-    * 💰 **500 sztuk złota**
-    * 📜 **Zniszczona mapa**
-
-!!! weapon "Topór Wojenny (Dwuręczny)"
-    **Typ:** Broń Ciężka
-    **Obrażenia:** 1k12 + Siła (Cięte)
-    *Krawędź ostrza lśni niebieskawym blaskiem.*
-
-!!! potion "Eliksir Większego Leczenia"
-    **Rzadkość:** Niepospolity
-    **Efekt:** Przywraca `4k4 + 4` punktów zdrowia.
-    Płyn w kolbie jest gęsty i czerwony.
-
----
-
-## 3. Walka i Magia (Combat)
-
-Do statystyk wrogów i opisów zaklęć.
-
-!!! boss "Strażnik Krypty (Szkielet)"
+### boss
+!!! boss "Upadły Paladyn"
     | Cecha | Wartość |
     | :--- | :--- |
-    | **PŻ** | 120 |
-    | **KP** | 16 (Zbroja Płytowa) |
+    | **PŻ** | 150 |
+    | **KP** | 18 (Płytowa) |
     
-    **Zdolność Specjalna:** *Krzyk Umarłych* (Wszyscy wykonują rzut obronny na Mądrość).
+    **Zdolność:** *Aura Strachu* - każdy w promieniu 10 stóp musi wykonać rzut na Wolę (DC 15).
 
-!!! spell "Ognista Kula (Fireball)"
-    **Krąg:** 3
-    **Zasięg:** 150 stóp
-    **Obrażenia:** 8k6 (Ogień)
-    Jasny błysk eksploduje w wybranym punkcie, ogarniając wszystko płomieniami.
+### spell
+!!! spell "Mroczny Pocisk"
+    **Krąg:** 2
+    **Obrażenia:** 4k6 (Nekrotyczne)
+    Wiązka czarnej energii, która wysysa siły witalne z celu.
+
+### weapon
+!!! weapon "Ostrze Zdrajcy (Miecz Długi)"
+    **Typ:** Broń Magiczna (+1)
+    **Obrażenia:** 1k8 + 1
+    Ostrze pulsuje czerwoną poświatą w obecności wrogów.
+
+### potion
+!!! potion "Eliksir Niewidzialności"
+    **Czas trwania:** 1 godzina
+    Płyn jest całkowicie przezroczysty, jak woda, ale gęsty jak syrop.
+
+### loot
+!!! loot "Skrzynia Bossa"
+    W środku znajdujesz:
+    * 💎 **Rubin** (Wartość: 500 gp)
+    * 📜 **Stary Pergamin** (Mapa)
+    * 💰 **sakiewkę złota**
+
+### note
+!!! note "Znaleziona Notatka"
+    *"Oni nadchodzą... słyszę ich w ścianach. Niech bogowie mają nas w opiece."*
+    — Ostatni wpis w dzienniku.
 
 ---
 
-## 4. Przykłady Zaawansowane
+## Komunikaty interaktywne
 
-### Zwijane Bloki (Spoiler)
-Użyj trzech znaków zapytania `???`, aby ukryć treść (np. dla Mistrza Gry).
-
-??? boss "Ukryty Boss (Kliknij, aby odsłonić)"
-    To wcale nie była skrzynia! To **Mimik**!
-    Rzuć na inicjatywę z zaskoczenia.
-
-### Samodzielna Ikona
-Użyj pustego cudzysłowu `""`, aby wyświetlić blok bez tytułu (sama ikona).
-
-!!! quest ""
-    Znajdź klucz.
+??? boss "Ukryty Przeciwnik (Spoiler)"
+    To wcale nie był posąg! To **Gargulec**!
+    Atakuje z zaskoczenia, gdy gracze odwrócą się plecami.
 
 !!! loot ""
-    100 złota.
-
-!!! spell ""
-    Ognista kula.
-
-!!! npc ""
-    Karczmarz.
-
-!!! boss ""
-    Smok.
-
-!!! loc ""
-    Stare Ruiny.
-
-!!! potion ""
-    Leczenie.
-
-!!! weapon ""
-    Topór.
-
-!!! note ""
-    Sekret.
-
-!!! grave ""
-    R.I.P.
-	
-# Test Bloków RPG
-
-!!! quest "Zadanie"
-    Znajdź klucz.
-
-!!! loot "Łup"
-    100 złota.
-
-!!! spell "Zaklęcie"
-    Ognista kula.
-
-!!! npc "NPC"
-    Karczmarz.
-
-!!! boss "Boss"
-    Smok.
-
-!!! loc "Lokacja"
-    Stare Ruiny.
-
-!!! potion "Mikstura"
-    Leczenie.
-
-!!! weapon "Broń"
-    Topór.
-
-!!! note "Notatka"
-    Sekret.
-
-!!! grave "Grób"
-    R.I.P.
+    *(Pusty blok z samą ikoną)* Znalazłeś drobne monety na posadzce.
