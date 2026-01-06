@@ -89,8 +89,64 @@ Użyj trzech znaków zapytania `???`, aby ukryć treść (np. dla Mistrza Gry).
 ### Samodzielna Ikona
 Użyj pustego cudzysłowu `""`, aby wyświetlić blok bez tytułu (sama ikona).
 
+!!! quest ""
+    Znajdź klucz.
+
 !!! loot ""
-    Znalazłeś 5 miedziaków w błocie.
+    100 złota.
+
+!!! spell ""
+    Ognista kula.
+
+!!! npc ""
+    Karczmarz.
+
+!!! boss ""
+    Smok.
+
+!!! loc ""
+    Stare Ruiny.
+
+!!! potion ""
+    Leczenie.
+
+!!! weapon ""
+    Topór.
 
 !!! note ""
-    *Szept wiatru niesie ze sobą ostrzeżenie...*
+    Sekret.
+
+!!! grave ""
+    R.I.P.
+	
+# Test Bloków RPG
+
+!!! quest "Zadanie"
+    Znajdź klucz.
+
+!!! loot "Łup"
+    100 złota.
+
+!!! spell "Zaklęcie"
+    Ognista kula.
+
+!!! npc "NPC"
+    Karczmarz.
+
+!!! boss "Boss"
+    Smok.
+
+!!! loc "Lokacja"
+    Stare Ruiny.
+
+!!! potion "Mikstura"
+    Leczenie.
+
+!!! weapon "Broń"
+    Topór.
+
+!!! note "Notatka"
+    Sekret.
+
+!!! grave "Grób"
+    R.I.P.
