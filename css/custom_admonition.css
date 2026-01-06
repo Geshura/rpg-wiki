@@ -5,16 +5,16 @@
 
 /* 1. KONFIGURACJA KOLORÓW */
 :root {
-  --rpg-quest:    #d500f9; /* Fiolet */
-  --rpg-loot:     #ffab00; /* Złoto */
-  --rpg-spell:    #00bcd4; /* Cyjan */
-  --rpg-npc:      #4caf50; /* Zieleń */
-  --rpg-boss:     #f44336; /* Czerwień */
-  --rpg-location: #e91e63; /* Róż/Magenta */
-  --rpg-potion:   #00e676; /* Jaskrawa zieleń */
-  --rpg-weapon:   #607d8b; /* Stalowy */
-  --rpg-note:     #455a64; /* Ciemny szary */
-  --rpg-grave:    #78909c; /* Szary kamienny */
+    --rpg-quest:    #00bcd4; /* wcześniej spell (Cyjan) */
+    --rpg-loot:     #ffab00; /* Złoto */
+    --rpg-spell:    #d500f9; /* wcześniej quest (Fiolet) */
+    --rpg-npc:      #4caf50; /* Zieleń */
+    --rpg-boss:     #f44336; /* Czerwień */
+    --rpg-location: #795548; /* Brąz */
+    --rpg-potion:   #00e676; /* Jaskrawa zieleń */
+    --rpg-weapon:   #e91e63; /* Róż - taki jak stary loc */
+    --rpg-note:     #455a64; /* Ciemny szary */
+    --rpg-grave:    #78909c; /* Szary kamienny */
 }
 
 /* --------------------------------------------------------------------------
