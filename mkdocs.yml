@@ -852,3 +852,4 @@ markdown_extensions:
 extra_css:
   - css/custom_admonition.css
   - css/kostka.css
+  - css/rycina.css

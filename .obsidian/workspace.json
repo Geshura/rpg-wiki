@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/testy/zaklecie.md",
+                "file": "docs/zaklecia/adamantytowe_łańcuchy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zaklecie"
+              "title": "adamantytowe_łańcuchy"
             }
           }
         ]
@@ -183,10 +183,19 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "10c88bf04d4a18ca",
+  "active": "be2737f79586da7f",
   "lastOpenFiles": [
-    "docs/testy/faq.md",
     "docs/testy/zaklecie.md",
+    "docs/css/rycina.css",
+    "docs/testy/przyciski.md",
+    "docs/zaklecia/unnamed.jpg",
+    "docs/zaklecia/atawizm.jpg",
+    "docs/zaklecia/armia_umarlych.jpg",
+    "docs/zaklecia/akumulacja_magii.jpg",
+    "docs/zaklecia/Niepotwierdzony 783516.crdownload",
+    "docs/zaklecia/akceleracja.jpg",
+    "docs/zaklecia/adamantytowe_łańcuchy.jpg",
+    "docs/testy/faq.md",
     "docs/testy/content_tabs.md",
     "docs/zaklecia/adamantytowe_łańcuchy.md",
     "docs/kampania/BG/adam.md",
@@ -209,8 +218,6 @@
     "kacper.md",
     "docs/kampania/Bez nazwy.md",
     "docs/kampania/BN/Ostatni Liść.md",
-    "docs/kampania/BN/Bez nazwy.md",
-    "Vernus.md",
     "docs/kampania/Wątek",
     "docs/kampania/Wydarzenia/Bez nazwy",
     "docs/kampania/Wydarzenia",
@@ -219,8 +226,6 @@
     "docs/kampania/BG/oskar",
     "docs/kampania/BN",
     "docs/kampania/BG/NPC",
-    "docs/kampania/BG",
-    "site/zaklecia/życiodajna_studnia/index.html",
     "site/assets/images/favicon.png"
   ]
 }
