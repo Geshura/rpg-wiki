@@ -86,8 +86,8 @@
 }
 .md-typeset .admonition.quest > .admonition-title::before {
   background-color: var(--rpg-quest) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 2H6v20h12V8l-4-6zM13 3.5V8h4.5L13 3.5zM8 12h8v2H8v-2zm0 4h8v2H8v-2z' fill='currentColor'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 2H6v20h12V8l-4-6zM13 3.5V8h4.5L13 3.5zM8 12h8v2H8v-2zm0 4h8v2H8v-2z' fill='currentColor'/%3E%3C/svg%3E") !important;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 6V3.5L17.5 8H13zM8 12h8v2H8v-2zm0 4h8v2H8v-2z'/%3E%3C/svg%3E") !important;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 6V3.5L17.5 8H13zM8 12h8v2H8v-2zm0 4h8v2H8v-2z'/%3E%3C/svg%3E") !important;
 }
 
 /* LOOT (Diamond Stone) */
@@ -99,8 +99,8 @@
 }
 .md-typeset .admonition.loot > .admonition-title::before {
   background-color: var(--rpg-loot) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2c-1.1 0-2 .9-2 2v1H7c0 2 1 4 1 6 0 3 2 5 4 5s4-2 4-5c0-2 1-4 1-6h-3V4c0-1.1-.9-2-2-2zM9 7h6v1c0 1-1 2-3 2s-3-1-3-2V7z' fill='currentColor'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2c-1.1 0-2 .9-2 2v1H7c0 2 1 4 1 6 0 3 2 5 4 5s4-2 4-5c0-2 1-4 1-6h-3V4c0-1.1-.9-2-2-2zM9 7h6v1c0 1-1 2-3 2s-3-1-3-2V7z' fill='currentColor'/%3E%3C/svg%3E") !important;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M12 2c-4.97 0-9 4.03-9 9 0 4.42 3 8.11 7 8.88V21h4v-1.12c4-.77 7-4.46 7-8.88 0-4.97-4.03-9-9-9zM9 11a1 1 0 100-2 1 1 0 000 2zm6 0a1 1 0 100-2 1 1 0 000 2zM12 17c-2.21 0-4-1.79-4-4 0-1.1.9-2 2-2 .82 0 1.53.5 1.85 1.22.31-.72 1.03-1.22 1.85-1.22 1.1 0 2 .9 2 2 0 2.21-1.79 4-4 4z'/%3E%3C/svg%3E") !important;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M12 2c-4.97 0-9 4.03-9 9 0 4.42 3 8.11 7 8.88V21h4v-1.12c4-.77 7-4.46 7-8.88 0-4.97-4.03-9-9-9zM9 11a1 1 0 100-2 1 1 0 000 2zm6 0a1 1 0 100-2 1 1 0 000 2zM12 17c-2.21 0-4-1.79-4-4 0-1.1.9-2 2-2 .82 0 1.53.5 1.85 1.22.31-.72 1.03-1.22 1.85-1.22 1.1 0 2 .9 2 2 0 2.21-1.79 4-4 4z'/%3E%3C/svg%3E") !important;
 }
 
 /* --- SPELL (Naprawiona ikona + Nowy styl) --- */
@@ -160,8 +160,8 @@
 }
 .md-typeset .admonition.potion > .admonition-title::before {
   background-color: var(--rpg-potion) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 2h12v2l-4 6v5a4 4 0 1 1-8 0v-5L6 4V2z' fill='currentColor'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 2h12v2l-4 6v5a4 4 0 1 1-8 0v-5L6 4V2z' fill='currentColor'/%3E%3C/svg%3E") !important;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M6.5 2C5.67 2 5 2.67 5 3.5V5c0 .55.45 1 1 1h.75L8 9v6c0 2.76 2.24 5 5 5s5-2.24 5-5v-6l1.25-3h.75c.55 0 1-.45 1-1V3.5C21 2.67 20.33 2 19.5 2h-13zM8 9h8v6c0 1.66-1.34 3-3 3s-3-1.34-3-3V9z'/%3E%3C/svg%3E") !important;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M6.5 2C5.67 2 5 2.67 5 3.5V5c0 .55.45 1 1 1h.75L8 9v6c0 2.76 2.24 5 5 5s5-2.24 5-5v-6l1.25-3h.75c.55 0 1-.45 1-1V3.5C21 2.67 20.33 2 19.5 2h-13zM8 9h8v6c0 1.66-1.34 3-3 3s-3-1.34-3-3V9z'/%3E%3C/svg%3E") !important;
 }
 
 /* WEAPON (Axe Battle) */
@@ -186,8 +186,8 @@
 }
 .md-typeset .admonition.note > .admonition-title::before {
   background-color: var(--rpg-note) !important;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z' fill='currentColor'/%3E%3C/svg%3E") !important;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z' fill='currentColor'/%3E%3C/svg%3E") !important;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") !important;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") !important;
 }
 
 /* GRAVE (Grave Stone) */
