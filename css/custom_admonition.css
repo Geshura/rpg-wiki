@@ -5,15 +5,15 @@
 
 /* 1. KONFIGURACJA KOLORÓW */
 :root {
-    --rpg-quest:    #00bcd4; /* Cyjan (wcześniej spell) */
+    --rpg-quest:    #00bcd4; /* Cyjan */
     --rpg-loot:     #ffab00; /* Złoto */
-    --rpg-spell:    #d500f9; /* Fiolet (wcześniej quest) */
+    --rpg-spell:    #d500f9; /* Fiolet */
     --rpg-npc:      #4caf50; /* Zieleń */
     --rpg-boss:     #f44336; /* Czerwień */
     --rpg-location: #795548; /* Brąz */
     --rpg-potion:   #00e676; /* Jaskrawa zieleń */
     --rpg-weapon:   #e91e63; /* Róż/Magenta */
-    --rpg-note:     #455a64; /* Ciemny szary */
+    --rpg-note:     #2196f3; /* Niebieski (Blue 500) - ZMIANA */
     --rpg-grave:    #78909c; /* Szary kamienny */
 }
 
@@ -80,10 +80,9 @@
    Ścieżki dopasowane do folderu assets/
    -------------------------------------------------------------------------- */
 
-/* QUEST -> script-text-outline.svg (Zmieniono tło na Cyjan) */
+/* QUEST -> script-text-outline.svg (Cyjan) */
 .md-typeset .admonition.quest { border-color: var(--rpg-quest) !important; }
 .md-typeset .admonition.quest > .admonition-title {
-    /* RGB dla #00bcd4 */
     background-color: rgba(0, 188, 212, 0.15) !important;
     border-bottom: 1px solid var(--rpg-quest) !important;
     color: var(--rpg-quest) !important;
@@ -94,10 +93,9 @@
     mask-image: url("assets/script-text-outline.svg") !important;
 }
 
-/* LOOT -> sack.svg */
+/* LOOT -> sack.svg (Złoto) */
 .md-typeset .admonition.loot { border-color: var(--rpg-loot) !important; }
 .md-typeset .admonition.loot > .admonition-title {
-    /* RGB dla #ffab00 */
     background-color: rgba(255, 171, 0, 0.15) !important;
     border-bottom: 1px solid var(--rpg-loot) !important;
     color: var(--rpg-loot) !important;
@@ -108,10 +106,9 @@
     mask-image: url("assets/sack.svg") !important;
 }
 
-/* NPC -> account.svg */
+/* NPC -> account.svg (Zieleń) */
 .md-typeset .admonition.npc { border-color: var(--rpg-npc) !important; }
 .md-typeset .admonition.npc > .admonition-title {
-    /* RGB dla #4caf50 */
     background-color: rgba(76, 175, 80, 0.15) !important;
     border-bottom: 1px solid var(--rpg-npc) !important;
     color: var(--rpg-npc) !important;
@@ -122,10 +119,9 @@
     mask-image: url("assets/account.svg") !important;
 }
 
-/* BOSS -> skull-outline.svg */
+/* BOSS -> skull-outline.svg (Czerwień) */
 .md-typeset .admonition.boss { border-color: var(--rpg-boss) !important; }
 .md-typeset .admonition.boss > .admonition-title {
-    /* RGB dla #f44336 */
     background-color: rgba(244, 67, 54, 0.15) !important;
     border-bottom: 1px solid var(--rpg-boss) !important;
     color: var(--rpg-boss) !important;
@@ -136,10 +132,9 @@
     mask-image: url("assets/skull-outline.svg") !important;
 }
 
-/* POTION -> flask-round-bottom.svg */
+/* POTION -> flask-round-bottom.svg (Jaskrawa zieleń) */
 .md-typeset .admonition.potion { border-color: var(--rpg-potion) !important; }
 .md-typeset .admonition.potion > .admonition-title {
-    /* RGB dla #00e676 */
     background-color: rgba(0, 230, 118, 0.15) !important;
     border-bottom: 1px solid var(--rpg-potion) !important;
     color: var(--rpg-potion) !important;
@@ -150,10 +145,9 @@
     mask-image: url("assets/flask-round-bottom.svg") !important;
 }
 
-/* WEAPON -> axe-battle.svg (Zmieniono tło na Różowe) */
+/* WEAPON -> axe-battle.svg (Róż) */
 .md-typeset .admonition.weapon { border-color: var(--rpg-weapon) !important; }
 .md-typeset .admonition.weapon > .admonition-title {
-    /* RGB dla #e91e63 */
     background-color: rgba(233, 30, 99, 0.15) !important;
     border-bottom: 1px solid var(--rpg-weapon) !important;
     color: var(--rpg-weapon) !important;
@@ -164,11 +158,11 @@
     mask-image: url("assets/axe-battle.svg") !important;
 }
 
-/* NOTE -> lead-pencil.svg (Dopasowano tło do Ciemnego szarego) */
+/* NOTE -> lead-pencil.svg (Niebieski) */
 .md-typeset .admonition.note { border-color: var(--rpg-note) !important; }
 .md-typeset .admonition.note > .admonition-title {
-    /* RGB dla #455a64 */
-    background-color: rgba(69, 90, 100, 0.15) !important;
+    /* RGB dla #2196f3 (Niebieski) */
+    background-color: rgba(33, 150, 243, 0.15) !important;
     border-bottom: 1px solid var(--rpg-note) !important;
     color: var(--rpg-note) !important;
 }
@@ -178,10 +172,9 @@
     mask-image: url("assets/lead-pencil.svg") !important;
 }
 
-/* GRAVE -> grave-stone.svg */
+/* GRAVE -> grave-stone.svg (Szary) */
 .md-typeset .admonition.grave { border-color: var(--rpg-grave) !important; }
 .md-typeset .admonition.grave > .admonition-title {
-    /* RGB dla #78909c */
     background-color: rgba(120, 144, 156, 0.15) !important;
     border-bottom: 1px solid var(--rpg-grave) !important;
     color: var(--rpg-grave) !important;
@@ -192,12 +185,11 @@
     mask-image: url("assets/grave-stone.svg") !important;
 }
 
-/* LOCATION -> map-marker.svg (Zmieniono tło na Brąz) */
+/* LOCATION -> map-marker.svg (Brąz) */
 .md-typeset .admonition.location,
 .md-typeset .admonition.loc { border-color: var(--rpg-location) !important; }
 .md-typeset .admonition.location > .admonition-title,
 .md-typeset .admonition.loc > .admonition-title {
-    /* RGB dla #795548 */
     background-color: rgba(121, 85, 72, 0.15) !important;
     border-bottom: 1px solid var(--rpg-location) !important;
     color: var(--rpg-location) !important;
@@ -209,14 +201,12 @@
     mask-image: url("assets/map-marker.svg") !important;
 }
 
-/* SPELL -> fire-circle.svg (Zmieniono tło i cień na Fiolet) */
+/* SPELL -> fire-circle.svg (Fiolet) */
 .md-typeset .admonition.spell { 
     border-color: var(--rpg-spell) !important;
-    /* RGB dla #d500f9 */
     box-shadow: 0 0 10px rgba(213, 0, 249, 0.3); 
 }
 .md-typeset .admonition.spell > .admonition-title {
-    /* RGB dla #d500f9 */
     background-color: rgba(213, 0, 249, 0.1) !important;
     border-bottom: 1px solid var(--rpg-spell) !important;
     color: var(--rpg-spell) !important;
