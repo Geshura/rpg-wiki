@@ -11,6 +11,7 @@ nav:
     - content tabs: testy/content_tabs.md
     - kostka: testy/kostka.md
     - przyciski: testy/przyciski.md
+    - zaklęcie: testy/zaklecie.md
   - Artefakty:
     - Indeks: artefakty.md
     - Brisingamen: artefakty/brisingamen.md
