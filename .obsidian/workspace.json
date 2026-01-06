@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/kampania/BG/adam.md",
+                "file": "docs/testy/zaklecie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "adam"
+              "title": "zaklecie"
             }
           }
         ]
@@ -185,14 +185,16 @@
   },
   "active": "be2737f79586da7f",
   "lastOpenFiles": [
+    "docs/testy/content_tabs.md",
+    "docs/testy/faq.md",
     "docs/testy/zaklecie.md",
+    "docs/zaklecia/adamantytowe_łańcuchy.md",
+    "docs/kampania/BG/adam.md",
     "docs/testy/faq — kopia.md",
     "docs/kampania/BG/oskar.md",
     "docs/kampania/BG/michal.md",
     "docs/kampania/BG/macieja.md",
     "docs/kampania/BG/kacper.md",
-    "docs/kampania/BG/adam.md",
-    "docs/zaklecia/adamantytowe_łańcuchy.md",
     "docs/kampania/BN/Barnaba.md",
     "docs/kampania/BN/Francessca.md",
     "docs/kampania/BN/Matylda.md",
@@ -213,13 +215,11 @@
     "docs/kampania/Wydarzenia/Bez nazwy",
     "docs/kampania/Wydarzenia",
     "Bez nazwy",
-    "docs/testy/content_tabs.md",
     "docs/kampania/BG/macieja",
     "docs/kampania/BG/oskar",
     "docs/kampania/BN",
     "docs/kampania/BG/NPC",
     "docs/kampania/BG",
-    "docs/testy/faq.md",
     "site/zaklecia/życiodajna_studnia/index.html",
     "site/assets/images/favicon.png"
   ]
