@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/przyklad_wpisu.md",
+                "file": "docs/testy/content_tabs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "przyklad_wpisu"
+              "title": "content_tabs"
             }
           },
           {
@@ -197,8 +197,11 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "be2737f79586da7f",
+  "active": "10c88bf04d4a18ca",
   "lastOpenFiles": [
+    "docs/testy/faq.md",
+    "docs/testy/admonitions.md",
+    "docs/testy/content_tabs.md",
     "docs/zaklecia.md",
     "site/zaklecia/życiodajna_studnia/index.html",
     "site/zaklecia/żelazna_butelka/index.html",

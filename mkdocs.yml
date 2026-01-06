@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 nav:
   - Strona główna: 
     - Indeks: index.md
-    - admonitions: testy/admonitions.md
+    - admonitions: testy/faq.md
     - content tabs: testy/content_tabs.md
     - kostka: testy/kostka.md
     - przyciski: testy/przyciski.md

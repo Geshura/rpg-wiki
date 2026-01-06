@@ -1,4 +1,13 @@
-# Kompletny Przewodnik Systemowy i Fabularny
+---
+title: FAQ
+description: Maksymalnie rozbudowany przykład funkcji MkDocs Material.
+icon: material/information-box
+status: deprecated
+---
+
+[TOC]
+
+# Admonitions
 
 Ten dokument prezentuje wszystkie dostępne style bloków (Admonitions) używane w naszej dokumentacji.
 
