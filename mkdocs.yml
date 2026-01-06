@@ -832,4 +832,13 @@ markdown_extensions:
   - attr_list                # Pozwala dodawać klasy CSS do elementów
   
 extra_css:
-  - css/custom_admonition.css
+  - css/custom_admonition/boss.css
+  - css/custom_admonition/grave.css
+  - css/custom_admonition/location.css
+  - css/custom_admonition/loot.css
+  - css/custom_admonition/note.css
+  - css/custom_admonition/npc.css
+  - css/custom_admonition/potion.css
+  - css/custom_admonition/quest.css
+  - css/custom_admonition/spell.css
+  - css/custom_admonition/weapon.css
