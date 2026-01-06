@@ -3,6 +3,8 @@ title: zaklęcie
 description: Zasady tworzenia wpisu dla kategorii zaklęcia
 icon: material/information-box
 status:
+tags:
+  - straszliwepiekno
 ---
 # Adamantytowe Łańcuchy
 
