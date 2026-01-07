@@ -1,6 +1,6 @@
 ---
 system: Cień Władcy Demonów
-podrecznik: ""
-rasa: ""
+podrecznik: Suplement Władcy Demonów
+rasa: Niziołek
 typ: pochodzenie
 ---
