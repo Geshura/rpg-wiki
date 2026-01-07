@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/pochodzenie.md",
+                "file": "docs/pochodzenie/faun.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pochodzenie"
+              "title": "faun"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "d31cd8cbec0e906b",
   "lastOpenFiles": [
-    "docs/pochodzenie/automaton.md",
+    "docs/pochodzenie/czlowiek.md",
+    "docs/pochodzenie/faun.md",
     "docs/pochodzenie.md",
+    "docs/pochodzenie/automaton.md",
     "pochodzenie/czlowiek.md].md",
     "pochodzenie",
     "nav.txt",
@@ -219,8 +221,6 @@
     "docs/sciezki_mistrzowskie/wladca_burz.md",
     "docs/sciezki_mistrzowskie/wartownik.md",
     "docs/sciezki_mistrzowskie/wladca_bestii.md",
-    "docs/sciezki_mistrzowskie/truciciel.md",
-    "docs/sciezki_mistrzowskie/uzdrowiciel.md",
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",
     "docs — kopia/zaklecia/armia_umarlych.jpg",

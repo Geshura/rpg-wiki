@@ -8,13 +8,33 @@ nav:
   - zaklęcie: testy/zaklecie.md
 - Pochodzenie:
   - Pochodzenie: pochodzenie.md
-  - Pochodzenie:
-    - Człowiek: pochodzenie/czlowiek.md
+  - Podręcznik Główny:
     - Automaton: pochodzenie/automaton.md
+    - Człowiek: pochodzenie/czlowiek.md
     - Goblin: pochodzenie/goblin.md
     - Krasnolud: pochodzenie/krasnolud.md
     - Odmieniec: pochodzenie/odmieniec.md
     - Ork: pochodzenie/ork.md
+  - Chwalebna Śmierć:
+    - Jotun: pochodzenie/jotun.md
+  - Głód w Pustce:
+    - Fomor: pochodzenie/fomor.md
+    - Inkarnacja: pochodzenie/inkarnacja.md
+    - Niedźwiedziadło: pochodzenie/niedzwiedziadlo.md
+    - Warg: pochodzenie/warg.md
+  - Grobowce Pustkowia:
+    - Ożywieniec: pochodzenie/ozywieniec.md
+    - Salamandra: pochodzenie/salamandra.md
+    - Wampir: pochodzenie/wampir.md
+  - Rozkoszna Agonia:
+    - Kambion: pochodzenie/kambion.md
+  - Straszliwe Piękno:
+    - Chochlik: pochodzenie/chochlik.md
+    - Elf: pochodzenie/elf.md
+    - Hobgoblin: pochodzenie/hobgoblin.md
+  - Suplement Władcy Demonów:
+    - Faun: pochodzenie/faun.md
+    - Niziołek: pochodzenie/niziolek.md
 - Ścieżki:
   - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
   - Ścieżki Eksperckie: sciezki_eksperckie.md
