@@ -11,10 +11,14 @@
             "id": "be2737f79586da7f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/pochodzenie/Człowiek.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nowa karta"
+              "title": "Człowiek"
             }
           }
         ]
@@ -179,7 +183,7 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "10c88bf04d4a18ca",
+  "active": "be2737f79586da7f",
   "lastOpenFiles": [
     "nav.txt",
     "nav — kopia.yml",
