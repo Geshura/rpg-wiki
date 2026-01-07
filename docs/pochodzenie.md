@@ -4,7 +4,7 @@ podrecznik: wszystkie
 kategoria: pochodzenie
 ---
 # Pochodzenie
-W **Shadow of the Demon Lord** wybór pochodzenia determinuje nie tylko statystyki, ale też miejsce twojej postaci w świecie. Poniżej znajdziesz krótki opis każdej z opcji wraz z odnośnikiem do pełnych zasad.
+W **Cień Władcy Demonów** wybór pochodzenia determinuje nie tylko statystyki, ale też miejsce twojej postaci w świecie. Poniżej znajdziesz krótki opis każdej z opcji wraz z odnośnikiem do pełnych zasad.
 
 ## Podręcznik Główny
 
