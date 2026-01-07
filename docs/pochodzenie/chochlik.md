@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
-rasa: Chochlik
-typ: pochodzenie
+pochodzenie: Chochlik
+kategoria: pochodzenie
 ---
 # Chochlik
 

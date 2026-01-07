@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Suplement Władcy Demonów
-rasa: Faun
-typ: pochodzenie
+pochodzenie: Faun
+kategoria: pochodzenie
 ---
 # Faun
 

@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Chwalebna Śmierć
-rasa: Jotun
-typ: pochodzenie
+pochodzenie: Jotun
+kategoria: pochodzenie
 ---
 
 

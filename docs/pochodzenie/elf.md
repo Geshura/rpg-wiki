@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
-rasa: Elf
-typ: pochodzenie
+pochodzenie: Elf
+kategoria: pochodzenie
 ---
 # Elf
 

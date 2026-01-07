@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Suplement Władcy Demonów
-rasa: Niziołek
-typ: pochodzenie
+pochodzenie: Niziołek
+kategoria: pochodzenie
 ---
 # Niziołek
 

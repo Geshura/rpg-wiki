@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
-rasa: Hobgoblin
-typ: pochodzenie
+pochodzenie: Hobgoblin
+kategoria: pochodzenie
 ---
 # Hobgoblin
 

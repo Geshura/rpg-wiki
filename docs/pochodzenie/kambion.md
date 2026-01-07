@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Rozkoszna Agonia
-rasa: Kambion
-typ: pochodzenie
+pochodzenie: Kambion
+kategoria: pochodzenie
 ---
 # Kambion
 

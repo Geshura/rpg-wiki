@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
-rasa: Niedźwiedzidło
-typ: pochodzenie
+pochodzenie: Niedźwiedzidło
+kategoria: pochodzenie
 ---
 # Niedźwiedzidło
 

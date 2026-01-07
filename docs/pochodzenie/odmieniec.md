@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-rasa: ""
-typ: pochodzenie
+pochodzenie: ""
+kategoria: pochodzenie
 ---
 
 # Odmieniec

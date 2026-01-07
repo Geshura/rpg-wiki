@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
-rasa: Salamandra
-typ: pochodzenie
+pochodzenie: Salamandra
+kategoria: pochodzenie
 ---
 # Salamandra
 

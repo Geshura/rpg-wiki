@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
-rasa: Ożywieniec
-typ: pochodzenie
+pochodzenie: Ożywieniec
+kategoria: pochodzenie
 ---
 # Ożywieniec
 

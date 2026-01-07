@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
-rasa: Inkarnacja
-typ: pochodzenie
+pochodzenie: Inkarnacja
+kategoria: pochodzenie
 ---
 # Inkarnacja
 

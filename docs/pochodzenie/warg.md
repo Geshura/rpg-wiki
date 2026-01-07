@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
-rasa: Warg
-typ: pochodzenie
+pochodzenie: Warg
+kategoria: pochodzenie
 ---
 # Warg
 

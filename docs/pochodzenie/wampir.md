@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
-rasa: Wampir
-typ: pochodzenie
+pochodzenie: Wampir
+kategoria: pochodzenie
 ---
 # Wampir
 

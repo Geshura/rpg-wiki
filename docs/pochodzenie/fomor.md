@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
-rasa: Fomor
-typ: pochodzenie
+pochodzenie: Fomor
+kategoria: pochodzenie
 ---
 # Fomor
 
