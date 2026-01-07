@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/pochodzenie/fomor.md",
+                "file": "docs/pochodzenie/warg.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fomor"
+              "title": "warg"
             }
           }
         ]
@@ -185,24 +185,26 @@
   },
   "active": "d31cd8cbec0e906b",
   "lastOpenFiles": [
-    "docs/pochodzenie/goblin.md",
-    "docs/pochodzenie/hobgoblin.md",
-    "docs/pochodzenie/inkarnacja.md",
-    "docs/pochodzenie/niedzwiedzidlo.md",
-    "docs/pochodzenie/warg.md",
-    "docs/pochodzenie/czlowiek.md",
-    "docs/pochodzenie/chochlik.md",
-    "docs/pochodzenie/faun.md",
-    "docs/pochodzenie/fomor.md",
-    "docs/pochodzenie/automaton.md",
-    "docs/pochodzenie/jotun.md",
     "docs/pochodzenie/wampir.md",
     "docs/pochodzenie/salamandra.md",
     "docs/pochodzenie/ozywieniec.md",
     "docs/pochodzenie/ork.md",
     "docs/pochodzenie/odmieniec.md",
     "docs/pochodzenie/niziolek.md",
+    "docs/pochodzenie/niedzwiedzidlo.md",
     "docs/pochodzenie/krasnolud.md",
+    "docs/pochodzenie/kambion.md",
+    "docs/pochodzenie/jotun.md",
+    "docs/pochodzenie/inkarnacja.md",
+    "docs/pochodzenie/hobgoblin.md",
+    "docs/pochodzenie/goblin.md",
+    "docs/pochodzenie/fomor.md",
+    "docs/pochodzenie/faun.md",
+    "docs/pochodzenie/elf.md",
+    "docs/pochodzenie/czlowiek.md",
+    "docs/pochodzenie/chochlik.md",
+    "docs/pochodzenie/automaton.md",
+    "docs/pochodzenie/warg.md",
     "docs/pochodzenie.md",
     "pochodzenie/czlowiek.md].md",
     "pochodzenie",
@@ -217,9 +219,7 @@
     "docs — kopia/1/testy/przyciski.md",
     "docs — kopia/1/testy/kostka.md",
     "docs — kopia/1/testy/faq.md",
-    "docs — kopia/1/testy/content_tabs.md",
     "docs — kopia/1/testy",
-    "docs/testy/zaklecie.md",
     "docs/testy",
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",

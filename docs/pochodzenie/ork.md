@@ -1,8 +1,8 @@
 ---
-system: "Cień Władcy Demonów"
+system: Cień Władcy Demonów
 podrecznik: ""
 rasa: ""
-typ: "Zasady i Tabele"
+typ: pochodzenie
 ---
 
 # Ork

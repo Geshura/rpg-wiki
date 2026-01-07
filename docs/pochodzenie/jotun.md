@@ -2,7 +2,7 @@
 system: Cień Władcy Demonów
 podrecznik: Chwalebna Śmierć
 rasa: Jotun
-typ: Zasady i Tabele
+typ: pochodzenie
 ---
 
 

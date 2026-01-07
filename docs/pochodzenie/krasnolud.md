@@ -2,7 +2,7 @@
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 rasa: ""
-typ: Zasady i Tabele
+typ: pochodzenie
 ---
 
 # Krasnolud

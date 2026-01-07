@@ -2,7 +2,7 @@
 system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
 rasa: Fomor
-typ: Zasady i Tabele
+typ: pochodzenie
 ---
 # Fomor
 
