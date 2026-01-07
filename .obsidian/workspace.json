@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/pochodzenie/warg.md",
+                "file": "docs/pochodzenie/inkarnacja.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "warg"
+              "title": "inkarnacja"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "d31cd8cbec0e906b",
   "lastOpenFiles": [
+    "docs/pochodzenie/warg.md",
     "docs/pochodzenie/wampir.md",
     "docs/pochodzenie/salamandra.md",
     "docs/pochodzenie/ozywieniec.md",
@@ -204,7 +205,6 @@
     "docs/pochodzenie/czlowiek.md",
     "docs/pochodzenie/chochlik.md",
     "docs/pochodzenie/automaton.md",
-    "docs/pochodzenie/warg.md",
     "docs/pochodzenie.md",
     "pochodzenie/czlowiek.md].md",
     "pochodzenie",
