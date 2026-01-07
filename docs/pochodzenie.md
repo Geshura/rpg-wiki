@@ -3,31 +3,31 @@ system: "Shadow of the Demon Lord"
 ---
 
 # Pochodzenie
-
 W **Shadow of the Demon Lord** wybór pochodzenia determinuje nie tylko statystyki, ale też miejsce twojej postaci w świecie. Poniżej znajdziesz krótki opis każdej z opcji wraz z odnośnikiem do pełnych zasad.
 
+## Podręcznik
 **[Człowiek](pochodzenie/czlowiek.md)**
-  Najliczniejsza i najbardziej zróżnicowana populacja na świecie. Ludzie są ambitni, zaradni i tworzą potężne cywilizacje, choć ich natura często prowadzi do konfliktów.
+  Najliczniejsza i najbardziej zróżnicowana populacja na świecie. Ludzie są ambitni, zaradni i tworzą potężne cywilizacje, choć ich natura często prowadzi do konfliktów.</br></br>
   **Cechy:** *Wszechstronność, determinacja, silna więź społeczna.*
 
 **[Automaton](pochodzenie/automaton.md)**
-  Mechaniczne istoty ożywione duszami wyrwanymi z Zaświatów. Nie potrzebują jedzenia ani snu, ale muszą być regularnie nakręcane kluczem, aby funkcjonować jako żywe stworzenia.
+  Mechaniczne istoty ożywione duszami wyrwanymi z Zaświatów. Nie potrzebują jedzenia ani snu, ale muszą być regularnie nakręcane kluczem, aby funkcjonować jako żywe stworzenia.</br></br>
   **Cechy:** *Konstrukt, niewrażliwość na trucizny, mechanika klucza.*
 
 **[Goblin](pochodzenie/goblin.md)**
-  Niegdyś faerie, teraz wygnane i przeklęte życiem w świecie śmiertelników. Zamieszkują śmietniska i kanały, mają dziwaczne nawyki i unikalną fizjonomię.
+  Niegdyś faerie, teraz wygnane i przeklęte życiem w świecie śmiertelników. Zamieszkują śmietniska i kanały, mają dziwaczne nawyki i unikalną fizjonomię.</br></br>
   **Cechy:** *Odporność na choroby, widzenie w cieniu, spryt i ukrywanie się.*
 
 **[Krasnolud](pochodzenie/krasnolud.md)**
-  Niski, krępy lud zamieszkujący podziemne miasta i kochający złoto. Są nieufni, honorowi i przywiązują ogromną wagę do swoich bród oraz walki ze znienawidzonymi wrogami.
+  Niski, krępy lud zamieszkujący podziemne miasta i kochający złoto. Są nieufni, honorowi i przywiązują ogromną wagę do swoich bród oraz walki ze znienawidzonymi wrogami.</br></br>
   **Cechy:** *Widzenie w ciemności, odporność na trucizny, nienawiść do określonych wrogów.*
 
 **[Odmieniec](pochodzenie/odmieniec.md)**
-  Magiczne sobowtóry stworzone z błota i patyków, by zastąpić porwane przez faerie dzieci. W naturalnej formie są przerażające, ale potrafią idealnie kraść wygląd innych humanoidów.
+  Magiczne sobowtóry stworzone z błota i patyków, by zastąpić porwane przez faerie dzieci. W naturalnej formie są przerażające, ale potrafią idealnie kraść wygląd innych humanoidów.</br></br>
   **Cechy:** *Zmiennokształtność (Kradzież tożsamości), wrażliwość na żelazo.*
 
 **[Ork](pochodzenie/ork.md)**
-  Potężni wojownicy stworzeni przy użyciu czarnej magii i krwi olbrzymów, by służyć jako niewolnicy Imperium. Niedawno zrzucili kajdany i wzniecili brutalne powstanie.
+  Potężni wojownicy stworzeni przy użyciu czarnej magii i krwi olbrzymów, by służyć jako niewolnicy Imperium. Niedawno zrzucili kajdany i wzniecili brutalne powstanie.</br></br>
   **Cechy:** *Ogromna siła, furia bojowa, przerażający wygląd.*
 
 ---
