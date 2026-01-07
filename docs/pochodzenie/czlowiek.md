@@ -1,7 +1,8 @@
 ---
-system: "Shadow of the Demon Lord"
-rasa: "Człowiek"
-typ: "Zasady i Tabele"
+system: Cień Władcy Demonów
+podrecznik: Podręcznik Główny
+rasa: ""
+typ: Zasady i Tabele
 ---
 
 # Człowiek

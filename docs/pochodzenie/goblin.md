@@ -1,8 +1,8 @@
 ---
-system: "Shadow of the Demon Lord"
-rasa: "Goblin"
-typ: "Zasady i Tabele"
-wersja: 1.0
+system: Cień Władcy Demonów
+podrecznik: Podręcznik Główny
+rasa: ""
+typ: Zasady i Tabele
 ---
 
 # Goblin

@@ -1,8 +1,8 @@
 ---
-system: "Shadow of the Demon Lord"
-rasa: "Ork"
+system: "Cień Władcy Demonów"
+podrecznik: ""
+rasa: ""
 typ: "Zasady i Tabele"
-wersja: 1.0
 ---
 
 # Ork
