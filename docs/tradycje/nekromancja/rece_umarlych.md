@@ -1,0 +1,3 @@
+# rece umarlych
+
+_Placeholder generated from mkdocs.yml for tradycje/nekromancja/rece_umarlych.md_

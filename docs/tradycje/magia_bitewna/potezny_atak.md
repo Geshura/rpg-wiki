@@ -1,0 +1,3 @@
+# potezny atak
+
+_Placeholder generated from mkdocs.yml for tradycje/magia_bitewna/potezny_atak.md_

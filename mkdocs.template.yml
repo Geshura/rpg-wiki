@@ -1,0 +1,47 @@
+site_name: rpg-wiki
+site_description: Wiki poświęcone grom fabularnym i systemom RPG
+site_url: https://geshura.github.io/rpg-wiki/
+repo_url: https://github.com/geshura/rpg-wiki/
+edit_uri: edit/main/docs/
+
+# NAV_PLACEHOLDER
+
+theme:
+  name: material
+  language: pl
+  palette:
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: "Przełącz na jasny motyw"
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: "Przełącz na ciemny motyw"
+  features:
+    - navigation.tabs      # Menu na górze jak w nowoczesnych stronach
+    - navigation.sections    # Rozwijane sekcje w menu bocznym
+    - navigation.expand      # Domyślnie rozwinięte menu
+    - search.suggest       # Podpowiedzi w wyszukiwarce
+    - search.highlight       # Podświetlanie szukanych słów
+    - content.code.copy      # Kopiowanie bloków tekstu
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition               # Pozwala na ramki "Ostrzeżenie", "Notatka"
+  - pymdownx.details       # Zwijane bloki tekstu (np. statystyki bossa)
+  - pymdownx.superfences     # Lepsze bloki kodu
+  - attr_list              # Pozwala dodawać klasy CSS do elementów
+  - toc:
+      permalink: true
+  
+extra_css:
+  - css/custom_admonition.css
+  - css/kostka.css
+  - css/rycina.css

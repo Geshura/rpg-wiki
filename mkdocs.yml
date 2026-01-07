@@ -5,53 +5,495 @@ repo_url: https://github.com/geshura/rpg-wiki/
 edit_uri: edit/main/docs/
 
 nav:
-  - Strona główna: 
-    - Indeks: index.md
-    - admonitions: testy/faq.md
-    - content tabs: testy/content_tabs.md
-    - kostka: testy/kostka.md
-    - przyciski: testy/przyciski.md
-    - zaklęcie: testy/zaklecie.md
-  - Artefakty:
-    - Indeks: artefakty.md
-    - Brisingamen: artefakty/brisingamen.md
-    - Brzmiący róg: artefakty/brzmiący_róg.md
-    - Chytry uśmiech: artefakty/chytry_uśmiech.md
+- Strona główna:
+  - Indeks: strona_glowna.md
+  - admonitions: testy/faq.md
+  - content tabs: testy/content_tabs.md
+  - kostka: testy/kostka.md
+  - przyciski: testy/przyciski.md
+  - zaklęcie: testy/zaklecie.md
+- Pochodzenie:
+  - Pochodzenie: pochodzenie.md
+  - Pochodzenie:
+    - Człowiek: pochodzenie/czlowiek.md
+    - Automaton: pochodzenie/automaton.md
+    - Goblin: pochodzenie/goblin.md
+    - Krasnolud: pochodzenie/krasnolud.md
+    - Odmieniec: pochodzenie/odmieniec.md
+    - Ork: pochodzenie/ork.md
+- Ścieżki:
+  - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
+  - Ścieżki Eksperckie: sciezki_eksperckie.md
+  - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
+  - Ścieżki Nowicjuszy:
+    - Kleryk: sciezki_nowicjuszy/kleryk.md
+    - Łotr: sciezki_nowicjuszy/lotr.md
+    - Magik: sciezki_nowicjuszy/magik.md
+    - Wojownik: sciezki_nowicjuszy/wojownik.md
   - Ścieżki Eksperckie:
-    - Indeks: sciezki_eksperckie.md
-    - Apostata: sciezki_eksperckie/apostata.md
     - Berserker: sciezki_eksperckie/berserker.md
-    - Czarnoksieznik: sciezki_eksperckie/czarnoksieznik.md
+    - Czarnoksiężnik: sciezki_eksperckie/czarnoksieznik.md
+    - Czarodziej: sciezki_eksperckie/czarodziej.md
+    - Czarownik: sciezki_eksperckie/czarownik.md
+    - Druid: sciezki_eksperckie/druid.md
+    - Kapłan: sciezki_eksperckie/kaplan.md
+    - Łowca: sciezki_eksperckie/lowca.md
+    - Paladyn: sciezki_eksperckie/paladyn.md
+    - Skrytobójca: sciezki_eksperckie/skrytobojca.md
+    - Wiedźma: sciezki_eksperckie/wiedzma.md
+    - Wynalazca: sciezki_eksperckie/wynalazca.md
+    - Wyrocznia: sciezki_eksperckie/wyrocznia.md
+    - Zaklinacz: sciezki_eksperckie/zaklinacz.md
+    - Zbrojny: sciezki_eksperckie/zbrojny.md
+    - Złodziej: sciezki_eksperckie/zlodziej.md
+    - Zwiadowca: sciezki_eksperckie/zwiadowca.md
   - Ścieżki Mistrzowskie:
-    - Indeks: sciezki_mistrzowskie.md
     - Aeromanta: sciezki_mistrzowskie/aeromanta.md
     - Akrobata: sciezki_mistrzowskie/akrobata.md
     - Astromanta: sciezki_mistrzowskie/astromanta.md
-  - Zaklęcia:
-    - Indeks: zaklecia.md
-    - Adamantytowe łańcuchy: zaklecia/adamantytowe_łańcuchy.md
-    - Akceleracja: zaklecia/akceleracja.md
-    - Akumulacja magii: zaklecia/akumulacja_magii.md
-  - Kampania:
-    - Indeks: kampania.md
-    - BG:
-      - Adam: kampania/BG/adam.md
-      - Kacper: kampania/BG/kacper.md
-      - Macieja: kampania/BG/macieja.md
-      - Michal: kampania/BG/michal.md
-      - Oskar: kampania/BG/oskar.md
-    - BN:
-      - Barnaba: kampania/BN/Barnaba.md
-      - Francessca: kampania/BN/Francessca.md
-      - Matylda: kampania/BN/Matylda.md
-      - Ostatni Liść: kampania/BN/Ostatni_Liść.md
-      - Ruella: kampania/BN/Ruella.md
-      - Vernus: kampania/BN/Vernus.md
-    - Wątek:
-      - Pielgrzymka: kampania/Wątek/Pielgrzymka.md
-      - Sześciogród: kampania/Wątek/Sześciogród.md
-    - Wydarzenia:
-      - Atak anioła: kampania/Wydarzenia/Atak_anioła.md
+    - Bard: sciezki_mistrzowskie/bard.md
+    - Chronomanta: sciezki_mistrzowskie/chronomanta.md
+    - Cudotwórca: sciezki_mistrzowskie/cudotworca.md
+    - Czempion: sciezki_mistrzowskie/czempion.md
+    - Derwisz: sciezki_mistrzowskie/derwisz.md
+    - Dyplomata: sciezki_mistrzowskie/dyplomata.md
+    - Egzekutor: sciezki_mistrzowskie/egzekutor.md
+    - Egzorcysta: sciezki_mistrzowskie/egzorcysta.md
+    - Fechmistrz: sciezki_mistrzowskie/fechmistrz.md
+    - Geomanta: sciezki_mistrzowskie/geomanta.md
+    - Gladiator: sciezki_mistrzowskie/gladiator.md
+    - Goliat: sciezki_mistrzowskie/goliat.md
+    - Hydromanta: sciezki_mistrzowskie/hydromanta.md
+    - Iluzjonista: sciezki_mistrzowskie/iluzjonista.md
+    - Infiltrator: sciezki_mistrzowskie/infiltrator.md
+    - Inkwizytor: sciezki_mistrzowskie/inkwizytor.md
+    - Inżynier: sciezki_mistrzowskie/inzynier.md
+    - Jasnowidz: sciezki_mistrzowskie/jasnowidz.md
+    - Kapelan: sciezki_mistrzowskie/kapelan.md
+    - Kawalerzysta: sciezki_mistrzowskie/kawalerzysta.md
+    - Klątwiarz: sciezki_mistrzowskie/klatwiarz.md
+    - Kowal run: sciezki_mistrzowskie/kowal_run.md
+    - Leśny duch: sciezki_mistrzowskie/lesny_duch.md
+    - Łupieżca: sciezki_mistrzowskie/lupiezca.md
+    - Mag bitewny: sciezki_mistrzowskie/mag_bitewny.md
+    - Mag zagłady: sciezki_mistrzowskie/mag_zaglady.md
+    - Magus: sciezki_mistrzowskie/magus.md
+    - Mędrzec: sciezki_mistrzowskie/medrzec.md
+    - Mistrz oręża: sciezki_mistrzowskie/mistrz_oreza.md
+    - Mistrz Przemian: sciezki_mistrzowskie/mistrz_przemian.md
+    - Mistrz Sztuk Tajemnych: sciezki_mistrzowskie/mistrz_sztuk_tajemnych.md
+    - Mistrz Uroków: sciezki_mistrzowskie/mistrz_urokow.md
+    - Mściciel: sciezki_mistrzowskie/msciciel.md
+    - Myrmidon: sciezki_mistrzowskie/myrmidon.md
+    - Negator: sciezki_mistrzowskie/negator.md
+    - Nekromanta: sciezki_mistrzowskie/nekromanta.md
+    - Niszczyciel: sciezki_mistrzowskie/niszczyciel.md
+    - Nożownik: sciezki_mistrzowskie/nozownik.md
+    - Obrońca: sciezki_mistrzowskie/obronca.md
+    - Odkrywca: sciezki_mistrzowskie/odkrywca.md
+    - Pancerniak: sciezki_mistrzowskie/pancerniak.md
+    - Piromanta: sciezki_mistrzowskie/piromanta.md
+    - Podróżnik: sciezki_mistrzowskie/podroznik.md
+    - Przywoływacz: sciezki_mistrzowskie/przywolywacz.md
+    - Rewolwerowiec: sciezki_mistrzowskie/rewolwerowiec.md
+    - Strzelec wyborowy: sciezki_mistrzowskie/strzelec_wyborowy.md
+    - Szelma: sciezki_mistrzowskie/szelma.md
+    - Taumaturg: sciezki_mistrzowskie/taumaturg.md
+    - Technomanta: sciezki_mistrzowskie/technomanta.md
+    - Templariusz: sciezki_mistrzowskie/templariusz.md
+    - Tenebrysta: sciezki_mistrzowskie/tenebrysta.md
+    - Teurg: sciezki_mistrzowskie/teurg.md
+    - Truciciel: sciezki_mistrzowskie/truciciel.md
+    - Uzdrowiciel: sciezki_mistrzowskie/uzdrowiciel.md
+    - Wartownik: sciezki_mistrzowskie/wartownik.md
+    - Władca bestii: sciezki_mistrzowskie/wladca_bestii.md
+    - Władca burz: sciezki_mistrzowskie/wladca_burz.md
+    - Zabijaka: sciezki_mistrzowskie/zabijaka.md
+    - Zdobywca: sciezki_mistrzowskie/zdobywca.md
+    - Zelota: sciezki_mistrzowskie/zelota.md
+    - Zmiennokształtny: sciezki_mistrzowskie/zmiennoksztaltny.md
+- Tradycje:
+  - Tradycje: tradycje.md
+  - Zaklęcia: zaklecia.md
+  - Podręcznik:
+    - Chaos:
+      - Dar Chaosu: tradycje/chaos/dar_chaosu.md
+      - Błędny Pocisk: tradycje/chaos/bledny_pocisk.md
+      - Kapryśne Zniszczenie: tradycje/chaos/kaprysne_zniszczenie.md
+      - Zakrzywienie Przestrzeni: tradycje/chaos/zakrzywienie_przestrzeni.md
+      - Opalizująca Tarcza: tradycje/chaos/opalizujaca_tarcza.md
+      - Kolor Magii: tradycje/chaos/kolor_magii.md
+      - Migotanie: tradycje/chaos/migotanie.md
+      - Lanca Chaosu: tradycje/chaos/lanca_chaosu.md
+      - Dzika Magia: tradycje/chaos/dzika_magia.md
+      - Ściana Luster: tradycje/chaos/sciana_luster.md
+      - Osobliwość: tradycje/chaos/osobliwosc.md
+    - Czas:
+      - Opóźnienie: tradycje/czas/opoznienie.md
+      - Pośpiech: tradycje/czas/pospiech.md
+      - Pomniejszy Paradoks: tradycje/czas/pomniejszy_paradoks.md
+      - Drugie Podejście: tradycje/czas/drugie_podejscie.md
+      - Spowolnienie: tradycje/czas/spowolnienie.md
+      - Predykcja: tradycje/czas/predykcja.md
+      - Przeskok Czasu: tradycje/czas/przeskok_czasu.md
+      - Akceleracja: tradycje/czas/akceleracja.md
+      - Zahamowanie: tradycje/czas/zahamowanie.md
+      - Rozdwojenie: tradycje/czas/rozdwojenie.md
+      - Podróż w czasie: tradycje/czas/podroz_w_czasie.md
+    - Iluzja:
+      - Hałas: tradycje/iluzja/halas.md
+      - Przebranie: tradycje/iluzja/przebranie.md
+      - Wymysł: tradycje/iluzja/wymysl.md
+      - Duplikaty: tradycje/iluzja/duplikaty.md
+      - Zawroty głowy: tradycje/iluzja/zawroty_glowy.md
+      - Urojenia: tradycje/iluzja/urojenia.md
+      - Niewidzialność: tradycje/iluzja/niewidzialnosc.md
+      - Zmyłka: tradycje/iluzja/zmylka.md
+      - Fantom: tradycje/iluzja/fantom.md
+      - Miraż: tradycje/iluzja/miraz.md
+      - Iluzoryczny sobowtór: tradycje/iluzja/iluzoryczny_sobowtor.md
+    - Jasnowidzenie:
+      - Podsłuch: tradycje/jasnowidzenie/podsluch.md
+      - Olśnienie: tradycje/jasnowidzenie/olsnienie.md
+      - Wieszczba: tradycje/jasnowidzenie/wieszczba.md
+      - Przepowiednia: tradycje/jasnowidzenie/przepowiednia.md
+      - Psychometria: tradycje/jasnowidzenie/psychometria.md
+      - Wróżba: tradycje/jasnowidzenie/wrozba.md
+      - Prawdosłyszenie: tradycje/jasnowidzenie/prawdoslyszenie.md
+      - Widzenie przyszłości: tradycje/jasnowidzenie/widzenie_przyszlosci.md
+      - Lokalizacja: tradycje/jasnowidzenie/lokalizacja.md
+      - Wizja: tradycje/jasnowidzenie/wizja.md
+      - Dalekowidzenie: tradycje/jasnowidzenie/dalekowidzenie.md
+    - Klątwy:
+      - Przekleństwo: tradycje/klatwy/przeklenstwo.md
+      - Kiła: tradycje/klatwy/kila.md
+      - Przestrach: tradycje/klatwy/przestrach.md
+      - Okulawienie: tradycje/klatwy/okulawienie.md
+      - Ból: tradycje/klatwy/bol.md
+      - Podatność: tradycje/klatwy/podatnosc.md
+      - Słabość: tradycje/klatwy/slabosc.md
+      - Trwoga: tradycje/klatwy/trwoga.md
+      - Wieprz: tradycje/klatwy/wieprz.md
+      - Ropucha: tradycje/klatwy/ropucha.md
+      - Petryfikacja: tradycje/klatwy/petryfikacja.md
+    - Magia Bitewna:
+      - Zespolony atak: tradycje/magia_bitewna/zespolony_atak.md
+      - Przyspieszenie: tradycje/magia_bitewna/przyspieszenie.md
+      - Zasklepienie ran: tradycje/magia_bitewna/zasklepienie_ran.md
+      - Potężny atak: tradycje/magia_bitewna/potezny_atak.md
+      - Wstrząsający atak: tradycje/magia_bitewna/wstrzasajacy_atak.md
+      - Wir śmierci: tradycje/magia_bitewna/wir_smierci.md
+      - Druzgocący skok: tradycje/magia_bitewna/druzgocacy_skok.md
+      - Sprawność bojowa: tradycje/magia_bitewna/sprawnosc_bojowa.md
+      - Błyskawiczny szturm: tradycje/magia_bitewna/blyskawiczny_szturm.md
+      - Ściana mieczy: tradycje/magia_bitewna/sciana_mieczy.md
+      - Nawałnica ciosów: tradycje/magia_bitewna/nawalnica_ciosow.md
+    - Magia Burzy:
+      - Mgła: tradycje/magia_burzy/mgla.md
+      - Porażenie: tradycje/magia_burzy/porazenie.md
+      - Rozwidlony piorun: tradycje/magia_burzy/rozwidlony_piorun.md
+      - Szadź: tradycje/magia_burzy/szadz.md
+      - Ognie świętej Astrid: tradycje/magia_burzy/ognie_swietej_astrid.md
+      - Przywołanie pioruna: tradycje/magia_burzy/przywolanie_pioruna.md
+      - Trująca mgła: tradycje/magia_burzy/trujaca_mgla.md
+      - Gradobicie: tradycje/magia_burzy/gradobicie.md
+      - Wyładowanie: tradycje/magia_burzy/wyladowanie.md
+      - Kwaśny deszcz: tradycje/magia_burzy/kwasny_deszcz.md
+      - Łańcuch piorunów: tradycje/magia_burzy/lancuch_piorunow.md
+    - Magia Cienia:
+      - Ostrze zmierzchu: tradycje/magia_cienia/ostrze_zmierzchu.md
+      - Ściana ciemności: tradycje/magia_cienia/sciana_ciemnosci.md
+      - Ciemność: tradycje/magia_cienia/ciemnosc.md
+      - Widzenie w ciemności: tradycje/magia_cienia/widzenie_w_ciemnosci.md
+      - Cienista strzałka: tradycje/magia_cienia/cienista_strzalka.md
+      - Mroczne wynaturzenie: tradycje/magia_cienia/mroczne_wynaturzenie.md
+      - Droga przez cień: tradycje/magia_cienia/droga_przez_cien.md
+      - Czarnostrzały z zaświatów: tradycje/magia_cienia/czarnostrzaly_z_zaswiatow.md
+      - Cienista magia: tradycje/magia_cienia/cienista_magia.md
+      - Mroczne portale: tradycje/magia_cienia/mroczne_portale.md
+      - Zapaść: tradycje/magia_cienia/zapasc.md
+    - Magia Niebiańska:
+      - Palący promień: tradycje/magia_niebianska/palacy_promien.md
+      - Światło: tradycje/magia_niebianska/swiatlo.md
+      - Błysk: tradycje/magia_niebianska/blysk.md
+      - Trwałe światło: tradycje/magia_niebianska/trwale_swiatlo.md
+      - Tęczowa eksplozja: tradycje/magia_niebianska/teczowa_eksplozja.md
+      - Świt: tradycje/magia_niebianska/swit.md
+      - Promienie słońca: tradycje/magia_niebianska/promienie_slonca.md
+      - Promieniowanie: tradycje/magia_niebianska/promieniowanie.md
+      - Spadająca gwiazda: tradycje/magia_niebianska/spadajaca_gwiazda.md
+      - Supernowa: tradycje/magia_niebianska/supernowa.md
+      - Rozbłysk słoneczny: tradycje/magia_niebianska/rozblysk_sloneczny.md
+    - Magia Pierwotna:
+      - Serce bestii: tradycje/magia_pierwotna/serce_bestii.md
+      - Ukrycie przed zwierzętami: tradycje/magia_pierwotna/ukrycie_przed_zwierzetami.md
+      - Język bestii: tradycje/magia_pierwotna/jezyk_bestii.md
+      - Zwierzęcy towarzysz: tradycje/magia_pierwotna/zwierzecy_towarzysz.md
+      - Wezwanie małego zwierzęcia: tradycje/magia_pierwotna/wezwanie_malego_zwierzecia.md
+      - Wezwanie średniego zwierzęcia: tradycje/magia_pierwotna/wezwanie_sredniego_zwierzecia.md
+      - Okrutna bestia: tradycje/magia_pierwotna/okrutna_bestia.md
+      - Wezwanie dużego zwierzęcia: tradycje/magia_pierwotna/wezwanie_duzego_zwierzecia.md
+      - Zryw: tradycje/magia_pierwotna/zryw.md
+      - Zew dziczy: tradycje/magia_pierwotna/zew_dziczy.md
+      - Wezwanie wielkiego zwierzęcia: tradycje/magia_pierwotna/wezwanie_wielkiego_zwierzecia.md
+    - Magia Runiczna:
+      - Runa lokalizacji: tradycje/magia_runiczna/runa_lokalizacji.md
+      - Rozumienie pisma: tradycje/magia_runiczna/rozumienie_pisma.md
+      - Piętno zagłady: tradycje/magia_runiczna/pietno_zaglady.md
+      - Glif ognia: tradycje/magia_runiczna/glif_ognia.md
+      - Runiczna tarcza: tradycje/magia_runiczna/runiczna_tarcza.md
+      - Runiczne więzienie: tradycje/magia_runiczna/runiczne_wiezienie.md
+      - Runa ukrycia: tradycje/magia_runiczna/runa_ukrycia.md
+      - Runiczna pułapka: tradycje/magia_runiczna/runiczna_pulapka.md
+      - Runa potęgi: tradycje/magia_runiczna/runa_potegi.md
+      - Runiczna broń: tradycje/magia_runiczna/runiczna_bron.md
+      - Runa mocy: tradycje/magia_runiczna/runa_mocy.md
+    - Natura:
+      - Magiczne żołędzie: tradycje/natura/magiczne_zoledzie.md
+      - Dębowa skóra: tradycje/natura/debowa_skora.md
+      - Uzdrawiające jagody: tradycje/natura/uzdrawiajace_jagody.md
+      - Przerost: tradycje/natura/przerost.md
+      - Kostur druida: tradycje/natura/kostur_druida.md
+      - Oplatający bluszcz: tradycje/natura/oplatajacy_bluszcz.md
+      - Płonące szyszki: tradycje/natura/plonace_szyszki.md
+      - Ciernie: tradycje/natura/ciernie.md
+      - Leśny chód: tradycje/natura/lesny_chod.md
+      - Gniew natury: tradycje/natura/gniew_natury.md
+      - Zamiana w dębowego strażnika: tradycje/natura/zamiana_w_debowego_straznika.md
+    - Nekromancja:
+      - Ukrycie przed nieumarłymi: tradycje/nekromancja/ukrycie_przed_nieumarlymi.md
+      - Widmowy chwyt: tradycje/nekromancja/widmowy_chwyt.md
+      - Ożywienie zwłok: tradycje/nekromancja/ozywienie_zwlok.md
+      - Ręce umarłych: tradycje/nekromancja/rece_umarlych.md
+      - Odławianie duszy: tradycje/nekromancja/odlawianie_duszy.md
+      - Kościane drzazgi: tradycje/nekromancja/kosciane_drzazgi.md
+      - Wrzeszcząca czaszka: tradycje/nekromancja/wrzeszczaca_czaszka.md
+      - Kanibalizacja magii: tradycje/nekromancja/kanibalizacja_magii.md
+      - Studnia mrocznej mocy: tradycje/nekromancja/studnia_mrocznej_mocy.md
+      - Zamknięcie wrót zaświatów: tradycje/nekromancja/zamkniecie_wrot_zaswiatow.md
+      - Armia umarłych: tradycje/nekromancja/armia_umarlych.md
+    - Ochrona:
+      - Magiczny zamek: tradycje/ochrona/magiczny_zamek.md
+      - Zabezpieczenie miejsca: tradycje/ochrona/zabezpieczenie_miejsca.md
+      - Uskok: tradycje/ochrona/uskok.md
+      - Pole siłowe: tradycje/ochrona/pole_silowe.md
+      - Sanktuarium: tradycje/ochrona/sanktuarium.md
+      - Przezorność: tradycje/ochrona/przezornosc.md
+      - Wigor: tradycje/ochrona/wigor.md
+      - Ochrona przed czarami: tradycje/ochrona/ochrona_przed_czarami.md
+      - Pole ochronne: tradycje/ochrona/pole_ochronne.md
+      - Nietykalność: tradycje/ochrona/nietykalnosc.md
+      - Sfera negacji: tradycje/ochrona/sfera_negacji.md
+    - Ogień:
+      - Kontrola płomienia: tradycje/ogien/kontrola_plomienia.md
+      - Ognisty pocisk: tradycje/ogien/ognisty_pocisk.md
+      - Ognisty podmuch: tradycje/ogien/ognisty_podmuch.md
+      - Meteoroid: tradycje/ogien/meteoroid.md
+      - Ochrona przed ogniem: tradycje/ogien/ochrona_przed_ogniem.md
+      - Ognista salwa: tradycje/ogien/ognista_salwa.md
+      - Całun płomieni: tradycje/ogien/calun_plomieni.md
+      - Kula ognia: tradycje/ogien/kula_ognia.md
+      - Podpalenie: tradycje/ogien/podpalenie.md
+      - Ściana płomieni: tradycje/ogien/sciana_plomieni.md
+      - Przyzywanie dżinna ognia: tradycje/ogien/przyzywanie_dzinna_ognia.md
+    - Pieśni:
+      - Donośny głos: tradycje/piesni/donosny_glos.md
+      - Pieśń przyjaźni: tradycje/piesni/piesn_przyjazni.md
+      - Pieśń odwagi: tradycje/piesni/piesn_odwagi.md
+      - Pieśń inspiracji: tradycje/piesni/piesn_inspiracji.md
+      - Pieśń męstwa: tradycje/piesni/piesn_mestwa.md
+      - Pieśń przywabienia: tradycje/piesni/piesn_przywabienia.md
+      - Pieśń leczenia: tradycje/piesni/piesn_leczenia.md
+      - Sprośna piosenka: tradycje/piesni/sprosna_piosenka.md
+      - Pieśń bohaterów: tradycje/piesni/piesn_bohaterow.md
+    - Powietrze:
+      - Powiew: tradycje/powietrze/powiew.md
+      - Uderzenie wiatru: tradycje/powietrze/uderzenie_wiatru.md
+      - Przywołanie wichru: tradycje/powietrze/przywolanie_wichru.md
+      - Odarcie ze skóry: tradycje/powietrze/odarcie_ze_skory.md
+      - Szybowanie: tradycje/powietrze/szybowanie.md
+      - Martwe powietrze: tradycje/powietrze/martwe_powietrze.md
+      - Grzmot: tradycje/powietrze/grzmot.md
+      - Dar latania: tradycje/powietrze/dar_latania.md
+      - Gwałtowny podmuch: tradycje/powietrze/gwaltowny_podmuch.md
+      - Przejście cyklonu: tradycje/powietrze/przejscie_cyklonu.md
+      - Przyzwanie dżinna powietrza: tradycje/powietrze/przyzwanie_dzinna_powietrza.md
+    - Przemiany:
+      - Zrozumienie: tradycje/przemiany/zrozumienie.md
+      - Zniekształcenie: tradycje/przemiany/znieksztalcenie.md
+      - Wyostrzenie zmysłów: tradycje/przemiany/wyostrzenie_zmyslow.md
+      - Pajęcza wspinaczka: tradycje/przemiany/pajecza_wspinaczka.md
+      - Podwodna adaptacja: tradycje/przemiany/podwodna_adaptacja.md
+      - Wzmocnienie atrybutu: tradycje/przemiany/wzmocnienie_atrybutu.md
+      - Wzmocnienie obrony: tradycje/przemiany/wzmocnienie_obrony.md
+      - Zmiana rozmiaru: tradycje/przemiany/zmiana_rozmiaru.md
+      - Regeneracja: tradycje/przemiany/regeneracja.md
+      - Elastyczność: tradycje/przemiany/elastycznosc.md
+      - Przebudzenie potencjału: tradycje/przemiany/przebudzenie_potencjalu.md
+    - Przywołania:
+      - Przywołanie użytecznego przedmiotu: tradycje/przywolania/przywolanie_uzytecznego_przedmiotu.md
+      - Polecenie ruchu: tradycje/przywolania/polecenie_ruchu.md
+      - Przywołanie uczty: tradycje/przywolania/przywolanie_uczty.md
+      - Przywołanie małego potwora: tradycje/przywolania/przywolanie_malego_potwora.md
+      - Przywołanie broni: tradycje/przywolania/przywolanie_broni.md
+      - Przywołanie wierzchowców: tradycje/przywolania/przywolanie_wierzchowcow.md
+      - Przywołanie średniego potwora: tradycje/przywolania/przywolanie_sredniego_potwora.md
+      - Przywołanie dużego potwora: tradycje/przywolania/przywolanie_duzego_potwora.md
+      - Przywołanie muru: tradycje/przywolania/przywolanie_muru.md
+      - Przywołanie schronienia: tradycje/przywolania/przywolanie_schronienia.md
+      - Przywołanie wielkiego potwora: tradycje/przywolania/przywolanie_wielkiego_potwora.md
+    - Sztuki Tajemne:
+      - Magiczna zbroja: tradycje/sztuki_tajemne/magiczna_zbroja.md
+      - Magiczna strzałka: tradycje/sztuki_tajemne/magiczna_strzalka.md
+      - Magiczna tarcza: tradycje/sztuki_tajemne/magiczna_tarcza.md
+      - Mistyczny wzrok: tradycje/sztuki_tajemne/mistyczny_wzrok.md
+      - Nieomylne strzałki: tradycje/sztuki_tajemne/nieomylne_strzalki.md
+      - Wzmocnienie magii: tradycje/sztuki_tajemne/wzmocnienie_magii.md
+      - Wybuchowe strzałki: tradycje/sztuki_tajemne/wybuchowe_strzalki.md
+      - Mistyczny piorun: tradycje/sztuki_tajemne/mistyczny_piorun.md
+      - Zniszczenie magii: tradycje/sztuki_tajemne/zniszczenie_magii.md
+      - Akumulacja magii: tradycje/sztuki_tajemne/akumulacja_magii.md
+      - Magiczny kontrakt: tradycje/sztuki_tajemne/magiczny_kontrakt.md
+    - Sztuki Zakazane:
+      - Czarny język: tradycje/sztuki_zakazane/czarny_jezyk.md
+      - Krzywda: tradycje/sztuki_zakazane/krzywda.md
+      - Posłuszeństwo: tradycje/sztuki_zakazane/posluszenstwo.md
+      - Nienawistna defekacja: tradycje/sztuki_zakazane/nienawistna_defekacja.md
+      - Wyrwanie języka: tradycje/sztuki_zakazane/wyrwanie_jezyka.md
+      - Żarłoczne robactwo: tradycje/sztuki_zakazane/zarloczne_robactwo.md
+      - Pozbawienie wzroku: tradycje/sztuki_zakazane/pozbawienie_wzroku.md
+      - Koniec żądzy: tradycje/sztuki_zakazane/koniec_zadzy.md
+      - Wytrybowanie: tradycje/sztuki_zakazane/wytrybowanie.md
+      - Zamiana dusz: tradycje/sztuki_zakazane/zamiana_dusz.md
+      - Nikczemne zespolenie: tradycje/sztuki_zakazane/nikczemne_zespolenie.md
+    - Technomancja:
+      - Prowizorka: tradycje/technomancja/prowizorka.md
+      - Magiczny klucz: tradycje/technomancja/magiczny_klucz.md
+      - Wieżyczka: tradycje/technomancja/wiezyczka.md
+      - Kolczatka: tradycje/technomancja/kolczatka.md
+      - Iskrząca tarcza: tradycje/technomancja/iskrzaca_tarcza.md
+      - Miotacz ognia: tradycje/technomancja/miotacz_ognia.md
+      - Granaty: tradycje/technomancja/granaty.md
+      - Latające ostrza: tradycje/technomancja/latajace_ostrza.md
+      - Remont: tradycje/technomancja/remont.md
+      - Mechaniczna zbroja: tradycje/technomancja/mechaniczna_zbroja.md
+      - Magiczny przedmiot: tradycje/technomancja/magiczny_przedmiot.md
+    - Teleportacja:
+      - Odesłanie: tradycje/teleportacja/odeslanie.md
+      - Przyciąganie: tradycje/teleportacja/przyciaganie.md
+      - Rozplątanie: tradycje/teleportacja/rozplatanie.md
+      - Rękaw czarodzieja: tradycje/teleportacja/rekaw_czarodzieja.md
+      - Zamiana miejsc: tradycje/teleportacja/zamiana_miejsc.md
+      - Relokacja: tradycje/teleportacja/relokacja.md
+      - Na skróty: tradycje/teleportacja/na_skroty.md
+      - Nieskrępowany ruch: tradycje/teleportacja/nieskrepowany_ruch.md
+      - Spojenie: tradycje/teleportacja/spojenie.md
+      - Bliźniacze portale: tradycje/teleportacja/blizniacze_portale.md
+      - Wędrówka: tradycje/teleportacja/wedrowka.md
+    - Teurgia:
+      - Stworzenie świętego symbolu: tradycje/teurgia/stworzenie_swietego_symbolu.md
+      - Skarcenie: tradycje/teurgia/skarcenie.md
+      - Błogosławieństwo: tradycje/teurgia/blogoslawienstwo.md
+      - Potępienie: tradycje/teurgia/potepienie.md
+      - Poświęcona ziemia: tradycje/teurgia/poswiecona_ziemia.md
+      - Młot Boga: tradycje/teurgia/mlot_boga.md
+      - Objawienie: tradycje/teurgia/objawienie.md
+      - Boska pomoc: tradycje/teurgia/boska_pomoc.md
+      - Gniew Boży: tradycje/teurgia/gniew_bozy.md
+      - Inkarnacja: tradycje/teurgia/inkarnacja.md
+      - Ogień z niebios: tradycje/teurgia/ogien_z_niebios.md
+    - Transformacja:
+      - Płynna postać: tradycje/transformacja/plynna_postac.md
+      - Maska: tradycje/transformacja/maska.md
+      - Zwierzęca postać: tradycje/transformacja/zwierzeca_postac.md
+      - Sprężysty krok: tradycje/transformacja/sprezysty_krok.md
+      - Trzepot: tradycje/transformacja/trzepot.md
+      - Ulepszona zwierzęca postać: tradycje/transformacja/ulepszona_zwierzeca_postac.md
+      - Zamiana w obiekt: tradycje/transformacja/zamiana_w_obiekt.md
+      - Forma mgły: tradycje/transformacja/forma_mgly.md
+      - Przyspieszone leczenie: tradycje/transformacja/przyspieszone_leczenie.md
+      - Metallicus: tradycje/transformacja/metallicus.md
+      - Większa zwierzęca postać: tradycje/transformacja/wieksza_zwierzeca_postac.md
+    - Uroki:
+      - Przynęta: tradycje/uroki/przyneta.md
+      - Prezencja: tradycje/uroki/prezencja.md
+      - Zauroczenie: tradycje/uroki/zauroczenie.md
+      - Rozkaz: tradycje/uroki/rozkaz.md
+      - Pytanie: tradycje/uroki/pytanie.md
+      - Zniewolenie: tradycje/uroki/zniewolenie.md
+      - Spętanie umysłu: tradycje/uroki/spetanie_umyslu.md
+      - Zastraszenie: tradycje/uroki/zastraszenie.md
+      - Warunkowanie: tradycje/uroki/warunkowanie.md
+      - Pokusa: tradycje/uroki/pokusa.md
+      - Omotanie: tradycje/uroki/omotanie.md
+    - Woda:
+      - Zamrożenie: tradycje/woda/zamrozenie.md
+      - Stworzenie wody: tradycje/woda/stworzenie_wody.md
+      - Utopienie: tradycje/woda/utopienie.md
+      - Lodowy podmuch: tradycje/woda/lodowy_podmuch.md
+      - Życiodajna studnia: tradycje/woda/zyciodajna_studnia.md
+      - Gejzer: tradycje/woda/gejzer.md
+      - Fala: tradycje/woda/fala.md
+      - Kula wody: tradycje/woda/kula_wody.md
+      - Rwący nurt: tradycje/woda/rwacy_nurt.md
+      - Zlodowacenie: tradycje/woda/zlodowacenie.md
+      - Przyzwanie dżinna wody: tradycje/woda/przyzwanie_dzinna_wody.md
+    - Ziemia:
+      - Skalny kolec: tradycje/ziemia/skalny_kolec.md
+      - Kształtowanie ziemi i kamienia: tradycje/ziemia/ksztaltowanie_ziemi_i_kamienia.md
+      - Kamienna zbroja: tradycje/ziemia/kamienna_zbroja.md
+      - Kamienne ostrza: tradycje/ziemia/kamienne_ostrza.md
+      - Wstrząs: tradycje/ziemia/wstrzas.md
+      - Lawina: tradycje/ziemia/lawina.md
+      - Formowanie ziemi i kamienia: tradycje/ziemia/formowanie_ziemi_i_kamienia.md
+      - Erupcja: tradycje/ziemia/erupcja.md
+      - Przygwożdżenie: tradycje/ziemia/przygwozdzenie.md
+      - Trzęsienie ziemi: tradycje/ziemia/trzesienie_ziemi.md
+      - Przyzwanie dżinna ziemi: tradycje/ziemia/przyzwanie_dzinna_ziemi.md
+    - Zniszczenie:
+      - Pęknięcie: tradycje/zniszczenie/pekniecie.md
+      - Ruina: tradycje/zniszczenie/ruina.md
+      - Rozpuszczenie: tradycje/zniszczenie/rozpuszczenie.md
+      - Rozdarcie: tradycje/zniszczenie/rozdarcie.md
+      - Roztrzaskanie: tradycje/zniszczenie/roztrzaskanie.md
+      - Moc entropii: tradycje/zniszczenie/moc_entropii.md
+      - Erozja: tradycje/zniszczenie/erozja.md
+      - Detonacja: tradycje/zniszczenie/detonacja.md
+      - Wyparowanie: tradycje/zniszczenie/wyparowanie.md
+      - Destrukcja: tradycje/zniszczenie/destrukcja.md
+      - Dezintegracja: tradycje/zniszczenie/dezintegracja.md
+    - Życie:
+      - Wyczucie życia: tradycje/zycie/wyczucie_zycia.md
+      - Leczenie pomniejszych ran: tradycje/zycie/leczenie_pomniejszych_ran.md
+      - Uzdrowienie: tradycje/zycie/uzdrowienie.md
+      - Źródło życia: tradycje/zycie/zrodlo_zycia.md
+      - Leczenie lekkich ran: tradycje/zycie/leczenie_lekkich_ran.md
+      - Leczenie średnich ran: tradycje/zycie/leczenie_srednich_ran.md
+      - Fala witalności: tradycje/zycie/fala_witalnosci.md
+      - Większe uzdrowienie: tradycje/zycie/wieksze_uzdrowienie.md
+      - Leczenie poważnych ran: tradycje/zycie/leczenie_powaznych_ran.md
+      - Pełne leczenie: tradycje/zycie/pelne_leczenie.md
+      - Wskrzeszenie: tradycje/zycie/wskrzeszenie.md
+- Kampania:
+  - Kampania: kampania.md
+  - BG:
+    - Adam: kampania/bg/adam.md
+    - Kacper: kampania/bg/kacper.md
+    - Macieja: kampania/bg/macieja.md
+    - Michal: kampania/bg/michal.md
+    - Oskar: kampania/bg/oskar.md
+  - BN:
+    - Barnaba: kampania/bn/barnaba.md
+    - Francessca: kampania/bn/francessca.md
+    - Matylda: kampania/bn/matylda.md
+    - Ostatni Liść: kampania/bn/ostatni_lisc.md
+    - Ruella: kampania/bn/ruella.md
+    - Vernus: kampania/bn/vernus.md
+  - Wątek:
+    - Pielgrzymka: kampania/watek/pielgrzymka.md
+    - Sześciogród: kampania/watek/szesciogrod.md
+  - Wydarzenia:
+    - Atak anioła: kampania/wydarzenia/atak_aniola.md
 
 theme:
   name: material
@@ -62,18 +504,18 @@ theme:
       accent: red
       toggle:
         icon: material/brightness-7
-        name: Przełącz na jasny motyw
+        name: "Przełącz na jasny motyw"
     - scheme: default
       primary: red
       accent: red
       toggle:
         icon: material/brightness-4
-        name: Przełącz na ciemny motyw
+        name: "Przełącz na ciemny motyw"
   features:
-    - navigation.tabs        # Menu na górze jak w nowoczesnych stronach
+    - navigation.tabs      # Menu na górze jak w nowoczesnych stronach
     - navigation.sections    # Rozwijane sekcje w menu bocznym
     - navigation.expand      # Domyślnie rozwinięte menu
-    - search.suggest         # Podpowiedzi w wyszukiwarce
+    - search.suggest       # Podpowiedzi w wyszukiwarce
     - search.highlight       # Podświetlanie szukanych słów
     - content.code.copy      # Kopiowanie bloków tekstu
 
@@ -82,9 +524,9 @@ plugins:
 
 markdown_extensions:
   - admonition               # Pozwala na ramki "Ostrzeżenie", "Notatka"
-  - pymdownx.details         # Zwijane bloki tekstu (np. statystyki bossa)
+  - pymdownx.details       # Zwijane bloki tekstu (np. statystyki bossa)
   - pymdownx.superfences     # Lepsze bloki kodu
-  - attr_list                # Pozwala dodawać klasy CSS do elementów
+  - attr_list              # Pozwala dodawać klasy CSS do elementów
   - toc:
       permalink: true
   

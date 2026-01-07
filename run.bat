@@ -11,6 +11,14 @@ echo ========================================================
 echo KROK 1: START SERWERA (Podglad na porcie 8001)
 echo Adres: http://127.0.0.1:8001
 echo ========================================================
+:: Assemble mkdocs.yml from template + nav.yml before serving
+python scripts\assemble_mkdocs.py
+if %errorlevel% neq 0 (
+	echo Błąd podczas składania mkdocs.yml
+	pause
+	exit /b %errorlevel%
+)
+
 python -m mkdocs serve -a 127.0.0.1:8001
 
 echo.
