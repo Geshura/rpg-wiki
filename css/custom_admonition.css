@@ -10,6 +10,7 @@
     --rpg-spell:    #d500f9; /* Fiolet */
     --rpg-npc:      #4caf50; /* Zieleń */
     --rpg-boss:     #f44336; /* Czerwień */
+    --rpg-bordowy:  #ef5552; /* user-requested accent for bold/headers */
     --rpg-location: #795548; /* Brąz */
     --rpg-potion:   #00e676; /* Jaskrawa zieleń */
     --rpg-weapon:   #e91e63; /* Róż/Magenta */
@@ -106,7 +107,34 @@
     mask-image: url("assets/sack.svg") !important;
 }
 
-/* Typographic color rules moved to docs/css/theme_colors.css */
+/* Typographic color rules: bold and headers use user-chosen accent */
+
+.accent-strong,
+strong.accent-strong {
+    font-weight: 700;
+    color: var(--rpg-bordowy);
+}
+
+/* Domyślne pogrubienie w treści używa koloru akcentu motywu */
+.md-typeset strong,
+.md-typeset b {
+    color: var(--rpg-bordowy);
+    font-weight: 700;
+}
+
+/* Koloruj nagłówki zgodnie z kolorem akcentu motywu */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: var(--rpg-bordowy);
+}
+
+/* Mniejsze nagłówki mniej nasycone, jeśli chcesz subtelniejszy efekt */
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    color: color-mix(in srgb, var(--rpg-bordowy) 65%, currentColor 35%);
+}
 /* NPC -> account.svg (Zieleń) */
 .md-typeset .admonition.npc { border-color: var(--rpg-npc) !important; }
 .md-typeset .admonition.npc > .admonition-title {
