@@ -38,95 +38,153 @@ nav:
     - Niziołek: pochodzenie/niziolek.md
 - Ścieżki:
   - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
-  - Ścieżki Eksperckie: sciezki_eksperckie.md
-  - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
   - Ścieżki Nowicjuszy:
-    - Kleryk: sciezki_nowicjuszy/kleryk.md
-    - Łotr: sciezki_nowicjuszy/lotr.md
-    - Magik: sciezki_nowicjuszy/magik.md
-    - Wojownik: sciezki_nowicjuszy/wojownik.md
+    - Podręcznik Główny:
+      - Kleryk: sciezki_nowicjuszy/kleryk.md
+      - Łotr: sciezki_nowicjuszy/lotr.md
+      - Magik: sciezki_nowicjuszy/magik.md
+      - Wojownik: sciezki_nowicjuszy/wojownik.md
   - Ścieżki Eksperckie:
-    - Berserker: sciezki_eksperckie/berserker.md
-    - Czarnoksiężnik: sciezki_eksperckie/czarnoksieznik.md
-    - Czarodziej: sciezki_eksperckie/czarodziej.md
-    - Czarownik: sciezki_eksperckie/czarownik.md
-    - Druid: sciezki_eksperckie/druid.md
-    - Kapłan: sciezki_eksperckie/kaplan.md
-    - Łowca: sciezki_eksperckie/lowca.md
-    - Paladyn: sciezki_eksperckie/paladyn.md
-    - Skrytobójca: sciezki_eksperckie/skrytobojca.md
-    - Wiedźma: sciezki_eksperckie/wiedzma.md
-    - Wynalazca: sciezki_eksperckie/wynalazca.md
-    - Wyrocznia: sciezki_eksperckie/wyrocznia.md
-    - Zaklinacz: sciezki_eksperckie/zaklinacz.md
-    - Zbrojny: sciezki_eksperckie/zbrojny.md
-    - Złodziej: sciezki_eksperckie/zlodziej.md
-    - Zwiadowca: sciezki_eksperckie/zwiadowca.md
+    - Ścieżki Eksperckie: sciezki_eksperckie.md
+    - Podręcznik:
+      - Berserker: sciezki_eksperckie/berserker.md
+      - Czarnoksiężnik: sciezki_eksperckie/czarnoksieznik.md
+      - Czarodziej: sciezki_eksperckie/czarodziej.md
+      - Czarownik: sciezki_eksperckie/czarownik.md
+      - Druid: sciezki_eksperckie/druid.md
+      - Kapłan: sciezki_eksperckie/kaplan.md
+      - Łowca: sciezki_eksperckie/lowca.md
+      - Paladyn: sciezki_eksperckie/paladyn.md
+      - Skrytobójca: sciezki_eksperckie/skrytobojca.md
+      - Wiedźma: sciezki_eksperckie/wiedzma.md
+      - Wynalazca: sciezki_eksperckie/wynalazca.md
+      - Wyrocznia: sciezki_eksperckie/wyrocznia.md
+      - Zaklinacz: sciezki_eksperckie/zaklinacz.md
+      - Zbrojny: sciezki_eksperckie/zbrojny.md
+      - Złodziej: sciezki_eksperckie/zlodziej.md
+      - Zwiadowca: sciezki_eksperckie/zwiadowca.md
+    - Chwalebna Śmierć:
+      - Moloch: sciezki_eksperckie/moloch.md
+    - Głód w Pustce:
+      - brak: brak.md
+    - Grobowce Pustkowia:
+      - Książe Ciemności: sciezki_eksperckie/ksiaze_ciemnosci.md
+    - Rozkoszna Agonia:
+      - Apostata: sciezki_eksperckie/apostata.md
+    - Straszliwe Piękno:
+      - Zaprzysiężony: sciezki_eksperckie/zaprzysiezony.md
+    - Suplement Władcy Demonów:
+      - Elementalista: sciezki_eksperckie/elementalista.md
+      - Erudyta: sciezki_eksperckie/erudyta.md
+      - Mistyk: sciezki_eksperckie/mistyk.md
+      - Opiekun: sciezki_eksperckie/opiekun.md
+      - Psionik: sciezki_eksperckie/psionik.md
+      - Szaman: sciezki_eksperckie/szaman.md
+      - Szarlatan: sciezki_eksperckie/szarlatan.md
+      - Zawiadaka: sciezki_eksperckie/zawiadaka.md
   - Ścieżki Mistrzowskie:
-    - Aeromanta: sciezki_mistrzowskie/aeromanta.md
-    - Akrobata: sciezki_mistrzowskie/akrobata.md
-    - Astromanta: sciezki_mistrzowskie/astromanta.md
-    - Bard: sciezki_mistrzowskie/bard.md
-    - Chronomanta: sciezki_mistrzowskie/chronomanta.md
-    - Cudotwórca: sciezki_mistrzowskie/cudotworca.md
-    - Czempion: sciezki_mistrzowskie/czempion.md
-    - Derwisz: sciezki_mistrzowskie/derwisz.md
-    - Dyplomata: sciezki_mistrzowskie/dyplomata.md
-    - Egzekutor: sciezki_mistrzowskie/egzekutor.md
-    - Egzorcysta: sciezki_mistrzowskie/egzorcysta.md
-    - Fechmistrz: sciezki_mistrzowskie/fechmistrz.md
-    - Geomanta: sciezki_mistrzowskie/geomanta.md
-    - Gladiator: sciezki_mistrzowskie/gladiator.md
-    - Goliat: sciezki_mistrzowskie/goliat.md
-    - Hydromanta: sciezki_mistrzowskie/hydromanta.md
-    - Iluzjonista: sciezki_mistrzowskie/iluzjonista.md
-    - Infiltrator: sciezki_mistrzowskie/infiltrator.md
-    - Inkwizytor: sciezki_mistrzowskie/inkwizytor.md
-    - Inżynier: sciezki_mistrzowskie/inzynier.md
-    - Jasnowidz: sciezki_mistrzowskie/jasnowidz.md
-    - Kapelan: sciezki_mistrzowskie/kapelan.md
-    - Kawalerzysta: sciezki_mistrzowskie/kawalerzysta.md
-    - Klątwiarz: sciezki_mistrzowskie/klatwiarz.md
-    - Kowal run: sciezki_mistrzowskie/kowal_run.md
-    - Leśny duch: sciezki_mistrzowskie/lesny_duch.md
-    - Łupieżca: sciezki_mistrzowskie/lupiezca.md
-    - Mag bitewny: sciezki_mistrzowskie/mag_bitewny.md
-    - Mag zagłady: sciezki_mistrzowskie/mag_zaglady.md
-    - Magus: sciezki_mistrzowskie/magus.md
-    - Mędrzec: sciezki_mistrzowskie/medrzec.md
-    - Mistrz oręża: sciezki_mistrzowskie/mistrz_oreza.md
-    - Mistrz Przemian: sciezki_mistrzowskie/mistrz_przemian.md
-    - Mistrz Sztuk Tajemnych: sciezki_mistrzowskie/mistrz_sztuk_tajemnych.md
-    - Mistrz Uroków: sciezki_mistrzowskie/mistrz_urokow.md
-    - Mściciel: sciezki_mistrzowskie/msciciel.md
-    - Myrmidon: sciezki_mistrzowskie/myrmidon.md
-    - Negator: sciezki_mistrzowskie/negator.md
-    - Nekromanta: sciezki_mistrzowskie/nekromanta.md
-    - Niszczyciel: sciezki_mistrzowskie/niszczyciel.md
-    - Nożownik: sciezki_mistrzowskie/nozownik.md
-    - Obrońca: sciezki_mistrzowskie/obronca.md
-    - Odkrywca: sciezki_mistrzowskie/odkrywca.md
-    - Pancerniak: sciezki_mistrzowskie/pancerniak.md
-    - Piromanta: sciezki_mistrzowskie/piromanta.md
-    - Podróżnik: sciezki_mistrzowskie/podroznik.md
-    - Przywoływacz: sciezki_mistrzowskie/przywolywacz.md
-    - Rewolwerowiec: sciezki_mistrzowskie/rewolwerowiec.md
-    - Strzelec wyborowy: sciezki_mistrzowskie/strzelec_wyborowy.md
-    - Szelma: sciezki_mistrzowskie/szelma.md
-    - Taumaturg: sciezki_mistrzowskie/taumaturg.md
-    - Technomanta: sciezki_mistrzowskie/technomanta.md
-    - Templariusz: sciezki_mistrzowskie/templariusz.md
-    - Tenebrysta: sciezki_mistrzowskie/tenebrysta.md
-    - Teurg: sciezki_mistrzowskie/teurg.md
-    - Truciciel: sciezki_mistrzowskie/truciciel.md
-    - Uzdrowiciel: sciezki_mistrzowskie/uzdrowiciel.md
-    - Wartownik: sciezki_mistrzowskie/wartownik.md
-    - Władca bestii: sciezki_mistrzowskie/wladca_bestii.md
-    - Władca burz: sciezki_mistrzowskie/wladca_burz.md
-    - Zabijaka: sciezki_mistrzowskie/zabijaka.md
-    - Zdobywca: sciezki_mistrzowskie/zdobywca.md
-    - Zelota: sciezki_mistrzowskie/zelota.md
-    - Zmiennokształtny: sciezki_mistrzowskie/zmiennoksztaltny.md
+    - Ścieżki Mistrzowskie: sciezki_mistrzowskie.md
+    - Podręcznik:
+      - Aeromanta: sciezki_mistrzowskie/aeromanta.md
+      - Akrobata: sciezki_mistrzowskie/akrobata.md
+      - Astromanta: sciezki_mistrzowskie/astromanta.md
+      - Bard: sciezki_mistrzowskie/bard.md
+      - Chronomanta: sciezki_mistrzowskie/chronomanta.md
+      - Cudotwórca: sciezki_mistrzowskie/cudotworca.md
+      - Czempion: sciezki_mistrzowskie/czempion.md
+      - Derwisz: sciezki_mistrzowskie/derwisz.md
+      - Dyplomata: sciezki_mistrzowskie/dyplomata.md
+      - Egzekutor: sciezki_mistrzowskie/egzekutor.md
+      - Egzorcysta: sciezki_mistrzowskie/egzorcysta.md
+      - Fechmistrz: sciezki_mistrzowskie/fechmistrz.md
+      - Geomanta: sciezki_mistrzowskie/geomanta.md
+      - Gladiator: sciezki_mistrzowskie/gladiator.md
+      - Goliat: sciezki_mistrzowskie/goliat.md
+      - Hydromanta: sciezki_mistrzowskie/hydromanta.md
+      - Iluzjonista: sciezki_mistrzowskie/iluzjonista.md
+      - Infiltrator: sciezki_mistrzowskie/infiltrator.md
+      - Inkwizytor: sciezki_mistrzowskie/inkwizytor.md
+      - Inżynier: sciezki_mistrzowskie/inzynier.md
+      - Jasnowidz: sciezki_mistrzowskie/jasnowidz.md
+      - Kapelan: sciezki_mistrzowskie/kapelan.md
+      - Kawalerzysta: sciezki_mistrzowskie/kawalerzysta.md
+      - Klątwiarz: sciezki_mistrzowskie/klatwiarz.md
+      - Kowal run: sciezki_mistrzowskie/kowal_run.md
+      - Leśny duch: sciezki_mistrzowskie/lesny_duch.md
+      - Łupieżca: sciezki_mistrzowskie/lupiezca.md
+      - Mag bitewny: sciezki_mistrzowskie/mag_bitewny.md
+      - Mag zagłady: sciezki_mistrzowskie/mag_zaglady.md
+      - Magus: sciezki_mistrzowskie/magus.md
+      - Mędrzec: sciezki_mistrzowskie/medrzec.md
+      - Mistrz oręża: sciezki_mistrzowskie/mistrz_oreza.md
+      - Mistrz Przemian: sciezki_mistrzowskie/mistrz_przemian.md
+      - Mistrz Sztuk Tajemnych: sciezki_mistrzowskie/mistrz_sztuk_tajemnych.md
+      - Mistrz Uroków: sciezki_mistrzowskie/mistrz_urokow.md
+      - Mściciel: sciezki_mistrzowskie/msciciel.md
+      - Myrmidon: sciezki_mistrzowskie/myrmidon.md
+      - Negator: sciezki_mistrzowskie/negator.md
+      - Nekromanta: sciezki_mistrzowskie/nekromanta.md
+      - Niszczyciel: sciezki_mistrzowskie/niszczyciel.md
+      - Nożownik: sciezki_mistrzowskie/nozownik.md
+      - Obrońca: sciezki_mistrzowskie/obronca.md
+      - Odkrywca: sciezki_mistrzowskie/odkrywca.md
+      - Pancerniak: sciezki_mistrzowskie/pancerniak.md
+      - Piromanta: sciezki_mistrzowskie/piromanta.md
+      - Podróżnik: sciezki_mistrzowskie/podroznik.md
+      - Przywoływacz: sciezki_mistrzowskie/przywolywacz.md
+      - Rewolwerowiec: sciezki_mistrzowskie/rewolwerowiec.md
+      - Strzelec wyborowy: sciezki_mistrzowskie/strzelec_wyborowy.md
+      - Szelma: sciezki_mistrzowskie/szelma.md
+      - Taumaturg: sciezki_mistrzowskie/taumaturg.md
+      - Technomanta: sciezki_mistrzowskie/technomanta.md
+      - Templariusz: sciezki_mistrzowskie/templariusz.md
+      - Tenebrysta: sciezki_mistrzowskie/tenebrysta.md
+      - Teurg: sciezki_mistrzowskie/teurg.md
+      - Truciciel: sciezki_mistrzowskie/truciciel.md
+      - Uzdrowiciel: sciezki_mistrzowskie/uzdrowiciel.md
+      - Wartownik: sciezki_mistrzowskie/wartownik.md
+      - Władca bestii: sciezki_mistrzowskie/wladca_bestii.md
+      - Władca burz: sciezki_mistrzowskie/wladca_burz.md
+      - Zabijaka: sciezki_mistrzowskie/zabijaka.md
+      - Zdobywca: sciezki_mistrzowskie/zdobywca.md
+      - Zelota: sciezki_mistrzowskie/zelota.md
+      - Zmiennokształtny: sciezki_mistrzowskie/zmiennoksztaltny.md
+    - Chwalebna Śmierć:
+      - Duch Walki: sciezki_mistrzowskie/duch_walki.md
+      - Kriomanta: sciezki_mistrzowskie/kriomanta.md
+      - Skald: sciezki_mistrzowskie/skald.md
+      - Wieszcz: sciezki_mistrzowskie/wieszcz.md
+    - Grobowce Pustkowia:
+      - Kroczący Przez Pył: sciezki_mistrzowskie/kroczacy_przez_pyl.md
+      - Pogromca Nieumarłych: sciezki_mistrzowskie/pogromca_nieumarlych.md
+      - Spaczeniec: sciezki_mistrzowskie/spaczeniec.md
+    - Rozkoszna Agonia:
+      - Diabolista: sciezki_mistrzowskie/diabolista.md
+      - Łowca Czarownic: sciezki_mistrzowskie/lowca_czarownic.md
+    - Straszliwe Piękno:
+      - Łowca Trolli: sciezki_mistrzowskie/lowca_trolli.md
+      - Morrigan: sciezki_mistrzowskie/morrigan.md
+      - Mroczny Kocur: sciezki_mistrzowskie/mroczny_kocur.md
+      - Muza: sciezki_mistrzowskie/muza.md
+      - Nocny Łowca: sciezki_mistrzowskie/nocny_lowca.md
+      - Rusznimag: sciezki_mistrzowskie/rusznimag.md
+      - Strażnik Płomienia: sciezki_mistrzowskie/straznik_plomienia.md
+      - Uwodziciel: sciezki_mistrzowskie/uwodziciel.md
+      - Wiekuisty Obrońca: sciezki_mistrzowskie/wiekuisty_obronca.md
+      - Zwiastun: sciezki_mistrzowskie/zwiastun.md
+    - Suplement Władcy Demonów:
+      - Alchemik: sciezki_mistrzowskie/alchemik.md
+      - Czarnogwardzista: sciezki_mistrzowskie/czarnogwardzista.md
+      - Demonolog: sciezki_mistrzowskie/demonolog.md
+      - Entropista: sciezki_mistrzowskie/entropista.md
+      - Krwiożerca: sciezki_mistrzowskie/krwiozerca.md
+      - Łamacz umysłów: sciezki_mistrzowskie/lamacz_umyslow.md
+      - Medium: sciezki_mistrzowskie/medium.md
+      - Mistrz Sztuk Walki: sciezki_mistrzowskie/mistrz_sztuk_walki.md
+      - Obserwator: sciezki_mistrzowskie/obserwator.md
+      - Psychokinetyk: sciezki_mistrzowskie/psychokinetyk.md
+      - Saper: sciezki_mistrzowskie/saper.md
+      - Zadzior: sciezki_mistrzowskie/zadzior.md
 - Tradycje:
   - Tradycje: tradycje.md
   - Zaklęcia: zaklecia.md
