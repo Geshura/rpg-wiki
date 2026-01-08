@@ -181,6 +181,14 @@
   },
   "active": "6f8c42a1de9046dc",
   "lastOpenFiles": [
+    "docs/sciezki_nowicjuszy/imgs/wojownik.jpg",
+    "docs/sciezki_nowicjuszy/imgs/Niepotwierdzony 909714.crdownload",
+    "docs/sciezki_nowicjuszy/imgs/magik",
+    "docs/sciezki_nowicjuszy/imgs/Niepotwierdzony 723769.crdownload",
+    "docs/sciezki_nowicjuszy/imgs/lotr.jpg",
+    "docs/sciezki_nowicjuszy/imgs/Niepotwierdzony 921629.crdownload",
+    "docs/sciezki_nowicjuszy/imgs/kleryk.jpg",
+    "docs/sciezki_nowicjuszy/imgs/Niepotwierdzony 761501.crdownload",
     "docs/utworz_pliki.bat",
     "docs/sciezki_mistrzowskie/entropista.md",
     "docs/sciezki_mistrzowskie/duch_walki.md",
@@ -211,12 +219,6 @@
     "utworz_pliki.bat",
     "run — kopia.bat",
     "pochodzenie",
-    "nav.txt",
-    "nav — kopia.yml",
-    "scripts/normalize_indent.py",
-    "scripts/double_indent.py",
-    "scripts/assemble_mkdocs.py",
-    "mkdocs.template.yml",
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",
     "docs — kopia/zaklecia/armia_umarlych.jpg",
@@ -224,8 +226,6 @@
     "docs — kopia/zaklecia/akceleracja.jpg",
     "docs — kopia/zaklecia/adamantytowe_łańcuchy.jpg",
     "docs — kopia/css/assets/skull-outline.svg",
-    "docs — kopia/css/assets/script-text-outline.svg",
-    "docs — kopia/css/assets/sack.svg",
-    "docs — kopia/css/assets/lead-pencil.svg"
+    "docs — kopia/css/assets/script-text-outline.svg"
   ]
 }
