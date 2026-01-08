@@ -39,11 +39,10 @@ nav:
 - Ścieżki:
   - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
   - Ścieżki Nowicjuszy:
-    - Podręcznik Główny:
-      - Kleryk: sciezki_nowicjuszy/kleryk.md
-      - Łotr: sciezki_nowicjuszy/lotr.md
-      - Magik: sciezki_nowicjuszy/magik.md
-      - Wojownik: sciezki_nowicjuszy/wojownik.md
+    - Kleryk: sciezki_nowicjuszy/kleryk.md
+    - Łotr: sciezki_nowicjuszy/lotr.md
+    - Magik: sciezki_nowicjuszy/magik.md
+    - Wojownik: sciezki_nowicjuszy/wojownik.md
   - Ścieżki Eksperckie:
     - Ścieżki Eksperckie: sciezki_eksperckie.md
     - Podręcznik:
