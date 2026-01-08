@@ -1,46 +1,38 @@
 @echo off
 chcp 65001 >nul
-title Masowe uzupelnianie plikow MD
+title Wypelnianie plikow MD
 
-REM --- KONFIGURACJA ---
-set "plik_zrodlowy=szablon_wsadu.txt"
+set "szablon=szablon.txt"
 
-REM 1. TWORZENIE PLIKU Z TREŚCIĄ (SZABLONU)
-REM Edytuj poniższe linie, aby zmienić to, co trafi do plików .md
-REM Znak "echo." oznacza pustą linię.
-
-echo Tworzenie pliku zrodlowego z trescia...
-
-(
-echo # Tytuł
-echo.
-echo ## Opis
-echo Tutaj wpisz opis zaklecia lub tradycji.
-echo.
-echo ## Statystyki
-echo * Koszt:
-echo * Czas rzucania:
-echo * Zasięg:
-) > "%plik_zrodlowy%"
-
-echo Plik "%plik_zrodlowy%" zostal utworzony.
-echo.
-
-REM 2. ROZPROWADZANIE TREŚCI PO PLIKACH .MD
-echo Rozpoczynam wpisywanie tresci do plikow .md...
-echo --------------------------------------------
-
-REM Pętla for /r przeszukuje rekurencyjnie wszystkie podkatalogi
-for /r %%f in (*.md) do (
-    REM "type" odczytuje szablon, ">>" dopisuje go na koniec pliku md
-    REM Jeśli chcesz NADPISAĆ pliki (skasować starą treść), zmień ">>" na ">"
-    type "%plik_zrodlowy%" >> "%%f"
-    echo [+] Zaktualizowano: %%~nxf
+REM --- KROK 1: Sprawdzenie i utworzenie szablonu ---
+if not exist "%szablon%" (
+    echo [i] Plik "%szablon%" nie istnieje.
+    echo [+] Tworze pusty plik "%szablon%".
+    type nul > "%szablon%"
+    
+    echo.
+    echo ---------------------------------------------------------
+    echo TERAZ MASZ CZAS NA EDYCJE PLIKU "%szablon%".
+    echo Wpisz w nim to, co ma trafic do wszystkich plikow .md.
+    echo Jesli zostawisz go pustego, do plikow nic nie zostanie dodane.
+    echo Zapisz plik txt i wroc tutaj.
+    echo ---------------------------------------------------------
+    pause
+) else (
+    echo [i] Plik "%szablon%" juz istnieje. Uzyje jego obecnej zawartosci.
 )
 
-echo --------------------------------------------
-REM Opcjonalnie: usunięcie pliku źródłowego po zakończeniu (usuń "REM" z początku linii poniżej, aby aktywować)
-REM del "%plik_zrodlowy%"
+REM --- KROK 2: Kopiowanie zawartości do plików .md ---
+echo.
+echo Rozpoczynam kopiowanie tresci z "%szablon%" do plikow .md...
+echo ---------------------------------------------------------
 
-echo Gotowe! Wszystkie pliki .md otrzymaly nowa tresc.
+for /r %%f in (*.md) do (
+    REM "type" bierze tresc szablonu, ">>" dopisuje ja na koncu pliku md
+    type "%szablon%" >> "%%f"
+    echo [+] Uzupelniono: %%~nxf
+)
+
+echo ---------------------------------------------------------
+echo Gotowe.
 pause

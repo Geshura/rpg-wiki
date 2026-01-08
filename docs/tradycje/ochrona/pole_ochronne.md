@@ -10,3 +10,11 @@ Tutaj wpisz opis zaklecia lub tradycji.
 * Koszt:
 * Czas rzucania:
 * Zasięg:
+---
+system: Cień Władcy Demonów
+podrecznik: Podręcznik Główny
+zaklecie: 
+kategoria: zaklecie
+icon: material/creation
+---
+#placeholder
