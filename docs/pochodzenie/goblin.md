@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Goblin
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Goblin
 ![Goblin #rycina](imgs/goblin.jpg)
