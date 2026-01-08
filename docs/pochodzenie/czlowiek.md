@@ -1,7 +1,7 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: ""
+pochodzenie: "Człowiek"
 kategoria: pochodzenie
 ---
 
