@@ -37,8 +37,8 @@ nav:
     - Faun: pochodzenie/faun.md
     - Niziołek: pochodzenie/niziolek.md
 - Ścieżki:
-  - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
   - Ścieżki Nowicjuszy:
+    - Ścieżki Nowicjuszy: sciezki_nowicjuszy.md
     - Kleryk: sciezki_nowicjuszy/kleryk.md
     - Łotr: sciezki_nowicjuszy/lotr.md
     - Magik: sciezki_nowicjuszy/magik.md
@@ -64,8 +64,6 @@ nav:
       - Zwiadowca: sciezki_eksperckie/zwiadowca.md
     - Chwalebna Śmierć:
       - Moloch: sciezki_eksperckie/moloch.md
-    - Głód w Pustce:
-      - brak: brak.md
     - Grobowce Pustkowia:
       - Książe Ciemności: sciezki_eksperckie/ksiaze_ciemnosci.md
     - Rozkoszna Agonia:
