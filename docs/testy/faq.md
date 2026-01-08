@@ -1,73 +1,140 @@
 ---
-title: "FAQ"
-author: "Geshura"
-tags: [markdown, dokumentacja, szablon]
-description: "Ten plik zawiera demonstrację wszystkich kluczowych elementów składni Markdown."
+title: FAQ
+description: Maksymalnie rozbudowany przykład funkcji MkDocs Material.
+icon: material/information-box
+status: deprecated
 ---
 
-# Nagłówek Poziomu 1 (Tytuł Główny)
-Poniżej znajduje się tekst wprowadzający. To jest zwykły akapit tekstu. Możesz używać **pogrubienia**, *kursywy*, ***pogrubionej kursywy*** oraz ~~przekreślenia~~.
+[TOC]
 
-## Spis Treści (Opcjonalny)
-1. [Tekst i Formatowanie](#tekst-i-formatowanie)
-2. [Listy](#listy)
-3. [Kod](#kod)
-4. [Tabele](#tabele)
-5. [Media i Linki](#media-i-linki)
-6. [Elementy Zaawansowane](#elementy-zaawansowane)
+# Admonitions
+
+Ten dokument prezentuje wszystkie dostępne style bloków (Admonitions) używane w naszej dokumentacji.
 
 ---
 
-## Nagłówek Poziomu 2
-### Nagłówek Poziomu 3
-#### Nagłówek Poziomu 4
-##### Nagłówek Poziomu 5
-###### Nagłówek Poziomu 6
+## Komunikaty standardowe
+Te bloki służą do przekazywania informacji technicznych, zasad gry oraz ostrzeżeń dla Mistrza Gry.
+
+### abstract
+!!! abstract "Podsumowanie Rozdziału"
+    W tej sekcji omówimy mechaniki rzutów obronnych oraz system ekwipunku. Zapoznanie się z tymi zasadami jest kluczowe przed rozpoczęciem kampanii.
+	
+### info
+!!! info "Wersja Systemu"
+    Zasady opierają się na silniku **Core Rules v2.5**. Niektóre mechaniki mogą różnić się od poprzedniej edycji.
+	
+### tip
+!!! tip "Wskazówka dla MG"
+    Zawsze pozwalaj graczom na kreatywne rozwiązanie problemu, nawet jeśli nie przewidziałeś tego w scenariuszu. *Zasada "Tak, i..."*.
+	
+### success
+!!! success "Awans na Poziom"
+    Jeśli gracze ukończą ten rozdział, powinni otrzymać wystarczającą ilość punktów doświadczenia, aby awansować na **Poziom 3**.
+	
+### question
+!!! question "Jak obliczyć Klasę Pancerza?"
+    KP to suma: `Bazowe 10` + `Modyfikator Zręczności` + `Bonus z Pancerza`.
+	
+### example
+!!! example "Przykład Rzutu Ataku"
+    Gracz rzuca k20 i otrzymuje wynik **14**. Dodaje swój modyfikator Siły (+3) oraz Biegłość (+2).
+    **Całkowity wynik to 19.**
+	
+### warning
+!!! warning "Zmiana Zasad"
+    Pamiętaj, że w tej strefie magia działa inaczej. Wszystkie zaklęcia leczące mają o połowę mniejszą skuteczność.
+	
+### failure
+!!! failure "Test Nieudany"
+    Jeśli gracz wyrzuci **1** na kości (Krytyczna Porażka), jego broń zostaje upuszczona lub uszkodzona.
+	
+### danger
+!!! danger "Strefa Śmierci"
+    Wkraczasz na terytorium **Czerwonego Smoka**. Postacie poniżej 5 poziomu zginą tu natychmiastowo bez odpowiedniej ochrony przed ogniem.
+	
+### bug
+!!! bug "Znany Błąd Mechaniki"
+    Kombinacja atutu *Szybkie Dobycie* z *Dwuręcznością* powoduje błąd w turach. Zostanie to naprawione w erracie 1.2.
+
+### quote
+!!! quote "Zasada Złota"
+    > "Mistrz Gry ma zawsze rację. Nawet jeśli jej nie ma."
+    > — *Podręcznik Gracza, str. 4*
 
 ---
 
-## Listy
+## Komunikaty customowe
+Te bloki służą do budowania klimatu, opisywania zadań, przedmiotów i bestiariusza.
 
-### Lista Wypunktowana
-* Element pierwszy
-* Element drugi
-  * Podpunkt poziomu 2
-  * Podpunkt poziomu 2
-    * Podpunkt poziomu 3
-- Można używać myślników
-+ Lub plusów
+### quest
+!!! quest "Zadanie Główne: Cienie Przeszłości"
+    Musisz odnaleźć zaginiony artefakt w ruinach starej katedry.
+    
+    * **Zleceniodawca:** Arcybiskup
+    * **Cel:** Odzyskaj *Kielich Światła*
+    * **Nagroda:** 1000 sztuk złota i tytuł Paladyna.
 
-### Lista Numerowana
-1. Pierwszy krok
-2. Drugi krok
-3. Trzeci krok
-   1. Podkrok A
-   2. Podkrok B
+### loc
+!!! loc "Lokacja: Zrujnowana Katedra"
+    Mroczna, gotycka budowla majaczy na tle burzowego nieba.
+    **Wskazówka:** Wejście do katakumb znajduje się za ołtarzem.
 
-### Lista Zadań (Task List)
-- [x] Zadanie ukończone
-- [ ] Zadanie do zrobienia
-- [ ] Zadanie w toku
+### npc
+!!! npc "Strażnik Krypty (Yorick)"
+    Garbata postać w kapturze, podpierająca się łopatą.
+    > *"Nikt stąd nie wychodzi, panie... przynajmniej nie w jednym kawałku."*
 
-### Lista Definicji (Wspierana w niektórych edytorach)
-Termin 1
-: Definicja terminu pierwszego.
+### grave
+!!! grave "Zapomniany Grobowiec"
+    Tu spoczywa Święty Alistair.
+    *Inskrypcja głosi: "Tylko w ciemności ujrzysz światło".*
 
-Termin 2
-: Definicja terminu drugiego.
+### boss
+!!! boss "Upadły Paladyn"
+    | Cecha | Wartość |
+    | :--- | :--- |
+    | **PŻ** | 150 |
+    | **KP** | 18 (Płytowa) |
+    
+    **Zdolność:** *Aura Strachu* - każdy w promieniu 10 stóp musi wykonać rzut na Wolę (DC 15).
+
+### spell
+!!! spell "Mroczny Pocisk"
+    **Krąg:** 2
+    **Obrażenia:** 4k6 (Nekrotyczne)
+    Wiązka czarnej energii, która wysysa siły witalne z celu.
+
+### weapon
+!!! weapon "Ostrze Zdrajcy (Miecz Długi)"
+    **Typ:** Broń Magiczna (+1)
+    **Obrażenia:** 1k8 + 1
+    Ostrze pulsuje czerwoną poświatą w obecności wrogów.
+
+### potion
+!!! potion "Eliksir Niewidzialności"
+    **Czas trwania:** 1 godzina
+    Płyn jest całkowicie przezroczysty, jak woda, ale gęsty jak syrop.
+
+### loot
+!!! loot "Skrzynia Bossa"
+    W środku znajdujesz:
+    * 💎 **Rubin** (Wartość: 500 gp)
+    * 📜 **Stary Pergamin** (Mapa)
+    * 💰 **sakiewkę złota**
+
+### note
+!!! note "Znaleziona Notatka"
+    *"Oni nadchodzą... słyszę ich w ścianach. Niech bogowie mają nas w opiece."*
+    — Ostatni wpis w dzienniku.
 
 ---
 
-## Kod
+## Komunikaty interaktywne
 
-### Kod w linii
-Użyj funkcji `print("Hello World")` aby wyświetlić tekst.
+??? boss "Ukryty Przeciwnik (Spoiler)"
+    To wcale nie był posąg! To **Gargulec**!
+    Atakuje z zaskoczenia, gdy gracze odwrócą się plecami.
 
-### Blok Kodu (Z kolorowaniem składni)
-
-```python
-def powitanie(imie):
-    """Funkcja witająca użytkownika"""
-    return f"Cześć, {imie}!"
-
-print(powitanie("Gemini"))
+!!! loot ""
+    *(Pusty blok z samą ikoną)* Znalazłeś drobne monety na posadzce.

@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 sciezki_nowicjuszy: Magik
 kategoria: sciezki_nowicjuszy
+icon: material/account
 ---
 # Magik
 ![Magik #rycina](imgs/magik.jpg)

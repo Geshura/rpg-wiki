@@ -1,3 +1,7 @@
-# zwiadowca
-
-_Placeholder generated from mkdocs.yml for sciezki_eksperckie/zwiadowca.md_
+---
+system: Cień Władcy Demonów
+podrecznik: Podręcznik Główny
+sciezki_eksperckie: Apostata
+kategoria: sciezki_eksperckie
+icon: material/account-badge
+---

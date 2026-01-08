@@ -2,6 +2,7 @@
 system: Cień Władcy Demonów
 podrecznik: wszystkie
 kategoria: sciezki_nowicjuszy
+icon: material/folder
 ---
 # Ścieżki Nowicjuszy
 W **Cień Władcy Demonów** wybór ścieżki nowicjusza to pierwszy krok w określeniu profesji i roli twojej postaci. Determinuje ona główne atrybuty oraz sposób, w jaki postać wchodzi w interakcję ze światem i walczy z zagrożeniami. Poniżej znajdziesz krótki opis każdej z opcji.

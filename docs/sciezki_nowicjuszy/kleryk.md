@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 sciezki_nowicjuszy: Kleryk
 kategoria: sciezki_nowicjuszy
+icon: material/account
 ---
 # Kleryk
 ![Kleryk #rycina](imgs/kleryk.jpg)

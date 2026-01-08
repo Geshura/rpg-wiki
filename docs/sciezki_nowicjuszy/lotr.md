@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 sciezki_nowicjuszy: Łotr
 kategoria: sciezki_nowicjuszy
+icon: material/account
 ---
 # Łotr
 ![Łotr #rycina](imgs/lotr.jpg)

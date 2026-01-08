@@ -2,6 +2,7 @@
 system: Cień Władcy Demonów
 podrecznik: wszystkie
 kategoria: pochodzenie
+icon: material/folder
 ---
 # Pochodzenie
 W **Cień Władcy Demonów** wybór pochodzenia determinuje nie tylko statystyki, ale też miejsce twojej postaci w świecie. Poniżej znajdziesz krótki opis każdej z opcji wraz z odnośnikiem do pełnych zasad.

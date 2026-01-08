@@ -11,10 +11,14 @@
             "id": "6f8c42a1de9046dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/sciezki_nowicjuszy.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nowa karta"
+              "title": "sciezki_nowicjuszy"
             }
           }
         ]
@@ -181,6 +185,12 @@
   },
   "active": "6f8c42a1de9046dc",
   "lastOpenFiles": [
+    "docs/pochodzenie.md",
+    "docs/sciezki_nowicjuszy.md",
+    "docs/sciezki_eksperckie.md",
+    "docs/kampania.md",
+    "docs/index.md",
+    "docs/pochodzenie/automaton.md",
     "docs/sciezki_nowicjuszy/imgs/magik.jpg",
     "docs/sciezki_nowicjuszy/imgs/wojownik.jpg",
     "docs/sciezki_nowicjuszy/imgs/Niepotwierdzony 909714.crdownload",
@@ -211,11 +221,6 @@
     "docs/sciezki_mistrzowskie/pogromca_nieumarlych.md",
     "docs/sciezki_mistrzowskie/obserwator.md",
     "docs/sciezki_mistrzowskie/nocny_lowca.md",
-    "docs/sciezki_mistrzowskie/muza.md",
-    "docs/sciezki_mistrzowskie/mroczny_kocur.md",
-    "docs/sciezki_mistrzowskie/morrigan.md",
-    "docs/sciezki_mistrzowskie/mistrz_sztuk_walki.md",
-    "docs/sciezki_mistrzowskie/medium.md",
     "sciezki_mistrzowskie",
     "utworz_pliki.bat",
     "run — kopia.bat",
@@ -225,7 +230,6 @@
     "docs — kopia/zaklecia/armia_umarlych.jpg",
     "docs — kopia/zaklecia/akumulacja_magii.jpg",
     "docs — kopia/zaklecia/akceleracja.jpg",
-    "docs — kopia/zaklecia/adamantytowe_łańcuchy.jpg",
-    "docs — kopia/css/assets/skull-outline.svg"
+    "docs — kopia/zaklecia/adamantytowe_łańcuchy.jpg"
   ]
 }

@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 sciezki_nowicjuszy: Wojownik
 kategoria: sciezki_nowicjuszy
+icon: material/account
 ---
 # Wojownik
 ![Wojownik #rycina](imgs/wojownik.jpg)
