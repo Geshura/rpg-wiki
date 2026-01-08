@@ -1,3 +1,7 @@
-# tradycje
-
-_Placeholder generated from mkdocs.yml for tradycje.md_
+---
+system: Cień Władcy Demonów
+podrecznik: wszystkie
+kategoria: tradycja
+icon: material/book
+---
+#placeholder
