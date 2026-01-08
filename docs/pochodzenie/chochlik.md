@@ -5,6 +5,7 @@ pochodzenie: Chochlik
 kategoria: pochodzenie
 ---
 # Chochlik
+![Chochlik #rycina](imgs/chochlik.jpg)
 
 Chochliki to typowi przedstawiciele tyciego ludu. Wiele z nich korzysta z sekretnych dróg, aby przefruwać przez pogranicze do świata śmiertelnych, gdzie przysparzają problemów, szpiegują i robią sobie żarty z większych, głupszych istot. To najdziksze z faerie, które za najwyższy autorytet uznają swoje własne zachcianki. Udają się, dokądkolwiek chcą, i robią, cokolwiek chcą. Ich zmienna natura sprawia, że są nieprzewidywalne – w jednej chwili potrafią śmiać się i psocić, a w drugiej stać się wcieleniem złośliwości.
 

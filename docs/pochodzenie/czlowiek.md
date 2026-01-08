@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: "Człowiek"
+pochodzenie: Człowiek
 kategoria: pochodzenie
 ---
-
 # Człowiek
+![Człowiek #rycina](imgs/czlowiek.jpg)
 
 Determinacja, zaradność i zwykła liczebność sprawiły, że mimo prymitywnych początków ludzkość rozwinęła się w największą i najbardziej rozprzestrzenioną populację na świecie. Niewiele jest miejsc, których nie dosięgła jej ekspansja; osady ludzi spotyka się zarówno w górach, jak i na moczarach, żyznych równinach i niegościnnych pustkowiach. Cywilizacja ta ukształtowała historię na przestrzeni ostatniego tysiąca lat i pozostaje silna nawet w obliczu spowijającego świat cienia.
 

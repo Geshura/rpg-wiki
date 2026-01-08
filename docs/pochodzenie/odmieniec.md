@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: ""
+pochodzenie: Odmieniec
 kategoria: pochodzenie
 ---
-
 # Odmieniec
+![Odmieniec #rycina](imgs/odmieniec.jpg)
 
 Faerie tworzą odmieńców, by ukryć nieobecność porwanych przez siebie dzieci. Odmieniec powstaje z naturalnych materiałów ożywionych magią, która nadaje mu wygląd skradzionego dziecka. Czar zwykle działa jedynie kilka tygodni, ale czasem zdarza się, że utrzyma się dłużej, a odmieniec wyrośnie na prawdziwą osobę.
 

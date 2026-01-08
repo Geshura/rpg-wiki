@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: ""
+pochodzenie: Automaton
 kategoria: pochodzenie
 ---
-
 # Automaton
+![Automaton #rycina](imgs/automaton.jpg)
 
 Automaton to mechaniczne stworzenia zbudowane z blachy, śrub, drutów, sprężyn i trybów, ożywione za pomocą dusz wyrwanych z Zaświatów. Magia łączy duszę z fizycznym automatem, ale pozwala jej kierować tym nowym ciałem tylko, jeśli działają wewnętrzne mechanizmy. Wszystkie automaty mają klucz, którym można je nakręcić – są wtedy w stanie myśleć, poruszać się i zachowywać jak żywe istoty. Jeśli mechanizm się zatrzyma, automaton popada w uśpienie i staje się nieożywionym obiektem.
 

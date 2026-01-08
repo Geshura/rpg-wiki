@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
-podrecznik: ""
-pochodzenie: ""
+podrecznik: Podręcznik Główny
+pochodzenie: Ork
 kategoria: pochodzenie
 ---
-
 # Ork
+![Ork #rycina](imgs/ork.jpg)
 
 Od dawna uważane za żołnierzy idealnych, orki zrzuciły okowy niewolnictwa i powstały przeciw swoim panom. Wojna ta ma utopić Imperium we krwi.
 

@@ -5,6 +5,7 @@ pochodzenie: Niziołek
 kategoria: pochodzenie
 ---
 # Niziołek
+![Niziołek #rycina](imgs/niziolek.jpg)
 
 Niziołki są najszczęśliwsze, relaksując się w swoich schludnych domkach lub siedząc w miejscowym pubie i żartując z przyjaciółmi nad kuflami Smakowitego Stoutu Belindy. Otwarty świat jawi się jako ogromny i pełen niebezpieczeństw, wypełniony osobami o zepsutym charakterze i złych zamiarach. Mimo to niziołki trafiają niekiedy w najbardziej niespodziewane miejsca, a w obliczu niebezpieczeństwa przezwyciężają obawy i robią to, czego wymaga sytuacja. Przyczyna? Fart. Niziołki to najwięksi szczęściarze świata.
 

@@ -5,6 +5,7 @@ pochodzenie: Hobgoblin
 kategoria: pochodzenie
 ---
 # Hobgoblin
+![Hobgoblin #rycina](imgs/hobgoblin.jpg)
 
 Kiedy faerie ruszają na wojnę, polegają na hobgoblinach, które mają chwycić za broń i iść w pierwszym szeregu. Istoty te powołano do istnienia, aby brały udział w bitwach, są więc wiecznie chętne, by obmyć swe ostrza krwią wrogów. Wysokie faerie stworzyły hobgobliny z goblinów, odzierając te drugie z nieśmiertelności. Natchnęły to, co pozostało, siłą i odwagą, aby uczynić z nich posłusznych żołnierzy, gotowych umrzeć w obronie swoich ziem i władców.
 

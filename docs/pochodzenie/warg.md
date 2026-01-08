@@ -5,6 +5,7 @@ pochodzenie: Warg
 kategoria: pochodzenie
 ---
 # Warg
+![Warg #rycina](imgs/warg.jpg)
 
 Wargi są zaciekłe i wybuchowe; służą za siłę napędową armii zwierzoludzi. Zastraszają swych słabszych pobratymców, poganiają ich szczeknięciami i pogróżkami, a na wrogów opadają, szarpiąc i drąc ich na strzępy. Bez skrupułów zabijają innych zwierzoludzi, jeśli wchodzą im w drogę lub próbują uciekać. Wielu wargów spędza tyle samo czasu, szlachtując swoich sojuszników, co mordując niewinnych.
 

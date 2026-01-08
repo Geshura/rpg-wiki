@@ -4,9 +4,8 @@ podrecznik: Chwalebna Śmierć
 pochodzenie: Jotun
 kategoria: pochodzenie
 ---
-
-
 # Jotun
+![Jotun #rycina](imgs/jotun.jpg)
 
 Mimo że minęły stulecia, od kiedy jotunowie pustoszyli zachodnie wybrzeża Imperium, cesarscy wciąż przyciszonym głosem mówią o najeźdźcach, w których żyłach płynie krew olbrzymów. Mają dobry powód do strachu, ponieważ od czasów druzgocącej porażki z rąk elitarnych cesarskich żołnierzy i sprytnych magów mieszkańcy południa wypatrują odpowiedniego momentu, pielęgnując nienawiść i czekając, aż Wielki Wilk pochłonie słońce, co będzie sygnałem, aby postawić żagle raz jeszcze i zalać Imperium krwią.
 

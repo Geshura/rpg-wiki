@@ -5,6 +5,7 @@ pochodzenie: Ożywieniec
 kategoria: pochodzenie
 ---
 # Ożywieniec
+![Ożywieniec #rycina](imgs/ozywieniec.jpg)
 
 Wpływ Wielkiego Pustkowia rozciąga się na całe Imperium. Oferuje ucieczkę od śmierci lub przyzywa tych, którzy porzucili cywilizację na rzecz odosobnienia w dziczy. Czasem śmierć przychodzi zbyt szybko, zabierając duszę, zanim śmiertelnik będzie w stanie wypełnić swoje przeznaczenie, naprawić jakiś błąd lub spłacić dług. Kiedy ciężar odpowiedzialności okazuje się zbyt ciężki, aby go odrzucić, naturalny cykl może się wstrzymać, co pozwala nieszczęśnikowi stać się ożywieńcem i dokończyć te zadania.
 

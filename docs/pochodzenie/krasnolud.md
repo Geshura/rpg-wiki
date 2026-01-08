@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: ""
+pochodzenie: Krasnolud
 kategoria: pochodzenie
 ---
-
 # Krasnolud
+![Krasnolud #rycina](imgs/krasnolud.jpg)
 
 Krasnoludy zamieszkują wydrążone w skale, okazałe miasta pod górami. Wypuszczają się z nich na ekspedycje w głąb ziemi w poszukiwaniu złóż złota i srebra. Swoje zdobycze gromadzą w wielkich skarbcach i patrzą na innych nieufnie, przekonane, że ci pożądają ich bogactw. Mają niewielu przyjaciół i mało kiedy ktoś przychodzi im z pomocą, gdy siły ciemności napadają na ich twierdze i rabują skarbce. Wiele krasnoludów błąka się więc samotnie po różnych krainach, poszukując nowych domów.
 

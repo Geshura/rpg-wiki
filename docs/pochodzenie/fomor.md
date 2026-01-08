@@ -5,6 +5,7 @@ pochodzenie: Fomor
 kategoria: pochodzenie
 ---
 # Fomor
+![Fomor #rycina](imgs/fomor.jpg)
 
 Fomory stanowią większość armii zwierzoludzi. Te strachliwe, słabe i nędzne stworzenia są dręczone przez swoich pobratymców: wargi traktują je niczym mięso armatnie, biczując, aby szły naprzód i przewodziły szarży na wroga. Fomory wiodą krótkie, wypełnione grozą żywoty, którym kres kładą albo przeciwnicy, albo znęcający się nad nimi pobratymcy, którzy bawią się bólem tych istot lub po prostu je zabijają i zjadają, kiedy nie ma nic innego w okolicy.
 

@@ -5,6 +5,7 @@ pochodzenie: Faun
 kategoria: pochodzenie
 ---
 # Faun
+![Faun #rycina](imgs/faun.jpg)
 
 Elfy i inni przedstawiciele Pięknego Ludu dawno już wycofali się ze śmiertelnego świata, zostawili jednak za sobą ludzi odmienionych przez kontakt z nieśmiertelnymi faerie. Przypadkowe spotkania z tymi kapryśnymi i nieprzewidywalnymi istotami potrafią zniszczyć życie – czy to z powodu szaleństwa, złamanego serca, czy w niektórych przypadkach potomstwa. Stulecia później wpływ fey wciąż daje się odczuć w głębokiej dziczy, gdzie stoją jeszcze drzwi do Ukrytych Królestw Alfheimu, Nilfheimu i innych magicznych domen zaludnionych przez nieśmiertelnych. W tych dotkniętych przez faerie miejscach mieszkają również fauny.
 

@@ -5,6 +5,7 @@ pochodzenie: Niedźwiedzidło
 kategoria: pochodzenie
 ---
 # Niedźwiedzidło
+![Niedźwiedzidło #rycina](imgs/niedzwiedzidlo.jpg)
 
 Niedźwiedzidła, czasem nazywane straszydłami, terroryzują społeczności żyjące na pograniczach. Tak jak wszyscy zwierzoludzie, żywią się ludźmi, ale preferują delikatne młode mięso. Wkradają się do miast i wiosek pod osłoną nocy, aby porywać dzieci z łóżek i zaciągać je gdzieś w mrok, tak że słuch po nich ginie.
 

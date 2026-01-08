@@ -5,6 +5,7 @@ pochodzenie: Wampir
 kategoria: pochodzenie
 ---
 # Wampir
+![Wampir #rycina](imgs/wampir.jpg)
 
 Kiedy zapada noc, wampiry wyłaniają się z krypt i wypełzają z grobów, aby polować na żywych. Większość z nich to prawdziwe potwory, okrutni i niewybredni zabójcy, niezdolni do skruchy z powodu bluźnierczej klątwy podtrzymującej ich istnienie. Kilka jest w stanie kontrolować okropne impulsy i pohamować swój apetyt wystarczająco, aby trzymać się nadszarpniętych resztek utraconego człowieczeństwa.
 

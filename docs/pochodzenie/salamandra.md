@@ -5,6 +5,7 @@ pochodzenie: Salamandra
 kategoria: pochodzenie
 ---
 # Salamandra
+![Salamandra #rycina](imgs/salamandra.jpg)
 
 Dzikie i samowolne dżinny ukształtowały pierwsze salamandry z pierwotnego ognia, aby służyły im jako niewolnicy. Przez stulecia stworzenia te wraz z potomkami żyły w odosobnieniu od innych ludów, wolne od machinacji i intryg, ale nadejście strasznego zła wyciągnęło je z ukrycia i nakazało jeszcze raz przemierzać świat w jego ostatnich dniach.
 

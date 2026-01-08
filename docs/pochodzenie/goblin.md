@@ -1,11 +1,11 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-pochodzenie: ""
+pochodzenie: Goblin
 kategoria: pochodzenie
 ---
-
 # Goblin
+![Goblin #rycina](imgs/goblin.jpg)
 
 Dawno temu Królowa Faerie wygnała gobliny za przewinienia, które dziś pamięta tylko ona. W ramach kary odebrała im nieśmiertelność i skazała na życie w świecie śmiertelników. Wypędzone stworzenia przeniknęły do ludzkich społeczności, zamieszkały na śmietniskach i w kanałach, gdzie – ku zaskoczeniu wszystkich – chętnie podejmują się prac, którymi inni gardzą. Grzebanie w odpadach w poszukiwaniu skarbów czy brodzenie w płynących podziemnymi tunelami cuchnących ściekach, by odnaleźć grudkę złota albo zgubioną monetę, spokojnie zajmie dowolnego goblina na tyle, by nie sprawiał kłopotów swoim sąsiadom.
 

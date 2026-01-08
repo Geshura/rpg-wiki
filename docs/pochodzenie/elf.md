@@ -5,6 +5,7 @@ pochodzenie: Elf
 kategoria: pochodzenie
 ---
 # Elf
+![Elf#rycina](imgs/elf.jpg)
 
 Elfy to panowie i damy w krainach fey; to spośród nich wywodzą się takie istoty jak Królowa Faerie, Książę Drozdów, Oberon, a nawet Diabolus, Pan Piekieł. Większość tych stworzeń ma niewiele podniosłych ambicji. Satysfakcjonuje je spędzanie stuleci na przyjemnościach: uwiecznianie od czasu do czasu na płótnie lub w formie poezji zapierającego dech w piersiach ojczystego krajobrazu, obcowanie z kochankami pod lśniącym, rozgwieżdżonym niebem lub tańczenie, picie i ucztowanie wśród zdobyczy skradzionych ze świata śmiertelników.
 

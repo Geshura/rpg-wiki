@@ -5,6 +5,7 @@ pochodzenie: Inkarnacja
 kategoria: pochodzenie
 ---
 # Inkarnacja
+![Inkarnacja #rycina](imgs/inkarnacja.jpg)
 
 Kiedy Cień pada na świat, istoty wszelkiego pochodzenia stawiają czoło niewyobrażalnym koszmarom, a samą rzeczywistością wstrząsa niezbadany mrok wyłaniający się z Pustki. Jedni zwracają się po pomoc w stronę cichych bogów, inni ku mądrym magom w wieżach z kości słoniowej, a pozostali ku komukolwiek dysponującemu wolą i mocą, aby stawić opór złu. Bohaterowie pojawiają się w najmniej spodziewanych miejscach, a czasem przychodzą nawet spoza samego świata.
 

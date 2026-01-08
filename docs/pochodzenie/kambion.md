@@ -5,6 +5,7 @@ pochodzenie: Kambion
 kategoria: pochodzenie
 ---
 # Kambion
+![Kambion #rycina](imgs/kambion.jpg)
 
 Diabły używają wszystkich dostępnych sztuczek, aby kusić śmiertelników i prowadzić ich na zatracenie. Niektóre oferują bogactwa, inne moc, a jeszcze inne cielesne przyjemności. W tym ostatnim przypadku takie schadzki rzadko kończą się ciążą, ale kiedy już tak się stanie – jedynie w przypadku relacji z ludźmi – potomek zawsze jest kambionem, mrocznym tworem Piekła wypuszczonym na świat śmiertelników, aby szerzyć ciemność, gdzie tylko się da.
 
