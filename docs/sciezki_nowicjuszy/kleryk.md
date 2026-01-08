@@ -5,7 +5,7 @@ sciezki_nowicjuszy: Kleryk
 kategoria: sciezki_nowicjuszy
 ---
 # Kleryk
-![Kleryk #rycina](sciezki_nowicjuszy/imgs/kleryk.jpg)
+![Kleryk #rycina](imgs/kleryk.jpg)
 
 Klerycy czerpią magiczną moc z zaprzysiężonej służby istocie nadprzyrodzonej. Sprawia to, że ich życia mają cel, i daje idee, za które mogą walczyć. Wiara pozwala im posługiwać się magią poprzez rytuały i modlitwę.
 

@@ -5,7 +5,7 @@ sciezki_nowicjuszy: Wojownik
 kategoria: sciezki_nowicjuszy
 ---
 # Wojownik
-![Wojownik #rycina](sciezki_nowicjuszy/imgs/wojownik.jpg)
+![Wojownik #rycina](imgs/wojownik.jpg)
 
 Intensywny trening w użyciu broni i nauka różnych stylów walki pomagają kroczącym tą ścieżką przeżyć na polu bitwy. Zdolności wojownika opierają się na sprawności fizycznej, a także szybkości i zręczności. Po ukończeniu szkolenia jest on w stanie wprawnie walczyć niemal każdą bronią, uderzając z większą precyzją i siłą niż ktokolwiek inny.
 

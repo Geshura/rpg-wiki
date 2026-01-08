@@ -5,7 +5,7 @@ sciezki_nowicjuszy: Łotr
 kategoria: sciezki_nowicjuszy
 ---
 # Łotr
-![Łotr #rycina](sciezki_nowicjuszy/imgs/lotr.jpg)
+![Łotr #rycina](imgs/lotr.jpg)
 
 Łotr zawsze ma jakiegoś asa w rękawie. Rozwiązania swoich problemów znajduje najczęściej dzięki połączeniu umiejętności i szczęścia. Jego talenty to owoc pomysłowości, sprytu, treningu i – oczywiście – zwykłego fartu, dzięki czemu jest on w stanie odnaleźć się w niemal jakiejkolwiek sytuacji.
 

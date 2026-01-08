@@ -5,7 +5,7 @@ sciezki_nowicjuszy: Magik
 kategoria: sciezki_nowicjuszy
 ---
 # Magik
-![Magik #rycina](sciezki_nowicjuszy/imgs/magik.jpg)
+![Magik #rycina](imgs/magik.jpg)
 
 Magicy dążą do osiągnięcia wyżyn czarodziejskiej mocy. Jeśli dotrą do końca tej podróży, wybierając ścieżki, które dopełnią posiadaną przez nich wiedzę, staną się jednymi z najpotężniejszych istot władających magią na tym świecie.
 
