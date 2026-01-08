@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
 pochodzenie: Salamandra
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Salamandra
 ![Salamandra #rycina](imgs/salamandra.jpg)

@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Człowiek
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Człowiek
 ![Człowiek #rycina](imgs/czlowiek.jpg)

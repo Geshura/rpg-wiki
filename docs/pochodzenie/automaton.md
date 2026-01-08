@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Automaton
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Automaton
 ![Automaton #rycina](imgs/automaton.jpg)

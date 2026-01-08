@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
 pochodzenie: Elf
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Elf
 ![Elf#rycina](imgs/elf.jpg)

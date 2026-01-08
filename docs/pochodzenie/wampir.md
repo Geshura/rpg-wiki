@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
 pochodzenie: Wampir
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Wampir
 ![Wampir #rycina](imgs/wampir.jpg)

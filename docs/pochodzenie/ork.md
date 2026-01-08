@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Ork
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Ork
 ![Ork #rycina](imgs/ork.jpg)

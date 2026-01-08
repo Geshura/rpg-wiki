@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Grobowce Pustkowia
 pochodzenie: Ożywieniec
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Ożywieniec
 ![Ożywieniec #rycina](imgs/ozywieniec.jpg)

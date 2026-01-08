@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
 pochodzenie: Fomor
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Fomor
 ![Fomor #rycina](imgs/fomor.jpg)

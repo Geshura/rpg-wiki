@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Odmieniec
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Odmieniec
 ![Odmieniec #rycina](imgs/odmieniec.jpg)

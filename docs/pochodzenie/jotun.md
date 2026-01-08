@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Chwalebna Śmierć
 pochodzenie: Jotun
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Jotun
 ![Jotun #rycina](imgs/jotun.jpg)

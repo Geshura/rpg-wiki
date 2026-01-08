@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
 pochodzenie: Warg
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Warg
 ![Warg #rycina](imgs/warg.jpg)

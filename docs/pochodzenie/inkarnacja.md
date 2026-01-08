@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
 pochodzenie: Inkarnacja
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Inkarnacja
 ![Inkarnacja #rycina](imgs/inkarnacja.jpg)

@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Suplement Władcy Demonów
 pochodzenie: Niziołek
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Niziołek
 ![Niziołek #rycina](imgs/niziolek.jpg)

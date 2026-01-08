@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Suplement Władcy Demonów
 pochodzenie: Faun
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Faun
 ![Faun #rycina](imgs/faun.jpg)

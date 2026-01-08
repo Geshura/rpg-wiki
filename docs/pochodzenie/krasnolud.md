@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
 pochodzenie: Krasnolud
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Krasnolud
 ![Krasnolud #rycina](imgs/krasnolud.jpg)

@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Głód w Pustce
 pochodzenie: Niedźwiedzidło
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Niedźwiedzidło
 ![Niedźwiedzidło #rycina](imgs/niedzwiedzidlo.jpg)

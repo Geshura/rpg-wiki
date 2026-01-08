@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
 pochodzenie: Chochlik
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Chochlik
 ![Chochlik #rycina](imgs/chochlik.jpg)

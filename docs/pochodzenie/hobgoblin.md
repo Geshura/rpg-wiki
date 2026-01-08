@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Straszliwe Piękno
 pochodzenie: Hobgoblin
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Hobgoblin
 ![Hobgoblin #rycina](imgs/hobgoblin.jpg)

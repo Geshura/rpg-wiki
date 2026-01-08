@@ -3,6 +3,7 @@ system: Cień Władcy Demonów
 podrecznik: Rozkoszna Agonia
 pochodzenie: Kambion
 kategoria: pochodzenie
+icon: material/seed
 ---
 # Kambion
 ![Kambion #rycina](imgs/kambion.jpg)
