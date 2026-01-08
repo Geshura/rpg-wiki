@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Wypelnianie plikow MD
+title Masowe NADPISYWANIE plikow MD
 
 set "szablon=szablon.txt"
 
-REM --- KROK 1: Sprawdzenie i utworzenie szablonu ---
+REM --- KROK 1: Sprawdzenie szablonu ---
 if not exist "%szablon%" (
     echo [i] Plik "%szablon%" nie istnieje.
     echo [+] Tworze pusty plik "%szablon%".
@@ -12,25 +12,33 @@ if not exist "%szablon%" (
     
     echo.
     echo ---------------------------------------------------------
-    echo TERAZ MASZ CZAS NA EDYCJE PLIKU "%szablon%".
-    echo Wpisz w nim to, co ma trafic do wszystkich plikow .md.
-    echo Jesli zostawisz go pustego, do plikow nic nie zostanie dodane.
-    echo Zapisz plik txt i wroc tutaj.
+    echo WAŻNE: Edytuj teraz plik "%szablon%".
+    echo Wpisz w nim treść, która ma zastąpić zawartość wszystkich plików .md.
+    echo Zapisz plik i wroć tutaj, aby kontynuować.
     echo ---------------------------------------------------------
     pause
 ) else (
-    echo [i] Plik "%szablon%" juz istnieje. Uzyje jego obecnej zawartosci.
+    echo [i] Znaleziono plik "%szablon%".
 )
 
-REM --- KROK 2: Kopiowanie zawartości do plików .md ---
+REM --- KROK 2: Nadpisywanie plików ---
 echo.
-echo Rozpoczynam kopiowanie tresci z "%szablon%" do plikow .md...
+echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+echo UWAGA: Wszystkie pliki .md w tym folderze i podfolderach 
+echo zostana CALKOWICIE NADPISANE trescia z "%szablon%".
+echo Stara zawartosc tych plikow zostanie bezpowrotnie utracona.
+echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+echo.
+echo Nacisnij dowolny klawisz, aby potwierdzic i rozpoczac...
+pause >nul
+
+echo Rozpoczynam nadpisywanie...
 echo ---------------------------------------------------------
 
 for /r %%f in (*.md) do (
-    REM "type" bierze tresc szablonu, ">>" dopisuje ja na koncu pliku md
-    type "%szablon%" >> "%%f"
-    echo [+] Uzupelniono: %%~nxf
+    REM Operator ">" czysci plik docelowy i wstawia nowa tresc
+    type "%szablon%" > "%%f"
+    echo [OK] Nadpisano: %%~nxf
 )
 
 echo ---------------------------------------------------------
