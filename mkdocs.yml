@@ -196,6 +196,7 @@ nav:
   - Zaklęcia: zaklecia.md
   - Podręcznik:
     - Chaos:
+      - Chaos: tradycje/chaos.md
       - Dar Chaosu: tradycje/chaos/dar_chaosu.md
       - Błędny Pocisk: tradycje/chaos/bledny_pocisk.md
       - Kapryśne Zniszczenie: tradycje/chaos/kaprysne_zniszczenie.md
@@ -208,6 +209,7 @@ nav:
       - Ściana Luster: tradycje/chaos/sciana_luster.md
       - Osobliwość: tradycje/chaos/osobliwosc.md
     - Czas:
+      - Czas: tradycje/czas.md
       - Opóźnienie: tradycje/czas/opoznienie.md
       - Pośpiech: tradycje/czas/pospiech.md
       - Pomniejszy Paradoks: tradycje/czas/pomniejszy_paradoks.md
@@ -220,6 +222,7 @@ nav:
       - Rozdwojenie: tradycje/czas/rozdwojenie.md
       - Podróż w czasie: tradycje/czas/podroz_w_czasie.md
     - Iluzja:
+      - Iluzja: tradycje/iluzja.md
       - Hałas: tradycje/iluzja/halas.md
       - Przebranie: tradycje/iluzja/przebranie.md
       - Wymysł: tradycje/iluzja/wymysl.md
@@ -232,6 +235,7 @@ nav:
       - Miraż: tradycje/iluzja/miraz.md
       - Iluzoryczny sobowtór: tradycje/iluzja/iluzoryczny_sobowtor.md
     - Jasnowidzenie:
+      - Jasnowidzenie: tradycje/jasnowidzenie.md
       - Podsłuch: tradycje/jasnowidzenie/podsluch.md
       - Olśnienie: tradycje/jasnowidzenie/olsnienie.md
       - Wieszczba: tradycje/jasnowidzenie/wieszczba.md
@@ -244,6 +248,7 @@ nav:
       - Wizja: tradycje/jasnowidzenie/wizja.md
       - Dalekowidzenie: tradycje/jasnowidzenie/dalekowidzenie.md
     - Klątwy:
+      - Klątwy: tradycje/klatwy.md
       - Przekleństwo: tradycje/klatwy/przeklenstwo.md
       - Kiła: tradycje/klatwy/kila.md
       - Przestrach: tradycje/klatwy/przestrach.md
@@ -256,6 +261,7 @@ nav:
       - Ropucha: tradycje/klatwy/ropucha.md
       - Petryfikacja: tradycje/klatwy/petryfikacja.md
     - Magia Bitewna:
+      - Magia Bitewna: tradycje/magia_bitewna.md
       - Zespolony atak: tradycje/magia_bitewna/zespolony_atak.md
       - Przyspieszenie: tradycje/magia_bitewna/przyspieszenie.md
       - Zasklepienie ran: tradycje/magia_bitewna/zasklepienie_ran.md
@@ -268,6 +274,7 @@ nav:
       - Ściana mieczy: tradycje/magia_bitewna/sciana_mieczy.md
       - Nawałnica ciosów: tradycje/magia_bitewna/nawalnica_ciosow.md
     - Magia Burzy:
+      - Magia Burzy: tradycje/magia_burzy.md
       - Mgła: tradycje/magia_burzy/mgla.md
       - Porażenie: tradycje/magia_burzy/porazenie.md
       - Rozwidlony piorun: tradycje/magia_burzy/rozwidlony_piorun.md
@@ -280,6 +287,7 @@ nav:
       - Kwaśny deszcz: tradycje/magia_burzy/kwasny_deszcz.md
       - Łańcuch piorunów: tradycje/magia_burzy/lancuch_piorunow.md
     - Magia Cienia:
+      - Magia Cienia: tradycje/magia_cienia.md
       - Ostrze zmierzchu: tradycje/magia_cienia/ostrze_zmierzchu.md
       - Ściana ciemności: tradycje/magia_cienia/sciana_ciemnosci.md
       - Ciemność: tradycje/magia_cienia/ciemnosc.md
@@ -292,6 +300,7 @@ nav:
       - Mroczne portale: tradycje/magia_cienia/mroczne_portale.md
       - Zapaść: tradycje/magia_cienia/zapasc.md
     - Magia Niebiańska:
+      - Magia Niebiańska: tradycje/magia_niebianska.md
       - Palący promień: tradycje/magia_niebianska/palacy_promien.md
       - Światło: tradycje/magia_niebianska/swiatlo.md
       - Błysk: tradycje/magia_niebianska/blysk.md
@@ -304,6 +313,7 @@ nav:
       - Supernowa: tradycje/magia_niebianska/supernowa.md
       - Rozbłysk słoneczny: tradycje/magia_niebianska/rozblysk_sloneczny.md
     - Magia Pierwotna:
+      - Magia Pierwotna: tradycje/magia_pierwotna.md
       - Serce bestii: tradycje/magia_pierwotna/serce_bestii.md
       - Ukrycie przed zwierzętami: tradycje/magia_pierwotna/ukrycie_przed_zwierzetami.md
       - Język bestii: tradycje/magia_pierwotna/jezyk_bestii.md
@@ -316,6 +326,7 @@ nav:
       - Zew dziczy: tradycje/magia_pierwotna/zew_dziczy.md
       - Wezwanie wielkiego zwierzęcia: tradycje/magia_pierwotna/wezwanie_wielkiego_zwierzecia.md
     - Magia Runiczna:
+      - Magia Runiczna: tradycje/magia_runiczna.md
       - Runa lokalizacji: tradycje/magia_runiczna/runa_lokalizacji.md
       - Rozumienie pisma: tradycje/magia_runiczna/rozumienie_pisma.md
       - Piętno zagłady: tradycje/magia_runiczna/pietno_zaglady.md
@@ -328,6 +339,7 @@ nav:
       - Runiczna broń: tradycje/magia_runiczna/runiczna_bron.md
       - Runa mocy: tradycje/magia_runiczna/runa_mocy.md
     - Natura:
+      - Natura: tradycje/natura.md
       - Magiczne żołędzie: tradycje/natura/magiczne_zoledzie.md
       - Dębowa skóra: tradycje/natura/debowa_skora.md
       - Uzdrawiające jagody: tradycje/natura/uzdrawiajace_jagody.md
@@ -340,6 +352,7 @@ nav:
       - Gniew natury: tradycje/natura/gniew_natury.md
       - Zamiana w dębowego strażnika: tradycje/natura/zamiana_w_debowego_straznika.md
     - Nekromancja:
+      - Nekromancja: tradycje/nekromancja.md
       - Ukrycie przed nieumarłymi: tradycje/nekromancja/ukrycie_przed_nieumarlymi.md
       - Widmowy chwyt: tradycje/nekromancja/widmowy_chwyt.md
       - Ożywienie zwłok: tradycje/nekromancja/ozywienie_zwlok.md
@@ -352,6 +365,7 @@ nav:
       - Zamknięcie wrót zaświatów: tradycje/nekromancja/zamkniecie_wrot_zaswiatow.md
       - Armia umarłych: tradycje/nekromancja/armia_umarlych.md
     - Ochrona:
+      - Ochrona: tradycje/ochrona.md
       - Magiczny zamek: tradycje/ochrona/magiczny_zamek.md
       - Zabezpieczenie miejsca: tradycje/ochrona/zabezpieczenie_miejsca.md
       - Uskok: tradycje/ochrona/uskok.md
@@ -364,6 +378,7 @@ nav:
       - Nietykalność: tradycje/ochrona/nietykalnosc.md
       - Sfera negacji: tradycje/ochrona/sfera_negacji.md
     - Ogień:
+      - Ogień: tradycje/ogien.md
       - Kontrola płomienia: tradycje/ogien/kontrola_plomienia.md
       - Ognisty pocisk: tradycje/ogien/ognisty_pocisk.md
       - Ognisty podmuch: tradycje/ogien/ognisty_podmuch.md
@@ -376,6 +391,7 @@ nav:
       - Ściana płomieni: tradycje/ogien/sciana_plomieni.md
       - Przyzywanie dżinna ognia: tradycje/ogien/przyzywanie_dzinna_ognia.md
     - Pieśni:
+      - Pieśni: tradycje/piesni.md
       - Donośny głos: tradycje/piesni/donosny_glos.md
       - Pieśń przyjaźni: tradycje/piesni/piesn_przyjazni.md
       - Pieśń odwagi: tradycje/piesni/piesn_odwagi.md
@@ -386,6 +402,7 @@ nav:
       - Sprośna piosenka: tradycje/piesni/sprosna_piosenka.md
       - Pieśń bohaterów: tradycje/piesni/piesn_bohaterow.md
     - Powietrze:
+      - Powietrze: tradycje/powietrze.md
       - Powiew: tradycje/powietrze/powiew.md
       - Uderzenie wiatru: tradycje/powietrze/uderzenie_wiatru.md
       - Przywołanie wichru: tradycje/powietrze/przywolanie_wichru.md
@@ -398,6 +415,7 @@ nav:
       - Przejście cyklonu: tradycje/powietrze/przejscie_cyklonu.md
       - Przyzwanie dżinna powietrza: tradycje/powietrze/przyzwanie_dzinna_powietrza.md
     - Przemiany:
+      - Przemiany: tradycje/przemiany.md
       - Zrozumienie: tradycje/przemiany/zrozumienie.md
       - Zniekształcenie: tradycje/przemiany/znieksztalcenie.md
       - Wyostrzenie zmysłów: tradycje/przemiany/wyostrzenie_zmyslow.md
@@ -410,6 +428,7 @@ nav:
       - Elastyczność: tradycje/przemiany/elastycznosc.md
       - Przebudzenie potencjału: tradycje/przemiany/przebudzenie_potencjalu.md
     - Przywołania:
+      - Przywołania: tradycje/przywolania.md
       - Przywołanie użytecznego przedmiotu: tradycje/przywolania/przywolanie_uzytecznego_przedmiotu.md
       - Polecenie ruchu: tradycje/przywolania/polecenie_ruchu.md
       - Przywołanie uczty: tradycje/przywolania/przywolanie_uczty.md
@@ -422,6 +441,7 @@ nav:
       - Przywołanie schronienia: tradycje/przywolania/przywolanie_schronienia.md
       - Przywołanie wielkiego potwora: tradycje/przywolania/przywolanie_wielkiego_potwora.md
     - Sztuki Tajemne:
+      - Sztuki Tajemne: tradycje/sztuki_tajemne.md
       - Magiczna zbroja: tradycje/sztuki_tajemne/magiczna_zbroja.md
       - Magiczna strzałka: tradycje/sztuki_tajemne/magiczna_strzalka.md
       - Magiczna tarcza: tradycje/sztuki_tajemne/magiczna_tarcza.md
@@ -434,6 +454,7 @@ nav:
       - Akumulacja magii: tradycje/sztuki_tajemne/akumulacja_magii.md
       - Magiczny kontrakt: tradycje/sztuki_tajemne/magiczny_kontrakt.md
     - Sztuki Zakazane:
+      - Sztuki Zakazane: tradycje/sztuki_zakazane.md
       - Czarny język: tradycje/sztuki_zakazane/czarny_jezyk.md
       - Krzywda: tradycje/sztuki_zakazane/krzywda.md
       - Posłuszeństwo: tradycje/sztuki_zakazane/posluszenstwo.md
@@ -446,6 +467,7 @@ nav:
       - Zamiana dusz: tradycje/sztuki_zakazane/zamiana_dusz.md
       - Nikczemne zespolenie: tradycje/sztuki_zakazane/nikczemne_zespolenie.md
     - Technomancja:
+      - Technomancja: tradycje/technomancja.md
       - Prowizorka: tradycje/technomancja/prowizorka.md
       - Magiczny klucz: tradycje/technomancja/magiczny_klucz.md
       - Wieżyczka: tradycje/technomancja/wiezyczka.md
@@ -458,6 +480,7 @@ nav:
       - Mechaniczna zbroja: tradycje/technomancja/mechaniczna_zbroja.md
       - Magiczny przedmiot: tradycje/technomancja/magiczny_przedmiot.md
     - Teleportacja:
+      - Teleportacja: tradycje/teleportacja.md
       - Odesłanie: tradycje/teleportacja/odeslanie.md
       - Przyciąganie: tradycje/teleportacja/przyciaganie.md
       - Rozplątanie: tradycje/teleportacja/rozplatanie.md
@@ -470,6 +493,7 @@ nav:
       - Bliźniacze portale: tradycje/teleportacja/blizniacze_portale.md
       - Wędrówka: tradycje/teleportacja/wedrowka.md
     - Teurgia:
+      - Teurgia: tradycje/teurgia.md
       - Stworzenie świętego symbolu: tradycje/teurgia/stworzenie_swietego_symbolu.md
       - Skarcenie: tradycje/teurgia/skarcenie.md
       - Błogosławieństwo: tradycje/teurgia/blogoslawienstwo.md
@@ -482,6 +506,7 @@ nav:
       - Inkarnacja: tradycje/teurgia/inkarnacja.md
       - Ogień z niebios: tradycje/teurgia/ogien_z_niebios.md
     - Transformacja:
+      - Transformacja: tradycje/transformacja.md
       - Płynna postać: tradycje/transformacja/plynna_postac.md
       - Maska: tradycje/transformacja/maska.md
       - Zwierzęca postać: tradycje/transformacja/zwierzeca_postac.md
@@ -494,6 +519,7 @@ nav:
       - Metallicus: tradycje/transformacja/metallicus.md
       - Większa zwierzęca postać: tradycje/transformacja/wieksza_zwierzeca_postac.md
     - Uroki:
+      - Uroki: tradycje/uroki.md
       - Przynęta: tradycje/uroki/przyneta.md
       - Prezencja: tradycje/uroki/prezencja.md
       - Zauroczenie: tradycje/uroki/zauroczenie.md
@@ -506,6 +532,7 @@ nav:
       - Pokusa: tradycje/uroki/pokusa.md
       - Omotanie: tradycje/uroki/omotanie.md
     - Woda:
+      - Woda: tradycje/woda.md
       - Zamrożenie: tradycje/woda/zamrozenie.md
       - Stworzenie wody: tradycje/woda/stworzenie_wody.md
       - Utopienie: tradycje/woda/utopienie.md
@@ -518,6 +545,7 @@ nav:
       - Zlodowacenie: tradycje/woda/zlodowacenie.md
       - Przyzwanie dżinna wody: tradycje/woda/przyzwanie_dzinna_wody.md
     - Ziemia:
+      - Ziemia: tradycje/ziemia.md
       - Skalny kolec: tradycje/ziemia/skalny_kolec.md
       - Kształtowanie ziemi i kamienia: tradycje/ziemia/ksztaltowanie_ziemi_i_kamienia.md
       - Kamienna zbroja: tradycje/ziemia/kamienna_zbroja.md
@@ -530,6 +558,7 @@ nav:
       - Trzęsienie ziemi: tradycje/ziemia/trzesienie_ziemi.md
       - Przyzwanie dżinna ziemi: tradycje/ziemia/przyzwanie_dzinna_ziemi.md
     - Zniszczenie:
+      - Zniszczenie: tradycje/zniszczenie.md
       - Pęknięcie: tradycje/zniszczenie/pekniecie.md
       - Ruina: tradycje/zniszczenie/ruina.md
       - Rozpuszczenie: tradycje/zniszczenie/rozpuszczenie.md
@@ -542,6 +571,7 @@ nav:
       - Destrukcja: tradycje/zniszczenie/destrukcja.md
       - Dezintegracja: tradycje/zniszczenie/dezintegracja.md
     - Życie:
+      - Życie: tradycje/zycie.md
       - Wyczucie życia: tradycje/zycie/wyczucie_zycia.md
       - Leczenie pomniejszych ran: tradycje/zycie/leczenie_pomniejszych_ran.md
       - Uzdrowienie: tradycje/zycie/uzdrowienie.md
