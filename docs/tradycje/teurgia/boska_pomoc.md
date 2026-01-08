@@ -1,3 +1,12 @@
 # boska pomoc
 
 _Placeholder generated from mkdocs.yml for tradycje/teurgia/boska_pomoc.md_
+# Tytuł
+
+## Opis
+Tutaj wpisz opis zaklecia lub tradycji.
+
+## Statystyki
+* Koszt:
+* Czas rzucania:
+* Zasięg:

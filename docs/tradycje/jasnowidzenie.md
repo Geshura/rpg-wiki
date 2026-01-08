@@ -1,7 +1,7 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-tradycja: 
-kategoria: tradycja
-icon: material/book
+zaklecie: 
+kategoria: zaklecie
+icon: material/creation
 ---
