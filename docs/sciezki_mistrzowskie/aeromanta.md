@@ -1,7 +1,7 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-sciezki_eksperckie: Aeromanta
+sciezki_mistrzowskie: Aeromanta
 kategoria: sciezki_mistrzowskie
-icon: material/account-card
+icon: material/attribution
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/sciezki_nowicjuszy.md",
+                "file": "docs/sciezki_eksperckie/apostata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sciezki_nowicjuszy"
+              "title": "apostata"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "6f8c42a1de9046dc",
   "lastOpenFiles": [
-    "docs/pochodzenie.md",
+    "docs/sciezki_mistrzowskie/aeromanta.md",
+    "docs/sciezki_eksperckie/apostata.md",
     "docs/sciezki_nowicjuszy.md",
+    "docs/pochodzenie.md",
     "docs/sciezki_eksperckie.md",
     "docs/kampania.md",
     "docs/index.md",
@@ -219,8 +221,6 @@
     "docs/sciezki_mistrzowskie/rusznimag.md",
     "docs/sciezki_mistrzowskie/psychokinetyk.md",
     "docs/sciezki_mistrzowskie/pogromca_nieumarlych.md",
-    "docs/sciezki_mistrzowskie/obserwator.md",
-    "docs/sciezki_mistrzowskie/nocny_lowca.md",
     "sciezki_mistrzowskie",
     "utworz_pliki.bat",
     "run — kopia.bat",
