@@ -586,6 +586,7 @@ nav:
 - Kampania:
   - Kampania: kampania.md
   - BG:
+    - szablon: kampania/bg/szablon.md
     - Akiharo: kampania/bg/akiharo.md
     - Qadan: kampania/bg/qadan.md
     - Seraph: kampania/bg/seraph.md

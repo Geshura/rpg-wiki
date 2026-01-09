@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/kampania/bg/wd40.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "wd40"
@@ -185,16 +185,20 @@
   },
   "active": "b53dcca62498485e",
   "lastOpenFiles": [
-    "docs/kampania/bg/seraph.md",
-    "docs/kampania/bg/wd40.md",
-    "docs/pochodzenie.md",
     "docs/kampania/bg/akiharo.md",
+    "docs/kampania/bg/wd40.md",
+    "docs/kampania/bg/szablon.md",
+    "docs/kampania/bg/szablon — kopia.md",
     "docs/kampania/bg/qadan.md",
+    "docs/kampania/bg/seraph.md",
     "docs/kampania/bg/valwar.md",
+    "docs/kampania/bg/imgs/wd40.jpg",
+    "docs/kampania/bg/imgs/unnamed.jpg",
+    "docs/sciezki_nowicjuszy.md",
+    "docs/pochodzenie.md",
     "docs/kampania.md",
     "docs/sciezki_eksperckie/apostata.md",
     "docs/sciezki_mistrzowskie/aeromanta.md",
-    "docs/sciezki_nowicjuszy.md",
     "docs/sciezki_eksperckie.md",
     "docs/index.md",
     "docs/pochodzenie/automaton.md",
@@ -219,8 +223,6 @@
     "docs/sciezki_mistrzowskie/wieszcz.md",
     "docs/sciezki_mistrzowskie/wiekuisty_obronca.md",
     "docs/sciezki_mistrzowskie/uwodziciel.md",
-    "docs/sciezki_mistrzowskie/straznik_plomienia.md",
-    "docs/sciezki_mistrzowskie/spaczeniec.md",
     "sciezki_mistrzowskie",
     "utworz_pliki.bat",
     "run — kopia.bat",
@@ -228,8 +230,6 @@
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",
     "docs — kopia/zaklecia/armia_umarlych.jpg",
-    "docs — kopia/zaklecia/akumulacja_magii.jpg",
-    "docs — kopia/zaklecia/akceleracja.jpg",
-    "docs — kopia/zaklecia/adamantytowe_łańcuchy.jpg"
+    "docs — kopia/zaklecia/akumulacja_magii.jpg"
   ]
 }
