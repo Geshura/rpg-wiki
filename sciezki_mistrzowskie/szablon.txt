@@ -1,0 +1,8 @@
+---
+system: Cień Władcy Demonów
+podrecznik: Podręcznik Główny
+sciezki_mistrzowskie: 
+kategoria: sciezki_mistrzowskie
+icon: material/account
+---
+#placeholder
