@@ -1,8 +1,8 @@
 ---
 system: Cień Władcy Demonów
 podrecznik: Podręcznik Główny
-zaklecie: 
-kategoria: zaklecie
-icon: material/creation
+sciezki_mistrzowskie: 
+kategoria: sciezki_mistrzowskie
+icon: material/account
 ---
 #placeholder
