@@ -1,0 +1,21 @@
+/* Very small text helper */
+.very-small {
+  display: block;
+  font-size: 8px !important;
+  line-height: 1.1 !important;
+  -webkit-text-size-adjust: none;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  hyphens: none;
+}
+
+/* Ensure nested elements also adopt the small size */
+.very-small, .very-small * {
+  font-size: 8px !important;
+}
+
+/* Stronger selector for table cells */
+table td .very-small, table th .very-small {
+  display: block;
+  font-size: 8px !important;
+}
