@@ -185,6 +185,8 @@
   },
   "active": "b53dcca62498485e",
   "lastOpenFiles": [
+    "docs/css/combined.css",
+    "docs/css/very_small.css",
     "docs/kampania/bg/imgs/wd40_boskaekstaza.jpg",
     "docs/kampania/bg/imgs/Niepotwierdzony 677106.crdownload",
     "docs/kampania/bg/imgs/wd40.jpg",
@@ -226,10 +228,8 @@
     "docs/sciezki_mistrzowskie/wiekuisty_obronca.md",
     "sciezki_mistrzowskie",
     "utworz_pliki.bat",
-    "run — kopia.bat",
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",
-    "docs — kopia/zaklecia/armia_umarlych.jpg",
-    "docs — kopia/zaklecia/akumulacja_magii.jpg"
+    "docs — kopia/zaklecia/armia_umarlych.jpg"
   ]
 }
