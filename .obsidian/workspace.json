@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "wd40"
             }
+          },
+          {
+            "id": "b01792d9762d4e8a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Informacje o wersji 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,23 +187,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Otwórz podgląd grafu": false,
+      "daily-notes:Otwórz dzisiejszy dziennik": false,
       "switcher:Otwórz okno szybkiego wyboru": false,
-      "graph:Otwórz graf": false,
       "canvas:Stwórz nową tablicę": false,
-      "daily-notes:Otwórz codzienną notatkę": false,
       "templates:Wstaw szablon": false,
       "command-palette:Otwórz listę poleceń": false,
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "b53dcca62498485e",
+  "active": "b01792d9762d4e8a",
   "lastOpenFiles": [
+    "Pasted image 20260113163759.png",
+    "docs/kampania.md",
+    "docs/index.md",
+    "docs/kampania/bg/wd40.md",
     "docs/css/combined.css",
     "docs/css/very_small.css",
     "docs/kampania/bg/imgs/wd40_boskaekstaza.jpg",
     "docs/kampania/bg/imgs/Niepotwierdzony 677106.crdownload",
     "docs/kampania/bg/imgs/wd40.jpg",
-    "docs/kampania/bg/wd40.md",
     "docs/kampania/bg/akiharo.md",
     "docs/kampania/bg/szablon.md",
     "docs/kampania/bg/szablon — kopia.md",
@@ -200,11 +216,9 @@
     "docs/kampania/bg/imgs/unnamed.jpg",
     "docs/sciezki_nowicjuszy.md",
     "docs/pochodzenie.md",
-    "docs/kampania.md",
     "docs/sciezki_eksperckie/apostata.md",
     "docs/sciezki_mistrzowskie/aeromanta.md",
     "docs/sciezki_eksperckie.md",
-    "docs/index.md",
     "docs/pochodzenie/automaton.md",
     "docs/sciezki_nowicjuszy/imgs/magik.jpg",
     "docs/sciezki_nowicjuszy/imgs/wojownik.jpg",
@@ -227,7 +241,6 @@
     "docs/sciezki_mistrzowskie/wieszcz.md",
     "docs/sciezki_mistrzowskie/wiekuisty_obronca.md",
     "sciezki_mistrzowskie",
-    "utworz_pliki.bat",
     "docs — kopia/zaklecia/unnamed.jpg",
     "docs — kopia/zaklecia/atawizm.jpg",
     "docs — kopia/zaklecia/armia_umarlych.jpg"
